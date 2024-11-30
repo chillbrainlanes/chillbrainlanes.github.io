@@ -1,6 +1,8 @@
-body {
+html {
   background-image: url("files/christmasstars.gif");
   background-repeat: repeat;
+}
+body {
   color: white;
   margin: 0;
   padding: 0;
@@ -13,7 +15,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 h2 {
   display: block;
@@ -43,10 +45,13 @@ h2 {
 .floatright {
   float: right;
 }
+.floatleft {
+  float: left;
+}
 li {
   padding: 5px;
 }
-html {
+a {
   cursor: url("files/snowmancursor.gif"), auto;
 }
 .topmargin {
