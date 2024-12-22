@@ -1,0 +1,2306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <ul class="center nav">
+      <li><a href="../index.html">home</a></li>
+      <li><a href="../about.html">about me</a></li>
+      <li><a href="../stuff.html">stuff i've made</a></li>
+      <li><a href="../brainwaves.html">brainwaves</a></li>
+      <li><a href="../posts.html">blog</a></li>
+    </ul>
+    <title>thank you for having me it's great to be here</title>
+    <meta name="generator" content="EclipseCrossword" />
+    <style type="text/css">
+                     <!--
+                     html {
+                         background-color: bisque;
+                     }
+                     /* body, h1, h2, h3, h4, h5, h6
+                     {
+                     	font-family: "Segoe UI", "Franklin Gothic Medium", "Arial", sans-serif;
+                     } */
+
+                     /* h1, h2, h3, h4, h5, h6
+                     {
+                     	color: #5d6a86;
+                     } */
+             .nav {
+                 list-style-type: none;
+                 margin: 0;
+                 padding: 1rem;
+               }
+               li {
+                 margin: 1.5rem;
+                 display: inline;
+               }
+       		.homepage {
+         margin-left: auto;
+         margin-right: auto;
+         width: 50%;
+         text-align: center;
+       }
+                     .center {
+                       text-align: center;
+                       display: block;
+                       margin-left: auto;
+                       margin-right: auto;
+                     }
+
+                     body
+                     {
+                     	cursor: default;
+                     }
+
+                     .ecw-answerbox
+                     {
+                     	color: black;
+                     	background-color: #FFFAF0;
+                     	border-color: #808080;
+                     	border-style: solid;
+                     	border-width: 1px;
+                     	display: block;
+                     	padding: .75em;
+                     	width: 240pt;
+               max-width: fit-content;
+                  margin-left: auto;
+                  margin-right: auto;
+                     }
+
+                     .ecw-box
+                     {
+                     	border-style: solid;
+                     	border-width: 1pt;
+                     	cursor: pointer;
+                     	font-size: .12in;
+                     	font-weight: bold;
+                     	height: .18in;
+                     	overflow: hidden;
+                     	text-align: center;
+                     	width: .18in;
+                     }
+
+                     .ecw-boxcheated_sel
+                     {
+                     	background-color: #FFF1D7;
+                     	border-color: #C00000;
+                     	color: #2080D0;
+                     }
+
+                     .ecw-boxcheated_unsel
+                     {
+                     	background-color: #ffffff;
+                     	border-color: #606060;
+                     	color: #2080D0;
+                     }
+
+                     .ecw-boxerror_sel
+                     {
+                     	background-color: #FFF1D7;
+                     	border-color: #C00000;
+                     	color: #BF0000;
+                     }
+
+                     .ecw-boxerror_unsel
+                     {
+                     	background-color: #FFF0F0;
+                     	border-color: #606060;
+                     	color: #BF0000;
+                     }
+
+                     .ecw-boxnormal_sel
+                     {
+                     	background-color: #FFF1D7;
+                     	border-color: #C00000;
+                     	color: #000000;
+                     }
+
+                     .ecw-boxnormal_unsel
+                     {
+                     	background-color: #ffffff;
+                     	border-color: #606060;
+                     	color: #000000;
+                     }
+
+                     .ecw-button
+                     {
+                     	width: 64pt;
+                     }
+
+                     .ecw-cluebox
+                     {
+                     	border-bottom-width: 1px;
+                     	border-color: #c0c0c0;
+                     	border-left-width: 0px;
+                     	border-right-width: 0px;
+                     	border-style: solid;
+                     	border-top-width: 1px;
+                     	margin-top: 1em;
+                     	padding-bottom: .5em;
+                     	padding-left: 0pt;
+                     	padding-right: 0pt;
+                     	padding-top: .5em;
+                     }
+
+                     .ecw-crosswordarea
+                     {
+                     	padding: .5em;
+                     	font-size: small;
+                     	max-width: fit-content;
+                  margin-left: auto;
+                  margin-right: auto;
+                     }
+
+                     .ecw-copyright
+                     {
+                     	margin-bottom: 1em;
+                     	font-size: x-small;
+                     }
+
+                     .ecw-wordlabel
+                     {
+                     	text-transform: uppercase;
+                     	margin: 0;
+                     }
+
+                     .ecw-wordinfo
+                     {
+                     	font-size: 8pt;
+                     	color: #808080;
+                     }
+
+                     .ecw-worderror
+                     {
+                     	color: #c00000;
+                     	font-weight: bold;
+                     	display: none;
+                     	margin-top: 1em;
+                     }
+      p {
+         margin-left: 20%;
+         margin-right: 20%;
+       }
+
+                     -->
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <h1>chillbrain lanes magic trivia crossword 2024</h1>
+      <p>
+        merry christmas and happy holidays! inspired by
+        <a href="http://advent.serebii.net/crossword.shtml"
+          >the awesome serebii.net advent calendar crosswords</a
+        >, i put together this great big 250-question magic trivia crossword.
+        some of the clues are easier, some are harder, some are downright cruel.
+        some you can easily solve with scryfall, but many you can't. completing
+        the whole thing will require great knowledge of a ton of magic
+        esoterica, it'll be a real challenge!
+      </p>
+      <p>
+        a couple quick notes:<br />
+        • unless otherwise stated, all questions include silver-bordered cards,
+        alchemy cards, astral series cards, promotional cards, heroes of the
+        realm, basically anything wotc has made and called a magic card is fair
+        game<br />
+        • punctuation and spaces are excluded from answers, but both letters and
+        numbers can occur<br />
+        • credit to newmoonequinox, pywo, caine ghest, broteinmanganiello, and
+        sibwow for contributing questions. major shoutouts to
+        <a href="https://www.youtube.com/@Chorocojo">chorocojo</a> as well: i
+        got a good amount of trivia from their series random card talkin', their
+        channel is a must-subscribe if you like magic trivia<br />
+        • if you ever get stuck or know you won't know a question, don't be
+        afraid to use the "solve" button to skip it. the "check puzzle" button
+        at the bottom will also tell you how many answers you've already filled
+        out are incorrect.<br />
+      </p>
+      <p>hope you enjoy!</p>
+
+      <div id="waitmessage" class="ecw-answerbox">
+        This interactive crossword puzzle requires JavaScript and any recent web
+        browser, including Windows Internet Explorer, Mozilla Firefox, Google
+        Chrome, or Apple Safari. If you have disabled web page scripting, please
+        re-enable it and refresh the page. If this web page is saved on your
+        computer, you may need to click the yellow Information Bar at the top or
+        bottom of the page to allow the puzzle to load.
+      </div>
+
+      <div valign="top" style="padding-left: 1em">
+        <div class="ecw-copyright">
+          <a
+            href="http://www.eclipsecrossword.com/"
+            onclick="this.target='_blank'"
+            style="font-weight: bold"
+            >EclipseCrossword</a
+          >
+          &copy; 2000-2013
+        </div>
+
+        <div id="welcomemessage" class="ecw-answerbox" style="display: none">
+          <h3>Welcome!</h3>
+          <p>Click a word in the puzzle to get started.</p>
+        </div>
+
+        <div id="answerbox" class="ecw-answerbox" style="display: none">
+          <h3 id="wordlabel" class="ecw-wordlabel">&nbsp;</h3>
+          <div id="wordinfo" class="ecw-wordinfo"></div>
+          <div id="wordclue" class="ecw-cluebox"></div>
+          <div style="margin-top: 1em">
+            <input
+              class="ecw-input"
+              id="wordentry"
+              type="text"
+              size="24"
+              style="font-weight: bold; text-transform: uppercase"
+              onkeypress="WordEntryKeyPress(event)"
+              onchange="WordEntryKeyPress(event)"
+            />
+          </div>
+          <div id="worderror" class="ecw-worderror"></div>
+
+          <table
+            border="0"
+            cellspacing="0"
+            cellpadding="0"
+            width="100%"
+            style="margin-top: 1em"
+          >
+            <tbody>
+              <tr>
+                <td>
+                  <button
+                    id="cheatbutton"
+                    type="button"
+                    class="ecw-input ecw-button"
+                    onclick="CheatClick();"
+                  >
+                    Solve
+                  </button>
+                </td>
+                <td align="right">
+                  <button
+                    id="okbutton"
+                    type="button"
+                    class="ecw-input ecw-button"
+                    onclick="OKClick();"
+                    style="font-weight: bold"
+                  >
+                    OK
+                  </button>
+                  &nbsp;
+                  <button
+                    id="cancelbutton"
+                    type="button"
+                    class="ecw-input ecw-button"
+                    onclick="DeselectCurrentWord();"
+                  >
+                    Cancel
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div id="congratulations" class="ecw-answerbox" style="display: none">
+          <h3>Congratulations!</h3>
+          <p>
+            You have completed this
+            <a
+              href="http://www.eclipsecrossword.com"
+              style="color: black; text-decoration: none"
+              >crossword puzzle</a
+            >.
+          </p>
+          <p>
+            If you would like to be able to create interactive
+            <a
+              href="http://www.eclipsecrossword.com"
+              style="color: black; text-decoration: none"
+              >crosswords</a
+            >
+            like this yourself, get
+            <a
+              href="http://www.eclipsecrossword.com"
+              onclick="this.target='_blank'"
+              >EclipseCrossword</a
+            >
+            from Green Eclipse&mdash;it's free!
+          </p>
+        </div>
+      </div>
+      <div class="ecw-crosswordarea">
+        <script type="text/javascript">
+          <!--
+          CrosswordWidth = 50;
+          CrosswordHeight = 115;
+          Words = 250;
+          WordLength = new Array(
+            4,
+            14,
+            9,
+            8,
+            13,
+            12,
+            11,
+            3,
+            14,
+            9,
+            7,
+            5,
+            9,
+            3,
+            8,
+            10,
+            10,
+            6,
+            7,
+            8,
+            8,
+            4,
+            6,
+            9,
+            7,
+            13,
+            8,
+            4,
+            6,
+            14,
+            9,
+            12,
+            11,
+            11,
+            15,
+            9,
+            11,
+            7,
+            5,
+            4,
+            7,
+            5,
+            14,
+            13,
+            10,
+            4,
+            7,
+            5,
+            12,
+            6,
+            10,
+            11,
+            11,
+            9,
+            7,
+            7,
+            7,
+            6,
+            3,
+            5,
+            16,
+            7,
+            6,
+            10,
+            5,
+            9,
+            8,
+            5,
+            5,
+            5,
+            3,
+            13,
+            10,
+            6,
+            14,
+            5,
+            6,
+            4,
+            7,
+            4,
+            9,
+            7,
+            6,
+            5,
+            7,
+            7,
+            14,
+            6,
+            4,
+            9,
+            10,
+            10,
+            11,
+            8,
+            6,
+            16,
+            13,
+            8,
+            5,
+            3,
+            7,
+            15,
+            10,
+            11,
+            8,
+            7,
+            11,
+            11,
+            13,
+            7,
+            18,
+            14,
+            9,
+            8,
+            5,
+            14,
+            5,
+            11,
+            8,
+            7,
+            5,
+            8,
+            12,
+            14,
+            11,
+            10,
+            13,
+            17,
+            9,
+            9,
+            7,
+            8,
+            9,
+            14,
+            4,
+            7,
+            19,
+            10,
+            14,
+            12,
+            15,
+            4,
+            7,
+            9,
+            14,
+            9,
+            16,
+            12,
+            11,
+            6,
+            14,
+            16,
+            7,
+            8,
+            12,
+            20,
+            7,
+            9,
+            10,
+            10,
+            10,
+            5,
+            12,
+            8,
+            11,
+            8,
+            14,
+            3,
+            8,
+            9,
+            11,
+            7,
+            13,
+            6,
+            15,
+            10,
+            6,
+            6,
+            8,
+            3,
+            12,
+            3,
+            14,
+            10,
+            8,
+            8,
+            8,
+            6,
+            18,
+            6,
+            5,
+            8,
+            4,
+            16,
+            14,
+            10,
+            9,
+            6,
+            8,
+            9,
+            11,
+            18,
+            11,
+            6,
+            3,
+            8,
+            6,
+            6,
+            7,
+            8,
+            3,
+            13,
+            3,
+            5,
+            3,
+            11,
+            4,
+            14,
+            11,
+            8,
+            6,
+            7,
+            15,
+            9,
+            7,
+            11,
+            5,
+            15,
+            15,
+            4,
+            9,
+            9,
+            7,
+            13,
+            10,
+            3,
+            11,
+            13,
+            13,
+            12,
+            3,
+            9,
+            14,
+            7,
+            6,
+            15,
+            15,
+            12,
+            9,
+            11
+          );
+          Word = new Array(
+            "WAKE",
+            "HARDENEDSCALES",
+            "QUICKLING",
+            "ABUJAFAR",
+            "LESHRACSSIGIL",
+            "GRIMWANDERER",
+            "POLARKRAKEN",
+            "HEX",
+            "MINDSTORMCROWN",
+            "FORBIDDEN",
+            "BLASTER",
+            "TOSKI",
+            "BREAKTIES",
+            "DSK",
+            "PENREGON",
+            "VAASHVROGA",
+            "CREATIVITY",
+            "DRAKES",
+            "XENAGOS",
+            "GARGOYLE",
+            "UNFINITY",
+            "GEAR",
+            "BEAVER",
+            "WORLDWAKE",
+            "ARZAKON",
+            "ARCHMAGESNEWT",
+            "GUARDIAN",
+            "BILL",
+            "DINGUS",
+            "SECONDDISTRICT",
+            "SAWINHALF",
+            "RHYSTICSTUDY",
+            "KEENDUELIST",
+            "CAPRICHROME",
+            "EMBERMAGEGOBLIN",
+            "AMPERSAND",
+            "MACHINEHEAD",
+            "DAVRIEL",
+            "TOGGO",
+            "AZRA",
+            "RUKHEGG",
+            "DAKLA",
+            "PROPHETICPRISM",
+            "PARDICFIRECAT",
+            "BATTLETECH",
+            "HAIR",
+            "TORMENT",
+            "SNARG",
+            "LORDOFTHEPIT",
+            "SIPHON",
+            "JADESTATUE",
+            "RUNEDTERROR",
+            "THUNDERBOLT",
+            "BATTLECRY",
+            "FAERIES",
+            "FARIDEH",
+            "TINFINS",
+            "ALCHOR",
+            "HUM",
+            "BULLY",
+            "LEVITATINGSTATUE",
+            "PHOENIX",
+            "DAVVOL",
+            "LOTUSPETAL",
+            "MOXEN",
+            "RUNESWORD",
+            "AMINATOU",
+            "KIORA",
+            "EXTUS",
+            "TEEKA",
+            "CLU",
+            "CHICKENTROUPE",
+            "STURMGEIST",
+            "EUNICE",
+            "MAGUSOFTHEMOON",
+            "LICIA",
+            "EXODUS",
+            "WARP",
+            "PINCHER",
+            "URZA",
+            "STRIPMINE",
+            "BRAWLER",
+            "RAGMAN",
+            "THRAN",
+            "VAMPIRE",
+            "GROZOTH",
+            "WURMCOILENGINE",
+            "KIRTAR",
+            "OMEN",
+            "KEVWALKER",
+            "FROSTARMOR",
+            "SHAYCORMAC",
+            "METALWORKER",
+            "WARBARGE",
+            "CHISEI",
+            "TREEOFREDEMPTION",
+            "SHARDSOFALARA",
+            "PROJECTX",
+            "CLOWN",
+            "GRV",
+            "RAVNICA",
+            "SCARWOODBANDITS",
+            "WALLOFKELP",
+            "ASWANJAGUAR",
+            "SCISSORS",
+            "MIRACLE",
+            "VALORSREACH",
+            "ZOLTANBOROS",
+            "TEMPLARKNIGHT",
+            "ELSPETH",
+            "DARKHEARTOFTHEWOOD",
+            "CRYPTICANNELID",
+            "MORPHLING",
+            "ERUPTION",
+            "RAMAZ",
+            "JASONRAINVILLE",
+            "HEIST",
+            "RINGOFMARUF",
+            "OLDMONEY",
+            "TOLARIA",
+            "KASLA",
+            "RASPUTIN",
+            "ROBOTCHICKEN",
+            "GRIZZLEDLEOTAU",
+            "PROTEANHULK",
+            "REDHERRING",
+            "SPECTRALCHAOS",
+            "LIBRARYOFCONGRESS",
+            "BABYCAKES",
+            "CLUESTONE",
+            "CYCLONE",
+            "WILDSEAR",
+            "SUBSTANCE",
+            "FLESHDUPLICATE",
+            "HERO",
+            "SMALLER",
+            "BEACONOFIMMORTALITY",
+            "COMMANDEER",
+            "OLDMANOFTHESEA",
+            "REGENERATION",
+            "DROWNYARDTEMPLE",
+            "KARN",
+            "FABACIN",
+            "THESLAYER",
+            "RETURNTOBATTLE",
+            "DEBTHOMAS",
+            "FALKENRATHGORGER",
+            "MARSHGOBLINS",
+            "TRISKELAVUS",
+            "SKOTHA",
+            "BALLISTICSKILL",
+            "SELFLESSEXORCIST",
+            "GLEEMAX",
+            "DYSTOPIA",
+            "KROSANTUSKER",
+            "GOBLINCRUCIVERBALIST",
+            "BALTHOR",
+            "VARRAGOTH",
+            "BLACKBLADE",
+            "RMSTITANIC",
+            "MANASTRIKE",
+            "BARRY",
+            "CONVOCATIONS",
+            "WILDFIRE",
+            "BLOATEDTOAD",
+            "ALLIANCE",
+            "GENERALJARKELD",
+            "DOG",
+            "RIVERBOA",
+            "HURRICANE",
+            "PLOTBOOSTER",
+            "REBIRTH",
+            "SOPHICCENTAUR",
+            "STRAHD",
+            "SUPERSECRETTECH",
+            "SPIDERFOOD",
+            "KHARIS",
+            "NINJAS",
+            "ENTHRALL",
+            "TSR",
+            "CHAINFLINGER",
+            "MOM",
+            "UKTABIWILDCATS",
+            "ARMAGEDDON",
+            "ELDRAINE",
+            "CUTADEAL",
+            "LASTWORD",
+            "ASCEND",
+            "PLANESWALKERPOINTS",
+            "ESTRID",
+            "AJANI",
+            "ROOTCAGE",
+            "VOJA",
+            "UNQUENCHABLEFURY",
+            "SUCHICAVEGUARD",
+            "SPOREMOUND",
+            "FIGHTCLUB",
+            "ULAMOG",
+            "VIASHINO",
+            "GREATWALL",
+            "GIANTBADGER",
+            "TEMPTWITHDISCOVERY",
+            "BLIGHTTITAN",
+            "STIFLE",
+            "TAL",
+            "RASSILON",
+            "ENERGY",
+            "DOCTOR",
+            "HAZORET",
+            "PREDATOR",
+            "PUB",
+            "AYSENCRUSADER",
+            "M15",
+            "ALONE",
+            "A25",
+            "SHADOWRIDER",
+            "PIRU",
+            "PIONEERMASTERS",
+            "PRIESTOFGIX",
+            "UPHEAVAL",
+            "RAKDOS",
+            "NERFWAR",
+            "MYSTERYBOOSTER2",
+            "CRUELCLAW",
+            "CONTROL",
+            "GORILLAPACK",
+            "VERSE",
+            "SARULICARETAKER",
+            "JUSHIAPPRENTICE",
+            "CHAR",
+            "SKELETONS",
+            "URZASSAGA",
+            "ALABORN",
+            "DURKWOODBOARS",
+            "STONEHANDS",
+            "BOB",
+            "ANCIENTTOMB",
+            "THELONITEMONK",
+            "GITAXIANPROBE",
+            "NECROPOTENCE",
+            "HOP",
+            "PSYCHATOG",
+            "SEWERSOFESTARK",
+            "CAMARID",
+            "ASMIRA",
+            "ARMAGEDDONCLOCK",
+            "GEMSTONECAVERNS",
+            "ANODETLURKER",
+            "CARTOUCHE",
+            "JACEBELEREN"
+          );
+          Clue = new Array(
+            "Winning deck of Worlds 2003.",
+            "Received a holiday-themed sequel.",
+            "An M15 creature that went on a Journey in the Enchanting Tales.",
+            "Summon Leper.",
+            "Its only reprint features Post Malone.",
+            "Has a Tragic Backstory.",
+            "One of B.F.M.'s earrings.",
+            "A protagonist's pet and an iconic Ravnican spell.",
+            "Has a Storm Crow in the middle of it.",
+            "Cut mechanic from Avacyn Restored.",
+            "Grants Modular.",
+            "Phyrexian messenger.",
+            "Has two modes: One does the card's name in combat, the other does the card's name in story.",
+            "Set Code: The only standard set since Rivals of Ixalan with 0 Dragons.",
+            "An ancient Dominarian capital.",
+            "Villain of Magic: Legends.",
+            "3D Glasses are this type of Talisman.",
+            "Izzet standard deck from 2019.",
+            "Deceased Planeswalker that debuted in Magic Puzzle Quest during Foundations.",
+            "New Capenna's sixth demon is one.",
+            "Contained the first new Horsemanship card since the ability debuted.",
+            "Varieties include Riot and Adventuring.",
+            "The only one in Black Border is one you can ride.",
+            "A misprinted typeline in this set foreshadowed the following set.",
+            "Shandalar's Big Bad.",
+            "Blue Bear.",
+            "Supported creature type with a typal payoff and new cards until the Grand Creature Type Update.",
+            "Four unique Legendary characters bear this name.",
+            "An egg and a staff.",
+            "Consists of fashionable and elegant streets.",
+            "One art depicts the Astrotorium, the other decpicts Bloomburrow.",
+            "Giftable enchantment.",
+            "Designed by, and depicts, Sheldon Menery.",
+            "It is what it eats.",
+            "This foil version of this card includes a crude anatomical detail.",
+            "A rare foil embossing treatment put a big one of these over the whole card.",
+            "Winning deck of Worlds 2001.",
+            "Has offers and conditions.",
+            "In an alternate universe, loved fire instead of rocks.",
+            "Not actually in MKM Commander, it was a trick!",
+            "Restricted for about a month.",
+            "Way of Archery used in both timelines of Tarkir.",
+            "Common card legal in every official format, except Pauper.",
+            "Effects from spells named Flame Burst count it as a card named Flame Burst.",
+            "Crumbling Sanctuary was designed to replicate this card game's rules.",
+            "A printing error shows this is what Kamahl truly desires.",
+            "A printing error sent the White cards in this set through a JPEG filter.",
+            "Owns a House of Sin.",
+            "In Puzzle & Dragons, Demonlord Belzenlok is this creature's Ultimate Evolution.",
+            "Insight uses this spelling of a word, compared to Mind, Flesh, and Soul.",
+            "Not an ordinary hunk o' rock.",
+            "Playtest card that makes Magic play like a rival card game.",
+            "Printed in Weatherlight and Avacyn Restored.",
+            "Mechanic in both Magic and Hearthstone, give or take a space.",
+            "Winning deck of Worlds 2008.",
+            "Possesses the Dark One's Own Luck.",
+            "Sealab 2021 is responsible for this deck name.",
+            "A typo changed his artifact into his Tomb.",
+            "Arcbound Mouser and Thran Turbine both do this.",
+            "Comes in Goblin, Iron, and Mage-Ring varieties.",
+            "Noncreature, non-Vehicle card with Flying.",
+            "Chandra, Jaya, and a Detective each have one.",
+            "Nobody cares about his birthday.",
+            "Inspires greed.",
+            "Leovold stole all of these.",
+            "Some printings of this card have a hair on the text box.",
+            "Helmed two different precons.",
+            "Debuted in Duels of the Planeswalkers.",
+            "A college dropout out for revenge.",
+            "Her Dragon specifies that it counts as a Dragon.",
+            "Set Code: Its Set Symbol is just a big letter.",
+            "Pre-Nadu 2024 Bird Ban.",
+            "Its English name is another card's German name.",
+            "Dakkon's grandmother.",
+            "Dress Down won't stop its ability.",
+            "Rival of Prava.",
+            "First set with Gold rarity symbols.",
+            "Chittering Illuminator was likely inspired by this ability.",
+            "2/2 colorless creature token.",
+            'Karn\'s Bastion includes his "signature".',
+            "Nature's Spiral is regrowing one.",
+            "Fake creature type teased for OTJ.",
+            "Merfolk tell their young of Dandân, Dal tell of the Dauthi, humans tell of this.",
+            "Their symbol appears on the Dominaria United board on MTG Arena.",
+            "Richard Garfield game that led to The Monarch.",
+            "Can tutor for The Magic Mirror, The Ur-Dragon, and Weight Room.",
+            "Phyrexian you could open in Aether Revolt packs.",
+            "His Wrath is an uncommon now.",
+            "Two mana Ponder.",
+            "Magic's most prolific artist.",
+            "Nickname for pre-Ward.",
+            "Neutralizes Ward and Shroud.",
+            "Banned alongside Skullclamp.",
+            "Iconic combo with Merfolk Assassin.",
+            "Black bordered Hungry Hungry Heifer.",
+            "Last minute Mythic Rare swap.",
+            "First set with Red rarity symbols.",
+            "Crypt Champion combo deck.",
+            "A type from Acorn Magic that made its way to the Multiverse.",
+            "Abbreviation for the penalty that covers the majority of game play errors.",
+            "Both 3/8s come from here.",
+            "The first green Outlaw.",
+            "Non-Green Plant.",
+            "The first print run of Microprose's Magic the Gathering shipped with an oversized copy of this card.",
+            "A kind of Lizard, also Alara Reborn's development codename.",
+            "This mechanic frustrated Brian Kibler in a famous moment from the 2012 Magic World Cup.",
+            "Beta name for a mobile game.",
+            "Illustrated two cards that bear his name.",
+            "A deck can have any number of cards named this.",
+            "A reprint of Platinum Angel was intended to foreshadow this character's return.",
+            "The first enemy-colored card.",
+            "Does its keyword three times in a row.",
+            "Superman.",
+            "The first The First.",
+            "Duels of the Planeswalkers 2014's Big Bad.",
+            "Artist of Admiral Brass and B.F. Bugleberry.",
+            "Keyword that debuted on Thunder Junction and returned on Duskmourn.",
+            "The first Wish.",
+            "Magic's most popular song.",
+            "Floats upon a wheel of fortune.",
+            "Threw a bone to Ally decks for the first time since 2020.",
+            "First name of legendary creature with bespoke state-based action.",
+            "Printed with the Unglued set symbol in 2010.",
+            "The last Magic card ever printed in Portuguese.",
+            "Printed with a Phyrexian watermark on MTGO only.",
+            "Fittingly, there's two different cards named this.",
+            "Unreleased expansion that contained the Chaotic supertype and the first Artifact Land.",
+            "Used for MTGO debugging.",
+            "Forgotten Ancient.",
+            "In a small set, 10 of these really clogged up the packs.",
+            "One of two cards that uses Wind Counters.",
+            "Cragflame was fashioned from one of its teeth.",
+            "Didn't do anything.",
+            "Clone that Lin-Sivvi can find.",
+            "The only Benalian caste that cannot be attained by either heredity or money.",
+            "Snowblind is the only card to contain this word in its rules text.",
+            "Banned while Chaos Orb and Moxen were legal.",
+            "Card name that's one letter away from a popular format.",
+            "Summon Marid.",
+            "The character in this art reappeared much later in Invasion.",
+            "All the Cryptoliths point here!",
+            "Planeswalker whose Emblem was never printed.",
+            "Bean world!",
+            "Increases your starting life total in the Hero's Path.",
+            "Raise Dead, in Portal Three Kingdoms.",
+            "Planeswalker that loves Dogs.",
+            "Red Savannah Lions.",
+            "An original non-legendary gold card.",
+            "Standard Tron payoff (in its day).",
+            "Titan of Eternal Dark.",
+            "An unused stat beyond power and toughness.",
+            "Graveyard hate whose reminder text is no longer true.",
+            "the best place to play games talk games and blog about games dot from the leading gaming company in the whole wide world man dot com",
+            "The character from Surge of Strength also appeared on this card.",
+            "Consistent art across all 16 printings.",
+            "Creature from Unfinity that would love what you're doing right now.",
+            "The Defiled.",
+            "An escaped demon living in the human realm.",
+            "Mishra didn't believe in its power.",
+            "Blistering Firecat was the first 7/1. This is the only other one.",
+            "Cancelled Magic RTS game for mobile.",
+            "Clouds belong to him.",
+            "Art book depicting classic Magic combos.",
+            "A spell, an archetype, and a plane of the Multiverse.",
+            "Namesake of a Cycling deck.",
+            "A reprint in Foundations removed this ability word.",
+            "An original non-gold legendary card.",
+            "(We'll errata this type to exist).",
+            "The first FNM promo.",
+            'The "Blue" version of this card is one of Magic\'s most rare cards.',
+            '"Uncovered Cavern" is one.',
+            "The first Magic card with the number 20 in its rules text.",
+            "Casts Gerrard's Wisdom.",
+            "D&D villain with a card in a spinoff.",
+            "Only available in foil.",
+            "Its name is two subtypes that it doesn't have.",
+            "One half of a 1/20.",
+            "Half of an April Fools set of Duel Decks.",
+            "A fictional Magic card from a Disney film.",
+            "Set Code: Its copyright date suggests a delay.",
+            "Its art was comissioned for an Atog.",
+            "Set Code: Only Standard set with no Rare/Mythic lands since New Phyrexia.",
+            "Wasn't a Warrior in its first printing, was one in its second printing, then wasn't against in its third printing.",
+            "Magic Arcade game by Acclaim that never went past its location tests.",
+            "The only true Signpost cards come from here.",
+            "Has exactly three printings, in three Commander sets, each with unique art.",
+            "The first was in Darksteel, later Kefnet got one.",
+            'Keyword that earns you "the favor of the guilds."',
+            "Rewards system sunsetted in 2020.",
+            "Hasn't reappeared due to difficulty animating her abilities.",
+            "Character that filled in the last missing two-color pair for printed Planeswalker cards.",
+            "Hoser for an Outlaw type.",
+            "Appears on three Tokens and one Legendary Creature card.",
+            "Shares its name with a spell from Battle the Horde.",
+            'Card from The Brother\'s War whose playtest name referenced "Eight Fucking Bears"',
+            "Gained Landfall in 2020.",
+            "Innistrad Block Constructed deck built around Ulvenwald Tracker.",
+            "The second The Defiler.",
+            "Said to be descended from Elder Dragons.",
+            "Countered a keyword that appeared on only one card at the time.",
+            "A book promo that reappeared in a Core Set.",
+            "Downshifted to uncommon in a Universes Beyond promotion.",
+            "An M11 creature, Compleated.",
+            "Its art appears on a T-Shirt in another card's art.",
+            "Their Book is quoted in Alpha, The Dark, and Weatherlight.",
+            "The first President.",
+            "Two different 2024 Commander Precons were built around this mechanic.",
+            "A type from Universes Beyond that made its way to the Multiverse.",
+            "A sequencing error cost Yam Wing Chun his semifinals match in Pro Tour Hour of Devastation when he couldn't attack with this creature.",
+            "The scourge of Skyshroud, airborne once more.",
+            "Royal Assassin's target is here.",
+            "Happy to see a returning creature type in Universes Beyond.",
+            "Set Code: Hunt bigger game.",
+            "The Abzan most dread being this.",
+            "Set Code: Shared its gimmick with Eighth Edition.",
+            "A Dauthi without Shadow, allegedly.",
+            "Chromium's wife.",
+            "Planned for 2020, released this year.",
+            "Printed with four creature types at once.",
+            "Its art was originally comissioned for Ghastly Demise.",
+            "The first The Defiler.",
+            "I'll tell you one thing—it's not nothin'!",
+            "Has three Lessons but no ways to Learn them.",
+            "Leader of the Direshade Company.",
+            "Changing effect applied on Layer 2.",
+            "Creature with Foresthome.",
+            "Twelve Enchantments and one Creature use this type of counter.",
+            "The Ransom Notes pointed to this suspect.",
+            "Flip card that appeared in the Vintage Cube.",
+            "Cast before the Topdeck of the Century.",
+            "For many years these were edited out of card art in the Chinese release.",
+            "Formats from this set onward let you ignore graveyard order.",
+            "Soldiers from this kingdom often carried muskets.",
+            "Its flavor text quotes the Gospel of Mark.",
+            "Greater Stone Spirit can gain the ability of this Aura.",
+            "Works in Accounting.",
+            "Card from Tempest that shares a name with a Pokémon TCG Stadium card.",
+            "Named after a famous jazz musician.",
+            "The Gruff Expandable Card Game unbanned this card when it was banned in Legacy.",
+            "Inspired by greed.",
+            'Set Code: First set that referred to cards as "Kicked".',
+            "Doctor Teeth.",
+            "Mailing in proof of purchase for your copy of Arena scored you this card.",
+            "Our only look at this creature type comes from MTGO.",
+            "The cost of freedom was her life.",
+            "The evil White Wizard combos this card with Circle of Protection: Artifacts!",
+            "Invitational land.",
+            '"Darker Onulet".',
+            "Enchantment subtype.",
+            "One of the first Anime styled cards."
+          );
+          AnswerHash = new Array(
+            5685,
+            71169,
+            21994,
+            15012,
+            17735,
+            34728,
+            29871,
+            53618,
+            68600,
+            35810,
+            33263,
+            14466,
+            64607,
+            7401,
+            48754,
+            80359,
+            35346,
+            86444,
+            74657,
+            71864,
+            19875,
+            67537,
+            5336,
+            77536,
+            34867,
+            93110,
+            72668,
+            93726,
+            90417,
+            23809,
+            37217,
+            87828,
+            59144,
+            18655,
+            50042,
+            31816,
+            93506,
+            2176,
+            92141,
+            51786,
+            30733,
+            16256,
+            45223,
+            39282,
+            39927,
+            65754,
+            76557,
+            48656,
+            73222,
+            74200,
+            80112,
+            24260,
+            10194,
+            45923,
+            10203,
+            17356,
+            30399,
+            66391,
+            74264,
+            76625,
+            4896,
+            87479,
+            8217,
+            33786,
+            37382,
+            8253,
+            41567,
+            6126,
+            64244,
+            40153,
+            33347,
+            54242,
+            92623,
+            43578,
+            85002,
+            44687,
+            48998,
+            48624,
+            1838,
+            90100,
+            66712,
+            58589,
+            25799,
+            73199,
+            38358,
+            92199,
+            9699,
+            32037,
+            725,
+            7547,
+            64189,
+            12652,
+            54061,
+            12964,
+            92065,
+            7055,
+            42441,
+            68256,
+            79345,
+            21855,
+            89129,
+            63672,
+            41688,
+            63054,
+            64421,
+            58372,
+            30388,
+            85083,
+            2578,
+            53489,
+            93346,
+            88587,
+            9709,
+            93281,
+            47518,
+            85726,
+            82633,
+            21035,
+            25017,
+            87999,
+            14362,
+            59886,
+            47152,
+            63276,
+            28240,
+            66970,
+            34778,
+            32169,
+            54756,
+            17945,
+            34349,
+            75725,
+            85075,
+            72561,
+            12449,
+            84569,
+            82822,
+            70072,
+            72605,
+            90044,
+            22664,
+            80708,
+            54452,
+            18856,
+            35072,
+            12324,
+            60156,
+            10599,
+            21683,
+            35090,
+            1054,
+            32348,
+            90549,
+            74542,
+            75702,
+            55843,
+            18832,
+            23392,
+            32511,
+            24210,
+            12933,
+            28849,
+            13461,
+            81239,
+            32734,
+            49792,
+            59387,
+            88368,
+            12054,
+            6797,
+            82185,
+            4110,
+            16281,
+            77078,
+            47386,
+            91452,
+            57141,
+            95160,
+            27939,
+            21062,
+            51292,
+            7073,
+            1455,
+            62766,
+            53535,
+            49965,
+            95719,
+            54955,
+            92278,
+            53057,
+            66030,
+            71803,
+            10902,
+            87138,
+            14441,
+            32969,
+            74261,
+            19465,
+            45987,
+            65634,
+            41031,
+            65136,
+            43957,
+            17685,
+            16142,
+            28228,
+            84525,
+            18903,
+            10162,
+            51063,
+            6389,
+            45488,
+            21330,
+            96522,
+            1453,
+            57899,
+            87484,
+            578,
+            27152,
+            76557,
+            5370,
+            84093,
+            81137,
+            70345,
+            22731,
+            2502,
+            21228,
+            60047,
+            7210,
+            91923,
+            2248,
+            52490,
+            42434,
+            68815,
+            32312,
+            52036,
+            27284,
+            22276,
+            89564,
+            35758,
+            65894,
+            11592,
+            10492,
+            51873,
+            59709,
+            72601,
+            6353,
+            96825,
+            23754,
+            37468
+          );
+          WordX = new Array(
+            16,
+            29,
+            11,
+            36,
+            0,
+            18,
+            30,
+            1,
+            6,
+            25,
+            41,
+            8,
+            20,
+            34,
+            16,
+            0,
+            23,
+            16,
+            0,
+            24,
+            37,
+            12,
+            2,
+            16,
+            40,
+            26,
+            15,
+            46,
+            35,
+            8,
+            26,
+            38,
+            16,
+            21,
+            5,
+            3,
+            36,
+            20,
+            28,
+            35,
+            42,
+            1,
+            21,
+            36,
+            12,
+            22,
+            30,
+            17,
+            38,
+            1,
+            19,
+            11,
+            24,
+            37,
+            1,
+            15,
+            42,
+            26,
+            41,
+            14,
+            23,
+            21,
+            38,
+            0,
+            29,
+            40,
+            26,
+            7,
+            22,
+            43,
+            28,
+            3,
+            36,
+            0,
+            9,
+            33,
+            3,
+            24,
+            41,
+            17,
+            5,
+            27,
+            37,
+            4,
+            14,
+            43,
+            28,
+            18,
+            3,
+            24,
+            36,
+            12,
+            24,
+            1,
+            16,
+            24,
+            21,
+            5,
+            15,
+            37,
+            3,
+            19,
+            36,
+            23,
+            39,
+            4,
+            17,
+            31,
+            2,
+            10,
+            20,
+            5,
+            7,
+            32,
+            18,
+            0,
+            35,
+            20,
+            36,
+            5,
+            17,
+            32,
+            5,
+            12,
+            38,
+            20,
+            32,
+            28,
+            17,
+            28,
+            18,
+            16,
+            37,
+            1,
+            27,
+            21,
+            49,
+            14,
+            31,
+            46,
+            9,
+            23,
+            41,
+            3,
+            17,
+            34,
+            38,
+            12,
+            6,
+            43,
+            26,
+            8,
+            33,
+            48,
+            3,
+            40,
+            43,
+            45,
+            1,
+            28,
+            10,
+            37,
+            15,
+            17,
+            5,
+            13,
+            19,
+            23,
+            32,
+            25,
+            30,
+            34,
+            42,
+            49,
+            11,
+            1,
+            4,
+            13,
+            17,
+            44,
+            47,
+            32,
+            26,
+            38,
+            6,
+            9,
+            2,
+            35,
+            0,
+            4,
+            8,
+            15,
+            30,
+            33,
+            18,
+            22,
+            24,
+            41,
+            20,
+            10,
+            37,
+            45,
+            29,
+            13,
+            16,
+            31,
+            39,
+            6,
+            25,
+            47,
+            27,
+            20,
+            10,
+            41,
+            7,
+            49,
+            34,
+            3,
+            12,
+            14,
+            30,
+            5,
+            24,
+            16,
+            38,
+            7,
+            43,
+            33,
+            13,
+            35,
+            46,
+            21,
+            18,
+            29,
+            41,
+            35,
+            26,
+            39,
+            1,
+            3,
+            8,
+            24,
+            48,
+            5,
+            21,
+            28,
+            42,
+            8,
+            13,
+            24
+          );
+          WordY = new Array(
+            0,
+            0,
+            2,
+            2,
+            4,
+            4,
+            5,
+            6,
+            7,
+            7,
+            7,
+            9,
+            9,
+            10,
+            11,
+            13,
+            13,
+            14,
+            15,
+            15,
+            15,
+            16,
+            17,
+            17,
+            17,
+            18,
+            19,
+            19,
+            20,
+            21,
+            22,
+            22,
+            23,
+            25,
+            26,
+            28,
+            28,
+            29,
+            30,
+            30,
+            32,
+            33,
+            33,
+            34,
+            35,
+            36,
+            36,
+            37,
+            37,
+            38,
+            39,
+            41,
+            43,
+            43,
+            44,
+            45,
+            45,
+            46,
+            47,
+            48,
+            48,
+            50,
+            50,
+            51,
+            52,
+            52,
+            54,
+            55,
+            56,
+            56,
+            57,
+            58,
+            59,
+            60,
+            60,
+            61,
+            62,
+            63,
+            63,
+            64,
+            65,
+            65,
+            65,
+            67,
+            67,
+            68,
+            69,
+            70,
+            71,
+            71,
+            71,
+            73,
+            73,
+            75,
+            75,
+            76,
+            78,
+            79,
+            79,
+            79,
+            81,
+            81,
+            81,
+            83,
+            83,
+            84,
+            85,
+            85,
+            86,
+            90,
+            90,
+            93,
+            95,
+            95,
+            96,
+            97,
+            97,
+            99,
+            99,
+            101,
+            101,
+            101,
+            103,
+            105,
+            105,
+            107,
+            107,
+            109,
+            111,
+            111,
+            113,
+            0,
+            0,
+            2,
+            2,
+            3,
+            4,
+            5,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            10,
+            10,
+            11,
+            12,
+            12,
+            17,
+            21,
+            21,
+            22,
+            24,
+            24,
+            24,
+            24,
+            25,
+            25,
+            26,
+            27,
+            28,
+            28,
+            30,
+            31,
+            32,
+            32,
+            32,
+            33,
+            33,
+            35,
+            36,
+            36,
+            37,
+            38,
+            41,
+            41,
+            41,
+            41,
+            41,
+            42,
+            43,
+            43,
+            44,
+            44,
+            48,
+            48,
+            50,
+            50,
+            51,
+            51,
+            51,
+            51,
+            52,
+            52,
+            52,
+            52,
+            53,
+            54,
+            55,
+            55,
+            56,
+            60,
+            60,
+            60,
+            61,
+            62,
+            62,
+            62,
+            63,
+            64,
+            65,
+            65,
+            67,
+            67,
+            68,
+            69,
+            69,
+            69,
+            69,
+            70,
+            73,
+            75,
+            75,
+            78,
+            80,
+            81,
+            83,
+            83,
+            83,
+            84,
+            85,
+            85,
+            85,
+            89,
+            90,
+            90,
+            91,
+            91,
+            91,
+            92,
+            92,
+            93,
+            96,
+            98,
+            98,
+            101,
+            103,
+            104
+          );
+          LastHorizontalWord = 130;
+          OnlyCheckOnce = false;
+          //-->
+        </script>
+
+        <script type="text/javascript">
+          <!--
+
+          // EclipseCrossword (C) Copyright 2000-2013 Green Eclipse.
+          // The puzzle itself remains the property of its creator. Do not remove this copyright notice.
+
+          var BadChars = "`~!@^*()_={[}]\\|:;\"',<>/?";
+
+          var TableAcrossWord, TableDownWord;
+          var CurrentWord, PrevWordHorizontal, x, y, i, j;
+          var CrosswordFinished, Initialized;
+
+          // Check the user's browser and then initialize the puzzle.
+          if (document.getElementById("waitmessage") != null) {
+            document.getElementById("waitmessage").innerHTML =
+              "Please wait while the crossword is loaded...";
+
+            // Current game variables
+            CurrentWord = -1;
+            PrevWordHorizontal = false;
+
+            // Create the cell-to-word arrays.
+            TableAcrossWord = new Array(CrosswordWidth);
+            for (var x = 0; x < CrosswordWidth; x++)
+              TableAcrossWord[x] = new Array(CrosswordHeight);
+            TableDownWord = new Array(CrosswordWidth);
+            for (var x = 0; x < CrosswordWidth; x++)
+              TableDownWord[x] = new Array(CrosswordHeight);
+            for (var y = 0; y < CrosswordHeight; y++)
+              for (var x = 0; x < CrosswordWidth; x++) {
+                TableAcrossWord[x][y] = -1;
+                TableDownWord[x][y] = -1;
+              }
+
+            // First, add the horizontal words to the puzzle.
+            for (var i = 0; i <= LastHorizontalWord; i++) {
+              x = WordX[i];
+              y = WordY[i];
+              for (var j = 0; j < WordLength[i]; j++) {
+                TableAcrossWord[x + j][y] = i;
+              }
+            }
+
+            // Second, add the vertical words to the puzzle.
+            for (var i = LastHorizontalWord + 1; i < Words; i++) {
+              x = WordX[i];
+              y = WordY[i];
+              for (var j = 0; j < WordLength[i]; j++) {
+                TableDownWord[x][y + j] = i;
+              }
+            }
+
+            // Now, insert the crossword table.
+            document.writeln(
+              '<table id="crossword" cellpadding="0" cellspacing="0" style="display: none; border-collapse: collapse;">'
+            );
+            for (var y = 0; y < CrosswordHeight; y++) {
+              document.writeln("<tr>");
+              for (var x = 0; x < CrosswordWidth; x++) {
+                if (TableAcrossWord[x][y] >= 0 || TableDownWord[x][y] >= 0)
+                  document.write(
+                    '<td id="c' +
+                      PadNumber(x) +
+                      PadNumber(y) +
+                      '" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">&nbsp;</td>'
+                  );
+                else document.write("<td><\/td>");
+              }
+              document.writeln("<\/tr>");
+            }
+            document.writeln("<\/table>");
+
+            // Finally, show the crossword and hide the wait message.
+            Initialized = true;
+            document.getElementById("waitmessage").style.display = "none";
+            document.getElementById("crossword").style.display = "block";
+          }
+
+          // * * * * * * * * * *
+          // Event handlers
+
+          // Raised when a key is pressed in the word entry box.
+          function WordEntryKeyPress(event) {
+            if (CrosswordFinished) return;
+            // Treat an Enter keypress as an OK click.
+            if (CurrentWord >= 0 && event.keyCode == 13) OKClick();
+          }
+
+          // * * * * * * * * * *
+          // Helper functions
+
+          // Called when we're ready to start the crossword.
+          function BeginCrossword() {
+            if (Initialized) {
+              document.getElementById("welcomemessage").style.display = "";
+              document.getElementById("checkbutton").style.display = "";
+            }
+          }
+
+          // Returns true if the string passed in contains any characters prone to evil.
+          function ContainsBadChars(theirWord) {
+            for (var i = 0; i < theirWord.length; i++)
+              if (BadChars.indexOf(theirWord.charAt(i)) >= 0) return true;
+            return false;
+          }
+
+          // Pads a number out to three characters.
+          function PadNumber(number) {
+            if (number < 10) return "00" + number;
+            else if (number < 100) return "0" + number;
+            else return "" + number;
+          }
+
+          // Returns the table cell at a particular pair of coordinates.
+          function CellAt(x, y) {
+            return document.getElementById("c" + PadNumber(x) + PadNumber(y));
+          }
+
+          // Deselects the current word, if there's a word selected.  DOES not change the value of CurrentWord.
+          function DeselectCurrentWord() {
+            if (CurrentWord < 0) return;
+            var x, y, i;
+
+            document.getElementById("answerbox").style.display = "none";
+            ChangeCurrentWordSelectedStyle(false);
+            CurrentWord = -1;
+          }
+
+          // Changes the style of the cells in the current word.
+          function ChangeWordStyle(WordNumber, NewStyle) {
+            if (WordNumber < 0) return;
+            var x = WordX[WordNumber];
+            var y = WordY[WordNumber];
+
+            if (WordNumber <= LastHorizontalWord)
+              for (i = 0; i < WordLength[WordNumber]; i++)
+                CellAt(x + i, y).className = NewStyle;
+            else
+              for (i = 0; i < WordLength[WordNumber]; i++)
+                CellAt(x, y + i).className = NewStyle;
+          }
+
+          // Changes the style of the cells in the current word between the selected/unselected form.
+          function ChangeCurrentWordSelectedStyle(IsSelected) {
+            if (CurrentWord < 0) return;
+            var x = WordX[CurrentWord];
+            var y = WordY[CurrentWord];
+
+            if (CurrentWord <= LastHorizontalWord)
+              for (i = 0; i < WordLength[CurrentWord]; i++)
+                CellAt(x + i, y).className = CellAt(x + i, y).className.replace(
+                  IsSelected ? "_unsel" : "_sel",
+                  IsSelected ? "_sel" : "_unsel"
+                );
+            else
+              for (i = 0; i < WordLength[CurrentWord]; i++)
+                CellAt(x, y + i).className = CellAt(x, y + i).className.replace(
+                  IsSelected ? "_unsel" : "_sel",
+                  IsSelected ? "_sel" : "_unsel"
+                );
+          }
+
+          // Selects the new word by parsing the name of the TD element referenced by the
+          // event object, and then applying styles as necessary.
+          function SelectThisWord(event) {
+            if (CrosswordFinished) return;
+            var x, y, i, TheirWord, TableCell;
+
+            // Deselect the previous word if one was selected.
+            document.getElementById("welcomemessage").style.display = "none";
+            if (CurrentWord >= 0) OKClick();
+            DeselectCurrentWord();
+
+            // Determine the coordinates of the cell they clicked, and then the word that
+            // they clicked.
+            var target = event.srcElement ? event.srcElement : event.target;
+            x = parseInt(target.id.substring(1, 4), 10);
+            y = parseInt(target.id.substring(4, 7), 10);
+
+            // If they clicked an intersection, choose the type of word that was NOT selected last time.
+            if (TableAcrossWord[x][y] >= 0 && TableDownWord[x][y] >= 0)
+              CurrentWord = PrevWordHorizontal
+                ? TableDownWord[x][y]
+                : TableAcrossWord[x][y];
+            else if (TableAcrossWord[x][y] >= 0)
+              CurrentWord = TableAcrossWord[x][y];
+            else if (TableDownWord[x][y] >= 0)
+              CurrentWord = TableDownWord[x][y];
+
+            PrevWordHorizontal = CurrentWord <= LastHorizontalWord;
+
+            // Now, change the style of the cells in this word.
+            ChangeCurrentWordSelectedStyle(true);
+
+            // Then, prepare the answer box.
+            x = WordX[CurrentWord];
+            y = WordY[CurrentWord];
+            TheirWord = "";
+            var TheirWordLength = 0;
+            for (i = 0; i < WordLength[CurrentWord]; i++) {
+              // Find the appropriate table cell.
+              if (CurrentWord <= LastHorizontalWord)
+                TableCell = CellAt(x + i, y);
+              else TableCell = CellAt(x, y + i);
+              // Add its contents to the word we're building.
+              if (
+                TableCell.innerHTML != null &&
+                TableCell.innerHTML.length > 0 &&
+                TableCell.innerHTML != " " &&
+                TableCell.innerHTML.toLowerCase() != "&nbsp;"
+              ) {
+                TheirWord += TableCell.innerHTML.toUpperCase();
+                TheirWordLength++;
+              } else {
+                TheirWord += "&bull;";
+              }
+            }
+
+            document.getElementById("wordlabel").innerHTML = TheirWord;
+            document.getElementById("wordinfo").innerHTML =
+              (CurrentWord <= LastHorizontalWord ? "Across, " : "Down, ") +
+              WordLength[CurrentWord] +
+              " letters.";
+            document.getElementById("wordclue").innerHTML = Clue[CurrentWord];
+            document.getElementById("worderror").style.display = "none";
+            document.getElementById("cheatbutton").style.display =
+              Word.length == 0 ? "none" : "";
+            if (TheirWordLength == WordLength[CurrentWord])
+              document.getElementById("wordentry").value = TheirWord.replace(
+                /&AMP;/g,
+                "&"
+              );
+            else document.getElementById("wordentry").value = "";
+
+            // Finally, show the answer box.
+            document.getElementById("answerbox").style.display = "block";
+            try {
+              document.getElementById("wordentry").focus();
+              document.getElementById("wordentry").select();
+            } catch (e) {}
+          }
+
+          // Called when the user clicks the OK link.
+          function OKClick() {
+            var TheirWord, x, y, i, TableCell;
+            if (CrosswordFinished) return;
+            if (document.getElementById("okbutton").disabled) return;
+
+            // First, validate the entry.
+            TheirWord = document
+              .getElementById("wordentry")
+              .value.toUpperCase();
+            if (TheirWord.length == 0) {
+              DeselectCurrentWord();
+              return;
+            }
+            if (ContainsBadChars(TheirWord)) {
+              document.getElementById("worderror").innerHTML =
+                "The word that you typed contains invalid characters.  Please type only letters in the box above.";
+              document.getElementById("worderror").style.display = "block";
+              return;
+            }
+            if (TheirWord.length < WordLength[CurrentWord]) {
+              document.getElementById("worderror").innerHTML =
+                "You did not type enough letters.  This word has " +
+                WordLength[CurrentWord] +
+                " letters.";
+              document.getElementById("worderror").style.display = "block";
+              return;
+            }
+            if (TheirWord.length > WordLength[CurrentWord]) {
+              document.getElementById("worderror").innerHTML =
+                "You typed too many letters.  This word has " +
+                WordLength[CurrentWord] +
+                " letters.";
+              document.getElementById("worderror").style.display = "block";
+              return;
+            }
+
+            // If we made it this far, they typed an acceptable word, so add these letters to the puzzle and hide the entry box.
+            x = WordX[CurrentWord];
+            y = WordY[CurrentWord];
+            for (i = 0; i < TheirWord.length; i++) {
+              TableCell = CellAt(
+                x + (CurrentWord <= LastHorizontalWord ? i : 0),
+                y + (CurrentWord > LastHorizontalWord ? i : 0)
+              );
+              TableCell.innerHTML = TheirWord.substring(i, i + 1);
+            }
+            DeselectCurrentWord();
+          }
+
+          // Called when the "check puzzle" link is clicked.
+          function CheckClick() {
+            var i,
+              j,
+              x,
+              y,
+              UserEntry,
+              ErrorsFound = 0,
+              EmptyFound = 0,
+              TableCell;
+            if (CrosswordFinished) return;
+            DeselectCurrentWord();
+
+            for (y = 0; y < CrosswordHeight; y++)
+              for (x = 0; x < CrosswordWidth; x++)
+                if (TableAcrossWord[x][y] >= 0 || TableDownWord[x][y] >= 0) {
+                  TableCell = CellAt(x, y);
+                  if (TableCell.className == "ecw-box ecw-boxerror_unsel")
+                    TableCell.className = "ecw-box ecw-boxnormal_unsel";
+                }
+
+            for (i = 0; i < Words; i++) {
+              // Get the user's entry for this word.
+              UserEntry = "";
+              for (j = 0; j < WordLength[i]; j++) {
+                if (i <= LastHorizontalWord)
+                  TableCell = CellAt(WordX[i] + j, WordY[i]);
+                else TableCell = CellAt(WordX[i], WordY[i] + j);
+                if (
+                  TableCell.innerHTML.length > 0 &&
+                  TableCell.innerHTML.toLowerCase() != "&nbsp;"
+                ) {
+                  UserEntry += TableCell.innerHTML.toUpperCase();
+                } else {
+                  UserEntry = "";
+                  EmptyFound++;
+                  break;
+                }
+              }
+              UserEntry = UserEntry.replace(/&AMP;/g, "&");
+              // If this word doesn't match, it's an error.
+              if (
+                HashWord(UserEntry) != AnswerHash[i] &&
+                UserEntry.length > 0
+              ) {
+                ErrorsFound++;
+                ChangeWordStyle(i, "ecw-box ecw-boxerror_unsel");
+              }
+            }
+
+            // If they can only check once, disable things prematurely.
+            if (OnlyCheckOnce) {
+              CrosswordFinished = true;
+              document.getElementById("checkbutton").style.display = "none";
+            }
+
+            // If errors were found, just exit now.
+            if (ErrorsFound > 0 && EmptyFound > 0)
+              document.getElementById("welcomemessage").innerHTML =
+                ErrorsFound +
+                (ErrorsFound > 1 ? " errors" : " error") +
+                " and " +
+                EmptyFound +
+                (EmptyFound > 1
+                  ? " incomplete words were"
+                  : " incomplete word was") +
+                " found.";
+            else if (ErrorsFound > 0)
+              document.getElementById("welcomemessage").innerHTML =
+                ErrorsFound +
+                (ErrorsFound > 1 ? " errors were" : " error was") +
+                " found.";
+            else if (EmptyFound > 0)
+              document.getElementById("welcomemessage").innerHTML =
+                "No errors were found, but " +
+                EmptyFound +
+                (EmptyFound > 1
+                  ? " incomplete words were"
+                  : " incomplete word was") +
+                " found.";
+
+            if (ErrorsFound + EmptyFound > 0) {
+              document.getElementById("welcomemessage").style.display = "";
+              return;
+            }
+
+            // They finished the puzzle!
+            CrosswordFinished = true;
+            document.getElementById("checkbutton").style.display = "none";
+            document.getElementById("congratulations").style.display = "block";
+            document.getElementById("welcomemessage").style.display = "none";
+          }
+
+          // Called when the "cheat" link is clicked.
+          function CheatClick() {
+            if (CrosswordFinished) return;
+            var OldWord = CurrentWord;
+            document.getElementById("wordentry").value = Word[CurrentWord];
+            OKClick();
+            ChangeWordStyle(OldWord, "ecw-box ecw-boxcheated_unsel");
+          }
+
+          // Returns a one-way hash for a word.
+          function HashWord(Word) {
+            var x = (Word.charCodeAt(0) * 719) % 1138;
+            var Hash = 837;
+            var i;
+            for (i = 1; i <= Word.length; i++)
+              Hash = (Hash * i + 5 + (Word.charCodeAt(i - 1) - 64) * x) % 98503;
+            return Hash;
+          }
+
+          //-->
+        </script>
+
+        <div style="margin-top: 1em">
+          <button
+            id="checkbutton"
+            type="button"
+            onclick="CheckClick();"
+            style="display: none"
+          >
+            Check puzzle
+          </button>
+        </div>
+
+        <script type="text/javascript">
+          <!--
+          BeginCrossword();
+          //-->
+        </script>
+
+        <!-- Created with EclipseCrossword, (C) Copyright 2000-2013 Green Eclipse.  eclipsecrossword.com -->
+      </div>
+    </div>
+    <div class="homepage">
+      <img
+        src="../shandalarfiles/Jirachi2.png"
+        alt="Jirachi Gif"
+        style="width: 8%"
+        class="centerimage"
+      />
+      <a href="index.html">
+        <img
+          src="../shandalarfiles/homepage.gif"
+          alt="Click here to go back to my homepage"
+          style="width: 55%"
+          class="centerimage"
+        />
+      </a>
+      <img
+        src="../shandalarfiles/Jirachi2.png"
+        alt="Jirachi Gif"
+        style="width: 8%"
+        class="centerimage"
+      />
+    </div>
+  </body>
+</html>
