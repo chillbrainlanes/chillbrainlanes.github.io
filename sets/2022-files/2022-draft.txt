@@ -1,12 +1,11 @@
-﻿[CustomCards]
+[CustomCards]
 	[	{
 			"name": "Jace Beleren, Hypebeast",
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{U}",
-			"type": "Legendary Planeswalker — Jace ",
-			"collector_number": "70",
+			"type": "Legendary Planeswalker — Jace",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/70_Jace Beleren, Hypebeast.png"
+				"en": "https://i.ibb.co/rkcFPGX/Jace-Beleren-Hypebeast.png"
 			}
 		},
 		{
@@ -14,19 +13,17 @@
 			"rarity": "rare",
 			"mana_cost": "{0}",
 			"type": "Instant",
-			"collector_number": "115",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/115_Highly Spooky Charm.png"
+				"en": "https://i.ibb.co/QFLhn5h/Highly-Spooky-Charm.png"
 			}
 		},
 		{
 			"name": "That Time My Uncle Tony Lightning Bolted Someone",
 			"rarity": "rare",
 			"mana_cost": "{R}",
-			"type": "Enchantment — Saga ",
-			"collector_number": "179",
+			"type": "Enchantment — Saga",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/179_That Time My Uncle Tony Lightning Bolted Someone.png"
+				"en": "https://i.ibb.co/GchzBRy/That-Time-My-Uncle-Tony-Lightning-Bolted-Someone.png"
 			}
 		},
 		{
@@ -34,9 +31,8 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "337",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/337_Ohio.png"
+				"en": "https://i.ibb.co/c1MBRm9/Ohio.png"
 			}
 		},
 		{
@@ -44,9 +40,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "294",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/294_Mountain Lightning.png"
+				"en": "https://i.ibb.co/T4TWPXv/Mountain-Lightning.png"
 			}
 		},
 		{
@@ -54,9 +49,8 @@
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "49",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/49_Ancestral Snecall.png"
+				"en": "https://i.ibb.co/2y64htb/Ancestral-Snecall.png"
 			}
 		},
 		{
@@ -64,19 +58,17 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "359",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/359_Tolaria State University.png"
+				"en": "https://i.ibb.co/vdDfW0m/Tolaria-State-University.png"
 			}
 		},
 		{
 			"name": "Minnesota",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Legendary Land — Plains Island ",
-			"collector_number": "332",
+			"type": "Legendary Land — Plains Island",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/332_Minnesota.png"
+				"en": "https://i.ibb.co/CwjF2N7/Minnesota.png"
 			}
 		},
 		{
@@ -84,9 +76,8 @@
 			"rarity": "rare",
 			"mana_cost": "{0}",
 			"type": "Instant",
-			"collector_number": "152",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/152_Cool Ass Dragon Charm.png"
+				"en": "https://i.ibb.co/jhjqLvG/Cool-Ass-Dragon-Charm.png"
 			}
 		},
 		{
@@ -94,9 +85,8 @@
 			"rarity": "rare",
 			"mana_cost": "{0}",
 			"type": "Instant",
-			"collector_number": "14",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/14_Decent Removal Charm.png"
+				"en": "https://i.ibb.co/gmhkq9B/Decent-Removal-Charm.png"
 			}
 		},
 		{
@@ -104,19 +94,17 @@
 			"rarity": "rare",
 			"mana_cost": "{0}",
 			"type": "Instant",
-			"collector_number": "58",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/58_Dumb Bird Charm.png"
+				"en": "https://i.ibb.co/0KBbBVb/Dumb-Bird-Charm.png"
 			}
 		},
 		{
 			"name": "Old McDonald",
 			"rarity": "rare",
 			"mana_cost": "{G}",
-			"type": "Legendary Creature — Human Peasant ",
-			"collector_number": "209",
+			"type": "Legendary Creature — Human Peasant",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/209_Old McDonald.png"
+				"en": "https://i.ibb.co/QC7VMYK/Old-Mc-Donald.png"
 			}
 		},
 		{
@@ -124,19 +112,17 @@
 			"rarity": "rare",
 			"mana_cost": "{0}",
 			"type": "Instant",
-			"collector_number": "208",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/208_Oko's Very Hilarious Charm.png"
+				"en": "https://i.ibb.co/C86LqdL/Oko-s-Very-Hilarious-Charm.png"
 			}
 		},
 		{
 			"name": "Hundroog Appreciator",
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Elf Druid ",
-			"collector_number": "201",
+			"type": "Creature — Elf Druid",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/201_Hundroog Appreciator.png"
+				"en": "https://i.ibb.co/YdRcv4x/Hundroog-Appreciator.png"
 			}
 		},
 		{
@@ -144,9 +130,8 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{R}",
 			"type": "Instant",
-			"collector_number": "160",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/160_Highly Suspect Fireball.png"
+				"en": "https://i.ibb.co/1G0v7m0/Highly-Suspect-Fireball.png"
 			}
 		},
 		{
@@ -154,9 +139,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "29",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/29_Mana Leak but it's White.png"
+				"en": "https://i.ibb.co/XC8hzNR/Mana-Leak-but-it-s-White.png"
 			}
 		},
 		{
@@ -164,29 +148,26 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "327",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/327_Lake of the Living.png"
+				"en": "https://i.ibb.co/hLhF8qD/Lake-of-the-Living.png"
 			}
 		},
 		{
 			"name": "One Third of Muldrotha",
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
-			"type": "Legendary Creature — Ele Av ",
-			"collector_number": "210",
+			"type": "Legendary Creature — Ele Av",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/210_One Third of Muldrotha.png"
+				"en": "https://i.ibb.co/PtP77JD/One-Third-of-Muldrotha.png"
 			}
 		},
 		{
 			"name": "Cryptic Commander",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{U}{U}",
-			"type": "Creature — Elemental ",
-			"collector_number": "55",
+			"type": "Creature — Elemental",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/55_Cryptic Commander.png"
+				"en": "https://i.ibb.co/cc3brpm/Cryptic-Commander.png"
 			}
 		},
 		{
@@ -194,29 +175,26 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}",
 			"type": "Legendary Artifact",
-			"collector_number": "12",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/12_The Comfiest Couch.png"
+				"en": "https://i.ibb.co/NrvPHrb/The-Comfiest-Couch.png"
 			}
 		},
 		{
 			"name": "Man of War",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}",
-			"type": "Creature — Human Jellyfish Soldier ",
-			"collector_number": "75",
+			"type": "Creature — Human Jellyfish Soldier",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/75_Man of War.png"
+				"en": "https://i.ibb.co/zNg7Nsy/Man-of-War.png"
 			}
 		},
 		{
 			"name": "Craneslayer Angel",
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{W}",
-			"type": "Creature — Angel ",
-			"collector_number": "13",
+			"type": "Creature — Angel",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/13_Craneslayer Angel.png"
+				"en": "https://i.ibb.co/m5PfynP/Craneslayer-Angel.png"
 			}
 		},
 		{
@@ -224,19 +202,17 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "319",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/319_First National Bank of Sarpadia.png"
+				"en": "https://i.ibb.co/9bYdwdp/First-National-Bank-of-Sarpadia.png"
 			}
 		},
 		{
 			"name": "House Hunters",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Human Ranger ",
-			"collector_number": "200",
+			"type": "Creature — Human Ranger",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/200_House Hunters.png"
+				"en": "https://i.ibb.co/55BXXBp/House-Hunters.png"
 			}
 		},
 		{
@@ -244,9 +220,8 @@
 			"rarity": "rare",
 			"mana_cost": "{W}",
 			"type": "Instant",
-			"collector_number": "39",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/39_Swords to Lottery Tickets.png"
+				"en": "https://i.ibb.co/88tCVJw/Swords-to-Lottery-Tickets.png"
 			}
 		},
 		{
@@ -254,9 +229,8 @@
 			"rarity": "rare",
 			"mana_cost": "{0}",
 			"type": "Artifact",
-			"collector_number": "304",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/304_Shox Pearl.png"
+				"en": "https://i.ibb.co/PML0j6H/Shox-Pearl.png"
 			}
 		},
 		{
@@ -264,9 +238,8 @@
 			"rarity": "rare",
 			"mana_cost": "{0}",
 			"type": "Artifact",
-			"collector_number": "306",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/306_Shox Sapphire.png"
+				"en": "https://i.ibb.co/t2HSSQT/Shox-Sapphire.png"
 			}
 		},
 		{
@@ -274,9 +247,8 @@
 			"rarity": "rare",
 			"mana_cost": "{0}",
 			"type": "Artifact",
-			"collector_number": "303",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/303_Shox Jet.png"
+				"en": "https://i.ibb.co/XLsysG4/Shox-Jet.png"
 			}
 		},
 		{
@@ -284,9 +256,8 @@
 			"rarity": "rare",
 			"mana_cost": "{0}",
 			"type": "Artifact",
-			"collector_number": "305",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/305_Shox Ruby.png"
+				"en": "https://i.ibb.co/BNJ1K77/Shox-Ruby.png"
 			}
 		},
 		{
@@ -294,9 +265,8 @@
 			"rarity": "rare",
 			"mana_cost": "{0}",
 			"type": "Artifact",
-			"collector_number": "302",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/302_Shox Emerald.png"
+				"en": "https://i.ibb.co/jfvdxcS/Shox-Emerald.png"
 			}
 		},
 		{
@@ -304,9 +274,8 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "177",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/177_Speed Like the Movie.png"
+				"en": "https://i.ibb.co/Pt0xwQG/Speed-Like-the-Movie.png"
 			}
 		},
 		{
@@ -314,79 +283,71 @@
 			"rarity": "rare",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "103",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/103_Computer Search.png"
+				"en": "https://i.ibb.co/Fsx2nRW/Computer-Search.png"
 			}
 		},
 		{
 			"name": "Savannah Lions GX",
 			"rarity": "rare",
 			"mana_cost": "{W}",
-			"type": "Legendary Creature — Cat ",
-			"collector_number": "34",
+			"type": "Legendary Creature — Cat",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/34_Savannah Lions GX.png"
+				"en": "https://i.ibb.co/dJG64fD/Savannah-Lions-GX.png"
 			}
 		},
 		{
 			"name": "Vampire Nighthawk GX",
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{B}",
-			"type": "Legendary Creature — Vampire Shaman ",
-			"collector_number": "135",
+			"type": "Legendary Creature — Vampire Shaman",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/135_Vampire Nighthawk GX.png"
+				"en": "https://i.ibb.co/vB1rN6Q/Vampire-Nighthawk-GX.png"
 			}
 		},
 		{
 			"name": "Arceus and Dialga and Palkia Tag Team GX",
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{R}{R}",
-			"type": "Legendary Creature — Dragon God ",
-			"collector_number": "229",
+			"type": "Legendary Creature — Dragon God",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/229_Arceus and Dialga and Palkia Tag Team GX.png"
+				"en": "https://i.ibb.co/F3CKz4K/Arceus-and-Dialga-and-Palkia-Tag-Team-GX.png"
 			}
 		},
 		{
 			"name": "Flying Men GX",
 			"rarity": "rare",
 			"mana_cost": "{U}",
-			"type": "Legendary Creature — Human ",
-			"collector_number": "62",
+			"type": "Legendary Creature — Human",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/62_Flying Men GX.png"
+				"en": "https://i.ibb.co/bRxN2Qr/Flying-Men-GX.png"
 			}
 		},
 		{
 			"name": "Grizzly Bears GX",
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
-			"type": "Legendary Creature — Bear ",
-			"collector_number": "199",
+			"type": "Legendary Creature — Bear",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/199_Grizzly Bears GX.png"
+				"en": "https://i.ibb.co/L0pfKrB/Grizzly-Bears-GX.png"
 			}
 		},
 		{
 			"name": "Cobblebrute GX",
 			"rarity": "rare",
 			"mana_cost": "{3}{R}",
-			"type": "Legendary Creature — Elemental ",
-			"collector_number": "149",
+			"type": "Legendary Creature — Elemental",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/149_Cobblebrute GX.png"
+				"en": "https://i.ibb.co/80DJhcw/Cobblebrute-GX.png"
 			}
 		},
 		{
 			"name": "Snapcaster Electrician",
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Human Wizard ",
-			"collector_number": "174",
+			"type": "Creature — Human Wizard",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/174_Snapcaster Electrician.png"
+				"en": "https://i.ibb.co/zSYDqvK/Snapcaster-Electrician.png"
 			}
 		},
 		{
@@ -394,9 +355,8 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{W}{W}",
 			"type": "Instant",
-			"collector_number": "21",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/21_Gigaflicker.png"
+				"en": "https://i.ibb.co/w7wDfHJ/Gigaflicker.png"
 			}
 		},
 		{
@@ -404,19 +364,17 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact",
-			"collector_number": "162",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/162_Jumper Cables.png"
+				"en": "https://i.ibb.co/FwrGXht/Jumper-Cables.png"
 			}
 		},
 		{
 			"name": "Goblin Whatevermancer",
 			"rarity": "rare",
 			"mana_cost": "{U}{R}",
-			"type": "Creature — Goblin Wizard ",
-			"collector_number": "235",
+			"type": "Creature — Goblin Wizard",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/235_Goblin Whatevermancer.png"
+				"en": "https://i.ibb.co/J5YrJd0/Goblin-Whatevermancer.png"
 			}
 		},
 		{
@@ -424,39 +382,35 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Sorcery",
-			"collector_number": "76",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/76_Memnarchs Gone Nuts.png"
+				"en": "https://i.ibb.co/4MkFWVm/Memnarchs-Gone-Nuts.png"
 			}
 		},
 		{
 			"name": "Young Pie Romancer",
 			"rarity": "rare",
 			"mana_cost": "{W}",
-			"type": "Creature — Human Shaman ",
-			"collector_number": "47",
+			"type": "Creature — Human Shaman",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/47_Young Pie Romancer.png"
+				"en": "https://i.ibb.co/0YQHjcY/Young-Pie-Romancer.png"
 			}
 		},
 		{
 			"name": "Tim, of the Wilds",
 			"rarity": "rare",
 			"mana_cost": "{3}",
-			"type": "Legendary Creature — Human ",
-			"collector_number": "1",
+			"type": "Legendary Creature — Human",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/1_Tim, of the Wilds.png"
+				"en": "https://i.ibb.co/2NBvQyx/Tim-of-the-Wilds.png"
 			}
 		},
 		{
 			"name": "Ucko Fucko, the Classic Lovable Character",
 			"rarity": "rare",
 			"mana_cost": "{3}",
-			"type": "Legendary Creature — Shapeshifter ",
-			"collector_number": "2",
+			"type": "Legendary Creature — Shapeshifter",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/2_Ucko Fucko, the Classic Lovable Character.png"
+				"en": "https://i.ibb.co/DQmkMM9/Ucko-Fucko-the-Classic-Lovable-Character.png"
 			}
 		},
 		{
@@ -464,19 +418,17 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "224",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/224_Vertical Integration.png"
+				"en": "https://i.ibb.co/hg1CmXK/Vertical-Integration.png"
 			}
 		},
 		{
 			"name": "Blaze Splicer",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Phyrexian Artificer ",
-			"collector_number": "143",
+			"type": "Creature — Phyrexian Artificer",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/143_Blaze Splicer.png"
+				"en": "https://i.ibb.co/d7NSS3P/Blaze-Splicer.png"
 			}
 		},
 		{
@@ -484,19 +436,17 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Artifact",
-			"collector_number": "144",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/144_Broken Mirror.png"
+				"en": "https://i.ibb.co/z8KwQBJ/Broken-Mirror.png"
 			}
 		},
 		{
 			"name": "Lowe's",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Land — Plains Island ",
-			"collector_number": "328",
+			"type": "Land — Plains Island",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/328_Lowe's.png"
+				"en": "https://i.ibb.co/Gtfjh8C/Lowe-s.png"
 			}
 		},
 		{
@@ -504,29 +454,26 @@
 			"rarity": "rare",
 			"mana_cost": "{R/G}",
 			"type": "Sorcery",
-			"collector_number": "267",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/267_Roadkill.png"
+				"en": "https://i.ibb.co/d5ZHkyD/Roadkill.png"
 			}
 		},
 		{
 			"name": "Lagtusk",
 			"rarity": "rare",
 			"mana_cost": "{3}{G}",
-			"type": "Artifact Creature — Beast ",
-			"collector_number": "203",
+			"type": "Artifact Creature — Beast",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/203_Lagtusk.png"
+				"en": "https://i.ibb.co/56L4H0R/Lagtusk.png"
 			}
 		},
 		{
 			"name": "Oracle of Mul Drifter",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}",
-			"type": "Creature — Elemental Shaman ",
-			"collector_number": "78",
+			"type": "Creature — Elemental Shaman",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/78_Oracle of Mul Drifter.png"
+				"en": "https://i.ibb.co/f0CLPZB/Oracle-of-Mul-Drifter.png"
 			}
 		},
 		{
@@ -534,9 +481,8 @@
 			"rarity": "rare",
 			"mana_cost": "{B}",
 			"type": "Instant",
-			"collector_number": "111",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/111_End Career.png"
+				"en": "https://i.ibb.co/Sf42Ny8/End-Career.png"
 			}
 		},
 		{
@@ -544,19 +490,17 @@
 			"rarity": "rare",
 			"mana_cost": "{R}{G}",
 			"type": "Enchantment",
-			"collector_number": "254",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/254_The Wrenn and Stimpy Show.png"
+				"en": "https://i.ibb.co/L09xDD5/The-Wrenn-and-Stimpy-Show.png"
 			}
 		},
 		{
 			"name": "Evil Thalia",
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
-			"type": "Legendary Creature — Soldier Human ",
-			"collector_number": "155",
+			"type": "Legendary Creature — Soldier Human",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/155_Evil Thalia.png"
+				"en": "https://i.ibb.co/TtYwdw6/Evil-Thalia.png"
 			}
 		},
 		{
@@ -564,9 +508,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Enchantment",
-			"collector_number": "84",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/84_Splice onto Orcane.png"
+				"en": "https://i.ibb.co/TRF26Qr/Splice-onto-Orcane.png"
 			}
 		},
 		{
@@ -574,29 +517,26 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
-			"collector_number": "195",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/195_Go Outside.png"
+				"en": "https://i.ibb.co/74c8NHy/Go-Outside.png"
 			}
 		},
 		{
 			"name": "Colossal Skredmaw",
 			"rarity": "rare",
 			"mana_cost": "{4}{R}{R}",
-			"type": "Creature — Dinosaur ",
-			"collector_number": "150",
+			"type": "Creature — Dinosaur",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/150_Colossal Skredmaw.png"
+				"en": "https://i.ibb.co/rZc0W9w/Colossal-Skredmaw.png"
 			}
 		},
 		{
 			"name": "The Impostor",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}",
-			"type": "Legendary Creature — Shapeshifter ",
-			"collector_number": "68",
+			"type": "Legendary Creature — Shapeshifter",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/68_The Impostor.png"
+				"en": "https://i.ibb.co/rdgJyqM/The-Impostor.png"
 			}
 		},
 		{
@@ -604,9 +544,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "117",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/117_KILL.png"
+				"en": "https://i.ibb.co/PFP0s23/KILL.png"
 			}
 		},
 		{
@@ -614,19 +553,17 @@
 			"rarity": "rare",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "159",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/159_Hidetsugu's Third Rite.png"
+				"en": "https://i.ibb.co/sw3NVPG/Hidetsugu-s-Third-Rite.png"
 			}
 		},
 		{
 			"name": "School Dance Chaperone",
 			"rarity": "rare",
 			"mana_cost": "{W}{W}",
-			"type": "Creature — Demigod Soldier ",
-			"collector_number": "35",
+			"type": "Creature — Demigod Soldier",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/35_School Dance Chaperone.png"
+				"en": "https://i.ibb.co/2yD12pL/School-Dance-Chaperone.png"
 			}
 		},
 		{
@@ -634,9 +571,8 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "356",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/356_Synthetic Strand.png"
+				"en": "https://i.ibb.co/X4Wy30J/Synthetic-Strand.png"
 			}
 		},
 		{
@@ -644,9 +580,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "167",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/167_Really Long Stab.png"
+				"en": "https://i.ibb.co/SRjKN7p/Really-Long-Stab.png"
 			}
 		},
 		{
@@ -654,9 +589,8 @@
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "65",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/65_Garbage Day.png"
+				"en": "https://i.ibb.co/PskmCM5/Garbage-Day.png"
 			}
 		},
 		{
@@ -664,19 +598,17 @@
 			"rarity": "rare",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
-			"collector_number": "220",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/220_Skill Issue.png"
+				"en": "https://i.ibb.co/rsfcQYy/Skill-Issue.png"
 			}
 		},
 		{
 			"name": "Spiritmonger 2 Tokyo Drift",
 			"rarity": "rare",
 			"mana_cost": "{B}{G}",
-			"type": "Tribal Artifact — Beast Vehicle ",
-			"collector_number": "250",
+			"type": "Tribal Artifact — Beast Vehicle",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/250_Spiritmonger 2 Tokyo Drift.png"
+				"en": "https://i.ibb.co/ThVKmj4/Spiritmonger-2-Tokyo-Drift.png"
 			}
 		},
 		{
@@ -684,49 +616,44 @@
 			"rarity": "rare",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "298",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/298_Promposal Sign.png"
+				"en": "https://i.ibb.co/0XQ5wjq/Promposal-Sign.png"
 			}
 		},
 		{
 			"name": "Money Catcher Booth",
 			"rarity": "rare",
 			"mana_cost": "{0}",
-			"type": "Artifact — Treasure ",
-			"collector_number": "293",
+			"type": "Artifact — Treasure",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/293_Money Catcher Booth.png"
+				"en": "https://i.ibb.co/84ffRj9/Money-Catcher-Booth.png"
 			}
 		},
 		{
 			"name": "Stamp Collector",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Human Artificer ",
-			"collector_number": "178",
+			"type": "Creature — Human Artificer",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/178_Stamp Collector.png"
+				"en": "https://i.ibb.co/sw8PqNQ/Stamp-Collector.png"
 			}
 		},
 		{
 			"name": "Dorkish Raccoon",
 			"rarity": "rare",
 			"mana_cost": "{G}",
-			"type": "Creature — Raccoon Gamer ",
-			"collector_number": "191",
+			"type": "Creature — Raccoon Gamer",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/191_Dorkish Raccoon.png"
+				"en": "https://i.ibb.co/6X6gM1K/Dorkish-Raccoon.png"
 			}
 		},
 		{
 			"name": "Schmitty, Lurrus' Nephew",
 			"rarity": "rare",
 			"mana_cost": "{1}{W/B}",
-			"type": "Legendary Creature — Cat Nightmare ",
-			"collector_number": "268",
+			"type": "Legendary Creature — Cat Nightmare",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/268_Schmitty, Lurrus' Nephew.png"
+				"en": "https://i.ibb.co/M62Wwjq/Schmitty-Lurrus-Nephew.png"
 			}
 		},
 		{
@@ -734,99 +661,89 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Instant",
-			"collector_number": "63",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/63_Force of Boat.png"
+				"en": "https://i.ibb.co/DWfqCvc/Force-of-Boat.png"
 			}
 		},
 		{
 			"name": "Maine",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Legendary Land — Island Swamp ",
-			"collector_number": "329",
+			"type": "Legendary Land — Island Swamp",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/329_Maine.png"
+				"en": "https://i.ibb.co/CvZxLmj/Maine.png"
 			}
 		},
 		{
 			"name": "New Mexico",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Legendary Land — Swamp Mountain ",
-			"collector_number": "336",
+			"type": "Legendary Land — Swamp Mountain",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/336_New Mexico.png"
+				"en": "https://i.ibb.co/QHhSLjW/New-Mexico.png"
 			}
 		},
 		{
 			"name": "Oregon",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Legendary Land — Mountain Forest ",
-			"collector_number": "338",
+			"type": "Legendary Land — Mountain Forest",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/338_Oregon.png"
+				"en": "https://i.ibb.co/7X21wB2/Oregon.png"
 			}
 		},
 		{
 			"name": "Kentucky",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Legendary Land — Forest Plains ",
-			"collector_number": "326",
+			"type": "Legendary Land — Forest Plains",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/326_Kentucky.png"
+				"en": "https://i.ibb.co/zGZ04CJ/Kentucky.png"
 			}
 		},
 		{
 			"name": "Kansas",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Legendary Land — Plains Swamp ",
-			"collector_number": "325",
+			"type": "Legendary Land — Plains Swamp",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/325_Kansas.png"
+				"en": "https://i.ibb.co/Stw5w2w/Kansas.png"
 			}
 		},
 		{
 			"name": "Florida",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Legendary Land — Swamp Forest ",
-			"collector_number": "320",
+			"type": "Legendary Land — Swamp Forest",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/320_Florida.png"
+				"en": "https://i.ibb.co/3CR8TCH/Florida.png"
 			}
 		},
 		{
 			"name": "Maryland",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Legendary Land — Forest Island ",
-			"collector_number": "330",
+			"type": "Legendary Land — Forest Island",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/330_Maryland.png"
+				"en": "https://i.ibb.co/r67tzf6/Maryland.png"
 			}
 		},
 		{
 			"name": "Hawaii",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Legendary Land — Island Mountain ",
-			"collector_number": "323",
+			"type": "Legendary Land — Island Mountain",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/323_Hawaii.png"
+				"en": "https://i.ibb.co/Jrq6jrt/Hawaii.png"
 			}
 		},
 		{
 			"name": "Wyoming",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Legendary Land — Mountain Plains ",
-			"collector_number": "360",
+			"type": "Legendary Land — Mountain Plains",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/360_Wyoming.png"
+				"en": "https://i.ibb.co/0ZcjZy3/Wyoming.png"
 			}
 		},
 		{
@@ -834,9 +751,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Sorcery",
-			"collector_number": "74",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/74_Magecon 2022.png"
+				"en": "https://i.ibb.co/mcJh9D6/Magecon-2022.png"
 			}
 		},
 		{
@@ -844,49 +760,44 @@
 			"rarity": "rare",
 			"mana_cost": "{R}",
 			"type": "Sorcery",
-			"collector_number": "153",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/153_Deep Fry.png"
+				"en": "https://i.ibb.co/cck8g68/Deep-Fry.png"
 			}
 		},
 		{
 			"name": "Colossal Wedmaw",
 			"rarity": "rare",
 			"mana_cost": "{4}{W}{W}",
-			"type": "Creature — Dinosaur ",
-			"collector_number": "10",
+			"type": "Creature — Dinosaur",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/10_Colossal Wedmaw.png"
+				"en": "https://i.ibb.co/XXC3YGw/Colossal-Wedmaw.png"
 			}
 		},
 		{
 			"name": "Colossal Leadmaw",
 			"rarity": "rare",
 			"mana_cost": "{4}{U}{U}",
-			"type": "Artifact Creature — Dinosaur ",
-			"collector_number": "51",
+			"type": "Artifact Creature — Dinosaur",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/51_Colossal Leadmaw.png"
+				"en": "https://i.ibb.co/9Vz4c71/Colossal-Leadmaw.png"
 			}
 		},
 		{
 			"name": "Colossal Bledmaw",
 			"rarity": "rare",
 			"mana_cost": "{4}{B}{B}",
-			"type": "Creature — Vampire Dinosaur ",
-			"collector_number": "102",
+			"type": "Creature — Vampire Dinosaur",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/102_Colossal Bledmaw.png"
+				"en": "https://i.ibb.co/Rzf6xGb/Colossal-Bledmaw.png"
 			}
 		},
 		{
 			"name": "Colossal Breadmaw",
 			"rarity": "rare",
 			"mana_cost": "{4}{G}{G}",
-			"type": "Creature — Dinosaur ",
-			"collector_number": "186",
+			"type": "Creature — Dinosaur",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/186_Colossal Breadmaw.png"
+				"en": "https://i.ibb.co/bBPspxn/Colossal-Breadmaw.png"
 			}
 		},
 		{
@@ -894,9 +805,8 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "349",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/349_Synthetic Delta.png"
+				"en": "https://i.ibb.co/StSfLCn/Synthetic-Delta.png"
 			}
 		},
 		{
@@ -904,9 +814,8 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "354",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/354_Synthetic Mire.png"
+				"en": "https://i.ibb.co/RzSZm3v/Synthetic-Mire.png"
 			}
 		},
 		{
@@ -914,9 +823,8 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "351",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/351_Synthetic Foothills.png"
+				"en": "https://i.ibb.co/PQwscBS/Synthetic-Foothills.png"
 			}
 		},
 		{
@@ -924,9 +832,8 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "352",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/352_Synthetic Heath.png"
+				"en": "https://i.ibb.co/6ZsTw0h/Synthetic-Heath.png"
 			}
 		},
 		{
@@ -934,9 +841,8 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "350",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/350_Synthetic Flats.png"
+				"en": "https://i.ibb.co/N7Tgfxy/Synthetic-Flats.png"
 			}
 		},
 		{
@@ -944,9 +850,8 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "348",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/348_Synthetic Catacombs.png"
+				"en": "https://i.ibb.co/cQDjHGp/Synthetic-Catacombs.png"
 			}
 		},
 		{
@@ -954,9 +859,8 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "355",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/355_Synthetic Rainforest.png"
+				"en": "https://i.ibb.co/pQSd2R5/Synthetic-Rainforest.png"
 			}
 		},
 		{
@@ -964,9 +868,8 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "357",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/357_Synthetic Tarn.png"
+				"en": "https://i.ibb.co/2qQ097c/Synthetic-Tarn.png"
 			}
 		},
 		{
@@ -974,109 +877,98 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "353",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/353_Synthetic Mesa.png"
+				"en": "https://i.ibb.co/dG4YVQT/Synthetic-Mesa.png"
 			}
 		},
 		{
 			"name": "Sunoco",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Land — Island Swamp ",
-			"collector_number": "347",
+			"type": "Land — Island Swamp",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/347_Sunoco.png"
+				"en": "https://i.ibb.co/LkLKjbN/Sunoco.png"
 			}
 		},
 		{
 			"name": "Red Lobster",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Land — Swamp Mountain ",
-			"collector_number": "341",
+			"type": "Land — Swamp Mountain",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/341_Red Lobster.png"
+				"en": "https://i.ibb.co/9p7kB9z/Red-Lobster.png"
 			}
 		},
 		{
 			"name": "Fazoli's",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Land — Mountain Forest ",
-			"collector_number": "317",
+			"type": "Land — Mountain Forest",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/317_Fazoli's.png"
+				"en": "https://i.ibb.co/99nPpRZ/Fazoli-s.png"
 			}
 		},
 		{
 			"name": "Subway",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Land — Forest Plains ",
-			"collector_number": "346",
+			"type": "Land — Forest Plains",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/346_Subway.png"
+				"en": "https://i.ibb.co/0X5R33W/Subway.png"
 			}
 		},
 		{
 			"name": "TGI Friday's",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Land — Plains Swamp ",
-			"collector_number": "358",
+			"type": "Land — Plains Swamp",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/358_TGI Friday's.png"
+				"en": "https://i.ibb.co/B2Bg6Ch/TGI-Friday-s.png"
 			}
 		},
 		{
 			"name": "Menards",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Land — Swamp Forest ",
-			"collector_number": "331",
+			"type": "Land — Swamp Forest",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/331_Menards.png"
+				"en": "https://i.ibb.co/Fwh8hrq/Menards.png"
 			}
 		},
 		{
 			"name": "Dick's Sporting Goods",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Land — Forest Island ",
-			"collector_number": "316",
+			"type": "Land — Forest Island",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/316_Dick's Sporting Goods.png"
+				"en": "https://i.ibb.co/L1RSbmv/Dick-s-Sporting-Goods.png"
 			}
 		},
 		{
 			"name": "Planet Fitness",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Land — Island Mountain ",
-			"collector_number": "339",
+			"type": "Land — Island Mountain",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/339_Planet Fitness.png"
+				"en": "https://i.ibb.co/HhrLRmB/Planet-Fitness.png"
 			}
 		},
 		{
 			"name": "The Home Depot",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Land — Mountain Plains ",
-			"collector_number": "324",
+			"type": "Land — Mountain Plains",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/324_The Home Depot.png"
+				"en": "https://i.ibb.co/j488RTR/The-Home-Depot.png"
 			}
 		},
 		{
 			"name": "Toxic Fan",
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Vampire Gamer ",
-			"collector_number": "134",
+			"type": "Creature — Vampire Gamer",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/134_Toxic Fan.png"
+				"en": "https://i.ibb.co/QnxJ8np/Toxic-Fan.png"
 			}
 		},
 		{
@@ -1084,19 +976,17 @@
 			"rarity": "rare",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "281",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/281_Cow Tools.png"
+				"en": "https://i.ibb.co/B3kQr99/Cow-Tools.png"
 			}
 		},
 		{
 			"name": "Imperial Recruiter of the Guard",
 			"rarity": "rare",
 			"mana_cost": "{2}{R/W}",
-			"type": "Creature — Human Advisor ",
-			"collector_number": "262",
+			"type": "Creature — Human Advisor",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/262_Imperial Recruiter of the Guard.png"
+				"en": "https://i.ibb.co/CtsDMwk/Imperial-Recruiter-of-the-Guard.png"
 			}
 		},
 		{
@@ -1104,9 +994,8 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Instant",
-			"collector_number": "138",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/138_3 AM Fireworks.png"
+				"en": "https://i.ibb.co/SfG0xdx/3-AM-Fireworks.png"
 			}
 		},
 		{
@@ -1114,9 +1003,8 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
 			"type": "Sorcery",
-			"collector_number": "127",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/127_Solve the Mystery.png"
+				"en": "https://i.ibb.co/CW1xyYQ/Solve-the-Mystery.png"
 			}
 		},
 		{
@@ -1124,29 +1012,26 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Enchantment",
-			"collector_number": "27",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/27_Junk of Virtue.png"
+				"en": "https://i.ibb.co/ch0h6gb/Junk-of-Virtue.png"
 			}
 		},
 		{
 			"name": "Formerly Ridden Allosaurus",
 			"rarity": "rare",
 			"mana_cost": "{5}{G}{G}",
-			"type": "Creature — Dinosaur ",
-			"collector_number": "192",
+			"type": "Creature — Dinosaur",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/192_Formerly Ridden Allosaurus.png"
+				"en": "https://i.ibb.co/B4FGt41/Formerly-Ridden-Allosaurus.png"
 			}
 		},
 		{
 			"name": "Father of Runes",
 			"rarity": "rare",
 			"mana_cost": "{W}",
-			"type": "Creature — Human Cleric ",
-			"collector_number": "17",
+			"type": "Creature — Human Cleric",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/17_Father of Runes.png"
+				"en": "https://i.ibb.co/QKc0pcC/Father-of-Runes.png"
 			}
 		},
 		{
@@ -1154,9 +1039,8 @@
 			"rarity": "rare",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "176",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/176_Spark Ritual.png"
+				"en": "https://i.ibb.co/Yjnn61x/Spark-Ritual.png"
 			}
 		},
 		{
@@ -1164,9 +1048,8 @@
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "Sorcery",
-			"collector_number": "50",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/50_chill lofi beats to panic study to.png"
+				"en": "https://i.ibb.co/5s2Qq4c/chill-lofi-beats-to-panic-study-to.png"
 			}
 		},
 		{
@@ -1174,29 +1057,26 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{B}",
 			"type": "Enchantment",
-			"collector_number": "251",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/251_Stacks on Stacks on Stacks.png"
+				"en": "https://i.ibb.co/6XVsMcg/Stacks-on-Stacks-on-Stacks.png"
 			}
 		},
 		{
 			"name": "Corn Field Evangel",
 			"rarity": "rare",
 			"mana_cost": "{1}{G/W}",
-			"type": "Creature — Elf Shaman ",
-			"collector_number": "258",
+			"type": "Creature — Elf Shaman",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/258_Corn Field Evangel.png"
+				"en": "https://i.ibb.co/BGQxCSg/Corn-Field-Evangel.png"
 			}
 		},
 		{
 			"name": "Seafood Regent",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Human Noble ",
-			"collector_number": "171",
+			"type": "Creature — Human Noble",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/171_Seafood Regent.png"
+				"en": "https://i.ibb.co/Yb5DKzv/Seafood-Regent.png"
 			}
 		},
 		{
@@ -1204,9 +1084,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "110",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/110_Electrician's Edict.png"
+				"en": "https://i.ibb.co/Bz6QDsP/Electrician-s-Edict.png"
 			}
 		},
 		{
@@ -1214,79 +1093,71 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "18",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/18_Forklift Certification Training.png"
+				"en": "https://i.ibb.co/3dsLrwj/Forklift-Certification-Training.png"
 			}
 		},
 		{
 			"name": "Sandstorm Titan",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{G}",
-			"type": "Creature — Elemental Giant ",
-			"collector_number": "217",
+			"type": "Creature — Elemental Giant",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/217_Sandstorm Titan.png"
+				"en": "https://i.ibb.co/rpbY8fZ/Sandstorm-Titan.png"
 			}
 		},
 		{
 			"name": "Muscle Philosopher",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{W}",
-			"type": "Creature — Human Advisor ",
-			"collector_number": "32",
+			"type": "Creature — Human Advisor",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/32_Muscle Philosopher.png"
+				"en": "https://i.ibb.co/RDGhVtr/Muscle-Philosopher.png"
 			}
 		},
 		{
 			"name": "Edutainment Paragon",
 			"rarity": "rare",
 			"mana_cost": "{3}{U}",
-			"type": "Creature — Human ",
-			"collector_number": "59",
+			"type": "Creature — Human",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/59_Edutainment Paragon.png"
+				"en": "https://i.ibb.co/S3SD38S/Edutainment-Paragon.png"
 			}
 		},
 		{
 			"name": "Clover Muncher",
 			"rarity": "rare",
 			"mana_cost": "{G/W}",
-			"type": "Creature — Sheep ",
-			"collector_number": "257",
+			"type": "Creature — Sheep",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/257_Clover Muncher.png"
+				"en": "https://i.ibb.co/Gd0w0Bk/Clover-Muncher.png"
 			}
 		},
 		{
 			"name": "Indicator",
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{B}",
-			"type": "Creature — Human Knight ",
-			"collector_number": "236",
+			"type": "Creature — Human Knight",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/236_Indicator.png"
+				"en": "https://i.ibb.co/MhwMnX1/Indicator.png"
 			}
 		},
 		{
 			"name": "Super Nerd",
 			"rarity": "rare",
 			"mana_cost": "{G}",
-			"type": "Creature — Human Gamer ",
-			"collector_number": "222",
+			"type": "Creature — Human Gamer",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/222_Super Nerd.png"
+				"en": "https://i.ibb.co/r7g1LV5/Super-Nerd.png"
 			}
 		},
 		{
 			"name": "Murktide Shinobi",
 			"rarity": "rare",
 			"mana_cost": "{5}{U}{U}",
-			"type": "Creature — Dragon Ninja ",
-			"collector_number": "77",
+			"type": "Creature — Dragon Ninja",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/77_Murktide Shinobi.png"
+				"en": "https://i.ibb.co/wwCFmn3/Murktide-Shinobi.png"
 			}
 		},
 		{
@@ -1294,19 +1165,17 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "97",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/97_Buy Low.png"
+				"en": "https://i.ibb.co/s2mkj22/Buy-Low.png"
 			}
 		},
 		{
 			"name": "Six Time NBA Champion Michael Jordan",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
-			"type": "Legendary Creature — Human ",
-			"collector_number": "173",
+			"type": "Legendary Creature — Human",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/173_Six Time NBA Champion Michael Jordan.png"
+				"en": "https://i.ibb.co/JtCpsv1/Six-Time-NBA-Champion-Michael-Jordan.png"
 			}
 		},
 		{
@@ -1314,9 +1183,8 @@
 			"rarity": "rare",
 			"mana_cost": "{0}",
 			"type": "Legendary Artifact",
-			"collector_number": "287",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/287_Hyperlotus.png"
+				"en": "https://i.ibb.co/DVxbKN0/Hyperlotus.png"
 			}
 		},
 		{
@@ -1324,69 +1192,62 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "94",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/94_Amateur Resurrection Job.png"
+				"en": "https://i.ibb.co/Fg6N84k/Amateur-Resurrection-Job.png"
 			}
 		},
 		{
 			"name": "Serra Angel GX",
 			"rarity": "rare",
-			"mana_cost": "{3}{W}{W}/",
-			"type": "Legendary Creature — Angel ",
-			"collector_number": "36",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Creature — Angel",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/36_Serra Angel GX.png"
+				"en": "https://i.ibb.co/8NXbDb0/Serra-Angel-GX.png"
 			}
 		},
 		{
 			"name": "Serendib Efreet GX",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}",
-			"type": "Legendary Creature — Efreet ",
-			"collector_number": "80",
+			"type": "Legendary Creature — Efreet",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/80_Serendib Efreet GX.png"
+				"en": "https://i.ibb.co/BsmDPFz/Serendib-Efreet-GX.png"
 			}
 		},
 		{
 			"name": "Carnophage GX",
 			"rarity": "rare",
 			"mana_cost": "{B}",
-			"type": "Legendary Creature — Zombie ",
-			"collector_number": "99",
+			"type": "Legendary Creature — Zombie",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/99_Carnophage GX.png"
+				"en": "https://i.ibb.co/3SNw3bX/Carnophage-GX.png"
 			}
 		},
 		{
 			"name": "Jackal Pup GX",
 			"rarity": "rare",
 			"mana_cost": "{R}",
-			"type": "Legendary Creature — Jackal ",
-			"collector_number": "161",
+			"type": "Legendary Creature — Jackal",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/161_Jackal Pup GX.png"
+				"en": "https://i.ibb.co/gSJhwkY/Jackal-Pup-GX.png"
 			}
 		},
 		{
 			"name": "Llanowar Elves GX",
 			"rarity": "rare",
 			"mana_cost": "{G}",
-			"type": "Legendary Creature — Elf Druid ",
-			"collector_number": "205",
+			"type": "Legendary Creature — Elf Druid",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/205_Llanowar Elves GX.png"
+				"en": "https://i.ibb.co/0XShNGx/Llanowar-Elves-GX.png"
 			}
 		},
 		{
 			"name": "Masticore GX",
 			"rarity": "rare",
 			"mana_cost": "{4}",
-			"type": "Legendary Artifact Creature — Masticore ",
-			"collector_number": "291",
+			"type": "Legendary Artifact Creature — Masticore",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/291_Masticore GX.png"
+				"en": "https://i.ibb.co/GFmM6Cb/Masticore-GX.png"
 			}
 		},
 		{
@@ -1394,9 +1255,8 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "335",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/335_Necropolis for Lease.png"
+				"en": "https://i.ibb.co/GpqNKcK/Necropolis-for-Lease.png"
 			}
 		},
 		{
@@ -1404,59 +1264,53 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "334",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/334_Mishra's Casino.png"
+				"en": "https://i.ibb.co/41cJfQs/Mishra-s-Casino.png"
 			}
 		},
 		{
 			"name": "Automated Terror Machine",
 			"rarity": "rare",
 			"mana_cost": "{R}",
-			"type": "Artifact Creature — Spirit ",
-			"collector_number": "141",
+			"type": "Artifact Creature — Spirit",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/141_Automated Terror Machine.png"
+				"en": "https://i.ibb.co/56nj3hM/Automated-Terror-Machine.png"
 			}
 		},
 		{
 			"name": "Damned Daniel",
 			"rarity": "rare",
 			"mana_cost": "{B}",
-			"type": "Legendary Creature — Zombie ",
-			"collector_number": "105",
+			"type": "Legendary Creature — Zombie",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/105_Damned Daniel.png"
+				"en": "https://i.ibb.co/18jZT8z/Damned-Daniel.png"
 			}
 		},
 		{
 			"name": "Ranged Hermit",
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{G}",
-			"type": "Creature — Elf ",
-			"collector_number": "215",
+			"type": "Creature — Elf",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/215_Ranged Hermit.png"
+				"en": "https://i.ibb.co/9HFRBRp/Ranged-Hermit.png"
 			}
 		},
 		{
 			"name": "Bob's Revenge",
 			"rarity": "rare",
 			"mana_cost": "{B}",
-			"type": "Creature — Human Wizard ",
-			"collector_number": "95",
+			"type": "Creature — Human Wizard",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/95_Bob's Revenge.png"
+				"en": "https://i.ibb.co/BgXY3py/Bob-s-Revenge.png"
 			}
 		},
 		{
 			"name": "sony vegas pro 80 keygen",
 			"rarity": "rare",
 			"mana_cost": "{3}{B}",
-			"type": "Legendary Planeswalker — keygen ",
-			"collector_number": "128",
+			"type": "Legendary Planeswalker — keygen",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/128_sony vegas pro 80 keygen.png"
+				"en": "https://i.ibb.co/ynxH5GJ/sony-vegas-pro-80-keygen.png"
 			}
 		},
 		{
@@ -1464,9 +1318,8 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Instant",
-			"collector_number": "185",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/185_Collected Monopoly.png"
+				"en": "https://i.ibb.co/L1kBbv5/Collected-Monopoly.png"
 			}
 		},
 		{
@@ -1474,9 +1327,8 @@
 			"rarity": "rare",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "309",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/309_Sny Diamond.png"
+				"en": "https://i.ibb.co/JrxXjsM/Sny-Diamond.png"
 			}
 		},
 		{
@@ -1484,29 +1336,26 @@
 			"rarity": "rare",
 			"mana_cost": "{U}{U}",
 			"type": "Instant",
-			"collector_number": "52",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/52_Countersnell.png"
+				"en": "https://i.ibb.co/Zdznt52/Countersnell.png"
 			}
 		},
 		{
 			"name": "Kiora, Snehemoth Sneckoner",
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
-			"type": "Legendary Planeswalker — Kiora ",
-			"collector_number": "72",
+			"type": "Legendary Planeswalker — Kiora",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/72_Kiora, Snehemoth Sneckoner.png"
+				"en": "https://i.ibb.co/SNfk5B1/Kiora-Snehemoth-Sneckoner.png"
 			}
 		},
 		{
 			"name": "Olive Garden Archfiend",
 			"rarity": "rare",
 			"mana_cost": "{4}{B}{B}",
-			"type": "Creature — Demon ",
-			"collector_number": "121",
+			"type": "Creature — Demon",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/121_Olive Garden Archfiend.png"
+				"en": "https://i.ibb.co/tCgrM5C/Olive-Garden-Archfiend.png"
 			}
 		},
 		{
@@ -1514,9 +1363,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "107",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/107_Dark Ritoil.png"
+				"en": "https://i.ibb.co/njHXS8V/Dark-Ritoil.png"
 			}
 		},
 		{
@@ -1524,9 +1372,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "156",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/156_Get the Place Jumping.png"
+				"en": "https://i.ibb.co/88mZSxh/Get-the-Place-Jumping.png"
 			}
 		},
 		{
@@ -1534,49 +1381,44 @@
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "54",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/54_Crunch Time.png"
+				"en": "https://i.ibb.co/0rTY9tB/Crunch-Time.png"
 			}
 		},
 		{
 			"name": "Monastabby Mentor",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Human Monk ",
-			"collector_number": "165",
+			"type": "Creature — Human Monk",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/165_Monastabby Mentor.png"
+				"en": "https://i.ibb.co/3yWYC6w/Monastabby-Mentor.png"
 			}
 		},
 		{
 			"name": "Thorn Fetcher",
 			"rarity": "rare",
 			"mana_cost": "{W}",
-			"type": "Creature — Dog ",
-			"collector_number": "42",
+			"type": "Creature — Dog",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/42_Thorn Fetcher.png"
+				"en": "https://i.ibb.co/3rCmX0M/Thorn-Fetcher.png"
 			}
 		},
 		{
 			"name": "Goldmeadow Harrier PI",
 			"rarity": "rare",
 			"mana_cost": "{W}",
-			"type": "Creature — Kithkin Soldier ",
-			"collector_number": "23",
+			"type": "Creature — Kithkin Soldier",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/23_Goldmeadow Harrier PI.png"
+				"en": "https://i.ibb.co/wRqnNtr/Goldmeadow-Harrier-PI.png"
 			}
 		},
 		{
 			"name": "IRS Officer",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Human Soldier ",
-			"collector_number": "25",
+			"type": "Creature — Human Soldier",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/25_IRS Officer.png"
+				"en": "https://i.ibb.co/HT17d8H/IRS-Officer.png"
 			}
 		},
 		{
@@ -1584,9 +1426,8 @@
 			"rarity": "rare",
 			"mana_cost": "{W}",
 			"type": "Instant",
-			"collector_number": "22",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/22_Give Blood.png"
+				"en": "https://i.ibb.co/TgnHvvN/Give-Blood.png"
 			}
 		},
 		{
@@ -1594,9 +1435,8 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{W}",
 			"type": "Sorcery",
-			"collector_number": "231",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/231_Burninate the Countryside.png"
+				"en": "https://i.ibb.co/n6mH0dJ/Burninate-the-Countryside.png"
 			}
 		},
 		{
@@ -1604,9 +1444,8 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W/U}{W/U}",
 			"type": "Enchantment",
-			"collector_number": "274",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/274_Verbal Abuse.png"
+				"en": "https://i.ibb.co/jTS1q8j/Verbal-Abuse.png"
 			}
 		},
 		{
@@ -1614,10 +1453,8 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}",
 			"type": "Sorcery",
-			"collector_number": "92",
-			"layout": "split",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/92_Wait.png"
+				"en": "https://i.ibb.co/TPTrZ4k/Wait.png"
 			}
 		},
 		{
@@ -1625,19 +1462,17 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "124",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/124_Power Nap.png"
+				"en": "https://i.ibb.co/WKMWCfY/Power-Nap.png"
 			}
 		},
 		{
 			"name": "Pod People",
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
-			"type": "Legendary Creature — Horror ",
-			"collector_number": "213",
+			"type": "Legendary Creature — Horror",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/213_Pod People.png"
+				"en": "https://i.ibb.co/zN7DC0V/Pod-People.png"
 			}
 		},
 		{
@@ -1645,19 +1480,17 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "40",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/40_Take Out the Trash.png"
+				"en": "https://i.ibb.co/4mg5x2M/Take-Out-the-Trash.png"
 			}
 		},
 		{
 			"name": "Four Ghosts in a Trenchcoat",
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{W}",
-			"type": "Creature — Spirit ",
-			"collector_number": "19",
+			"type": "Creature — Spirit",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/19_Four Ghosts in a Trenchcoat.png"
+				"en": "https://i.ibb.co/7bvpk4Y/Four-Ghosts-in-a-Trenchcoat.png"
 			}
 		},
 		{
@@ -1665,9 +1498,8 @@
 			"rarity": "rare",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "292",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/292_Metalworks.png"
+				"en": "https://i.ibb.co/kq7nsLK/Metalworks.png"
 			}
 		},
 		{
@@ -1675,29 +1507,26 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Artifact",
-			"collector_number": "252",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/252_Super Duper Dynamo.png"
+				"en": "https://i.ibb.co/cw9XJMN/Super-Duper-Dynamo.png"
 			}
 		},
 		{
 			"name": "Laelia and Young Pyromancer's Grand Day Out",
 			"rarity": "rare",
 			"mana_cost": "{3}{R}",
-			"type": "Legendary Creature — Human Shaman Spirit Warrior ",
-			"collector_number": "164",
+			"type": "Legendary Creature — Human Shaman Spirit Warrior",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/164_Laelia and Young Pyromancer's Grand Day Out.png"
+				"en": "https://i.ibb.co/xJPVd8m/Laelia-and-Young-Pyromancer-s-Grand-Day-Out.png"
 			}
 		},
 		{
 			"name": "Dire Corgi",
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{G}",
-			"type": "Creature — Dog ",
-			"collector_number": "190",
+			"type": "Creature — Dog",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/190_Dire Corgi.png"
+				"en": "https://i.ibb.co/fDtSYZT/Dire-Corgi.png"
 			}
 		},
 		{
@@ -1705,29 +1534,26 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "212",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/212_Percussive Maintenance.png"
+				"en": "https://i.ibb.co/mH64J5B/Percussive-Maintenance.png"
 			}
 		},
 		{
 			"name": "Bird Watching Club",
 			"rarity": "rare",
 			"mana_cost": "{1}{G/U}{G/U}",
-			"type": "Creature — Human Druid ",
-			"collector_number": "255",
+			"type": "Creature — Human Druid",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/255_Bird Watching Club.png"
+				"en": "https://i.ibb.co/Dbs94xC/Bird-Watching-Club.png"
 			}
 		},
 		{
 			"name": "Gaea's Secret Treehouse",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Legendary Land — Forest ",
-			"collector_number": "322",
+			"type": "Legendary Land — Forest",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/322_Gaea's Secret Treehouse.png"
+				"en": "https://i.ibb.co/6YhzNJ1/Gaea-s-Secret-Treehouse.png"
 			}
 		},
 		{
@@ -1735,49 +1561,44 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{U}{U}",
 			"type": "Legendary Artifact",
-			"collector_number": "89",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/89_Universal Remote.png"
+				"en": "https://i.ibb.co/QDL4ZKS/Universal-Remote.png"
 			}
 		},
 		{
 			"name": "Niv-Mizzet Reborn Reborn",
 			"rarity": "rare",
 			"mana_cost": "{W}{U}{B}{R}{G}",
-			"type": "Legendary Creature — Dragon Avatar ",
-			"collector_number": "242",
+			"type": "Legendary Creature — Dragon Avatar",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/242_Niv-Mizzet Reborn Reborn.png"
+				"en": "https://i.ibb.co/QC1BhJQ/Niv-Mizzet-Reborn-Reborn.png"
 			}
 		},
 		{
 			"name": "Wiki Editor",
 			"rarity": "rare",
 			"mana_cost": "{2}{W/B}",
-			"type": "Creature — Human Gamer ",
-			"collector_number": "275",
+			"type": "Creature — Human Gamer",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/275_Wiki Editor.png"
+				"en": "https://i.ibb.co/6Z2g1xS/Wiki-Editor.png"
 			}
 		},
 		{
 			"name": "Fan of Hammers",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Human Soldier ",
-			"collector_number": "16",
+			"type": "Creature — Human Soldier",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/16_Fan of Hammers.png"
+				"en": "https://i.ibb.co/m8DCz7h/Fan-of-Hammers.png"
 			}
 		},
 		{
 			"name": "Boseiju Tourist",
 			"rarity": "rare",
 			"mana_cost": "{G}",
-			"type": "Creature — Human Druid ",
-			"collector_number": "184",
+			"type": "Creature — Human Druid",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/184_Boseiju Tourist.png"
+				"en": "https://i.ibb.co/SPV3Hr7/Boseiju-Tourist.png"
 			}
 		},
 		{
@@ -1785,29 +1606,26 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}",
 			"type": "Artifact",
-			"collector_number": "5",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/5_Balance Patch.png"
+				"en": "https://i.ibb.co/wpjRVR9/Balance-Patch.png"
 			}
 		},
 		{
 			"name": "Boneforge Mystic",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Kor Artificer ",
-			"collector_number": "8",
+			"type": "Creature — Kor Artificer",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/8_Boneforge Mystic.png"
+				"en": "https://i.ibb.co/X28VZdB/Boneforge-Mystic.png"
 			}
 		},
 		{
 			"name": "The Birth of Cleveland",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
-			"type": "Enchantment — Saga ",
-			"collector_number": "7",
+			"type": "Enchantment — Saga",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/7_The Birth of Cleveland.png"
+				"en": "https://i.ibb.co/PW0Y6Ff/The-Birth-of-Cleveland.png"
 			}
 		},
 		{
@@ -1815,9 +1633,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
-			"collector_number": "37",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/37_Sevinne's Repairs Service.png"
+				"en": "https://i.ibb.co/852C7j1/Sevinne-s-Repairs-Service.png"
 			}
 		},
 		{
@@ -1825,119 +1642,107 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "114",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/114_Ghosts in a Can.png"
+				"en": "https://i.ibb.co/J33NLWc/Ghosts-in-a-Can.png"
 			}
 		},
 		{
 			"name": "Keepsake Excavator",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Human Artificer ",
-			"collector_number": "28",
+			"type": "Creature — Human Artificer",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/28_Keepsake Excavator.png"
+				"en": "https://i.ibb.co/ydb0D8d/Keepsake-Excavator.png"
 			}
 		},
 		{
 			"name": "Wall of Drywall",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
-			"type": "Artifact Creature — Wall ",
-			"collector_number": "46",
+			"type": "Artifact Creature — Wall",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/46_Wall of Drywall.png"
+				"en": "https://i.ibb.co/5FX33KD/Wall-of-Drywall.png"
 			}
 		},
 		{
 			"name": "Unconventional Therapist",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Human ",
-			"collector_number": "44",
+			"type": "Creature — Human",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/44_Unconventional Therapist.png"
+				"en": "https://i.ibb.co/wdkXcD4/Unconventional-Therapist.png"
 			}
 		},
 		{
 			"name": "Brimaz, Kitty King",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{W}",
-			"type": "Legendary Creature — Cat Noble ",
-			"collector_number": "9",
+			"type": "Legendary Creature — Cat Noble",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/9_Brimaz, Kitty King.png"
+				"en": "https://i.ibb.co/fpqwQVh/Brimaz-Kitty-King.png"
 			}
 		},
 		{
 			"name": "Utterly Horrifying Geist",
 			"rarity": "rare",
 			"mana_cost": "{2}{W}",
-			"type": "Creature — Spirit ",
-			"collector_number": "45",
+			"type": "Creature — Spirit",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/45_Utterly Horrifying Geist.png"
+				"en": "https://i.ibb.co/qyxfpGQ/Utterly-Horrifying-Geist.png"
 			}
 		},
 		{
 			"name": "Combine Harvester",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
-			"type": "Artifact — Vehicle ",
-			"collector_number": "11",
+			"type": "Artifact — Vehicle",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/11_Combine Harvester.png"
+				"en": "https://i.ibb.co/KVSR0nS/Combine-Harvester.png"
 			}
 		},
 		{
 			"name": "Four Million Myr on Typewriters",
 			"rarity": "rare",
 			"mana_cost": "{4}{W}",
-			"type": "Artifact Creature — Myr ",
-			"collector_number": "20",
+			"type": "Artifact Creature — Myr",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/20_Four Million Myr on Typewriters.png"
+				"en": "https://i.ibb.co/swNwPmJ/Four-Million-Myr-on-Typewriters.png"
 			}
 		},
 		{
 			"name": "Tasteful Hero of Bladehold",
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{W}",
-			"type": "Creature — Human Knight ",
-			"collector_number": "41",
+			"type": "Creature — Human Knight",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/41_Tasteful Hero of Bladehold.png"
+				"en": "https://i.ibb.co/hW39j2W/Tasteful-Hero-of-Bladehold.png"
 			}
 		},
 		{
 			"name": "McCormick Guide",
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{W}",
-			"type": "Artifact Creature — Food Spirit ",
-			"collector_number": "30",
+			"type": "Artifact Creature — Food Spirit",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/30_McCormick Guide.png"
+				"en": "https://i.ibb.co/2kZr6SN/Mc-Cormick-Guide.png"
 			}
 		},
 		{
 			"name": "The Accord",
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{W}",
-			"type": "Legendary Creature — Giant ",
-			"collector_number": "3",
+			"type": "Legendary Creature — Giant",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/3_The Accord.png"
+				"en": "https://i.ibb.co/BZMY4fK/The-Accord.png"
 			}
 		},
 		{
 			"name": "Some Guy",
 			"rarity": "rare",
 			"mana_cost": "{2}{W}",
-			"type": "Legendary Planeswalker — ??? ",
-			"collector_number": "38",
+			"type": "Legendary Planeswalker — ???",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/38_Some Guy.png"
+				"en": "https://i.ibb.co/47pktVB/Some-Guy.png"
 			}
 		},
 		{
@@ -1945,9 +1750,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "15",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/15_Excused Absence.png"
+				"en": "https://i.ibb.co/xJMFNHz/Excused-Absence.png"
 			}
 		},
 		{
@@ -1955,9 +1759,8 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{W}",
 			"type": "Artifact",
-			"collector_number": "26",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/26_Jail for Idiot Babies.png"
+				"en": "https://i.ibb.co/7y5vG87/Jail-for-Idiot-Babies.png"
 			}
 		},
 		{
@@ -1965,9 +1768,8 @@
 			"rarity": "rare",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "290",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/290_Marble Diamond Collector's Edition.png"
+				"en": "https://i.ibb.co/JcM4mjd/Marble-Diamond-Collector-s-Edition.png"
 			}
 		},
 		{
@@ -1975,9 +1777,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Legendary Enchantment",
-			"collector_number": "33",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/33_The Ohio Turnpike.png"
+				"en": "https://i.ibb.co/3TBxn86/The-Ohio-Turnpike.png"
 			}
 		},
 		{
@@ -1985,29 +1786,8 @@
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "79",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/79_Rabbit Hole.png"
-			}
-		},
-		{
-			"name": "Plains",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Basic Land — Plains ",
-			"collector_number": "361",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/361_Plains.png"
-			}
-		},
-		{
-			"name": "Island",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Basic Land — Plains ",
-			"collector_number": "362",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/362_Island.png"
+				"en": "https://i.ibb.co/BZhqBzN/Rabbit-Hole.png"
 			}
 		},
 		{
@@ -2015,39 +1795,35 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B/G}",
 			"type": "Enchantment",
-			"collector_number": "273",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/273_Survival of the Schnastiest.png"
+				"en": "https://i.ibb.co/sjyJb5x/Survival-of-the-Schnastiest.png"
 			}
 		},
 		{
 			"name": "Chuck, the Evil Sandwich Making Guy",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
-			"type": "Legendary Creature — Human Rogue ",
-			"collector_number": "101",
+			"type": "Legendary Creature — Human Rogue",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/101_Chuck, the Evil Sandwich Making Guy.png"
+				"en": "https://i.ibb.co/3ND5xfR/Chuck-the-Evil-Sandwich-Making-Guy.png"
 			}
 		},
 		{
 			"name": "Witness of Paradise",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Bird Shaman ",
-			"collector_number": "226",
+			"type": "Creature — Bird Shaman",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/226_Witness of Paradise.png"
+				"en": "https://i.ibb.co/QdW2RrH/Witness-of-Paradise.png"
 			}
 		},
 		{
 			"name": "Butterknife of Fire and Ice",
 			"rarity": "rare",
 			"mana_cost": "{2}",
-			"type": "Artifact — Equipment ",
-			"collector_number": "279",
+			"type": "Artifact — Equipment",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/279_Butterknife of Fire and Ice.png"
+				"en": "https://i.ibb.co/987m8Z1/Butterknife-of-Fire-and-Ice.png"
 			}
 		},
 		{
@@ -2055,9 +1831,8 @@
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "73",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/73_Looking Respectfully.png"
+				"en": "https://i.ibb.co/37sj4LH/Looking-Respectfully.png"
 			}
 		},
 		{
@@ -2065,19 +1840,17 @@
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "83",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/83_sorry i wasn't paying attention.png"
+				"en": "https://i.ibb.co/J5n3X8t/sorry-i-wasn-t-paying-attention.png"
 			}
 		},
 		{
 			"name": "El Dragon del Invierno",
 			"rarity": "rare",
 			"mana_cost": "{4}{U}{U}",
-			"type": "Legendary Creature — Dragon Warrior ",
-			"collector_number": "60",
+			"type": "Legendary Creature — Dragon Warrior",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/60_El Dragon del Invierno.png"
+				"en": "https://i.ibb.co/R4ZPmdx/El-Dragon-del-Invierno.png"
 			}
 		},
 		{
@@ -2085,19 +1858,17 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "87",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/87_Time Walk on the Wild Side.png"
+				"en": "https://i.ibb.co/PCpRXXd/Time-Walk-on-the-Wild-Side.png"
 			}
 		},
 		{
 			"name": "Installation Wizard",
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
-			"type": "Creature — Human Wizard ",
-			"collector_number": "69",
+			"type": "Creature — Human Wizard",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/69_Installation Wizard.png"
+				"en": "https://i.ibb.co/p4G6kcq/Installation-Wizard.png"
 			}
 		},
 		{
@@ -2105,9 +1876,8 @@
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "61",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/61_Financial Compensation.png"
+				"en": "https://i.ibb.co/tJb6Ss1/Financial-Compensation.png"
 			}
 		},
 		{
@@ -2115,29 +1885,26 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "53",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/53_Crack Open a Cold One.png"
+				"en": "https://i.ibb.co/T1DkvVV/Crack-Open-a-Cold-One.png"
 			}
 		},
 		{
 			"name": "Doug, IT Guy",
 			"rarity": "rare",
 			"mana_cost": "{3}{U}",
-			"type": "Legendary Creature — Human Artificer ",
-			"collector_number": "57",
+			"type": "Legendary Creature — Human Artificer",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/57_Doug, IT Guy.png"
+				"en": "https://i.ibb.co/tP0D7Dw/Doug-IT-Guy.png"
 			}
 		},
 		{
 			"name": "Haunted Banana",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}",
-			"type": "Artifact Creature — Spirit ",
-			"collector_number": "67",
+			"type": "Artifact Creature — Spirit",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/67_Haunted Banana.png"
+				"en": "https://i.ibb.co/GxQLf6R/Haunted-Banana.png"
 			}
 		},
 		{
@@ -2145,39 +1912,35 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}",
 			"type": "Sorcery",
-			"collector_number": "88",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/88_Trade Show.png"
+				"en": "https://i.ibb.co/JyVGL3x/Trade-Show.png"
 			}
 		},
 		{
 			"name": "Giant Magnet",
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
-			"type": "Artifact Creature — Construct ",
-			"collector_number": "66",
+			"type": "Artifact Creature — Construct",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/66_Giant Magnet.png"
+				"en": "https://i.ibb.co/GkjqS7J/Giant-Magnet.png"
 			}
 		},
 		{
 			"name": "Talrand and Urza Go to White Castle",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{U}",
-			"type": "Enchantment — Saga ",
-			"collector_number": "85",
+			"type": "Enchantment — Saga",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/85_Talrand and Urza Go to White Castle.png"
+				"en": "https://i.ibb.co/XtC6yqY/Talrand-and-Urza-Go-to-White-Castle.png"
 			}
 		},
 		{
 			"name": "Polukranos, Rotated",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{G}",
-			"type": "Legendary Creature — Hydra ",
-			"collector_number": "214",
+			"type": "Legendary Creature — Hydra",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/214_Polukranos, Rotated.png"
+				"en": "https://i.ibb.co/D7qwKf5/Polukranos-Rotated.png"
 			}
 		},
 		{
@@ -2185,29 +1948,26 @@
 			"rarity": "rare",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "132",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/132_Torrent.png"
+				"en": "https://i.ibb.co/qpc9mTD/Torrent.png"
 			}
 		},
 		{
 			"name": "7-Up Dragon",
 			"rarity": "rare",
 			"mana_cost": "{G}{U}",
-			"type": "Creature — Faerie Dragon ",
-			"collector_number": "227",
+			"type": "Creature — Faerie Dragon",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/227_7-Up Dragon.png"
+				"en": "https://i.ibb.co/W0DYpDV/7-Up-Dragon.png"
 			}
 		},
 		{
 			"name": "Competent Goblin Guide",
 			"rarity": "rare",
 			"mana_cost": "{R}",
-			"type": "Creature — Goblin Scout ",
-			"collector_number": "151",
+			"type": "Creature — Goblin Scout",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/151_Competent Goblin Guide.png"
+				"en": "https://i.ibb.co/BCRj2WK/Competent-Goblin-Guide.png"
 			}
 		},
 		{
@@ -2215,9 +1975,8 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R}",
 			"type": "Instant",
-			"collector_number": "154",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/154_Dumpster Fire.png"
+				"en": "https://i.ibb.co/nb19P4s/Dumpster-Fire.png"
 			}
 		},
 		{
@@ -2225,9 +1984,8 @@
 			"rarity": "rare",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "277",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/277_Azorius Membership Card.png"
+				"en": "https://i.ibb.co/0rnYbpf/Azorius-Membership-Card.png"
 			}
 		},
 		{
@@ -2235,9 +1993,8 @@
 			"rarity": "rare",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "282",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/282_Dimir Membership Card.png"
+				"en": "https://i.ibb.co/D8zzqwV/Dimir-Membership-Card.png"
 			}
 		},
 		{
@@ -2245,9 +2002,8 @@
 			"rarity": "rare",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "300",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/300_Rakdos Membership Card.png"
+				"en": "https://i.ibb.co/zbPSt10/Rakdos-Membership-Card.png"
 			}
 		},
 		{
@@ -2255,9 +2011,8 @@
 			"rarity": "rare",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "286",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/286_Gruul Membership Card.png"
+				"en": "https://i.ibb.co/9hgcP1y/Gruul-Membership-Card.png"
 			}
 		},
 		{
@@ -2265,9 +2020,8 @@
 			"rarity": "rare",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "301",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/301_Selesnya Membership Card.png"
+				"en": "https://i.ibb.co/YBNJsmH/Selesnya-Membership-Card.png"
 			}
 		},
 		{
@@ -2275,9 +2029,8 @@
 			"rarity": "rare",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "295",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/295_Orzhov Membership Card.png"
+				"en": "https://i.ibb.co/8j4FW5y/Orzhov-Membership-Card.png"
 			}
 		},
 		{
@@ -2285,9 +2038,8 @@
 			"rarity": "rare",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "307",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/307_Simic Membership Card.png"
+				"en": "https://i.ibb.co/d77Ld9s/Simic-Membership-Card.png"
 			}
 		},
 		{
@@ -2295,9 +2047,8 @@
 			"rarity": "rare",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "285",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/285_Golgari Membership Card.png"
+				"en": "https://i.ibb.co/0BhyTjr/Golgari-Membership-Card.png"
 			}
 		},
 		{
@@ -2305,9 +2056,8 @@
 			"rarity": "rare",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "288",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/288_Izzet Membership Card.png"
+				"en": "https://i.ibb.co/w4r94Jv/Izzet-Membership-Card.png"
 			}
 		},
 		{
@@ -2315,9 +2065,8 @@
 			"rarity": "rare",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "278",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/278_Boros Membership Card.png"
+				"en": "https://i.ibb.co/nBwbKvG/Boros-Membership-Card.png"
 			}
 		},
 		{
@@ -2325,79 +2074,44 @@
 			"rarity": "rare",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "315",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/315_Moyai.png"
-			}
-		},
-		{
-			"name": "Swamp",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Basic Land — Plains ",
-			"collector_number": "363",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/363_Swamp.png"
-			}
-		},
-		{
-			"name": "Mountain",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Basic Land — Plains ",
-			"collector_number": "364",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/364_Mountain.png"
-			}
-		},
-		{
-			"name": "Forest",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Basic Land — Plains ",
-			"collector_number": "365",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/365_Forest.png"
+				"en": "https://i.ibb.co/GpC5Cyw/Moyai.png"
 			}
 		},
 		{
 			"name": "Wax Dribbler",
 			"rarity": "rare",
 			"mana_cost": "{B}{R}",
-			"type": "Creature — Devil ",
-			"collector_number": "253",
+			"type": "Creature — Devil",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/253_Wax Dribbler.png"
+				"en": "https://i.ibb.co/f9B9znw/Wax-Dribbler.png"
 			}
 		},
 		{
 			"name": "Goblin Hiring Manager",
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Goblin Advisor ",
-			"collector_number": "157",
+			"type": "Creature — Goblin Advisor",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/157_Goblin Hiring Manager.png"
+				"en": "https://i.ibb.co/tHYdZ6d/Goblin-Hiring-Manager.png"
 			}
 		},
 		{
 			"name": "Fish Feeder",
 			"rarity": "rare",
 			"mana_cost": "{B}",
-			"type": "Creature — Vampire Shaman ",
-			"collector_number": "112",
+			"type": "Creature — Vampire Shaman",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/112_Fish Feeder.png"
+				"en": "https://i.ibb.co/6vsqLcs/Fish-Feeder.png"
 			}
 		},
 		{
 			"name": "Recording Artist",
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Vampire Bard ",
-			"collector_number": "125",
+			"type": "Creature — Vampire Bard",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/125_Recording Artist.png"
+				"en": "https://i.ibb.co/qnZd784/Recording-Artist.png"
 			}
 		},
 		{
@@ -2405,19 +2119,17 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "345",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/345_State Park.png"
+				"en": "https://i.ibb.co/C6DRGbg/State-Park.png"
 			}
 		},
 		{
 			"name": "Tormenting Chef",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
-			"type": "Creature — Human Citizen ",
-			"collector_number": "131",
+			"type": "Creature — Human Citizen",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/131_Tormenting Chef.png"
+				"en": "https://i.ibb.co/ZMW2r7g/Tormenting-Chef.png"
 			}
 		},
 		{
@@ -2425,9 +2137,8 @@
 			"rarity": "rare",
 			"mana_cost": "{B}",
 			"type": "Artifact",
-			"collector_number": "96",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/96_Brain Strainer.png"
+				"en": "https://i.ibb.co/P5tZS9f/Brain-Strainer.png"
 			}
 		},
 		{
@@ -2435,9 +2146,8 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{B}",
 			"type": "Legendary Enchantment",
-			"collector_number": "119",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/119_National Lampoon's Urborg Vacation.png"
+				"en": "https://i.ibb.co/7JdXzVZ/National-Lampoon-s-Urborg-Vacation.png"
 			}
 		},
 		{
@@ -2445,19 +2155,17 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{B}",
 			"type": "Instant",
-			"collector_number": "123",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/123_Phyrexian Work Mixer.png"
+				"en": "https://i.ibb.co/BycmChh/Phyrexian-Work-Mixer.png"
 			}
 		},
 		{
 			"name": "Something-Gang Commander",
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{R}",
-			"type": "Creature — Goblin ",
-			"collector_number": "175",
+			"type": "Creature — Goblin",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/175_Something-Gang Commander.png"
+				"en": "https://i.ibb.co/1THZwRZ/Something-Gang-Commander.png"
 			}
 		},
 		{
@@ -2465,29 +2173,26 @@
 			"rarity": "rare",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "130",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/130_Terrible Twos.png"
+				"en": "https://i.ibb.co/wSXT3Xr/Terrible-Twos.png"
 			}
 		},
 		{
 			"name": "Dr Gerhard Zomagk",
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
-			"type": "Legendary Creature — Zombie ",
-			"collector_number": "109",
+			"type": "Legendary Creature — Zombie",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/109_Dr Gerhard Zomagk.png"
+				"en": "https://i.ibb.co/GVr4vFs/Dr-Gerhard-Zomagk.png"
 			}
 		},
 		{
 			"name": "Tourach, Dinosaur Hunter",
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
-			"type": "Legendary Creature — Human Cleric ",
-			"collector_number": "133",
+			"type": "Legendary Creature — Human Cleric",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/133_Tourach, Dinosaur Hunter.png"
+				"en": "https://i.ibb.co/D5wVkhb/Tourach-Dinosaur-Hunter.png"
 			}
 		},
 		{
@@ -2495,19 +2200,17 @@
 			"rarity": "rare",
 			"mana_cost": "{B}{B}{B}{B}{B}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "104",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/104_Cool Ultimatum.png"
+				"en": "https://i.ibb.co/7YwtG72/Cool-Ultimatum.png"
 			}
 		},
 		{
 			"name": "Nick Ropotence",
 			"rarity": "rare",
 			"mana_cost": "{B}{B}{B}",
-			"type": "Legendary Planeswalker — Nick ",
-			"collector_number": "120",
+			"type": "Legendary Planeswalker — Nick",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/120_Nick Ropotence.png"
+				"en": "https://i.ibb.co/YkZMRNX/Nick-Ropotence.png"
 			}
 		},
 		{
@@ -2515,49 +2218,44 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "129",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/129_Termination Notice.png"
+				"en": "https://i.ibb.co/MSy3Cty/Termination-Notice.png"
 			}
 		},
 		{
 			"name": "Rock",
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{R}",
-			"type": "Legendary Creature — Dragon ",
-			"collector_number": "170",
+			"type": "Legendary Creature — Dragon",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/170_Rock.png"
+				"en": "https://i.ibb.co/gW5nf2H/Rock.png"
 			}
 		},
 		{
 			"name": "Charitable Hellkite",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
-			"type": "Creature — Dragon ",
-			"collector_number": "148",
+			"type": "Creature — Dragon",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/148_Charitable Hellkite.png"
+				"en": "https://i.ibb.co/rwLvvQB/Charitable-Hellkite.png"
 			}
 		},
 		{
 			"name": "Wiggles the Worm",
 			"rarity": "rare",
 			"mana_cost": "{8}{G}",
-			"type": "Legendary Planeswalker — Wiggles ",
-			"collector_number": "225",
+			"type": "Legendary Planeswalker — Wiggles",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/225_Wiggles the Worm.png"
+				"en": "https://i.ibb.co/KsvJCQn/Wiggles-the-Worm.png"
 			}
 		},
 		{
 			"name": "Rob, Faithless Looter",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
-			"type": "Legendary Planeswalker — Rob ",
-			"collector_number": "169",
+			"type": "Legendary Planeswalker — Rob",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/169_Rob, Faithless Looter.png"
+				"en": "https://i.ibb.co/jZqHPLZ/Rob-Faithless-Looter.png"
 			}
 		},
 		{
@@ -2565,19 +2263,17 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "146",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/146_Cartridge Tilt.png"
+				"en": "https://i.ibb.co/LP98gnb/Cartridge-Tilt.png"
 			}
 		},
 		{
 			"name": "Tibalt, Gambling Addict",
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
-			"type": "Legendary Planeswalker — Tibalt ",
-			"collector_number": "181",
+			"type": "Legendary Planeswalker — Tibalt",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/181_Tibalt, Gambling Addict.png"
+				"en": "https://i.ibb.co/kGxb9jf/Tibalt-Gambling-Addict.png"
 			}
 		},
 		{
@@ -2585,19 +2281,17 @@
 			"rarity": "rare",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "299",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/299_Purely Decorative Sword.png"
+				"en": "https://i.ibb.co/ZmQdQq2/Purely-Decorative-Sword.png"
 			}
 		},
 		{
 			"name": "Cereal Mascot",
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Faerie Wizard ",
-			"collector_number": "147",
+			"type": "Creature — Faerie Wizard",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/147_Cereal Mascot.png"
+				"en": "https://i.ibb.co/vPNn6Rg/Cereal-Mascot.png"
 			}
 		},
 		{
@@ -2605,99 +2299,89 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{X}",
 			"type": "Legendary Artifact Planeswalker",
-			"collector_number": "297",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/297_Planeswalking Ballista.png"
+				"en": "https://i.ibb.co/MGRLZVB/Planeswalking-Ballista.png"
 			}
 		},
 		{
 			"name": "Legion of the Golden Nut",
 			"rarity": "rare",
 			"mana_cost": "{G}{G}",
-			"type": "Creature — Squirrel Army ",
-			"collector_number": "204",
+			"type": "Creature — Squirrel Army",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/204_Legion of the Golden Nut.png"
+				"en": "https://i.ibb.co/2Mx1PkK/Legion-of-the-Golden-Nut.png"
 			}
 		},
 		{
 			"name": "Sixteen Squirrels",
 			"rarity": "rare",
 			"mana_cost": "{4}{G}{G}",
-			"type": "Creature — Squirrel ",
-			"collector_number": "219",
+			"type": "Creature — Squirrel",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/219_Sixteen Squirrels.png"
+				"en": "https://i.ibb.co/yfsMT9h/Sixteen-Squirrels.png"
 			}
 		},
 		{
 			"name": "Rofellos, Karametra's Acolyte",
 			"rarity": "rare",
 			"mana_cost": "{G}{G}",
-			"type": "Legendary Creature — Elf Druid ",
-			"collector_number": "216",
+			"type": "Legendary Creature — Elf Druid",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/216_Rofellos, Karametra's Acolyte.png"
+				"en": "https://i.ibb.co/37YXZ0W/Rofellos-Karametra-s-Acolyte.png"
 			}
 		},
 		{
 			"name": "Keyboard Warrior",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Troll Warrior ",
-			"collector_number": "202",
+			"type": "Creature — Troll Warrior",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/202_Keyboard Warrior.png"
+				"en": "https://i.ibb.co/3zMp3DH/Keyboard-Warrior.png"
 			}
 		},
 		{
 			"name": "Gorilla Tactician",
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{G}",
-			"type": "Creature — Ape Soldier ",
-			"collector_number": "196",
+			"type": "Creature — Ape Soldier",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/196_Gorilla Tactician.png"
+				"en": "https://i.ibb.co/Qm0w6w2/Gorilla-Tactician.png"
 			}
 		},
 		{
 			"name": "Dig Dog",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{G}",
-			"type": "Creature — Dog ",
-			"collector_number": "189",
+			"type": "Creature — Dog",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/189_Dig Dog.png"
+				"en": "https://i.ibb.co/VCYnNws/Dig-Dog.png"
 			}
 		},
 		{
 			"name": "Mana George",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
-			"type": "Legendary Creature — Hydra ",
-			"collector_number": "206",
+			"type": "Legendary Creature — Hydra",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/206_Mana George.png"
+				"en": "https://i.ibb.co/BT8ZBND/Mana-George.png"
 			}
 		},
 		{
 			"name": "Titania, Argothian Rocker",
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{G}",
-			"type": "Legendary Creature — Elemental ",
-			"collector_number": "223",
+			"type": "Legendary Creature — Elemental",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/223_Titania, Argothian Rocker.png"
+				"en": "https://i.ibb.co/W6CH8tY/Titania-Argothian-Rocker.png"
 			}
 		},
 		{
 			"name": "The Great Pumpkin",
 			"rarity": "rare",
 			"mana_cost": "{6}{G}{G}",
-			"type": "Legendary Creature — Elder Plant Spirit ",
-			"collector_number": "198",
+			"type": "Legendary Creature — Elder Plant Spirit",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/198_The Great Pumpkin.png"
+				"en": "https://i.ibb.co/5xcKmss/The-Great-Pumpkin.png"
 			}
 		},
 		{
@@ -2705,9 +2389,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "188",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/188_Deep Lore.png"
+				"en": "https://i.ibb.co/0hp2XNt/Deep-Lore.png"
 			}
 		},
 		{
@@ -2715,19 +2398,17 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
 			"type": "Artifact",
-			"collector_number": "187",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/187_Cryptolith Left.png"
+				"en": "https://i.ibb.co/KySchnC/Cryptolith-Left.png"
 			}
 		},
 		{
 			"name": "Phyrexian Eldrazi Sliver Planeswalker",
 			"rarity": "rare",
-			"mana_cost": "{B}{H/B}/G{G}",
-			"type": "Legendary Tribal Planeswalker — Phyrexian Eldrazi Sliver ",
-			"collector_number": "266",
+			"mana_cost": "{B}{B/G}{G}",
+			"type": "Legendary Tribal Planeswalker — Phyrexian Eldrazi Sliver",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/266_Phyrexian Eldrazi Sliver Planeswalker.png"
+				"en": "https://i.ibb.co/2P6QzWj/Phyrexian-Eldrazi-Sliver-Planeswalker.png"
 			}
 		},
 		{
@@ -2735,9 +2416,8 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "321",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/321_Four Below.png"
+				"en": "https://i.ibb.co/FhNcKpw/Four-Below.png"
 			}
 		},
 		{
@@ -2745,9 +2425,8 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{U}",
 			"type": "Enchantment",
-			"collector_number": "239",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/239_MIRARI The Musical.png"
+				"en": "https://i.ibb.co/64dWhpy/MIRARI-The-Musical.png"
 			}
 		},
 		{
@@ -2755,9 +2434,8 @@
 			"rarity": "rare",
 			"mana_cost": "{B}{R}",
 			"type": "Enchantment",
-			"collector_number": "234",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/234_Goblin Garage Sale.png"
+				"en": "https://i.ibb.co/d7h8QHz/Goblin-Garage-Sale.png"
 			}
 		},
 		{
@@ -2765,59 +2443,53 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "193",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/193_Get Real.png"
+				"en": "https://i.ibb.co/7n3rvVg/Get-Real.png"
 			}
 		},
 		{
 			"name": "Wurmcoil Engine Mk II",
 			"rarity": "rare",
 			"mana_cost": "{9}",
-			"type": "Artifact Creature — Phyrexian Wurm ",
-			"collector_number": "314",
+			"type": "Artifact Creature — Phyrexian Wurm",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/314_Wurmcoil Engine Mk II.png"
+				"en": "https://i.ibb.co/3fx5GjV/Wurmcoil-Engine-Mk-II.png"
 			}
 		},
 		{
 			"name": "Skulk Lamp",
 			"rarity": "rare",
 			"mana_cost": "{2}",
-			"type": "Artifact — Equipment ",
-			"collector_number": "308",
+			"type": "Artifact — Equipment",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/308_Skulk Lamp.png"
+				"en": "https://i.ibb.co/Q98VQFL/Skulk-Lamp.png"
 			}
 		},
 		{
 			"name": "Flying Lawn Chair",
 			"rarity": "rare",
 			"mana_cost": "{2}",
-			"type": "Artifact — Equipment ",
-			"collector_number": "283",
+			"type": "Artifact — Equipment",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/283_Flying Lawn Chair.png"
+				"en": "https://i.ibb.co/VNbyPT9/Flying-Lawn-Chair.png"
 			}
 		},
 		{
 			"name": "Giant Spider, Planeswalker",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{G}",
-			"type": "Legendary Planeswalker — Spider ",
-			"collector_number": "194",
+			"type": "Legendary Planeswalker — Spider",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/194_Giant Spider, Planeswalker.png"
+				"en": "https://i.ibb.co/wWLbWPV/Giant-Spider-Planeswalker.png"
 			}
 		},
 		{
 			"name": "Reflector's Copter",
 			"rarity": "rare",
 			"mana_cost": "{W}{U}",
-			"type": "Artifact — Vehicle ",
-			"collector_number": "247",
+			"type": "Artifact — Vehicle",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/247_Reflector's Copter.png"
+				"en": "https://i.ibb.co/q1FGjLr/Reflector-s-Copter.png"
 			}
 		},
 		{
@@ -2825,19 +2497,17 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W/U}",
 			"type": "Instant",
-			"collector_number": "259",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/259_Daze of Our Lives.png"
+				"en": "https://i.ibb.co/tCvRL8k/Daze-of-Our-Lives.png"
 			}
 		},
 		{
 			"name": "Colossal Shredmaw",
 			"rarity": "rare",
 			"mana_cost": "{6}",
-			"type": "Artifact Creature — Dinosaur ",
-			"collector_number": "280",
+			"type": "Artifact Creature — Dinosaur",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/280_Colossal Shredmaw.png"
+				"en": "https://i.ibb.co/RDz9nbG/Colossal-Shredmaw.png"
 			}
 		},
 		{
@@ -2845,9 +2515,8 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}",
 			"type": "Sorcery",
-			"collector_number": "86",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/86_Time Blender.png"
+				"en": "https://i.ibb.co/my6NzSJ/Time-Blender.png"
 			}
 		},
 		{
@@ -2855,29 +2524,26 @@
 			"rarity": "rare",
 			"mana_cost": "{B}{R}",
 			"type": "Sorcery",
-			"collector_number": "246",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/246_Rakdos Sweepstakes.png"
+				"en": "https://i.ibb.co/982xRnJ/Rakdos-Sweepstakes.png"
 			}
 		},
 		{
 			"name": "Questing Bees",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{W}",
-			"type": "Legendary Creature — Insect ",
-			"collector_number": "245",
+			"type": "Legendary Creature — Insect",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/245_Questing Bees.png"
+				"en": "https://i.ibb.co/X7nPhn1/Questing-Bees.png"
 			}
 		},
 		{
 			"name": "Demon Rhino",
 			"rarity": "rare",
 			"mana_cost": "{1}{B/R}{B/R}{B/R}",
-			"type": "Creature — Demon Rhino ",
-			"collector_number": "260",
+			"type": "Creature — Demon Rhino",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/260_Demon Rhino.png"
+				"en": "https://i.ibb.co/ZYLZY0Z/Demon-Rhino.png"
 			}
 		},
 		{
@@ -2885,29 +2551,26 @@
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "48",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/48_Abundant Storm.png"
+				"en": "https://i.ibb.co/ZmCJ89K/Abundant-Storm.png"
 			}
 		},
 		{
 			"name": "Entirely Unsuspicious Rise to Power",
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{U}",
-			"type": "Enchantment — Aura ",
-			"collector_number": "232",
+			"type": "Enchantment — Aura",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/232_Entirely Unsuspicious Rise to Power.png"
+				"en": "https://i.ibb.co/qJ8FqzZ/Entirely-Unsuspicious-Rise-to-Power.png"
 			}
 		},
 		{
 			"name": "Mush Pit",
 			"rarity": "rare",
 			"mana_cost": "{2}{R/G}",
-			"type": "Creature — Fungus ",
-			"collector_number": "265",
+			"type": "Creature — Fungus",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/265_Mush Pit.png"
+				"en": "https://i.ibb.co/syfgzX4/Mush-Pit.png"
 			}
 		},
 		{
@@ -2915,9 +2578,8 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "342",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/342_The Reliquary.png"
+				"en": "https://i.ibb.co/HdwBpnm/The-Reliquary.png"
 			}
 		},
 		{
@@ -2925,9 +2587,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U/R}",
 			"type": "Instant",
-			"collector_number": "270",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/270_Spork.png"
+				"en": "https://i.ibb.co/j8QzS87/Spork.png"
 			}
 		},
 		{
@@ -2935,9 +2596,8 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "333",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/333_Mirran History Museum.png"
+				"en": "https://i.ibb.co/chRdvS7/Mirran-History-Museum.png"
 			}
 		},
 		{
@@ -2945,9 +2605,8 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "344",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/344_Stagnant Swimming Pool.png"
+				"en": "https://i.ibb.co/Cb8GzwK/Stagnant-Swimming-Pool.png"
 			}
 		},
 		{
@@ -2955,49 +2614,44 @@
 			"rarity": "rare",
 			"mana_cost": "{3}",
 			"type": "Legendary Artifact",
-			"collector_number": "313",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/313_Ucko Fucko's Catheter.png"
+				"en": "https://i.ibb.co/BLPVJHD/Ucko-Fucko-s-Catheter.png"
 			}
 		},
 		{
 			"name": "Ostentatious Volleyballer",
 			"rarity": "rare",
 			"mana_cost": "{R}",
-			"type": "Creature — Human Warrior ",
-			"collector_number": "166",
+			"type": "Creature — Human Warrior",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/166_Ostentatious Volleyballer.png"
+				"en": "https://i.ibb.co/dM5T6D8/Ostentatious-Volleyballer.png"
 			}
 		},
 		{
 			"name": "Squelchmeister",
 			"rarity": "rare",
 			"mana_cost": "{1}{G/U}",
-			"type": "Creature — Goblin Wizard ",
-			"collector_number": "271",
+			"type": "Creature — Goblin Wizard",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/271_Squelchmeister.png"
+				"en": "https://i.ibb.co/YdfYBLK/Squelchmeister.png"
 			}
 		},
 		{
 			"name": "Freelance Necromancer",
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Human Warlock ",
-			"collector_number": "113",
+			"type": "Creature — Human Warlock",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/113_Freelance Necromancer.png"
+				"en": "https://i.ibb.co/4SXTx9p/Freelance-Necromancer.png"
 			}
 		},
 		{
 			"name": "Booster Boxer",
 			"rarity": "rare",
 			"mana_cost": "{3}{G}",
-			"type": "Creature — Raccoon Warrior ",
-			"collector_number": "183",
+			"type": "Creature — Raccoon Warrior",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/183_Booster Boxer.png"
+				"en": "https://i.ibb.co/ZTBFZjs/Booster-Boxer.png"
 			}
 		},
 		{
@@ -3005,29 +2659,26 @@
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "Enchantment",
-			"collector_number": "91",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/91_Zone.png"
+				"en": "https://i.ibb.co/gPwxJ5H/Zone.png"
 			}
 		},
 		{
 			"name": "Yawgmoth's Will Kenrith",
 			"rarity": "rare",
-			"mana_cost": "{4}{H/B}{B}",
-			"type": "Legendary Planeswalker — Will ",
-			"collector_number": "137",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Legendary Planeswalker — Will",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/137_Yawgmoth's Will Kenrith.png"
+				"en": "https://i.ibb.co/SXM2rWG/Yawgmoth-s-Will-Kenrith.png"
 			}
 		},
 		{
 			"name": "Trade School Rector",
 			"rarity": "rare",
 			"mana_cost": "{3}{W}",
-			"type": "Creature — Human Cleric ",
-			"collector_number": "43",
+			"type": "Creature — Human Cleric",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/43_Trade School Rector.png"
+				"en": "https://i.ibb.co/301zZ4C/Trade-School-Rector.png"
 			}
 		},
 		{
@@ -3035,49 +2686,35 @@
 			"rarity": "rare",
 			"mana_cost": "{R}",
 			"type": "Sorcery",
-			"collector_number": "145",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/145_Burn Spell Name.png"
+				"en": "https://i.ibb.co/68S9rwj/Burn-Spell-Name.png"
 			}
 		},
 		{
 			"name": "Aggro AI",
 			"rarity": "rare",
 			"mana_cost": "{R}",
-			"type": "Artifact Creature — Drone ",
-			"collector_number": "139",
+			"type": "Artifact Creature — Drone",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/139_Aggro AI.png"
-			}
-		},
-		{
-			"name": "Crave Case",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Artifact",
-			"collector_number": "29",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/29_Crave Case.png"
+				"en": "https://i.ibb.co/HXYT2XN/Aggro-AI.png"
 			}
 		},
 		{
 			"name": "Life Orb",
 			"rarity": "rare",
 			"mana_cost": "{1}",
-			"type": "Artifact — Equipment ",
-			"collector_number": "289",
+			"type": "Artifact — Equipment",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/289_Life Orb.png"
+				"en": "https://i.ibb.co/X5Bw3Zm/Life-Orb.png"
 			}
 		},
 		{
 			"name": "Showdown of the Scalds",
 			"rarity": "rare",
 			"mana_cost": "{2}{U/R}{U/R}",
-			"type": "Enchantment — Saga ",
-			"collector_number": "269",
+			"type": "Enchantment — Saga",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/269_Showdown of the Scalds.png"
+				"en": "https://i.ibb.co/MCmb9wL/Showdown-of-the-Scalds.png"
 			}
 		},
 		{
@@ -3085,29 +2722,26 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "106",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/106_Dark Hole.png"
+				"en": "https://i.ibb.co/CbN0kQ3/Dark-Hole.png"
 			}
 		},
 		{
 			"name": "Math Class",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
-			"type": "Enchantment — Class ",
-			"collector_number": "207",
+			"type": "Enchantment — Class",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/207_Math Class.png"
+				"en": "https://i.ibb.co/xLkxhSK/Math-Class.png"
 			}
 		},
 		{
 			"name": "Piloted Shredder",
 			"rarity": "rare",
 			"mana_cost": "{4}",
-			"type": "Artifact Creature — Soldier ",
-			"collector_number": "296",
+			"type": "Artifact Creature — Soldier",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/296_Piloted Shredder.png"
+				"en": "https://i.ibb.co/FxsSRYn/Piloted-Shredder.png"
 			}
 		},
 		{
@@ -3115,69 +2749,53 @@
 			"rarity": "rare",
 			"mana_cost": "{B}",
 			"type": "Enchantment",
-			"collector_number": "116",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/116_Infinite Blades.png"
-			}
-		},
-		{
-			"name": "Shiv",
-			"rarity": "masterpiece",
-			"mana_cost": "",
-			"type": "Token Sorcery",
-			"collector_number": "4",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/4_Shiv.png"
+				"en": "https://i.ibb.co/Q9j32xw/Infinite-Blades.png"
 			}
 		},
 		{
 			"name": "Uxie The Legends Awakened One",
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{U}",
-			"type": "Legendary Creature — Spirit ",
-			"collector_number": "90",
+			"type": "Legendary Creature — Spirit",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/90_Uxie The Legends Awakened One.png"
+				"en": "https://i.ibb.co/1dDhhkv/Uxie-The-Legends-Awakened-One.png"
 			}
 		},
 		{
 			"name": "Card Creep",
 			"rarity": "rare",
 			"mana_cost": "{4}{B}{B}{B}",
-			"type": "Creature — Demon ",
-			"collector_number": "98",
+			"type": "Creature — Demon",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/98_Card Creep.png"
+				"en": "https://i.ibb.co/wrDTF5q/Card-Creep.png"
 			}
 		},
 		{
 			"name": "Hell Kite",
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{R}",
-			"type": "Artifact Creature — Dragon Equipment ",
-			"collector_number": "158",
+			"type": "Artifact Creature — Dragon Equipment",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/158_Hell Kite.png"
+				"en": "https://i.ibb.co/L6X4kk2/Hell-Kite.png"
 			}
 		},
 		{
 			"name": "Otto Battler",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{G}",
-			"type": "Legendary Creature — Human Noble ",
-			"collector_number": "244",
+			"type": "Legendary Creature — Human Noble",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/244_Otto Battler.png"
+				"en": "https://i.ibb.co/JzPdvqQ/Otto-Battler.png"
 			}
 		},
 		{
 			"name": "Alfredo Linguini From Ratatouille",
 			"rarity": "rare",
 			"mana_cost": "{R}{W}",
-			"type": "Legendary Tribal Artifact — Human Vehicle ",
-			"collector_number": "228",
+			"type": "Legendary Tribal Artifact — Human Vehicle",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/228_Alfredo Linguini From Ratatouille.png"
+				"en": "https://i.ibb.co/4YwJ9Pg/Alfredo-Linguini-From-Ratatouille.png"
 			}
 		},
 		{
@@ -3185,29 +2803,17 @@
 			"rarity": "rare",
 			"mana_cost": "{R}",
 			"type": "Artifact",
-			"collector_number": "182",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/182_Wrench Collection.png"
+				"en": "https://i.ibb.co/yP8bsH5/Wrench-Collection.png"
 			}
 		},
 		{
 			"name": "Jin-Gitaxias' Hot Pants",
 			"rarity": "rare",
 			"mana_cost": "{5}{U}{U}",
-			"type": "Legendary Artifact Creature — Phyrexian Equipment ",
-			"collector_number": "71",
+			"type": "Legendary Artifact Creature — Phyrexian Equipment",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/71_Jin-Gitaxias' Hot Pants.png"
-			}
-		},
-		{
-			"name": "Saproling",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Saproling ",
-			"collector_number": "21",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/21_Saproling.png"
+				"en": "https://i.ibb.co/kBQTbN8/Jin-Gitaxias-Hot-Pants.png"
 			}
 		},
 		{
@@ -3215,79 +2821,71 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{U/B}",
 			"type": "Enchantment",
-			"collector_number": "272",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/272_Support Your Local Library.png"
+				"en": "https://i.ibb.co/f0tCSGr/Support-Your-Local-Library.png"
 			}
 		},
 		{
 			"name": "Mantis",
 			"rarity": "rare",
 			"mana_cost": "{R/W}",
-			"type": "Creature — Insect ",
-			"collector_number": "264",
+			"type": "Creature — Insect",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/264_Mantis.png"
+				"en": "https://i.ibb.co/fFxsy5R/Mantis.png"
 			}
 		},
 		{
 			"name": "Bug Juice",
 			"rarity": "rare",
 			"mana_cost": "{1}{B/G}",
-			"type": "Artifact Creature — Insect Equipment ",
-			"collector_number": "256",
+			"type": "Artifact Creature — Insect Equipment",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/256_Bug Juice.png"
+				"en": "https://i.ibb.co/jz9DmzX/Bug-Juice.png"
 			}
 		},
 		{
 			"name": "Tajitte",
 			"rarity": "rare",
 			"mana_cost": "{1}",
-			"type": "Legendary Artifact — Equipment ",
-			"collector_number": "311",
+			"type": "Legendary Artifact — Equipment",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/311_Tajitte.png"
+				"en": "https://i.ibb.co/tqddrKm/Tajitte.png"
 			}
 		},
 		{
 			"name": "Aspiring Alpha",
 			"rarity": "rare",
 			"mana_cost": "{R}",
-			"type": "Creature — Wolf ",
-			"collector_number": "140",
+			"type": "Creature — Wolf",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/140_Aspiring Alpha.png"
+				"en": "https://i.ibb.co/DYKRxzb/Aspiring-Alpha.png"
 			}
 		},
 		{
 			"name": "Simic Init",
 			"rarity": "rare",
 			"mana_cost": "{G}",
-			"type": "Creature — Human Mutant ",
-			"collector_number": "218",
+			"type": "Creature — Human Mutant",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/218_Simic Init.png"
+				"en": "https://i.ibb.co/WDXpJBh/Simic-Init.png"
 			}
 		},
 		{
 			"name": "Armagiddeon",
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{W}",
-			"type": "Legendary Planeswalker — Gideon ",
-			"collector_number": "4",
+			"type": "Legendary Planeswalker — Gideon",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/4_Armagiddeon.png"
+				"en": "https://i.ibb.co/h9jLX3q/Armagiddeon.png"
 			}
 		},
 		{
 			"name": "The Meathook Massacre Girl",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{B}",
-			"type": "Legendary Creature — Human Assassin ",
-			"collector_number": "118",
+			"type": "Legendary Creature — Human Assassin",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/118_The Meathook Massacre Girl.png"
+				"en": "https://i.ibb.co/vxhWrt0/The-Meathook-Massacre-Girl.png"
 			}
 		},
 		{
@@ -3295,59 +2893,53 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "343",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/343_Snarg's House of Sin.png"
+				"en": "https://i.ibb.co/8gVfr76/Snarg-s-House-of-Sin.png"
 			}
 		},
 		{
 			"name": "Snurmuring Snystic",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}",
-			"type": "Creature — Human Wizard ",
-			"collector_number": "82",
+			"type": "Creature — Human Wizard",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/82_Snurmuring Snystic.png"
+				"en": "https://i.ibb.co/99k7qyK/Snurmuring-Snystic.png"
 			}
 		},
 		{
 			"name": "Ancient Tom",
 			"rarity": "rare",
 			"mana_cost": "{2}",
-			"type": "Artifact Creature — Human ",
-			"collector_number": "276",
+			"type": "Artifact Creature — Human",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/276_Ancient Tom.png"
+				"en": "https://i.ibb.co/qRM2XsD/Ancient-Tom.png"
 			}
 		},
 		{
 			"name": "Free Bird",
 			"rarity": "rare",
 			"mana_cost": "{0}",
-			"type": "Artifact Creature — Bird ",
-			"collector_number": "284",
+			"type": "Artifact Creature — Bird",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/284_Free Bird.png"
+				"en": "https://i.ibb.co/pfkhF2y/Free-Bird.png"
 			}
 		},
 		{
 			"name": "Holy Walla",
 			"rarity": "rare",
 			"mana_cost": "{W}",
-			"type": "Creature — Angel Lizard ",
-			"collector_number": "24",
+			"type": "Creature — Angel Lizard",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/24_Holy Walla.png"
+				"en": "https://i.ibb.co/L5rjC7f/Holy-Walla.png"
 			}
 		},
 		{
 			"name": "Spirit of the Format",
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{G}",
-			"type": "Legendary Creature — Spirit ",
-			"collector_number": "221",
+			"type": "Legendary Creature — Spirit",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/221_Spirit of the Format.png"
+				"en": "https://i.ibb.co/gJpB1zw/Spirit-of-the-Format.png"
 			}
 		},
 		{
@@ -3355,9 +2947,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "31",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/31_Monster Reborn.png"
+				"en": "https://i.ibb.co/RDwGqNj/Monster-Reborn.png"
 			}
 		},
 		{
@@ -3365,9 +2956,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "100",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/100_Children of Korlis Concert.png"
+				"en": "https://i.ibb.co/Tv7cCy0/Children-of-Korlis-Concert.png"
 			}
 		},
 		{
@@ -3375,9 +2965,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{G}",
 			"type": "Enchantment",
-			"collector_number": "230",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/230_Better Call Bhaal.png"
+				"en": "https://i.ibb.co/8BC33Pq/Better-Call-Bhaal.png"
 			}
 		},
 		{
@@ -3385,9 +2974,8 @@
 			"rarity": "rare",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "180",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/180_Think Fast.png"
+				"en": "https://i.ibb.co/fntTVjz/Think-Fast.png"
 			}
 		},
 		{
@@ -3395,19 +2983,17 @@
 			"rarity": "rare",
 			"mana_cost": "{W}{B}",
 			"type": "Sorcery",
-			"collector_number": "233",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/233_FETCH With Guff Guffman.png"
+				"en": "https://i.ibb.co/smxrDXQ/FETCH-With-Guff-Guffman.png"
 			}
 		},
 		{
 			"name": "Newsies",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{B}",
-			"type": "Enchantment — Saga ",
-			"collector_number": "241",
+			"type": "Enchantment — Saga",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/241_Newsies.png"
+				"en": "https://i.ibb.co/tPD5mcK/Newsies.png"
 			}
 		},
 		{
@@ -3415,39 +3001,35 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "168",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/168_Red Spells in Alpha Command.png"
+				"en": "https://i.ibb.co/cDv8jkt/Red-Spells-in-Alpha-Command.png"
 			}
 		},
 		{
 			"name": "Ooze Cruise",
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Ooze ",
-			"collector_number": "211",
+			"type": "Creature — Ooze",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/211_Ooze Cruise.png"
+				"en": "https://i.ibb.co/yyXHZG0/Ooze-Cruise.png"
 			}
 		},
 		{
 			"name": "Minsc, Pokemon Master",
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{G}",
-			"type": "Legendary Creature — Human Ranger ",
-			"collector_number": "238",
+			"type": "Legendary Creature — Human Ranger",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/238_Minsc, Pokemon Master.png"
+				"en": "https://i.ibb.co/QFPsvp3/Minsc-Pokemon-Master.png"
 			}
 		},
 		{
 			"name": "Sniddspeaker",
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
-			"type": "Creature — Naga Druid ",
-			"collector_number": "81",
+			"type": "Creature — Naga Druid",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/81_Sniddspeaker.png"
+				"en": "https://i.ibb.co/N793Cyq/Sniddspeaker.png"
 			}
 		},
 		{
@@ -3455,99 +3037,89 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "126",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/126_Sneadly Disnute.png"
+				"en": "https://i.ibb.co/vc8ytGx/Sneadly-Disnute.png"
 			}
 		},
 		{
 			"name": "Reveka, Homelander",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{U}",
-			"type": "Legendary Planeswalker — Reveka ",
-			"collector_number": "248",
+			"type": "Legendary Planeswalker — Reveka",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/248_Reveka, Homelander.png"
+				"en": "https://i.ibb.co/p4xHSbx/Reveka-Homelander.png"
 			}
 		},
 		{
 			"name": "Kinnan, Snonder Snodigy",
 			"rarity": "rare",
 			"mana_cost": "{G}{U}",
-			"type": "Legendary Creature — Human Druid ",
-			"collector_number": "237",
+			"type": "Legendary Creature — Human Druid",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/237_Kinnan, Snonder Snodigy.png"
+				"en": "https://i.ibb.co/4MHYQ29/Kinnan-Snonder-Snodigy.png"
 			}
 		},
 		{
 			"name": "Allergy Elemental",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{B}",
-			"type": "Creature — Elemental ",
-			"collector_number": "93",
+			"type": "Creature — Elemental",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/93_Allergy Elemental.png"
+				"en": "https://i.ibb.co/s3jzk4x/Allergy-Elemental.png"
 			}
 		},
 		{
 			"name": "Goyf Rancher",
 			"rarity": "rare",
 			"mana_cost": "{3}{G}",
-			"type": "Enchantment Creature — Spirit Druid ",
-			"collector_number": "197",
+			"type": "Enchantment Creature — Spirit Druid",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/197_Goyf Rancher.png"
+				"en": "https://i.ibb.co/TRzvDmJ/Goyf-Rancher.png"
 			}
 		},
 		{
 			"name": "Shin Nightmare Omega God Ragavan",
 			"rarity": "rare",
 			"mana_cost": "{5}{R}{R}",
-			"type": "Legendary Creature — Demon Monkey ",
-			"collector_number": "172",
+			"type": "Legendary Creature — Demon Monkey",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/172_Shin Nightmare Omega God Ragavan.png"
+				"en": "https://i.ibb.co/9yfLrXb/Shin-Nightmare-Omega-God-Ragavan.png"
 			}
 		},
 		{
 			"name": "Taco Bellemental",
 			"rarity": "rare",
 			"mana_cost": "{4}",
-			"type": "Artifact Creature — Elemental Spirit ",
-			"collector_number": "310",
+			"type": "Artifact Creature — Elemental Spirit",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/310_Taco Bellemental.png"
+				"en": "https://i.ibb.co/1zT6rGv/Taco-Bellemental.png"
 			}
 		},
 		{
 			"name": "Olympic Stax Team",
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{B}",
-			"type": "Creature — Human Warrior Minion ",
-			"collector_number": "243",
+			"type": "Creature — Human Warrior Minion",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/243_Olympic Stax Team.png"
+				"en": "https://i.ibb.co/7kTHG4d/Olympic-Stax-Team.png"
 			}
 		},
 		{
 			"name": "Game Genie",
 			"rarity": "rare",
 			"mana_cost": "{3}{U}",
-			"type": "Creature — Djinn ",
-			"collector_number": "64",
+			"type": "Creature — Djinn",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/64_Game Genie.png"
+				"en": "https://i.ibb.co/jJ3kLhV/Game-Genie.png"
 			}
 		},
 		{
 			"name": "Demonic Tudor's",
 			"rarity": "rare",
 			"mana_cost": "{B}",
-			"type": "Artifact — Food ",
-			"collector_number": "108",
+			"type": "Artifact — Food",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/108_Demonic Tudor's.png"
+				"en": "https://i.ibb.co/zNr7CwB/Demonic-Tudor-s.png"
 			}
 		},
 		{
@@ -3555,9 +3127,8 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "340",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/340_Rainbow Road.png"
+				"en": "https://i.ibb.co/C27pSYY/Rainbow-Road.png"
 			}
 		},
 		{
@@ -3565,19 +3136,17 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "136",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/136_Wheel of Distortion.png"
+				"en": "https://i.ibb.co/pXMN8Gp/Wheel-of-Distortion.png"
 			}
 		},
 		{
 			"name": "Tungsten-Arm O'Doyle",
 			"rarity": "rare",
 			"mana_cost": "{8}",
-			"type": "Artifact Creature — Robot ",
-			"collector_number": "312",
+			"type": "Artifact Creature — Robot",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/312_Tungsten-Arm O'Doyle.png"
+				"en": "https://i.ibb.co/VgDrFGw/Tungsten-Arm-O-Doyle.png"
 			}
 		},
 		{
@@ -3585,9 +3154,8 @@
 			"rarity": "rare",
 			"mana_cost": "{U/B}{U/B}",
 			"type": "Sorcery",
-			"collector_number": "261",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/261_Gone Wishin'.png"
+				"en": "https://i.ibb.co/RQ9b7m8/Gone-Wishin.png"
 			}
 		},
 		{
@@ -3595,9 +3163,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{B}",
 			"type": "Sorcery",
-			"collector_number": "240",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/240_Mod.png"
+				"en": "https://i.ibb.co/0FwrXRJ/Mod.png"
 			}
 		},
 		{
@@ -3605,39 +3172,26 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "6",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/6_Ban Hammer.png"
+				"en": "https://i.ibb.co/rygf4gb/Ban-Hammer.png"
 			}
 		},
 		{
 			"name": "Badass Fire Skeleton Biker",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Skeleton Pilot ",
-			"collector_number": "142",
+			"type": "Creature — Skeleton Pilot",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/142_Badass Fire Skeleton Biker.png"
-			}
-		},
-		{
-			"name": "Skeleton Pilot",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Skeleton Pilot ",
-			"collector_number": "18",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/18_Skeleton Pilot.png"
+				"en": "https://i.ibb.co/WD6wptP/Badass-Fire-Skeleton-Biker.png"
 			}
 		},
 		{
 			"name": "Debug Menu",
 			"rarity": "rare",
 			"mana_cost": "{6}{U}{U}{U}",
-			"type": "Artifact Creature — Construct ",
-			"collector_number": "56",
+			"type": "Artifact Creature — Construct",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/56_Debug Menu.png"
+				"en": "https://i.ibb.co/w6d1Zmt/Debug-Menu.png"
 			}
 		},
 		{
@@ -3645,9 +3199,8 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{W}",
 			"type": "Artifact",
-			"collector_number": "249",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/249_Rotation Station.png"
+				"en": "https://i.ibb.co/Rp2TTGz/Rotation-Station.png"
 			}
 		},
 		{
@@ -3655,771 +3208,397 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "318",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/318_Field of the Dread.png"
+				"en": "https://i.ibb.co/2KwtvVQ/Field-of-the-Dread.png"
 			}
 		},
 		{
 			"name": "Infernal Injury Lawyer",
 			"rarity": "rare",
 			"mana_cost": "{5}{B/R}{B/R}",
-			"type": "Creature — Demon ",
-			"collector_number": "263",
+			"type": "Creature — Demon",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/263_Infernal Injury Lawyer.png"
-			}
-		},
-		{
-			"name": "Orcane",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Legendary Creature — Whale Dog ",
-			"collector_number": "9",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/9_Orcane.png"
-			}
-		},
-		{
-			"name": "Phyrexian Eldrazi Sliver Spawn",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Phyrexian Eldrazi Sliver Spawn ",
-			"collector_number": "10",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/10_Phyrexian Eldrazi Sliver Spawn.png"
-			}
-		},
-		{
-			"name": "Boo, Pocket Monster",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Legendary Creature — Hamster ",
-			"collector_number": "12",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/12_Boo, Pocket Monster.png"
+				"en": "https://i.ibb.co/Kmdj9qd/Infernal-Injury-Lawyer.png"
 			}
 		},
 		{
 			"name": "The Other Whip of Erebos",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{B}",
-			"type": "Legendary Enchantment Artifact — Vehicle ",
-			"collector_number": "122",
+			"type": "Legendary Enchantment Artifact — Vehicle",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/122_The Other Whip of Erebos.png"
+				"en": "https://i.ibb.co/d5zq4ct/The-Other-Whip-of-Erebos.png"
 			}
 		},
 		{
 			"name": "Korg",
 			"rarity": "rare",
 			"mana_cost": "{R}",
-			"type": "Legendary Creature — Alien Warrior ",
-			"collector_number": "163",
+			"type": "Legendary Creature — Alien Warrior",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/163_Korg.png"
+				"en": "https://i.ibb.co/dt7CqcG/Korg.png"
 			}
-		},
-		{
-			"name": "Knight",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Knight ",
-			"collector_number": "3",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/3_Knight.png"
-			}
-		},
-		{
-			"name": "Wall",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Artifact Creature — Wall ",
-			"collector_number": "37",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/37_Wall.png"
-			}
-		},
-		{
-			"name": "Bride of Wedmaw",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Dinosaur ",
-			"collector_number": "1",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/1_Bride of Wedmaw.png"
-			}
-		},
-		{
-			"name": "Human",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Human ",
-			"collector_number": "2",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/2_Human.png"
-			}
-		},
-		{
-			"name": "Vehicle",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Artifact — Vehicle ",
-			"collector_number": "36",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/36_Vehicle.png"
-			}
-		},
-		{
-			"name": "Spirit",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Spirit ",
-			"collector_number": "5",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/5_Spirit.png"
-			}
-		},
-		{
-			"name": "Blood",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Artifact — Blood ",
-			"collector_number": "27",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/27_Blood.png"
-			}
-		},
-		{
-			"name": "Clue",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Artifact — Clue ",
-			"collector_number": "28",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/28_Clue.png"
-			}
-		},
-		{
-			"name": "Soldier",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Soldier ",
-			"collector_number": "4",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/4_Soldier.png"
-			}
-		},
-		{
-			"name": "Food",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Artifact — Food ",
-			"collector_number": "30",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/30_Food.png"
-			}
-		},
-		{
-			"name": "Bird Beast Illusion",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Bird Beast Illusion ",
-			"collector_number": "7",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/7_Bird Beast Illusion.png"
-			}
-		},
-		{
-			"name": "Drake",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Drake ",
-			"collector_number": "8",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/8_Drake.png"
-			}
-		},
-		{
-			"name": "Vans",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Artifact",
-			"collector_number": "6",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/6_Vans.png"
-			}
-		},
-		{
-			"name": "Treasure",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Artifact — Treasure ",
-			"collector_number": "35",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/35_Treasure.png"
-			}
-		},
-		{
-			"name": "Phyrexian Golem",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Artifact Creature — Phyrexian Golem ",
-			"collector_number": "31",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/31_Phyrexian Golem.png"
-			}
-		},
-		{
-			"name": "Elemental",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Elemental ",
-			"collector_number": "15",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/15_Elemental.png"
-			}
-		},
-		{
-			"name": "Goblin",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Goblin ",
-			"collector_number": "17",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/17_Goblin.png"
-			}
-		},
-		{
-			"name": "Fish",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Fish ",
-			"collector_number": "16",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/16_Fish.png"
-			}
-		},
-		{
-			"name": "Squid",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Squid ",
-			"collector_number": "19",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/19_Squid.png"
-			}
-		},
-		{
-			"name": "Crab",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Crab ",
-			"collector_number": "13",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/13_Crab.png"
-			}
-		},
-		{
-			"name": "Demon",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Demon ",
-			"collector_number": "14",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/14_Demon.png"
-			}
-		},
-		{
-			"name": "Spider",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Spider ",
-			"collector_number": "22",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/22_Spider.png"
-			}
-		},
-		{
-			"name": "Fractal",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Fractal ",
-			"collector_number": "25",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/25_Fractal.png"
-			}
-		},
-		{
-			"name": "Squirrel",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Squirrel ",
-			"collector_number": "23",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/23_Squirrel.png"
-			}
-		},
-		{
-			"name": "Worm",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Worm ",
-			"collector_number": "24",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/24_Worm.png"
-			}
-		},
-		{
-			"name": "Rat",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Rat ",
-			"collector_number": "11",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/11_Rat.png"
-			}
-		},
-		{
-			"name": "Stimpy",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Legendary Creature — Cat ",
-			"collector_number": "20",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/20_Stimpy.png"
-			}
-		},
-		{
-			"name": "Insect",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Insect ",
-			"collector_number": "26",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/26_Insect.png"
-			}
-		},
-		{
-			"name": "Phyrexian Wurm 1",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Artifact Creature — Phyrexian Wurm ",
-			"collector_number": "32",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/32_Phyrexian Wurm 1.png"
-			}
-		},
-		{
-			"name": "Phyrexian Wurm 2",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Artifact Creature — Phyrexian Wurm ",
-			"collector_number": "33",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/33_Phyrexian Wurm 2.png"
-			}
-		},
-		{
-			"name": "Phyrexian Wurm 3",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Artifact Creature — Phyrexian Wurm ",
-			"collector_number": "34",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/34_Phyrexian Wurm 3.png"
-			}
-		},
-		{
-			"name": "Pot of Greed",
-			"rarity": "masterpiece",
-			"mana_cost": "",
-			"type": "Token Sorcery",
-			"collector_number": "2",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/2_Pot of Greed.png"
-			}
-		},
-		{
-			"name": "Professor Oak",
-			"rarity": "masterpiece",
-			"mana_cost": "",
-			"type": "Token Sorcery",
-			"collector_number": "3",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/3_Professor Oak.png"
-			}
-		},
-		{
-			"name": "Flash of Steel",
-			"rarity": "masterpiece",
-			"mana_cost": "",
-			"type": "Token Sorcery",
-			"collector_number": "1",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/2022-files/img/1_Flash of Steel.png"
-			}
-		},
-		]
+		}
+	]
 	[RareSlot(15)]
-	2 Jace Beleren, Hypebeast
-		2 Highly Spooky Charm
-		2 That Time My Uncle Tony Lightning Bolted Someone
-		2 Ohio
-		2 Mountain Lightning
-		2 Ancestral Snecall
-		2 Tolaria State University
-		2 Minnesota
-		2 Cool Ass Dragon Charm
-		2 Decent Removal Charm
-		2 Dumb Bird Charm
-		2 Old McDonald
-		2 Oko's Very Hilarious Charm
-		2 Hundroog Appreciator
-		2 Highly Suspect Fireball
-		2 Mana Leak but it's White
-		2 Lake of the Living
-		2 One Third of Muldrotha
-		2 Cryptic Commander
-		2 The Comfiest Couch
-		2 Man of War
-		2 Craneslayer Angel
-		2 First National Bank of Sarpadia
-		2 House Hunters
-		2 Swords to Lottery Tickets
-		2 Shox Pearl
-		2 Shox Sapphire
-		2 Shox Jet
-		2 Shox Ruby
-		2 Shox Emerald
-		2 Speed Like the Movie
-		2 Computer Search
-		2 Savannah Lions GX
-		2 Vampire Nighthawk GX
-		2 Arceus and Dialga and Palkia Tag Team GX
-		2 Flying Men GX
-		2 Grizzly Bears GX
-		2 Cobblebrute GX
-		2 Snapcaster Electrician
-		2 Gigaflicker
-		2 Jumper Cables
-		2 Goblin Whatevermancer
-		2 Memnarchs Gone Nuts
-		2 Young Pie Romancer
-		2 Tim, of the Wilds
-		2 Ucko Fucko, the Classic Lovable Character
-		2 Vertical Integration
-		2 Blaze Splicer
-		2 Broken Mirror
-		2 Lowe's
-		2 Roadkill
-		2 Lagtusk
-		2 Oracle of Mul Drifter
-		2 End Career
-		2 The Wrenn and Stimpy Show
-		2 Evil Thalia
-		2 Splice onto Orcane
-		2 Go Outside
-		2 Colossal Skredmaw
-		2 The Impostor
-		2 KILL
-		2 Hidetsugu's Third Rite
-		2 School Dance Chaperone
-		2 Synthetic Strand
-		2 Really Long Stab
-		2 Garbage Day
-		2 Skill Issue
-		2 Spiritmonger 2 Tokyo Drift
-		2 Promposal Sign
-		2 Money Catcher Booth
-		2 Stamp Collector
-		2 Dorkish Raccoon
-		2 Schmitty, Lurrus' Nephew
-		2 Force of Boat
-		2 Maine
-		2 New Mexico
-		2 Oregon
-		2 Kentucky
-		2 Kansas
-		2 Florida
-		2 Maryland
-		2 Hawaii
-		2 Wyoming
-		2 Magecon 2022
-		2 Deep Fry
-		2 Colossal Wedmaw
-		2 Colossal Leadmaw
-		2 Colossal Bledmaw
-		2 Colossal Breadmaw
-		2 Synthetic Delta
-		2 Synthetic Mire
-		2 Synthetic Foothills
-		2 Synthetic Heath
-		2 Synthetic Flats
-		2 Synthetic Catacombs
-		2 Synthetic Rainforest
-		2 Synthetic Tarn
-		2 Synthetic Mesa
-		2 Sunoco
-		2 Red Lobster
-		2 Fazoli's
-		2 Subway
-		2 TGI Friday's
-		2 Menards
-		2 Dick's Sporting Goods
-		2 Planet Fitness
-		2 The Home Depot
-		2 Toxic Fan
-		2 Cow Tools
-		2 Imperial Recruiter of the Guard
-		2 3 AM Fireworks
-		2 Solve the Mystery
-		2 Junk of Virtue
-		2 Formerly Ridden Allosaurus
-		2 Father of Runes
-		2 Spark Ritual
-		2 chill lofi beats to panic study to
-		2 Stacks on Stacks on Stacks
-		2 Corn Field Evangel
-		2 Seafood Regent
-		2 Electrician's Edict
-		2 Forklift Certification Training
-		2 Sandstorm Titan
-		2 Muscle Philosopher
-		2 Edutainment Paragon
-		2 Clover Muncher
-		2 Indicator
-		2 Super Nerd
-		2 Murktide Shinobi
-		2 Buy Low
-		2 Six Time NBA Champion Michael Jordan
-		2 Hyperlotus
-		2 Amateur Resurrection Job
-		2 Serra Angel GX
-		2 Serendib Efreet GX
-		2 Carnophage GX
-		2 Jackal Pup GX
-		2 Llanowar Elves GX
-		2 Masticore GX
-		2 Necropolis for Lease
-		2 Mishra's Casino
-		2 Automated Terror Machine
-		2 Damned Daniel
-		2 Ranged Hermit
-		2 Bob's Revenge
-		2 sony vegas pro 80 keygen
-		2 Collected Monopoly
-		2 Sny Diamond
-		2 Countersnell
-		2 Kiora, Snehemoth Sneckoner
-		2 Olive Garden Archfiend
-		2 Dark Ritoil
-		2 Get the Place Jumping
-		2 Crunch Time
-		2 Monastabby Mentor
-		2 Thorn Fetcher
-		2 Goldmeadow Harrier PI
-		2 IRS Officer
-		2 Give Blood
-		2 Burninate the Countryside
-		2 Verbal Abuse
-		2 Wait
-		2 Power Nap
-		2 Pod People
-		2 Take Out the Trash
-		2 Four Ghosts in a Trenchcoat
-		2 Metalworks
-		2 Super Duper Dynamo
-		2 Laelia and Young Pyromancer's Grand Day Out
-		2 Dire Corgi
-		2 Percussive Maintenance
-		2 Bird Watching Club
-		2 Gaea's Secret Treehouse
-		2 Universal Remote
-		2 Niv-Mizzet Reborn Reborn
-		2 Wiki Editor
-		2 Fan of Hammers
-		2 Boseiju Tourist
-		2 Balance Patch
-		2 Boneforge Mystic
-		2 The Birth of Cleveland
-		2 Sevinne's Repairs Service
-		2 Ghosts in a Can
-		2 Keepsake Excavator
-		2 Wall of Drywall
-		2 Unconventional Therapist
-		2 Brimaz, Kitty King
-		2 Utterly Horrifying Geist
-		2 Combine Harvester
-		2 Four Million Myr on Typewriters
-		2 Tasteful Hero of Bladehold
-		2 McCormick Guide
-		2 The Accord
-		2 Some Guy
-		2 Excused Absence
-		2 Jail for Idiot Babies
-		2 Marble Diamond Collector's Edition
-		2 The Ohio Turnpike
-		2 Rabbit Hole
-		2 Survival of the Schnastiest
-		2 Chuck, the Evil Sandwich Making Guy
-		2 Witness of Paradise
-		2 Butterknife of Fire and Ice
-		2 Looking Respectfully
-		2 sorry i wasn't paying attention
-		2 El Dragon del Invierno
-		2 Time Walk on the Wild Side
-		2 Installation Wizard
-		2 Financial Compensation
-		2 Crack Open a Cold One
-		2 Doug, IT Guy
-		2 Haunted Banana
-		2 Trade Show
-		2 Giant Magnet
-		2 Talrand and Urza Go to White Castle
-		2 Polukranos, Rotated
-		2 Torrent
-		2 7-Up Dragon
-		2 Competent Goblin Guide
-		2 Dumpster Fire
-		2 Azorius Membership Card
-		2 Dimir Membership Card
-		2 Rakdos Membership Card
-		2 Gruul Membership Card
-		2 Selesnya Membership Card
-		2 Orzhov Membership Card
-		2 Simic Membership Card
-		2 Golgari Membership Card
-		2 Izzet Membership Card
-		2 Boros Membership Card
-		2 Moyai
-		2 Wax Dribbler
-		2 Goblin Hiring Manager
-		2 Fish Feeder
-		2 Recording Artist
-		2 State Park
-		2 Tormenting Chef
-		2 Brain Strainer
-		2 National Lampoon's Urborg Vacation
-		2 Phyrexian Work Mixer
-		2 Something-Gang Commander
-		2 Terrible Twos
-		2 Dr Gerhard Zomagk
-		2 Tourach, Dinosaur Hunter
-		2 Cool Ultimatum
-		2 Nick Ropotence
-		2 Termination Notice
-		2 Rock
-		2 Charitable Hellkite
-		2 Wiggles the Worm
-		2 Rob, Faithless Looter
-		2 Cartridge Tilt
-		2 Tibalt, Gambling Addict
-		2 Purely Decorative Sword
-		2 Cereal Mascot
-		2 Planeswalking Ballista
-		2 Legion of the Golden Nut
-		2 Sixteen Squirrels
-		2 Rofellos, Karametra's Acolyte
-		2 Keyboard Warrior
-		2 Gorilla Tactician
-		2 Dig Dog
-		2 Mana George
-		2 Titania, Argothian Rocker
-		2 The Great Pumpkin
-		2 Deep Lore
-		2 Cryptolith Left
-		2 Phyrexian Eldrazi Sliver Planeswalker
-		2 Four Below
-		2 MIRARI The Musical
-		2 Goblin Garage Sale
-		2 Get Real
-		2 Wurmcoil Engine Mk II
-		2 Skulk Lamp
-		2 Flying Lawn Chair
-		2 Giant Spider, Planeswalker
-		2 Reflector's Copter
-		2 Daze of Our Lives
-		2 Colossal Shredmaw
-		2 Time Blender
-		2 Rakdos Sweepstakes
-		2 Questing Bees
-		2 Demon Rhino
-		2 Abundant Storm
-		2 Entirely Unsuspicious Rise to Power
-		2 Mush Pit
-		2 The Reliquary
-		2 Spork
-		2 Mirran History Museum
-		2 Stagnant Swimming Pool
-		2 Ucko Fucko's Catheter
-		2 Ostentatious Volleyballer
-		2 Squelchmeister
-		2 Freelance Necromancer
-		2 Booster Boxer
-		2 Zone
-		2 Yawgmoth's Will Kenrith
-		2 Trade School Rector
-		2 Burn Spell Name
-		2 Aggro AI
-		2 Life Orb
-		2 Showdown of the Scalds
-		2 Dark Hole
-		2 Math Class
-		2 Piloted Shredder
-		2 Infinite Blades
-		2 Uxie The Legends Awakened One
-		2 Card Creep
-		2 Hell Kite
-		2 Otto Battler
-		2 Alfredo Linguini From Ratatouille
-		2 Wrench Collection
-		2 Jin-Gitaxias' Hot Pants
-		2 Support Your Local Library
-		2 Mantis
-		2 Bug Juice
-		2 Tajitte
-		2 Aspiring Alpha
-		2 Simic Init
-		2 Armagiddeon
-		2 The Meathook Massacre Girl
-		2 Snarg's House of Sin
-		2 Snurmuring Snystic
-		2 Ancient Tom
-		2 Free Bird
-		2 Holy Walla
-		2 Spirit of the Format
-		2 Monster Reborn
-		2 Children of Korlis Concert
-		2 Better Call Bhaal
-		2 Think Fast
-		2 FETCH With Guff Guffman
-		2 Newsies
-		2 Red Spells in Alpha Command
-		2 Ooze Cruise
-		2 Minsc, Pokemon Master
-		2 Sniddspeaker
-		2 Sneadly Disnute
-		2 Reveka, Homelander
-		2 Kinnan, Snonder Snodigy
-		2 Allergy Elemental
-		2 Goyf Rancher
-		2 Shin Nightmare Omega God Ragavan
-		2 Taco Bellemental
-		2 Olympic Stax Team
-		2 Game Genie
-		2 Demonic Tudor's
-		2 Rainbow Road
-		2 Wheel of Distortion
-		2 Tungsten-Arm O'Doyle
-		2 Gone Wishin'
-		2 Mod
-		2 Ban Hammer
-		2 Badass Fire Skeleton Biker
-		2 Debug Menu
-		2 Rotation Station
-		2 Field of the Dread
-		2 Infernal Injury Lawyer
-		2 The Other Whip of Erebos
-		2 Korg
-		
+	1 Jace Beleren, Hypebeast
+		1 Highly Spooky Charm
+		1 That Time My Uncle Tony Lightning Bolted Someone
+		1 Ohio
+		1 Mountain Lightning
+		1 Ancestral Snecall
+		1 Tolaria State University
+		1 Minnesota
+		1 Cool Ass Dragon Charm
+		1 Decent Removal Charm
+		1 Dumb Bird Charm
+		1 Old McDonald
+		1 Oko's Very Hilarious Charm
+		1 Hundroog Appreciator
+		1 Highly Suspect Fireball
+		1 Mana Leak but it's White
+		1 Lake of the Living
+		1 One Third of Muldrotha
+		1 Cryptic Commander
+		1 The Comfiest Couch
+		1 Man of War
+		1 Craneslayer Angel
+		1 First National Bank of Sarpadia
+		1 House Hunters
+		1 Swords to Lottery Tickets
+		1 Shox Pearl
+		1 Shox Sapphire
+		1 Shox Jet
+		1 Shox Ruby
+		1 Shox Emerald
+		1 Speed Like the Movie
+		1 Computer Search
+		1 Savannah Lions GX
+		1 Vampire Nighthawk GX
+		1 Arceus and Dialga and Palkia Tag Team GX
+		1 Flying Men GX
+		1 Grizzly Bears GX
+		1 Cobblebrute GX
+		1 Snapcaster Electrician
+		1 Gigaflicker
+		1 Jumper Cables
+		1 Goblin Whatevermancer
+		1 Memnarchs Gone Nuts
+		1 Young Pie Romancer
+		1 Tim, of the Wilds
+		1 Ucko Fucko, the Classic Lovable Character
+		1 Vertical Integration
+		1 Blaze Splicer
+		1 Broken Mirror
+		1 Lowe's
+		1 Roadkill
+		1 Lagtusk
+		1 Oracle of Mul Drifter
+		1 End Career
+		1 The Wrenn and Stimpy Show
+		1 Evil Thalia
+		1 Splice onto Orcane
+		1 Go Outside
+		1 Colossal Skredmaw
+		1 The Impostor
+		1 KILL
+		1 Hidetsugu's Third Rite
+		1 School Dance Chaperone
+		1 Synthetic Strand
+		1 Really Long Stab
+		1 Garbage Day
+		1 Skill Issue
+		1 Spiritmonger 2 Tokyo Drift
+		1 Promposal Sign
+		1 Money Catcher Booth
+		1 Stamp Collector
+		1 Dorkish Raccoon
+		1 Schmitty, Lurrus' Nephew
+		1 Force of Boat
+		1 Maine
+		1 New Mexico
+		1 Oregon
+		1 Kentucky
+		1 Kansas
+		1 Florida
+		1 Maryland
+		1 Hawaii
+		1 Wyoming
+		1 Magecon 2022
+		1 Deep Fry
+		1 Colossal Wedmaw
+		1 Colossal Leadmaw
+		1 Colossal Bledmaw
+		1 Colossal Breadmaw
+		1 Synthetic Delta
+		1 Synthetic Mire
+		1 Synthetic Foothills
+		1 Synthetic Heath
+		1 Synthetic Flats
+		1 Synthetic Catacombs
+		1 Synthetic Rainforest
+		1 Synthetic Tarn
+		1 Synthetic Mesa
+		1 Sunoco
+		1 Red Lobster
+		1 Fazoli's
+		1 Subway
+		1 TGI Friday's
+		1 Menards
+		1 Dick's Sporting Goods
+		1 Planet Fitness
+		1 The Home Depot
+		1 Toxic Fan
+		1 Cow Tools
+		1 Imperial Recruiter of the Guard
+		1 3 AM Fireworks
+		1 Solve the Mystery
+		1 Junk of Virtue
+		1 Formerly Ridden Allosaurus
+		1 Father of Runes
+		1 Spark Ritual
+		1 chill lofi beats to panic study to
+		1 Stacks on Stacks on Stacks
+		1 Corn Field Evangel
+		1 Seafood Regent
+		1 Electrician's Edict
+		1 Forklift Certification Training
+		1 Sandstorm Titan
+		1 Muscle Philosopher
+		1 Edutainment Paragon
+		1 Clover Muncher
+		1 Indicator
+		1 Super Nerd
+		1 Murktide Shinobi
+		1 Buy Low
+		1 Six Time NBA Champion Michael Jordan
+		1 Hyperlotus
+		1 Amateur Resurrection Job
+		1 Serra Angel GX
+		1 Serendib Efreet GX
+		1 Carnophage GX
+		1 Jackal Pup GX
+		1 Llanowar Elves GX
+		1 Masticore GX
+		1 Necropolis for Lease
+		1 Mishra's Casino
+		1 Automated Terror Machine
+		1 Damned Daniel
+		1 Ranged Hermit
+		1 Bob's Revenge
+		1 sony vegas pro 80 keygen
+		1 Collected Monopoly
+		1 Sny Diamond
+		1 Countersnell
+		1 Kiora, Snehemoth Sneckoner
+		1 Olive Garden Archfiend
+		1 Dark Ritoil
+		1 Get the Place Jumping
+		1 Crunch Time
+		1 Monastabby Mentor
+		1 Thorn Fetcher
+		1 Goldmeadow Harrier PI
+		1 IRS Officer
+		1 Give Blood
+		1 Burninate the Countryside
+		1 Verbal Abuse
+		1 Wait
+		1 Power Nap
+		1 Pod People
+		1 Take Out the Trash
+		1 Four Ghosts in a Trenchcoat
+		1 Metalworks
+		1 Super Duper Dynamo
+		1 Laelia and Young Pyromancer's Grand Day Out
+		1 Dire Corgi
+		1 Percussive Maintenance
+		1 Bird Watching Club
+		1 Gaea's Secret Treehouse
+		1 Universal Remote
+		1 Niv-Mizzet Reborn Reborn
+		1 Wiki Editor
+		1 Fan of Hammers
+		1 Boseiju Tourist
+		1 Balance Patch
+		1 Boneforge Mystic
+		1 The Birth of Cleveland
+		1 Sevinne's Repairs Service
+		1 Ghosts in a Can
+		1 Keepsake Excavator
+		1 Wall of Drywall
+		1 Unconventional Therapist
+		1 Brimaz, Kitty King
+		1 Utterly Horrifying Geist
+		1 Combine Harvester
+		1 Four Million Myr on Typewriters
+		1 Tasteful Hero of Bladehold
+		1 McCormick Guide
+		1 The Accord
+		1 Some Guy
+		1 Excused Absence
+		1 Jail for Idiot Babies
+		1 Marble Diamond Collector's Edition
+		1 The Ohio Turnpike
+		1 Rabbit Hole
+		1 Survival of the Schnastiest
+		1 Chuck, the Evil Sandwich Making Guy
+		1 Witness of Paradise
+		1 Butterknife of Fire and Ice
+		1 Looking Respectfully
+		1 sorry i wasn't paying attention
+		1 El Dragon del Invierno
+		1 Time Walk on the Wild Side
+		1 Installation Wizard
+		1 Financial Compensation
+		1 Crack Open a Cold One
+		1 Doug, IT Guy
+		1 Haunted Banana
+		1 Trade Show
+		1 Giant Magnet
+		1 Talrand and Urza Go to White Castle
+		1 Polukranos, Rotated
+		1 Torrent
+		1 7-Up Dragon
+		1 Competent Goblin Guide
+		1 Dumpster Fire
+		1 Azorius Membership Card
+		1 Dimir Membership Card
+		1 Rakdos Membership Card
+		1 Gruul Membership Card
+		1 Selesnya Membership Card
+		1 Orzhov Membership Card
+		1 Simic Membership Card
+		1 Golgari Membership Card
+		1 Izzet Membership Card
+		1 Boros Membership Card
+		1 Moyai
+		1 Wax Dribbler
+		1 Goblin Hiring Manager
+		1 Fish Feeder
+		1 Recording Artist
+		1 State Park
+		1 Tormenting Chef
+		1 Brain Strainer
+		1 National Lampoon's Urborg Vacation
+		1 Phyrexian Work Mixer
+		1 Something-Gang Commander
+		1 Terrible Twos
+		1 Dr Gerhard Zomagk
+		1 Tourach, Dinosaur Hunter
+		1 Cool Ultimatum
+		1 Nick Ropotence
+		1 Termination Notice
+		1 Rock
+		1 Charitable Hellkite
+		1 Wiggles the Worm
+		1 Rob, Faithless Looter
+		1 Cartridge Tilt
+		1 Tibalt, Gambling Addict
+		1 Purely Decorative Sword
+		1 Cereal Mascot
+		1 Planeswalking Ballista
+		1 Legion of the Golden Nut
+		1 Sixteen Squirrels
+		1 Rofellos, Karametra's Acolyte
+		1 Keyboard Warrior
+		1 Gorilla Tactician
+		1 Dig Dog
+		1 Mana George
+		1 Titania, Argothian Rocker
+		1 The Great Pumpkin
+		1 Deep Lore
+		1 Cryptolith Left
+		1 Phyrexian Eldrazi Sliver Planeswalker
+		1 Four Below
+		1 MIRARI The Musical
+		1 Goblin Garage Sale
+		1 Get Real
+		1 Wurmcoil Engine Mk II
+		1 Skulk Lamp
+		1 Flying Lawn Chair
+		1 Giant Spider, Planeswalker
+		1 Reflector's Copter
+		1 Daze of Our Lives
+		1 Colossal Shredmaw
+		1 Time Blender
+		1 Rakdos Sweepstakes
+		1 Questing Bees
+		1 Demon Rhino
+		1 Abundant Storm
+		1 Entirely Unsuspicious Rise to Power
+		1 Mush Pit
+		1 The Reliquary
+		1 Spork
+		1 Mirran History Museum
+		1 Stagnant Swimming Pool
+		1 Ucko Fucko's Catheter
+		1 Ostentatious Volleyballer
+		1 Squelchmeister
+		1 Freelance Necromancer
+		1 Booster Boxer
+		1 Zone
+		1 Yawgmoth's Will Kenrith
+		1 Trade School Rector
+		1 Burn Spell Name
+		1 Aggro AI
+		1 Life Orb
+		1 Showdown of the Scalds
+		1 Dark Hole
+		1 Math Class
+		1 Piloted Shredder
+		1 Infinite Blades
+		1 Uxie The Legends Awakened One
+		1 Card Creep
+		1 Hell Kite
+		1 Otto Battler
+		1 Alfredo Linguini From Ratatouille
+		1 Wrench Collection
+		1 Jin-Gitaxias' Hot Pants
+		1 Support Your Local Library
+		1 Mantis
+		1 Bug Juice
+		1 Tajitte
+		1 Aspiring Alpha
+		1 Simic Init
+		1 Armagiddeon
+		1 The Meathook Massacre Girl
+		1 Snarg's House of Sin
+		1 Snurmuring Snystic
+		1 Ancient Tom
+		1 Free Bird
+		1 Holy Walla
+		1 Spirit of the Format
+		1 Monster Reborn
+		1 Children of Korlis Concert
+		1 Better Call Bhaal
+		1 Think Fast
+		1 FETCH With Guff Guffman
+		1 Newsies
+		1 Red Spells in Alpha Command
+		1 Ooze Cruise
+		1 Minsc, Pokemon Master
+		1 Sniddspeaker
+		1 Sneadly Disnute
+		1 Reveka, Homelander
+		1 Kinnan, Snonder Snodigy
+		1 Allergy Elemental
+		1 Goyf Rancher
+		1 Shin Nightmare Omega God Ragavan
+		1 Taco Bellemental
+		1 Olympic Stax Team
+		1 Game Genie
+		1 Demonic Tudor's
+		1 Rainbow Road
+		1 Wheel of Distortion
+		1 Tungsten-Arm O'Doyle
+		1 Gone Wishin'
+		1 Mod
+		1 Ban Hammer
+		1 Badass Fire Skeleton Biker
+		1 Debug Menu
+		1 Rotation Station
+		1 Field of the Dread
+		1 Infernal Injury Lawyer
+		1 The Other Whip of Erebos
+		1 Korg
+	
