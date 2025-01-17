@@ -1,0 +1,1 @@
+﻿Ditzy Bartender	W	common	Creature – Bear Citizen 	11	W	3W	LifelinkNEWLINEWhen this creature enters, put a +1/+1 counter on each of up to two other target creatures you control.	2/3		normal	PMD		https://www.tumblr.com/citrispace

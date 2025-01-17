@@ -1,0 +1,1 @@
+﻿Lumbering Inn	G	common	Creature – Plant Turtle 	236	G	XGG	TrampleNEWLINEThis creature enters with X +1/+1 counters on it.NEWLINEWhen this creature enters, put a +1/+1 counter on each other creature you control.	0/0		normal	PMD		

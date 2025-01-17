@@ -1,0 +1,1 @@
+﻿Mawile, Expedition Archivist	WR	rare	Legendary Artifact Creature – Faerie Advisor 	273	WR	RW	Whenever you play a land or cast a spell from anywhere other than your hand, create a tapped Treasure token.NEWLINE3, T, Sacrifice three other artifacts: You may cast a spell from your graveyard without paying its mana cost.	2/2		normal	PMD		https://www.tumblr.com/realspacejunk

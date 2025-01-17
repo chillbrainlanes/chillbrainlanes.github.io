@@ -1,0 +1,1 @@
+﻿Feat of Courage	W	common	Enchantment – Aura 	17	W	2W	FlashNEWLINEEnchant creatureNEWLINEEnchanted creature gets +2/+2.NEWLINEWhen this enchantment enters, up to one target creature other than enchanted creature gets +2/+2 until end of turn.			normal	PMD		

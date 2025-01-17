@@ -1,0 +1,1 @@
+﻿Red Elemental Bird	R	common	Token Creature – Elemental Bird 	13	R		Flying	8/8		token	PMD		!exportname Red Elemental BirdNEWLINE!related Mount Blaze;NEWLINEhttps://www.tumblr.com/lilystrations/711171977301327872/autumn-heat-next-up-for-the-legendary-squawkers

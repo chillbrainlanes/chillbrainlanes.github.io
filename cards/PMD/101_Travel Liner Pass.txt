@@ -1,0 +1,1 @@
+﻿Travel Liner Pass	U	rare	Artifact	101	U	3U	Whenever you attack, look at the top five cards of your library. For each player you’re attacking, you may reveal a creature, land, or Expedition card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.			normal	PMD		

@@ -1,0 +1,1 @@
+﻿Celebi, Temporal Voyager	U	rare	Legendary Creature – Faerie 	61	U	3U	FlashNEWLINEFlyingNEWLINEWhen this creature enters, create a tapped blue artifact token named Time Gear with “T: Add U.”NEWLINEUntap all artifacts and creatures you control during each other player’s untap step.	2/3		normal	PMD		

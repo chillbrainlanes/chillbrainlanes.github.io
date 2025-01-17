@@ -1,0 +1,1 @@
+﻿Dark Pulse	B	uncommon	Enchantment – Aura 	119	B	2B	Enchant creatureNEWLINEEnchanted creature gets -X/-X, where X is the number of cards in your graveyard.NEWLINECycling 3 (3, Discard this card: Draw a card.)NEWLINEWhen you cycle this card, mill three cards.			normal	PMD		

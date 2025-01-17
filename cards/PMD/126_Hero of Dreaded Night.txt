@@ -1,0 +1,1 @@
+﻿Hero of Dreaded Night	B	uncommon	Legendary Creature – Dinosaur Warrior 	126	B	1B	Whenever one or more cards leave your graveyard, create a colorless artifact token named Bone Club. It has “Equipped creature gets +1/+0 and has menace.” and equip 2.NEWLINEPartner (You can have two commanders if both have partner.)	2/1		normal	PMD		

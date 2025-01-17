@@ -1,0 +1,1 @@
+﻿Fogbound Lake		common	Land	309	U		This land enters tapped. As it enters, choose a color.NEWLINET: Add U or one mana of the chosen color.NEWLINECycling 3 (3, Discard this card: Draw a card.)			normal	PMD		

@@ -1,0 +1,1 @@
+﻿Shaymin of Sky Peak	WG	rare	Legendary Creature – Plant Beast 	280	WG	1GW	Flying, vigilanceNEWLINET: Create an artifact token named Sky Gift, then target opponent gains control of it. It has “T, Sacrifice this artifact: Choose one. Sky Gift’s owner also chooses one.NEWLINE• Put three +1/+1 counters on target creature.NEWLINE• Draw a card. You gain 3 life.”	3/4		normal	PMD		

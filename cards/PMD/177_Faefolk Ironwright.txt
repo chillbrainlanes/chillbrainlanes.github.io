@@ -1,0 +1,1 @@
+﻿Faefolk Ironwright	R	common	Creature – Gnome Artificer 	177	R	2R	Whenever an artifact you control enters, put a +1/+1 counter on target creature.	2/1		normal	PMD		https://twitter.com/poqu_a_doodle

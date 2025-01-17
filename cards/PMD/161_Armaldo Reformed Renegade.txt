@@ -1,0 +1,1 @@
+﻿Armaldo, Reformed Renegade	R	rare	Legendary Creature – Shrimp Rogue 	161	R	2R	Whenever a creature with mana value 1 or less you control enters, create a tapped Treasure token. If that creature wasn’t a token, put a +1/+1 counter on that creature. (Treasure is an artifact with “T, Sacrifice this artifact: Add one mana of any color.”)	4/2		normal	PMD		

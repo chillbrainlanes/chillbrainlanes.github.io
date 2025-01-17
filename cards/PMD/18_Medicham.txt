@@ -1,0 +1,1 @@
+﻿Medicham	WG	common	Token Legendary Creature – Monk 	18	WG		VigilanceNEWLINET: Add three mana of different colors.	3/3		token	PMD		!related Lopunny of Team Charm;

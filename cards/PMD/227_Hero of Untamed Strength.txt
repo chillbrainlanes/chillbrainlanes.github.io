@@ -1,0 +1,1 @@
+﻿Hero of Untamed Strength	G	uncommon	Legendary Creature – Elephant Warrior 	227	G	3G	TrampleNEWLINEWhenever this creature attacks, you may pay XXG. If you do, other creatures you control get +X/+X and gain trample until end of turn.NEWLINEPartner (You can have two commanders if both have partner.)	4/4		normal	PMD		

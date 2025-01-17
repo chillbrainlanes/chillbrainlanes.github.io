@@ -1,0 +1,1 @@
+﻿Laborer of Paradise	G	common	Creature – Giant Citizen 	234	G	2G	When this creature enters, draw a card. You may play an additional land this turn.	2/2		normal	PMD		

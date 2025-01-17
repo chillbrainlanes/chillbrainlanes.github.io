@@ -1,0 +1,1 @@
+﻿Common Crook	B	common	Creature – Fox Rogue 	112	B	B	When this creature dies, up to one target creature gets -1/-1 until end of turn. Mill two cards.NEWLINE3, Exile this card from your graveyard: You draw a card and lose 1 life.	1/1		normal	PMD		

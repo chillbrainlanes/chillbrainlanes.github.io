@@ -1,0 +1,1 @@
+﻿Mastermind Outlaw	B	common	Creature – Insect Rogue 	137	B	3B	FlyingNEWLINEAt the beginning of your end step, if combat damage was dealt to each of your opponents this turn, you draw a card and lose 1 life.	3/3		normal	PMD		

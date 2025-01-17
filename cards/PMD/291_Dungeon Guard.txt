@@ -1,0 +1,1 @@
+﻿Dungeon Guard		common	Artifact Creature – Cat Soldier 	291	C	2	When this creature dies, each player may survey. (To survey, scry 2 or search for a basic land, put it into your hand, then shuffle.)	3/2		normal	PMD		

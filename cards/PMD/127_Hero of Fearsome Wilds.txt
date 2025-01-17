@@ -1,0 +1,1 @@
+﻿Hero of Fearsome Wilds	B	uncommon	Legendary Creature – Snake Rogue 	127	B	2B	This creature gets +1/+1 for each creature card in your graveyard.NEWLINEDiscard a creature card: This creature gains menace until end of turn.NEWLINEPartner (You can have two commanders if both have partner.)	1/1		normal	PMD		

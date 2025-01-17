@@ -1,0 +1,1 @@
+﻿Treasure Town		rare	Land	316	C		T: Add C.NEWLINET, Sacrifice a Treasure: Choose one –NEWLINE• Create a tapped 1/1 white Jackal Ranger creature token.NEWLINE• Draw a card, then discard a card.NEWLINE• Tap target creature.			normal	PMD		

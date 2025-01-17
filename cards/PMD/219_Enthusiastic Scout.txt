@@ -1,0 +1,1 @@
+﻿Enthusiastic Scout	G	uncommon	Creature – Plant Scout 	219	G	1G	When this creature enters, survey. (Scry 2 or search for a basic land, put it into your hand, then shuffle.)NEWLINEAt the beginning of combat on your turn, if you control eight or more lands, put a +1/+1 counter on target creature.	2/1		normal	PMD		

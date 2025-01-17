@@ -1,0 +1,1 @@
+﻿Hero of Intrepid Aspiration	R	uncommon	Legendary Creature – Bird Warrior 	185	R	3R	Whenever one or more counters are put on a creature you control, it deals that much damage to target opponent.NEWLINER: If this creature has a counter on it, it gains flying until end of turn.NEWLINEPartner (You can have two commanders if both have partner.)	2/2		normal	PMD		

@@ -1,0 +1,1 @@
+﻿Avaricious Merchant	B	uncommon	Creature – Spirit Citizen 	108	B	4B	When this creature enters, create two Treasure tokens. (They’re artifacts with “T, Sacrifice this artifact: Add one mana of any color.”)NEWLINEWhenever an artifact you control enters, each opponent loses 1 life and you gain 1 life.	2/5		normal	PMD		

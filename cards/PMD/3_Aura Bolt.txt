@@ -1,0 +1,1 @@
+﻿Aura Bolt	W	common	Instant	3	W	1W	Tap up to two target creatures. Put a stun counter on one of them. (If a permanent with a stun counter would become untapped, remove one from it instead.)NEWLINECreate a 1/1 white Jackal Ranger creature token.			normal	PMD		

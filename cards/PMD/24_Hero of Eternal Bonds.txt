@@ -1,0 +1,1 @@
+﻿Hero of Eternal Bonds	W	uncommon	Legendary Creature – Cat Cleric 	24	W	1W	At the beginning of your end step, exile up to one target creature that attacked this turn, then return it to the battlefield under its owner’s control.NEWLINEPartner (You can have two commanders if both have partner.)	1/2		normal	PMD		

@@ -1,0 +1,1 @@
+﻿Aspect of Jealousy	U	rare	Enchantment	56	U	6U	Whenever an opponent casts an instant or sorcery spell, you may copy it. If you do, you may choose new targets for the copy.			normal	PMD		

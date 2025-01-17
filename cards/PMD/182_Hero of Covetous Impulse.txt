@@ -1,0 +1,1 @@
+﻿Hero of Covetous Impulse	R	uncommon	Legendary Creature – Monkey Rogue 	182	R	1R	At the beginning of each end step, if an artifact entered the battlefield under your control this turn, exile the top card of your library. Until the end of your next turn, you may play that card.NEWLINEPartner (You can have two commanders if both have partner.)	2/2		normal	PMD		

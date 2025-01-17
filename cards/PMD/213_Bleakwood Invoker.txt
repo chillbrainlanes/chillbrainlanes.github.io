@@ -1,0 +1,1 @@
+﻿Bleakwood Invoker	G	common	Creature – Treefolk Spirit 	213	G	3G	TrampleNEWLINE8: Untap up to two target lands. Until end of turn, they become 4/4 green Treefolk Spirit creatures with trample and haste. They’re still lands.	4/4		normal	PMD		

@@ -1,0 +1,1 @@
+﻿Accidental Incineration	R	common	Instant	158	R	R	Choose one –NEWLINE• Accidental Incineration deals 1 damage to each of up to two target creatures.NEWLINE• Destroy target artifact.NEWLINECycling 2 (2, Discard this card: Draw a card.)			normal	PMD		https://www.deviantart.com/wintermelody22/favourites/65867921/pokemon?page=6

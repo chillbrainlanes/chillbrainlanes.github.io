@@ -1,0 +1,1 @@
+﻿Legendary Treasures	B	rare	Enchantment	136	B	2B	Whenever one or more creatures you control deal combat damage to a player, create a tapped Treasure token. (This ability triggers once for each player damaged.)NEWLINESacrifice seven untapped Treasures: Gain control of target non-commander creature. Activate only as a sorcery.			normal	PMD		

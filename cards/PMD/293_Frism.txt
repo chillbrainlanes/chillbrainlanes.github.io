@@ -1,0 +1,1 @@
+﻿Frism		common	Artifact	293	C	3	T: Add one mana of any color.NEWLINE3, T, Sacrifice this artifact: Return target instant or sorcery card from your graveyard to your hand.			normal	PMD		tumblr.com/kurtisthesnivy

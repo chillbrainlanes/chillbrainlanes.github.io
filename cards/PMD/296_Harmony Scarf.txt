@@ -1,0 +1,1 @@
+﻿Harmony Scarf		mythic	Artifact – Equipment 	296	C	2	When this artifact enters, if it isn’t a token, create a token that’s a copy of it.NEWLINE3: Each creature you control that has a permanent named Harmony Scarf attached to it has base power and toughness 8/8 until end of turn.NEWLINEEquip 4NEWLINEEquip commander 1			normal	PMD		

@@ -1,0 +1,1 @@
+﻿Berserk Mutation	G	rare	Sorcery	212	G	G	Until end of turn, double the power of target creature you control. It gains haste, trample, and “Whenever this creature deals damage to a player, it deals that much damage to any number of other target players.” At the beginning of the next end step, sacrifice it.			normal	PMD		

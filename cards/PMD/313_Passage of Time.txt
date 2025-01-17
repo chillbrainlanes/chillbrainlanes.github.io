@@ -1,0 +1,1 @@
+﻿Passage of Time		uncommon	Land	313	C		T: Add C.NEWLINE2, T, Sacrifice this land: Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.			normal	PMD		

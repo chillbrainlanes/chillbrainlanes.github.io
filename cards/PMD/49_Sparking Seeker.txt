@@ -1,0 +1,1 @@
+﻿Sparking Seeker	W	common	Creature – Fox Ranger 	49	W	1W	When this creature enters, put a +1/+1 counter on a creature you control. Each opponent may put a +1/+1 counter on a creature they control. For each opponent who did, put a +1/+1 counter on a creature you control.	1/1		normal	PMD		

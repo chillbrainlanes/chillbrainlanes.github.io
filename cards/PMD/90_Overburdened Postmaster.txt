@@ -1,0 +1,1 @@
+﻿Overburdened Postmaster	U	uncommon	Creature – Bird Citizen 	90	U	4U	FlyingNEWLINEYou have no maximum hand size.NEWLINEWhenever an opponent draws a card, if it’s not their draw step, you may draw a card.	3/4		normal	PMD		

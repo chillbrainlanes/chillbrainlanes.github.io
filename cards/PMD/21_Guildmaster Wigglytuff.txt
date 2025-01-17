@@ -1,0 +1,1 @@
+﻿Guildmaster Wigglytuff	W	rare	Legendary Creature – Rabbit Advisor 	21	W	2W	At the beginning of your upkeep, create a 1/1 white Jackal Ranger creature token.NEWLINEWhenever you advance to an Expedition’s next floor, put a +1/+1 counter on each creature you control.	3/3		normal	PMD		

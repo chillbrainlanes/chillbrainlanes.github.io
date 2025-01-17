@@ -1,0 +1,1 @@
+﻿Needlehide Scout	W	common	Creature – Hedgehog Scout 	32	W	1W	First strikeNEWLINEMelee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)	1/1		normal	PMD		https://spigu.tumblr.com/

@@ -1,0 +1,1 @@
+﻿Team Badge		common	Artifact – Equipment 	305	C	1	Equipped creature gets +1/+1.NEWLINEAs long as equipped creature is a commander, it has ward 3. (Whenever it becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3.)NEWLINEEquip 1			normal	PMD		

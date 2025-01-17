@@ -1,0 +1,1 @@
+﻿Hero of Valiant Audacity	G	uncommon	Legendary Creature – Dinosaur Rogue 	228	G	2G	Vigilance, trampleNEWLINEWhenever a creature you control with power greater than its base power deals combat damage to an opponent, it deals that much damage to any number of other opponents.NEWLINEPartner (You can have two commanders if both have partner.)	3/3		normal	PMD		

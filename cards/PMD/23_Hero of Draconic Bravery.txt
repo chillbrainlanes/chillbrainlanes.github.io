@@ -1,0 +1,1 @@
+﻿Hero of Draconic Bravery	W	uncommon	Legendary Creature – Dragon Knight 	23	W	3W	At the beginning of each end step, if you created a token this turn, survey. (Scry 2 or search for a basic land, put it into your hand, then shuffle.)NEWLINEPartner (You can have two commanders if both have partner.)	4/4		normal	PMD		

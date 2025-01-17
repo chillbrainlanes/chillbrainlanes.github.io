@@ -1,0 +1,1 @@
+﻿Guild Cuisinier	W	common	Creature – Beast Druid 	20	W	1W	When this creature enters, create a Food token. (It’s an artifact with “2, T, Sacrifice this artifact: You gain 3 life.”)NEWLINE2, T: Tap target creature.	1/2		normal	PMD		

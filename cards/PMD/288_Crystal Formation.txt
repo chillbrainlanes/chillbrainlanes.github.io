@@ -1,0 +1,1 @@
+﻿Crystal Formation		common	Artifact	288	C	2	This artifact enters tapped. As it enters, choose a color.NEWLINET: Add one mana of the chosen color.			normal	PMD		

@@ -1,0 +1,1 @@
+﻿Chitinous Pathfinder	G	common	Creature – Insect Ranger 	215	G	4GG	This creature’s power and toughness are each equal to the number of lands you control.NEWLINEWhen this creature enters, survey. (Scry 2 or search for a basic land, put it into your hand, then shuffle.)	*/*		normal	PMD		

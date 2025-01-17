@@ -1,0 +1,1 @@
+﻿Uxie of Fogbound Lake	UG	rare	Legendary Creature – Spirit 	281	UG	2GU	FlyingNEWLINELandfall – Whenever a land you control enters, if you don’t control an Illusion, create a 5/5 red Elder Beast Illusion token with reach, trample, and “Whenever this creature deals damage or is dealt damage, sacrifice it.”	2/3		normal	PMD		

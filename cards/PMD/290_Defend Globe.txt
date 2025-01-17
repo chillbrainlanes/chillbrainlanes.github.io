@@ -1,0 +1,1 @@
+﻿Defend Globe		uncommon	Artifact – Equipment 	290	C	3	When this artifact enters, survey. (Scry 2 or search for a basic land, put it into your hand, then shuffle.)NEWLINEAs long as it’s your turn, prevent all damage that would be dealt to equipped creature.NEWLINEEquip 2			normal	PMD		

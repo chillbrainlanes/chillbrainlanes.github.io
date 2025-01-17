@@ -1,0 +1,1 @@
+﻿Spirit	W	common	Token Creature – Spirit 	5	W		FlyingNEWLINEThis creature can’t block.	1/1		token	PMD		https://www.deviantart.com/gumbogamer/art/Pokekaki-Litwick-204427005

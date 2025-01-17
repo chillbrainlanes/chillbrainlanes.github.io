@@ -1,0 +1,1 @@
+﻿Aura Sphere	R	uncommon	Instant	162	R	1R	Aura Sphere deals 3 damage to up to one target creature. Attach up to one Aura you control to another permanent or player that Aura could enchant.			normal	PMD		
