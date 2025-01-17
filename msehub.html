@@ -16,6 +16,11 @@
 		font-family: 'Helvetica', 'Arial', sans-serif;
 		display: grid;
 	}
+	.credits {
+			font-family: 'Beleren Small Caps';
+			font-size: 1.0em;
+			margin: 0% 10% 0%;
+		}
 	.selects {
 		position: absolute;
 	}
@@ -187,10 +192,10 @@
 	}
 	</style>
 	<body>
-		<!-- <div class="selects" id="selects">
+		<div class="selects" id="selects">
 			<select id="color-select" onchange="setGradient()">
 			</select>
-		</div> -->
+		</div>
 		<div class="item-container">
 			<img class="banner" src="img/banner.png"></img>
 			<input type="text" inputmode="search" placeholder="Search ..." autofocus="autofocus" name="search" id="search" spellcheck="false" autocomplete="off" autocorrext="off" spellcheck="false">
@@ -393,5 +398,8 @@
 				window.location = ('/cards/' + card_list_arrayified[i][11] + '/' + card_list_arrayified[i][4] + '_' + card_name);
 			}
 		</script>
+	<div class="credits">
+		Logo sprite by Grimlin. PMD background art by Spike Chunsoft. SOJ background art by Rashieq Sasman.
+	</div>
 	</body>
 	</html>
