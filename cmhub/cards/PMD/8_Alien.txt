@@ -1,1 +1,0 @@
-﻿Alien	B	common	Token Creature – Alien 	8	B		FlyingNEWLINET: Each opponent loses 1 life and you gain 1 life.	1/1		token	PMD		!related Nuzleaf, Servant of Dark Matter;NEWLINEtcg

@@ -1,1 +1,0 @@
-﻿Hero of Thunderous Defiance	W	uncommon	Legendary Creature – Mouse Warrior 	25	W	2W	VigilanceNEWLINE1, T: Another target creature gains protection from creatures until ends of turn. (This creature can’t be blocked, targeted or dealt damage by creatures until ends of turn.)NEWLINEPartner (You can have two commanders if both have partner.)	4/2		normal	PMD		

@@ -1,1 +1,0 @@
-﻿Earthquake	R	uncommon	Sorcery	173	R	XR	Earthquake deals X damage to each creature without flying and each player.			normal	PMD		reprint

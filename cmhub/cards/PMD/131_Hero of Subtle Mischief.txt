@@ -1,1 +1,0 @@
-﻿Hero of Subtle Mischief	B	uncommon	Legendary Creature – Frog Rogue 	131	B	5B	This spell costs 1 less to cast for each creature you control that attacked this turn. (This counts only creatures still in play.)NEWLINEWhen this creature enters, you draw two cards and lose 2 life.NEWLINEPartner (You can have two commanders if both have partner.)	3/3		normal	PMD		

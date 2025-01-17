@@ -1,1 +1,0 @@
-﻿Draconic Veteran	B	common	Creature – Dragon Warrior 	124	B	5BB	FlyingNEWLINEWhen this creature enters, each opponent loses life equal to the amount of mana from Treasure spent to cast it.NEWLINECycling 3 (3, Discard this card: Draw a card.)NEWLINEWhen you cycle this card, create a Treasure token.	4/6		normal	PMD		

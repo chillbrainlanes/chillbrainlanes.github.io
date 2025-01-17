@@ -1,1 +1,0 @@
-﻿Diligence	G	common	Instant	217	G	G	Put a +1/+1 counter on target creature. It gains hexproof until end of turn.			normal	PMD		

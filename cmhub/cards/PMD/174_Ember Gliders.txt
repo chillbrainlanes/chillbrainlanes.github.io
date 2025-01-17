@@ -1,1 +1,0 @@
-﻿Ember Gliders	R	common	Creature – Bird Warrior 	174	R	1R	Flying, hasteNEWLINEThis creature can’t block.NEWLINEMelee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)	1/1		normal	PMD		https://autobottesla.tumblr.com/post/110920018763/day-282-hinoyakoma-%E3%83%92%E3%83%8E%E3%83%A4%E3%82%B3%E3%83%9E-fletchinder-they

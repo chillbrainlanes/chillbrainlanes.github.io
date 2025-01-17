@@ -1,1 +1,0 @@
-﻿Gigaton Hammer		uncommon	Artifact – Equipment 	294	C	3	Equipped creature gets +5/+5.NEWLINEEquip 7. This ability costs 1 less to activate for each other artifact you control.			normal	PMD		

@@ -1,1 +1,0 @@
-﻿Callous Illuminator	B	common	Creature – Rabbit Scout 	110	B	1B	FlashNEWLINEWhen this creature enters, you may discard a card. If you do, survey. (Scry 2 or search for a basic land, put it into your hand, then shuffle.)	3/1		normal	PMD		

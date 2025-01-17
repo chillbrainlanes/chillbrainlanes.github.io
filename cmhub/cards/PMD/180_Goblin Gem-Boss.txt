@@ -1,1 +1,0 @@
-﻿Goblin Gem-Boss	R	common	Creature – Goblin Rogue 	180	R	3RR	When this creature enters, create two 1/1 red Goblin creature tokens with melee and “This creature can’t block.” (Whenever it attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)	2/2		normal	PMD		

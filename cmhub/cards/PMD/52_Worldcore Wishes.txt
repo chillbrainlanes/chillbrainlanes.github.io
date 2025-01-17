@@ -1,1 +1,0 @@
-﻿Worldcore Wishes	W	uncommon	Sorcery	52	W	2WW	Put a creature card from a graveyard or a commander from the command zone onto the battlefield under its owner’s control. When you do, if you don’t control that creature, create a white Aura enchantment token attached to it with enchant creature and “Enchanted creature can’t attack you or block creatures you control.”			normal	PMD		

@@ -1,1 +1,0 @@
-﻿Avian Cartographer	W	common	Creature – Bird Scout 	4	W	2W	FlyingNEWLINEWhen this creature enters, each player may survey.  (To survey, scry 2 or search for a basic land, put it into your hand, then shuffle.)	3/2		normal	PMD		

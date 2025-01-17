@@ -1,1 +1,0 @@
-﻿All-Out Brawl	R	rare	Enchantment	160	R	3RR	Creatures you control have melee. (Whenever that creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat. Multiple instances of melee trigger separately.)			normal	PMD		

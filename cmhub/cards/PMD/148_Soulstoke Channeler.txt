@@ -1,1 +1,0 @@
-﻿Soulstoke Channeler	B	common	Creature – Dinosaur Shaman 	148	B	2B	As this creature enters, choose creature cards or instant and sorcery cards. It enters the battlefield with a +1/+1 counter on it for each card of the chosen types in your graveyard.	1/1		normal	PMD		

@@ -1,1 +1,0 @@
-﻿Skuntank of Team Skull	B	rare	Legendary Creature – Skunk Rogue 	147	B	2B	Whenever a creature you control dies, if it had one or more +1/+1 counters on it, you may put that many +1/+1 counters on target creature.NEWLINESacrifice a creature: Put a +1/+1 counter on target creature.	2/1		normal	PMD		

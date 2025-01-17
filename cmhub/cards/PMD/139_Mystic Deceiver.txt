@@ -1,1 +1,0 @@
-﻿Mystic Deceiver	B	uncommon	Creature – Cat Wizard 	139	B	4B	FlashNEWLINEDeathtouchNEWLINEWhenever you cast a spell, if it isn’t your turn or you’ve cast another spell this turn, up to one target creature gets -1/-1 until end of turn.	3/4		normal	PMD		

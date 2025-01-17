@@ -1,1 +1,0 @@
-﻿Hot Springs Sage	R	common	Creature – Turtle Citizen 	187	R	1R	ReachNEWLINET: This creature deals 1 damage to each opponent.NEWLINEWhenever you cast an instant or sorcery spell, untap this creature.	0/3		normal	PMD		Missions in undersea dungeons are especially perilous, due to both the environment and its residents.

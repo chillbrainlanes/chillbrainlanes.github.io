@@ -1,1 +1,0 @@
-﻿Seed Flare	G	uncommon	Sorcery	246	G	3GG	Choose any number –NEWLINE• Destroy target artifact.NEWLINE• Destroy target enchantment.NEWLINE• Destroy target creature with flying.NEWLINE• Target creature you control deals damage equal to its power to target creature.			normal	PMD		

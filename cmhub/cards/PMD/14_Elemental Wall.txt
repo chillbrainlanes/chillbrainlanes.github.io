@@ -1,1 +1,0 @@
-﻿Elemental Wall	R	common	Token Creature – Elemental Wall 	14	R		Defender, reachNEWLINEAt the beginning of your upkeep, sacrifice this creature.	X/X		token	PMD		!related Hero of Incendiary Unity;

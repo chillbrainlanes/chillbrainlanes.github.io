@@ -1,1 +1,0 @@
-﻿Magnagate	G	uncommon	Enchantment	237	G	1G	Landfall – Whenever a land you control enters, choose one –NEWLINE• Add one mana of any color.NEWLINE• Put a +1/+1 counter on target creature.NEWLINE• Scry 1.			normal	PMD		

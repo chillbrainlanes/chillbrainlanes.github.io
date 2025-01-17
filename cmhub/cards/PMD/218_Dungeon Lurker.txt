@@ -1,1 +1,0 @@
-﻿Dungeon Lurker	G	common	Creature – Spider Rogue 	218	G	3G	Vigilance, reachNEWLINEMelee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)	1/4		normal	PMD		

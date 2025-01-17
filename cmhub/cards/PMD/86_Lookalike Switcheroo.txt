@@ -1,1 +1,0 @@
-﻿Lookalike Switcheroo	U	common	Instant	86	U	1U	Counter target spell. Its controller creates a Treasure token. (It’s an artifact with “T, Sacrifice this artifact: Add one mana of any color.”)			normal	PMD		

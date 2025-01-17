@@ -1,1 +1,0 @@
-﻿Hired Scoundrel	B	common	Creature – Crocodile Rogue 	132	B	3B	When this creature enters, each player sacrifices a creature. If mana from a Treasure was spent to cast it, each opponent sacrifices a creature instead.	4/3		normal	PMD		https://www.deviantart.com/ishmam/gallery

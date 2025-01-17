@@ -1,1 +1,0 @@
-﻿Merchant Caravan	W	common	Creature – Horse Scout 	29	W	2W	VigilanceNEWLINELandfall – Whenever a land you control enters, put a +1/+1 counter on this creature.	2/1		normal	PMD		=

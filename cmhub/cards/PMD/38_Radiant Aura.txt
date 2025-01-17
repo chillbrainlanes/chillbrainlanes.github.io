@@ -1,1 +1,0 @@
-﻿Radiant Aura	W	uncommon	Enchantment – Aura 	38	W	2W	Enchant creatureNEWLINEWhen this enchantment enters, create a 1/1 white Jackal Ranger creature token for each enchantment you control.NEWLINEAs long as enchanted creature is attacking, it has double strike.			normal	PMD		

@@ -1,1 +1,0 @@
-﻿Hidden Land Guide	U	common	Creature – Dinosaur Scout 	79	U	4UU	Ward 2 (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 2.)NEWLINE3U: Target creature can’t be blocked this turn. This ability costs 3 less to activate if it targets a creature you don’t control.	4/6		normal	PMD		tumblr.com/albadex

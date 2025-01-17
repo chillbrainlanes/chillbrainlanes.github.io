@@ -1,1 +1,0 @@
-﻿Dimensional Scream	B	common	Instant	123	B	3BB	You lose 3 life. Choose three. You may choose the same mode more than once.NEWLINE• Return target creature card from your graveyard to your hand.NEWLINE• Draw a card.			normal	PMD		https://www.tumblr.com/manic-yun

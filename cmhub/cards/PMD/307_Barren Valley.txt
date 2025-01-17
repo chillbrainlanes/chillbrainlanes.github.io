@@ -1,1 +1,0 @@
-﻿Barren Valley		common	Land	307	B		This land enters tapped. As it enters, choose a color.NEWLINET: Add B or one mana of the chosen color.NEWLINECycling 3 (3, Discard this card: Draw a card.)			normal	PMD		

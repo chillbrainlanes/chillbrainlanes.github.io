@@ -1,1 +1,0 @@
-﻿Power Band		common	Artifact – Equipment 	302	C	2	Equipped creature has melee. (Whenever that creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat. Multiple instances of melee trigger separately.)NEWLINEEquip 1			normal	PMD		

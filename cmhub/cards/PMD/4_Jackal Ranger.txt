@@ -1,1 +1,0 @@
-﻿Jackal Ranger	W	common	Token Creature – Jackal Ranger 	4	W			1/1		token	PMD		!related Aura Bolt;Expedition Rally<2>;Treasure Town;Guildmaster Wigglytuff;Radiant Aura;Serene Village Caretaker;Party Leader;Meeting of Explorers<3>;Quagsire, Criminal Reformer;NEWLINEhttps://www.deviantart.com/autobottesla/gallery

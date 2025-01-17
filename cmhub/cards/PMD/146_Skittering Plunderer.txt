@@ -1,1 +1,0 @@
-﻿Skittering Plunderer	B	common	Creature – Scorpion Rogue 	146	B	2B	DeathtouchNEWLINEWhen this creature enters, create a Treasure token. Each opponent may create a Treasure token. For each opponent who did, create a Treasure token. (It’s an artifact with “T, Sacrifice this artifact: Add one mana of any color.”)	1/2		normal	PMD		

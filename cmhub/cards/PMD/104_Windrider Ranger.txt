@@ -1,1 +1,0 @@
-﻿Windrider Ranger	U	uncommon	Creature – Bat Ranger 	104	U	3U	FlashNEWLINEFlyingNEWLINEMelee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)NEWLINEAt the beginning of your end step, untap up to two target lands.	1/2		normal	PMD		https://twitter.com/GoatDraws/status/1438015929384898563

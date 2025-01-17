@@ -1,1 +1,0 @@
-﻿Hero of Odd Imagination	U	uncommon	Legendary Creature – Bird Wizard 	78	U	U	Whenever you scry, tap up to one target creature.NEWLINEWhenever you draw a card, if it’s not your draw step, put a +1/+1 counter on up to one other target creature.NEWLINEPartner (You can have two commanders if both have partner.)	0/2		normal	PMD		

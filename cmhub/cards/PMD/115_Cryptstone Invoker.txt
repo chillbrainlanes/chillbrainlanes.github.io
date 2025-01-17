@@ -1,1 +1,0 @@
-﻿Cryptstone Invoker	B	common	Artifact Creature – Spirit 	115	B	3B	MenaceNEWLINE8: Create a token that’s a copy of target creature card in your graveyard, except it has haste. Sacrifice it at the beginning of the next end step. Activate only as a sorcery.	4/3		normal	PMD		

@@ -1,1 +1,0 @@
-﻿Prize Drawing	R	rare	Sorcery	198	R	3RR	Each player discards their hand, then draws cards equal to the greatest number of cards a player discarded this way.NEWLINEBounty (As long as you’ve attacked a player who had the most life of your opponents this turn, you may cast this spell from your graveyard. Then exile it.)			normal	PMD		

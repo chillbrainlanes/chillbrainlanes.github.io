@@ -1,1 +1,0 @@
-﻿Hero of Ghostly Communion	B	uncommon	Legendary Creature – Fox Warlock 	128	B	2B	At the beginning of your end step, return up to one target creature card with mana value X or less from your graveyard to the battlefield, where X is the total number of cards you’ve drawn and discarded this turn.NEWLINEPartner (You can have two commanders if both have partner.)	2/3		normal	PMD		

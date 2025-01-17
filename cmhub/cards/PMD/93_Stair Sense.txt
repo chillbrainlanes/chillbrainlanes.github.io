@@ -1,1 +1,0 @@
-﻿Stair Sense	U	common	Enchantment – Aura 	93	U	U	Enchant creatureNEWLINEEnchanted creature can’t be blocked.NEWLINECycling 2 (2, Discard this card: Draw a card.)			normal	PMD		

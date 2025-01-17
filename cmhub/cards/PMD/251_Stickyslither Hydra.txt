@@ -1,1 +1,0 @@
-﻿Stickyslither Hydra	G	uncommon	Creature – Worm Hydra 	251	G	XGG	This spell costs 1 less to cast for each creature card in your graveyard.NEWLINEThis creature can’t be blocked by creatures with power 2 or less.NEWLINEThis creature enters with X +1/+1 counters on it.	0/0		normal	PMD		https://zenala-art.tumblr.com/post/738634127449980928/the-most-creature-ever

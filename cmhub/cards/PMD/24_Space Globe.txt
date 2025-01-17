@@ -1,1 +1,0 @@
-﻿Space Globe		common	Token Artifact	24	WUBRG		WUBRG, T, Tap an untapped commander you control: Target player loses 493 life.			token	PMD		!related Destiny Tower;

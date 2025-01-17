@@ -1,1 +1,0 @@
-﻿Most Wanted	G	common	Enchantment – Aura 	240	G	2G	FlashNEWLINEEnchant creatureNEWLINEEnchanted creature gets +2/+1.NEWLINEWhen enchanted creature dies, create two Treasure tokens. (They’re artifacts with “T, Sacrifice this artifact: Add one mana of any color.”)			normal	PMD		reprint

@@ -1,1 +1,0 @@
-﻿Conniving Lackey	B	uncommon	Creature – Snake Rogue 	113	B	2B	DeathtouchNEWLINEWhen this creature enters, search your library for a card and put it into your graveyard, them shuffle.	1/2		normal	PMD		

@@ -1,1 +1,0 @@
-﻿Blaze Courier	R	uncommon	Creature – Dragon Citizen 	164	R	5RR	FlyingNEWLINEWhen this creature enters, you may have you and target opponent each discard your hands, then draw seven cards.	7/7		normal	PMD		

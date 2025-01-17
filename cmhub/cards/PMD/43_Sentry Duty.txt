@@ -1,1 +1,0 @@
-﻿Sentry Duty	W	rare	Enchantment	43	W	1W	Whenever an opponent attacks you with one or more creatures, for each of those creatures that doesn’t have an authorization counter on it, remove it from combat and put an authorization counter on it.			normal	PMD		
