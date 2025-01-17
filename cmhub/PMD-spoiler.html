@@ -163,10 +163,10 @@
 	<img class="preload-hidden" src="sets/PMD-files/icon.png" />
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="img/banner.png"></a>
+			<a href="index"><img class="sg-logo" src="img/banner.png"></a>
 			<img class="sg-icon" src="img/search.png">
 			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="img/sets.png" class="sg-icon">Sets</a>
+			<a href="all-sets"><img src="img/sets.png" class="sg-icon">Sets</a>
 			<a onclick="randomCard()"><img src="img/random.png" class="sg-icon">Random</a>
 		</div>
 	</div>
@@ -594,13 +594,13 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.txt')
+		await fetch('lists/all-cards.txt')
 					.then(response => response.text())
 					.then(text => {
 						card_list_stringified = text;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch('resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
@@ -722,7 +722,7 @@
 		});
 
 		function search() {
-			window.location = ("/search?search=" + document.getElementById("search").value);
+			window.location = ("search?search=" + document.getElementById("search").value);
 		}
 
 		function randomCard() {
@@ -733,7 +733,7 @@
 					card_name = card_name.replaceAll(char, "");
 				}
 
-				window.location = ('/cards/' + card_list_arrayified[i][11] + '/' + card_list_arrayified[i][4] + '_' + card_name);
+				window.location = ('cards/' + card_list_arrayified[i][11] + '/' + card_list_arrayified[i][4] + '_' + card_name);
 			}
 	</script>
 </body>
