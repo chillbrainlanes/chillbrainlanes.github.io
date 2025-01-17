@@ -1,0 +1,1 @@
+﻿Yillar's Quarry	B	uncommon	Sorcery	131	B	B	Pay X life. Target player reveals their hand. You may choose a nonland card with mana value X or less from it. That player discards that card.			normal	SOJ		

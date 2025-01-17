@@ -1,0 +1,1 @@
+﻿Trample Gadget		common	Token Artifact – Equipment 	25	C		Equipped creature has trample.NEWLINEEquip 2			token	VRD		!related Codename Heavy Hitter<4>;Sprocketed Brawler;Codename Viridian;

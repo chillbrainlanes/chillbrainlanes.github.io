@@ -1,0 +1,1 @@
+﻿Scuttling Underling	U	common	Creature – Nightmare Homarid 	70	U	5U	When this creature enters or dies, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay 7 as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)	5/5		normal	VRD		

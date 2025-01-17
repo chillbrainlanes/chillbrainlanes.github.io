@@ -1,0 +1,1 @@
+﻿Steed of Agonies	B	uncommon	Creature – Nightmare Horse 	114	B	5B	Flying, trampleNEWLINEAt the beginning of your end step, if you control six or more Swamps, put a +1/+1 counter on this creature.	3/4		normal	VRD		

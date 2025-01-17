@@ -1,0 +1,1 @@
+﻿Demon	R	cube	Token Creature – Demon 	14	R		Flying, first strike, haste, trample	10/10		token	2022		!related Tibalt, Gambling Addict;

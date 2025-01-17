@@ -1,0 +1,1 @@
+﻿Utterly Horrifying Geist	W	cube	Creature – Spirit 	45	W	2W	FlashNEWLINEFlyingNEWLINEWhen Utterly Horrifying Geist enters the battlefield, you may exile another target nonland permanent you control, then return it to the battlefield under its owner’s control.	3/1		normal	2022		

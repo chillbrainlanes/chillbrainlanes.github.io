@@ -1,0 +1,1 @@
+﻿Sny Diamond		cube	Artifact	309	U	2	Sny Diamond enters the battlefield tapped.NEWLINET: Add U.NEWLINEWhen Sny Diamond enters the battlefield, conjure a Sea Snidd card into your hand. (4U 3/3 Beast: T: Target land becomes the basic land type of your choice until end of turn.)			normal	2022		

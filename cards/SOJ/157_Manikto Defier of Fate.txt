@@ -1,0 +1,1 @@
+﻿Manikto, Defier of Fate	R	rare	Legendary Creature – Goblin Ranger 	157	R	2R	HasteNEWLINESpellbound – Whenever Manikto attacks, you may exile an instant or sorcery card from your graveyard. If you do, create two 1/1 red Goblin creature tokens that are tapped and attacking.	2/2		normal	SOJ		

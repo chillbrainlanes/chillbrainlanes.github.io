@@ -1,0 +1,1 @@
+﻿Thrashing Devourer	G	common	Creature – Nightmare Wurm 	197	G	5GG	Trample	7/7		normal	VRD		

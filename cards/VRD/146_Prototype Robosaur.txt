@@ -1,0 +1,1 @@
+﻿Prototype Robosaur	R	common	Artifact Creature – Dinosaur 	146	R	2R	Whenever you cast a noncreature spell, put a +1/+1 counter on this creature.NEWLINE2R: This creature gains trample until end of turn.	2/2		normal	VRD		

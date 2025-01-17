@@ -1,0 +1,1 @@
+﻿Power Source		common	Artifact	240	C	2	When this artifact enters, draw two cards, then discard two cards.NEWLINE1, T: Add one mana of any color. This ability costs 1 less to activate if you control three or more artifacts named Power Source.			normal	VRD		Collect Me Cycle

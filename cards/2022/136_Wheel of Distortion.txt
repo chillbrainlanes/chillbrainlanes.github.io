@@ -1,0 +1,1 @@
+﻿Wheel of Distortion	B	cube	Sorcery	136	B	1BB	Each player exiles their hand. Then, those players exile any number of cards from their graveyards. Each player draws a card for each card they exiled this way.			normal	2022		

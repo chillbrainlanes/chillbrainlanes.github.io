@@ -1,0 +1,1 @@
+﻿Seismic Upheaval	R	common	Instant	169	R	XR	Convoke (Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINESeismic Upheaval deals X damage to target creature or planeswalker.			normal	SOJ		

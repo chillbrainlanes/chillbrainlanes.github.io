@@ -1,0 +1,1 @@
+﻿Moyai		cube	Artifact	315	C	3	🗿 enters the battlefield tapped.NEWLINET: Roll a dX, where X is the number of artifacts you control. Activate only as an instant.NEWLINE0-3 | Add CC.NEWLINE4+ | Add CC. You gain 4 life.			normal	2022		DiceNEWLINE!exportname Moyai

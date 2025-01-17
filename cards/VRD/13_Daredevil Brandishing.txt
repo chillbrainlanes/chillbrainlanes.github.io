@@ -1,0 +1,1 @@
+﻿Daredevil Brandishing	W	uncommon	Instant	13	W	4W	Create a double strike Gadget, then you may attach it to target creature you control. (It’s an Equipment artifact token with equip 2 that grants that ability.)			normal	VRD		

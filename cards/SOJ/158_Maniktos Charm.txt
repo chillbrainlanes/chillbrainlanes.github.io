@@ -1,0 +1,1 @@
+﻿Manikto's Charm	R	common	Instant	158	R	2R	Choose one –NEWLINE• Manikto’s Charm deals 3 damage to target creature or planeswalker.NEWLINE• Create two 1/1 red Goblin creature tokens. They gain haste until end of turn.NEWLINE• Each opponent sacrifices a land with a non-mana ability.			normal	SOJ		

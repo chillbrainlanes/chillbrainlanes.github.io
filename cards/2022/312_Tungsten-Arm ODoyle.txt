@@ -1,0 +1,1 @@
+﻿Tungsten-Arm O'Doyle		cube	Artifact Creature – Robot 	312	C	8	At the beginning of combat on your turn, Tungsten-Arm O’Doyle deals 5 damage divided as you choose among any number of targets.	5/8		adventure	2022		Screw Ball		Sorcery – Adventure 	C	1	This spell deals 1 damage to any target. (Then exile this card. You may cast the creature later from exile.)				

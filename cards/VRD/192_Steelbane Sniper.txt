@@ -1,0 +1,1 @@
+﻿Steelbane Sniper	G	uncommon	Creature – Human Archer 	192	G	3G	When this creature enters, choose one –NEWLINE• Create a reach Gadget, then attach it to this creature. (It’s an Equipment artifact token with equip 2 that grants that ability.)NEWLINE• Destroy target artifact creature.	4/3		normal	VRD		

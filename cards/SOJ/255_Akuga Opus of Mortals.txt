@@ -1,0 +1,1 @@
+﻿Akuga, Opus of Mortals		rare	Legendary Land	255	WG		T: Add C.NEWLINE3, T: For each creature you control, add G or W.NEWLINE3, T, Discard a card named Akuga, Opus of Mortals: Create Uaria the Eldest, a tapped 1/1 green and white legendary Human Noble creature with “T: Untap target legendary land.”			normal	SOJ		

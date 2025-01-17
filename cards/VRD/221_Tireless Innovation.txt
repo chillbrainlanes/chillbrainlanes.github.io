@@ -1,0 +1,1 @@
+﻿Tireless Innovation	WU	rare	Enchantment	221	WU	WU	2, Sacrifice an artifact: Search your library for an artifact card with mana value equal to 1 plus the sacrificed artifact’s mana value, put that card onto the battlefield, then shuffle. Activate only once each turn and only as a sorcery.			normal	VRD		!New Horizons

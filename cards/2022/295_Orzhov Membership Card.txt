@@ -1,0 +1,1 @@
+﻿Orzhov Membership Card		cube	Artifact	295	WB	2	Orzhov Membership Card enters the battlefield tapped unless you control a Plains and a Swamp.NEWLINET: Add W or B.			normal	2022		

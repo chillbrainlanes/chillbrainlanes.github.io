@@ -1,0 +1,1 @@
+﻿Stalwart Seeker	W	rare	Creature – Centaur Nomad 	40	W	WW	First strikeNEWLINEAt the beginning of your end step, if a land didn’t enter the battlefield under your control this turn, you may search your library for a basic Plains card and put it onto the battlefield tapped, then shuffle.	2/2		normal	SOJ		

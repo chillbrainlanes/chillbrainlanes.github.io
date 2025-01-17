@@ -1,0 +1,1 @@
+﻿Beastial Cavalier	W	common	Creature – Human Soldier 	8	W	3W	Whenever this creature becomes tapped, up to one target non-Human creature gets +1/+1 until end of turn.	4/4		normal	SOJ		

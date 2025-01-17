@@ -1,0 +1,1 @@
+﻿International Manipulation	R	mythic	Sorcery	142	R	2RR	Until your next turn, you choose which creatures attack and block and how those creatures attack and block each combat.			normal	VRD		M05: commander-oriented noncreature

@@ -1,0 +1,1 @@
+﻿Facility Detonator	B	rare	Creature – Human Minion 	95	B	3BB	At the beginning of your upkeep, destroy all creatures.	1/1		normal	VRD		RB02: design for Vorthos psychographicNEWLINEStory Spotlight 6/8

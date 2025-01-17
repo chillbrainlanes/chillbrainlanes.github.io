@@ -1,0 +1,1 @@
+﻿Kakrako's Cruelty	B	rare	Instant	109	B	2B	Choose one –NEWLINE• Target player sacrifices a creature.NEWLINE• Create a black enchantment token named Greed with “B, Pay 2 life: Draw a card.”			normal	SOJ		enchantment cycle

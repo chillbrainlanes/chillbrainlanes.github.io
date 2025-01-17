@@ -1,0 +1,1 @@
+﻿Ghostly Observer	U	uncommon	Creature – Nightmare Spirit 	58	U	3U	FlashNEWLINEFlyingNEWLINEWhenever a land card is put into a graveyard from a library, put a +1/+1 counter on this creature.	2/2		normal	VRD		

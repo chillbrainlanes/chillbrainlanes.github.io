@@ -1,0 +1,1 @@
+﻿Ostentatious Volleyballer	R	cube	Creature – Human Warrior 	166	R	R	Boast – 1R, Discard a card: Conjure a Lave Spike card into your hand. (R Arcane Sorcery: Lava Spike deals 3 damage to target player or planeswalker. Boast only if this creature attacked this turn and only once each turn.)	2/1		normal	2022		

@@ -1,0 +1,1 @@
+﻿Adze Trapper	W	common	Creature – Human Ranger 	1	W	2W	When this creature enters, create a 2/1 black Vampire creature token with “This creature has flying as long as it’s attacking.”	1/1		normal	SOJ		

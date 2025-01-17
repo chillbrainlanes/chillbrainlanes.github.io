@@ -1,0 +1,1 @@
+﻿Mobilized Hawk	W	uncommon	Creature – Bird 	30	W	W	FlyingNEWLINESpellbound – Whenever this creature attacks, you may exile an instant or sorcery card from your graveyard. If you do, you may return target creature card with mana value 1 or less from your graveyard to the battlefield tapped and attacking.	1/1		normal	SOJ		

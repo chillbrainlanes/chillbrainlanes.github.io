@@ -1,0 +1,1 @@
+﻿Curious Constrictor	B	common	Creature – Snake 	96	B	3B	DeathtouchNEWLINESpellbound – Whenever this creature attacks, you may exile an instant or sorcery card from your graveyard. If you do, you draw a card and lose 1 life.	2/3		normal	SOJ		

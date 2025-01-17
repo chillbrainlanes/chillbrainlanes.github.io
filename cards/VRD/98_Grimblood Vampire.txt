@@ -1,0 +1,1 @@
+﻿Grimblood Vampire	B	common	Creature – Vampire Advisor 	98	B	3BB	Lifelink	4/4		normal	VRD		

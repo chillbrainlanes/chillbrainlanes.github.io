@@ -1,0 +1,1 @@
+﻿Awoken Whelp	R	rare	Creature – Nightmare Dragon 	123	R	RR	FlyingNEWLINEEndgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINERR: This creature gets +1/+0 untilNEWLINEend of turn. If you’re in your endgame, it also gains double strike until end of turn.	2/2		normal	VRD		RR01: cycle; built for constructed (think Titans)

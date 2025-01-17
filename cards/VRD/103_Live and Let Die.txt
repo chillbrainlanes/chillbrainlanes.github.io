@@ -1,0 +1,1 @@
+﻿Live and Let Die	B	rare	Enchantment	103	B	3BB	If a creature or planeswalker dying causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.NEWLINEAt the beginning of your upkeep, return up to one target creature or planeswalker card from your graveyard to your hand.			normal	VRD		Bond Theme References: Live and Let Die

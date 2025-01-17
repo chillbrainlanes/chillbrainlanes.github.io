@@ -1,0 +1,1 @@
+﻿Tolaria State University		cube	Legendary Land	359	U		The Rapidly Increasing Cost Of Post-Secondary Education – Tolaria State University enters the battlefield tapped unless you control a Treasure or you’ve sacrificed a Treasure this turn.NEWLINET: Add U for each artifact you control.			normal	2022		

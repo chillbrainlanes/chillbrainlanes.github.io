@@ -1,0 +1,1 @@
+﻿Vigilance Gadget		common	Token Artifact – Equipment 	26	C		Equipped creature has vigilance.NEWLINEEquip 2			token	VRD		!related Frank Atran, Augmented Agent;

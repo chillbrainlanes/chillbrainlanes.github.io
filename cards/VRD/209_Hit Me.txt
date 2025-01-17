@@ -1,0 +1,1 @@
+﻿Hit Me	UB	rare	Sorcery	209	UB	3UB	Exile the top card of your library. Then if the total mana value of cards exiled this way is 10 or greater, put those cards into your graveyard. Otherwise, you may repeat this process. If you don’t, put all cards exiled this way into your hand.			normal	VRD		

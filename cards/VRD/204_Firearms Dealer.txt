@@ -1,0 +1,1 @@
+﻿Firearms Dealer	WB	uncommon	Creature – Human Artificer 	204	WB	WB	Whenever an artifact you control enters, each opponent loses 1 life and you gain 1 life.	2/3		normal	VRD		

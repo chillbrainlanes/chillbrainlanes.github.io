@@ -1,0 +1,1 @@
+﻿Brimaz, Kitty King	W	cube	Legendary Creature – Cat Noble 	9	W	1WW	VigilanceNEWLINEWhenever Brimaz, Kitty King attacks or blocks, conjure a Charmed Stray card onto the battlefield. (W 1/1 Cat: Lifelink. When Charmed Stray enters the battlefield, put a +1/+1 counter on each other creature you control named Charmed Stray.)	3/4		normal	2022		

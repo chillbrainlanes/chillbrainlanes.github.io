@@ -1,0 +1,1 @@
+﻿Roadkill	RG	cube	Sorcery	267	RG	R/G	Until end of turn, double the power of target creature you control and it gains trample. It must be blocked this turn if able. At the beginning of the next end step, sacrifice it.			normal	2022		

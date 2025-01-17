@@ -1,0 +1,1 @@
+﻿Synthetic Mire		cube	Land	354	C		Synthetic Mire enters the battlefield tapped unless you control a Swamp or Mountain.NEWLINET, Sacrifice Synthetic Mire: Search your library for a Swamp or Mountain card and put it onto the battlefield, then shuffle.			normal	2022		

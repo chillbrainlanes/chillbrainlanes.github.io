@@ -1,0 +1,1 @@
+﻿Cereal Mascot	R	cube	Creature – Faerie Wizard 	147	R	1R	When Cereal Mascot enters the battlefield, you may choose one –NEWLINE• Destroy target noncreature artifact.NEWLINE• Cereal Mascot deals 1 damage to target creature or planeswalker.NEWLINE• Tap target nonbasic land. That land doesn’t untap during its controller’s next untap step.	2/1		normal	2022		

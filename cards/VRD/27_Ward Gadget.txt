@@ -1,0 +1,1 @@
+﻿Ward Gadget		common	Token Artifact – Equipment 	27	C		Equipped creature has ward 2.NEWLINEEquip 2			token	VRD		!related Arcane Infiltrator;City Soarer;

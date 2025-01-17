@@ -1,0 +1,1 @@
+﻿Fan of Hammers	W	cube	Creature – Human Soldier 	16	W	1W	VigilanceNEWLINE1W, Sacrifice a nonland permanent: Destroy target artifact or enchantment.	3/2		normal	2022		

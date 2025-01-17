@@ -1,0 +1,1 @@
+﻿Ancient Tom		cube	Artifact Creature – Human 	276	C	2	T, Pay 2 life: Add CC.	1/1		normal	2022		

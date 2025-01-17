@@ -1,0 +1,1 @@
+﻿Thunderous Emergence	UR	uncommon	Instant	241	UR	1UR	You may cast this spell without paying its mana cost as long as you’ve spent six or more mana to cast an instant or sorcery spell this turn.NEWLINEThunderous Emergence deals 2 damage to any target. Draw a card.			normal	SOJ		Ramp/Big Spells

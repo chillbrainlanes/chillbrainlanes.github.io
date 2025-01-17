@@ -1,0 +1,1 @@
+﻿Rainbow Road		cube	Land	340	WUBRG		Rainbow Road enters the battlefield tapped.NEWLINET: Add one mana of any color.NEWLINEChannel – WUBRG, Discard Rainbow Road: Destroy target creature or planeswalker.			normal	2022		

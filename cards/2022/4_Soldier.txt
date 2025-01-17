@@ -1,0 +1,1 @@
+﻿Soldier	W	cube	Token Creature – Soldier 	4	W			1/1		token	2022		!related Tasteful Hero of Bladehold<2>;

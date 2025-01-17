@@ -1,0 +1,1 @@
+﻿Colossal Shredmaw		cube	Artifact Creature – Dinosaur 	280	C	6	TrampleNEWLINEWhen Colossal Shredmaw enters the battlefield, mill two cards, then return a card from your graveyard to your hand.	6/6		normal	2022		

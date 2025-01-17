@@ -1,0 +1,1 @@
+﻿Vampire Nighthawk GX	B	cube	Legendary Creature – Vampire Shaman 	135	B	1BB	Flying, deathtouch, lifelinkNEWLINEVengeance of Malakir GX – 1B: Target player sacrifices a creature or planeswalker. (Activate only one GX ability per game.)	2/3		normal	2022		!exportname Vampire Nighthawk GX

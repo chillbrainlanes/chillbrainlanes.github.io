@@ -1,0 +1,1 @@
+﻿Sandstorm Sovereign	WB	rare	Creature – Elemental 	238	WB	3WB	When this creature enters, create two 1/1 white Elemental creature tokens.NEWLINEWhenever another creature you control dies, put a +1/+1 counter on each creature you control.	3/3		normal	SOJ		Reprint

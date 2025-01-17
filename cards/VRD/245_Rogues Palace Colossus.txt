@@ -1,0 +1,1 @@
+﻿Rogue's Palace Colossus		common	Artifact Creature – Giant 	245	C	5	Whenever you cast your second spell each turn, put a +1/+1 counter on this artifact. It gains trample until end of turn.	4/4		normal	VRD		RR02: design for Johnny/Jenny psychographic

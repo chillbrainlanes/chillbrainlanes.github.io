@@ -1,0 +1,1 @@
+﻿Aggro AI	R	cube	Artifact Creature – Drone 	139	R	R	HasteNEWLINEWhenever Aggro AI attacks, put a prowess counter on it. (Whenever you cast a noncreature spell, this creature gets +1/+1 for each instance of prowess it has.)	1/1		normal	2022		

@@ -1,0 +1,1 @@
+﻿Ucko Fucko's Catheter		cube	Legendary Artifact	313	C	3	T: Add one mana of any color.NEWLINET: Reveal a card from your hand. Conjure a copy of that card into your library, then shuffle.NEWLINEIf you would conjure one or more cards into a zone, choose one of those cards. Conjure those cards plus an additional card of the card you chose into that zone instead.			normal	2022		

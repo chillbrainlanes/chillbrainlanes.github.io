@@ -1,0 +1,1 @@
+﻿Flood of Stars	U	uncommon	Instant	59	U	5UU	This spell costs 1 less to cast for each creature card in your graveyard.NEWLINEReturn up to three target creatures to their owners’ hands.			normal	SOJ		

@@ -1,0 +1,1 @@
+﻿Partners in Crime	R	uncommon	Creature – Human Rogue 	144	R	2R	Whenever this creature attacks, create a Gold token. (It’s an artifact with “Sacrifice this artifact: Add one mana of any color.”)NEWLINEWhenever you cast a spell, if mana from an artifact was spent to cast that spell, put a +1/+1 counter on Partners in Crime.	2/3		normal	VRD		

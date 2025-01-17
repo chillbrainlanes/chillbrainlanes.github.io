@@ -1,0 +1,3308 @@
+﻿[CustomCards]
+	[	{
+			"name": "Aegis Pocketwatch",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/1_Aegis Pocketwatch.png"
+			}
+		},
+		{
+			"name": "Awoken Arbiter",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Nightmare Angel ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/4_Awoken Arbiter.png"
+			}
+		},
+		{
+			"name": "Veteran Gadgeteer",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf Artificer ",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/199_Veteran Gadgeteer.png"
+			}
+		},
+		{
+			"name": "Paragon Agent",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/25_Paragon Agent.png"
+			}
+		},
+		{
+			"name": "Piece Together",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Enchantment",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/26_Piece Together.png"
+			}
+		},
+		{
+			"name": "Awoken Thunderer",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Nightmare Sphinx ",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/43_Awoken Thunderer.png"
+			}
+		},
+		{
+			"name": "Trick Questions",
+			"rarity": "rare",
+			"mana_cost": "{X}{U}",
+			"type": "Instant",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/74_Trick Questions.png"
+			}
+		},
+		{
+			"name": "Smuggling Kingpin",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Noble ",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/71_Smuggling Kingpin.png"
+			}
+		},
+		{
+			"name": "Tobias Maxwell, Justiciar Boss",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Legendary Creature — Human Advisor ",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/73_Tobias Maxwell, Justiciar Boss.png"
+			}
+		},
+		{
+			"name": "Awoken Corruptor",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Nightmare Horror ",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/81_Awoken Corruptor.png"
+			}
+		},
+		{
+			"name": "Facility Detonator",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Human Minion ",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/95_Facility Detonator.png"
+			}
+		},
+		{
+			"name": "Hugo Darkhand, the Mastermind",
+			"rarity": "mythic",
+			"mana_cost": "{4}{B}",
+			"type": "Legendary Planeswalker — Hugo ",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/100_Hugo Darkhand, the Mastermind.png"
+			}
+		},
+		{
+			"name": "Smirk, Darkhand's Favored",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Legendary Creature — Cat ",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/110_Smirk, Darkhand's Favored.png"
+			}
+		},
+		{
+			"name": "Unkillable Henchman",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Zombie Minion ",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/118_Unkillable Henchman.png"
+			}
+		},
+		{
+			"name": "Awoken Whelp",
+			"rarity": "rare",
+			"mana_cost": "{R}{R}",
+			"type": "Creature — Nightmare Dragon ",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/123_Awoken Whelp.png"
+			}
+		},
+		{
+			"name": "Doomsday Device",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/132_Doomsday Device.png"
+			}
+		},
+		{
+			"name": "International Manipulation",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/142_International Manipulation.png"
+			}
+		},
+		{
+			"name": "Ivas Taranka, Rogue Diplomat",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{W}",
+			"type": "Legendary Creature — Cat Advisor ",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/211_Ivas Taranka, Rogue Diplomat.png"
+			}
+		},
+		{
+			"name": "Pit of Sharks",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/145_Pit of Sharks.png"
+			}
+		},
+		{
+			"name": "Rogue's Palace Colossus",
+			"rarity": "common",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Giant ",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/245_Rogue's Palace Colossus.png"
+			}
+		},
+		{
+			"name": "Awoken Ravager",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}{G}",
+			"type": "Creature — Nightmare Hydra ",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/164_Awoken Ravager.png"
+			}
+		},
+		{
+			"name": "Crafty Informant",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Creature — Cat Rogue ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/12_Crafty Informant.png"
+			}
+		},
+		{
+			"name": "Spycraft Survivalist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Creature — Elf Rogue ",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/219_Spycraft Survivalist.png"
+			}
+		},
+		{
+			"name": "Storm of Monstrosities",
+			"rarity": "rare",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/194_Storm of Monstrosities.png"
+			}
+		},
+		{
+			"name": "Codename Viridian",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Elf Soldier ",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/202_Codename Viridian.png"
+			}
+		},
+		{
+			"name": "Evelyn Snakewood, Dark Druid",
+			"rarity": "rare",
+			"mana_cost": "{B}{G}",
+			"type": "Legendary Creature — Elf Druid ",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/203_Evelyn Snakewood, Dark Druid.png"
+			}
+		},
+		{
+			"name": "Prototype Jetmobile",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/241_Prototype Jetmobile.png"
+			}
+		},
+		{
+			"name": "Remote Facility",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/266_Remote Facility.png"
+			}
+		},
+		{
+			"name": "The Rogue's Palace",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/267_The Rogue's Palace.png"
+			}
+		},
+		{
+			"name": "Dispose Of",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/91_Dispose Of.png"
+			}
+		},
+		{
+			"name": "Devious Electrocution",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/89_Devious Electrocution.png"
+			}
+		},
+		{
+			"name": "Brutal Butcher",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Minotaur Minion ",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/126_Brutal Butcher.png"
+			}
+		},
+		{
+			"name": "Agent of Justiciar",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/2_Agent of Justiciar.png"
+			}
+		},
+		{
+			"name": "It All Comes Together",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/60_It All Comes Together.png"
+			}
+		},
+		{
+			"name": "Hugo's Watcher",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Vampire Minion ",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/101_Hugo's Watcher.png"
+			}
+		},
+		{
+			"name": "Archive Bloodhound",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Dog Advisor ",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/163_Archive Bloodhound.png"
+			}
+		},
+		{
+			"name": "Superweapon Blast",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Instant",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/157_Superweapon Blast.png"
+			}
+		},
+		{
+			"name": "Unassuming Hooptie",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/252_Unassuming Hooptie.png"
+			}
+		},
+		{
+			"name": "Lairbuster Vanguard",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/182_Lairbuster Vanguard.png"
+			}
+		},
+		{
+			"name": "Right Where I Want You",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/108_Right Where I Want You.png"
+			}
+		},
+		{
+			"name": "Whirlwind Romantic",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/223_Whirlwind Romantic.png"
+			}
+		},
+		{
+			"name": "Schemer of Ancient Ways",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Creature — Human Druid ",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/217_Schemer of Ancient Ways.png"
+			}
+		},
+		{
+			"name": "Shootout Stunt",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/187_Shootout Stunt.png"
+			}
+		},
+		{
+			"name": "Jacques Elnis, Jetpack Rocketeer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Creature — Human Soldier ",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/212_Jacques Elnis, Jetpack Rocketeer.png"
+			}
+		},
+		{
+			"name": "Within My Grasp",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Enchantment",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/224_Within My Grasp.png"
+			}
+		},
+		{
+			"name": "Heart-Pounding Action",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Enchantment",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/207_Heart-Pounding Action.png"
+			}
+		},
+		{
+			"name": "Sim Nichol, Trinket Enchanter",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{W}",
+			"type": "Legendary Creature — Human Artificer ",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/218_Sim Nichol, Trinket Enchanter.png"
+			}
+		},
+		{
+			"name": "Firearms Dealer",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/204_Firearms Dealer.png"
+			}
+		},
+		{
+			"name": "Hemec Yor, Flamethrower Dragoon",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{R}",
+			"type": "Legendary Creature — Fox Artificer ",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/208_Hemec Yor, Flamethrower Dragoon.png"
+			}
+		},
+		{
+			"name": "Taranka's Posse",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Cat Minion ",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/220_Taranka's Posse.png"
+			}
+		},
+		{
+			"name": "Spider's Touch",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/113_Spider's Touch.png"
+			}
+		},
+		{
+			"name": "Crackling Watcher",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Nightmare Drake ",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/52_Crackling Watcher.png"
+			}
+		},
+		{
+			"name": "Flare Gunner",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/138_Flare Gunner.png"
+			}
+		},
+		{
+			"name": "Taranka's Cohort",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Cat Minion ",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/37_Taranka's Cohort.png"
+			}
+		},
+		{
+			"name": "Sweet Talker",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Minion ",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/34_Sweet Talker.png"
+			}
+		},
+		{
+			"name": "Citypulse Tracker",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Scout ",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/167_Citypulse Tracker.png"
+			}
+		},
+		{
+			"name": "Contain the Monstrous",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/11_Contain the Monstrous.png"
+			}
+		},
+		{
+			"name": "Elvish Witness",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf Rogue ",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/171_Elvish Witness.png"
+			}
+		},
+		{
+			"name": "Eavesdrop",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/53_Eavesdrop.png"
+			}
+		},
+		{
+			"name": "Brutal Stunt",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/166_Brutal Stunt.png"
+			}
+		},
+		{
+			"name": "Renegade Agent",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/107_Renegade Agent.png"
+			}
+		},
+		{
+			"name": "Conniving Spy",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Minion ",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/49_Conniving Spy.png"
+			}
+		},
+		{
+			"name": "Full House",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/139_Full House.png"
+			}
+		},
+		{
+			"name": "Stoneglare Agent",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Gorgon Rogue ",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/193_Stoneglare Agent.png"
+			}
+		},
+		{
+			"name": "Fireslinger",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/136_Fireslinger.png"
+			}
+		},
+		{
+			"name": "Acrobatic Stunt",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/122_Acrobatic Stunt.png"
+			}
+		},
+		{
+			"name": "Signature Stunt",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/154_Signature Stunt.png"
+			}
+		},
+		{
+			"name": "Observant Contact",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/64_Observant Contact.png"
+			}
+		},
+		{
+			"name": "Wall Scaler",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Cat Rogue ",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/78_Wall Scaler.png"
+			}
+		},
+		{
+			"name": "World Domination",
+			"rarity": "rare",
+			"mana_cost": "{X}{B}{B}{B}",
+			"type": "Legendary Enchantment",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/119_World Domination.png"
+			}
+		},
+		{
+			"name": "Grimblood Vampire",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Vampire Advisor ",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/98_Grimblood Vampire.png"
+			}
+		},
+		{
+			"name": "Justiciar Overseer",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Angel Soldier ",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/21_Justiciar Overseer.png"
+			}
+		},
+		{
+			"name": "Penthouse Office",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/265_Penthouse Office.png"
+			}
+		},
+		{
+			"name": "Snakewood's Hideout",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/269_Snakewood's Hideout.png"
+			}
+		},
+		{
+			"name": "Ace in the Hole",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/121_Ace in the Hole.png"
+			}
+		},
+		{
+			"name": "Grappling Hook",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/234_Grappling Hook.png"
+			}
+		},
+		{
+			"name": "Talented Dealer",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf Minion ",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/196_Talented Dealer.png"
+			}
+		},
+		{
+			"name": "Sabotage",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/66_Sabotage.png"
+			}
+		},
+		{
+			"name": "Mission Briefing",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/63_Mission Briefing.png"
+			}
+		},
+		{
+			"name": "Cityweb Sentinel",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Nightmare Spider ",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/168_Cityweb Sentinel.png"
+			}
+		},
+		{
+			"name": "Ghostly Observer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Nightmare Spirit ",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/58_Ghostly Observer.png"
+			}
+		},
+		{
+			"name": "Recover the Evidence",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/185_Recover the Evidence.png"
+			}
+		},
+		{
+			"name": "Diabolical Minion",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Minion ",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/90_Diabolical Minion.png"
+			}
+		},
+		{
+			"name": "Zap Toady",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Minion ",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/160_Zap Toady.png"
+			}
+		},
+		{
+			"name": "Frantic Inventory",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/55_Frantic Inventory.png"
+			}
+		},
+		{
+			"name": "Charmed Stray",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Cat ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/7_Charmed Stray.png"
+			}
+		},
+		{
+			"name": "Endless Mooks",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Minion ",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/93_Endless Mooks.png"
+			}
+		},
+		{
+			"name": "Cohort Battlemage",
+			"rarity": "common",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Human Shaman Minion ",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/170_Cohort Battlemage.png"
+			}
+		},
+		{
+			"name": "Electrocution Assistant",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Hyena Minion ",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/54_Electrocution Assistant.png"
+			}
+		},
+		{
+			"name": "Political Puppeteer",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Cat Advisor ",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/27_Political Puppeteer.png"
+			}
+		},
+		{
+			"name": "Power Source",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/240_Power Source.png"
+			}
+		},
+		{
+			"name": "Rogue's Palace Cardshark",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Dog Noble ",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/216_Rogue's Palace Cardshark.png"
+			}
+		},
+		{
+			"name": "Deft Wingman",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Angel Soldier ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/14_Deft Wingman.png"
+			}
+		},
+		{
+			"name": "Scampering Journalist",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Rat Scout ",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/109_Scampering Journalist.png"
+			}
+		},
+		{
+			"name": "Tracker's Cigar",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/250_Tracker's Cigar.png"
+			}
+		},
+		{
+			"name": "Filigree Familiar",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Fox ",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/232_Filigree Familiar.png"
+			}
+		},
+		{
+			"name": "Tyrant's Machine",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/251_Tyrant's Machine.png"
+			}
+		},
+		{
+			"name": "Lair Assistant",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Minion ",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/235_Lair Assistant.png"
+			}
+		},
+		{
+			"name": "Pilgrim's Eye",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Thopter ",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/239_Pilgrim's Eye.png"
+			}
+		},
+		{
+			"name": "Concealed Firearms",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/229_Concealed Firearms.png"
+			}
+		},
+		{
+			"name": "Snakewood's Summons",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/189_Snakewood's Summons.png"
+			}
+		},
+		{
+			"name": "Swift Gadgeteer",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/35_Swift Gadgeteer.png"
+			}
+		},
+		{
+			"name": "Cold-Blooded Assassin",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Assassin ",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/86_Cold-Blooded Assassin.png"
+			}
+		},
+		{
+			"name": "Innovations in Interrogation",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Sorcery",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/102_Innovations in Interrogation.png"
+			}
+		},
+		{
+			"name": "Workshop Crawler",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact Creature — Insect ",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/39_Workshop Crawler.png"
+			}
+		},
+		{
+			"name": "Iroshi, Blade of the Old Ways",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Legendary Planeswalker — Iroshi ",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/178_Iroshi, Blade of the Old Ways.png"
+			}
+		},
+		{
+			"name": "Iroshi's Devotee",
+			"rarity": "rare",
+			"mana_cost": "{6}{G}",
+			"type": "Creature — Cat Ninja ",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/179_Iroshi's Devotee.png"
+			}
+		},
+		{
+			"name": "Corrupt Form",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/51_Corrupt Form.png"
+			}
+		},
+		{
+			"name": "Explode",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/135_Explode.png"
+			}
+		},
+		{
+			"name": "Funding Organizer",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/18_Funding Organizer.png"
+			}
+		},
+		{
+			"name": "Sainted Agent",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Angel Soldier ",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/29_Sainted Agent.png"
+			}
+		},
+		{
+			"name": "Tactical Skis",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/249_Tactical Skis.png"
+			}
+		},
+		{
+			"name": "Confronter of Evil",
+			"rarity": "common",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Angel Soldier ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/10_Confronter of Evil.png"
+			}
+		},
+		{
+			"name": "Bodyguard Bruisers",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Minion ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/6_Bodyguard Bruisers.png"
+			}
+		},
+		{
+			"name": "Missing in Action",
+			"rarity": "common",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/23_Missing in Action.png"
+			}
+		},
+		{
+			"name": "Shoot to Kill",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/30_Shoot to Kill.png"
+			}
+		},
+		{
+			"name": "Partners in Crime",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/144_Partners in Crime.png"
+			}
+		},
+		{
+			"name": "Hit Me",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Sorcery",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/209_Hit Me.png"
+			}
+		},
+		{
+			"name": "Emergent Doom",
+			"rarity": "common",
+			"mana_cost": "{6}{R}",
+			"type": "Creature — Nightmare Giant ",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/134_Emergent Doom.png"
+			}
+		},
+		{
+			"name": "Citystalker Moth",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Nightmare Insect ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/8_Citystalker Moth.png"
+			}
+		},
+		{
+			"name": "Luxurious Estate",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/263_Luxurious Estate.png"
+			}
+		},
+		{
+			"name": "Standard-Issue Firearm",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/32_Standard-Issue Firearm.png"
+			}
+		},
+		{
+			"name": "Face It All",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/16_Face It All.png"
+			}
+		},
+		{
+			"name": "Inexorable Onslaught",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/59_Inexorable Onslaught.png"
+			}
+		},
+		{
+			"name": "Paranormal Investigators",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Scout ",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/106_Paranormal Investigators.png"
+			}
+		},
+		{
+			"name": "Self-Destructing Message",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/151_Self-Destructing Message.png"
+			}
+		},
+		{
+			"name": "Shifting Lair",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/268_Shifting Lair.png"
+			}
+		},
+		{
+			"name": "Missile Silo",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/237_Missile Silo.png"
+			}
+		},
+		{
+			"name": "Blunt Instrument",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/124_Blunt Instrument.png"
+			}
+		},
+		{
+			"name": "Suave Jetster",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/33_Suave Jetster.png"
+			}
+		},
+		{
+			"name": "The Sunfire",
+			"rarity": "mythic",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Equipment ",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/248_The Sunfire.png"
+			}
+		},
+		{
+			"name": "Frightborn Skyshark",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Nightmare Shark ",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/56_Frightborn Skyshark.png"
+			}
+		},
+		{
+			"name": "Adept Arcanist",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/41_Adept Arcanist.png"
+			}
+		},
+		{
+			"name": "Justiciar Stormblade",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/61_Justiciar Stormblade.png"
+			}
+		},
+		{
+			"name": "Scuttling Underling",
+			"rarity": "common",
+			"mana_cost": "{5}{U}",
+			"type": "Creature — Nightmare Homarid ",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/70_Scuttling Underling.png"
+			}
+		},
+		{
+			"name": "Brain Backup",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Brain ",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/44_Brain Backup.png"
+			}
+		},
+		{
+			"name": "Clone",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Shapeshifter ",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/47_Clone.png"
+			}
+		},
+		{
+			"name": "Without a Trace",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/79_Without a Trace.png"
+			}
+		},
+		{
+			"name": "Conquest Terminal",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/50_Conquest Terminal.png"
+			}
+		},
+		{
+			"name": "Perspicacity",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/238_Perspicacity.png"
+			}
+		},
+		{
+			"name": "Calamity Smith In The Gilded Heist",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Planeswalker — Calamity ",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/127_Calamity Smith In The Gilded Heist.png"
+			}
+		},
+		{
+			"name": "Tireless Innovation",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}",
+			"type": "Enchantment",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/221_Tireless Innovation.png"
+			}
+		},
+		{
+			"name": "Smash to Smithereens",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/155_Smash to Smithereens.png"
+			}
+		},
+		{
+			"name": "Outdated Crony",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Artifact Creature — Minion ",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/105_Outdated Crony.png"
+			}
+		},
+		{
+			"name": "Soulsucker",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Nightmare Leech ",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/112_Soulsucker.png"
+			}
+		},
+		{
+			"name": "Tough Customer",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Minion ",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/117_Tough Customer.png"
+			}
+		},
+		{
+			"name": "Evil Scheme",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/94_Evil Scheme.png"
+			}
+		},
+		{
+			"name": "Torment Nexus",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/116_Torment Nexus.png"
+			}
+		},
+		{
+			"name": "Torch Twirler",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Fox Minion ",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/158_Torch Twirler.png"
+			}
+		},
+		{
+			"name": "Rogue's Palace Bouncer",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Minion ",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/150_Rogue's Palace Bouncer.png"
+			}
+		},
+		{
+			"name": "Rocket Shark",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Shark ",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/149_Rocket Shark.png"
+			}
+		},
+		{
+			"name": "Prototype Robosaur",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Dinosaur ",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/146_Prototype Robosaur.png"
+			}
+		},
+		{
+			"name": "Reckless Spy",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/148_Reckless Spy.png"
+			}
+		},
+		{
+			"name": "Toughened Goon",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Minotaur Minion ",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/159_Toughened Goon.png"
+			}
+		},
+		{
+			"name": "Disposable Mook",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Minion ",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/131_Disposable Mook.png"
+			}
+		},
+		{
+			"name": "Lair Butler",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Minotaur Minion ",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/181_Lair Butler.png"
+			}
+		},
+		{
+			"name": "Apparatus Operator",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Minotaur Artificer ",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/162_Apparatus Operator.png"
+			}
+		},
+		{
+			"name": "Sprocketed Brawler",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Minotaur Soldier ",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/191_Sprocketed Brawler.png"
+			}
+		},
+		{
+			"name": "Justiciar Dispatcher",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Minotaur Advisor ",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/180_Justiciar Dispatcher.png"
+			}
+		},
+		{
+			"name": "Codename Heavy Hitter",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}{G}",
+			"type": "Legendary Creature — Minotaur Soldier ",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/169_Codename Heavy Hitter.png"
+			}
+		},
+		{
+			"name": "Thrashing Devourer",
+			"rarity": "common",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Nightmare Wurm ",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/197_Thrashing Devourer.png"
+			}
+		},
+		{
+			"name": "Snakewood's Final Servant",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}{B}",
+			"type": "Legendary Creature — Nightmare Demon ",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/111_Snakewood's Final Servant.png"
+			}
+		},
+		{
+			"name": "Smuggler's Cunning",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/188_Smuggler's Cunning.png"
+			}
+		},
+		{
+			"name": "Suspicious Merchant",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Fox Rogue ",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/195_Suspicious Merchant.png"
+			}
+		},
+		{
+			"name": "Sabotage Skitterer",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Artifact Creature — Insect ",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/186_Sabotage Skitterer.png"
+			}
+		},
+		{
+			"name": "Granite Harbinger",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact Creature — Nightmare Gargoyle ",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/233_Granite Harbinger.png"
+			}
+		},
+		{
+			"name": "Jebidiah Digsworth, the Mole",
+			"rarity": "rare",
+			"mana_cost": "{G}{U}",
+			"type": "Legendary Creature — Mole Rogue ",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/213_Jebidiah Digsworth, the Mole.png"
+			}
+		},
+		{
+			"name": "The Rack",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/244_The Rack.png"
+			}
+		},
+		{
+			"name": "Hugo's Handiwork",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Artifact",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/210_Hugo's Handiwork.png"
+			}
+		},
+		{
+			"name": "Pursuit Hovercraft",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/242_Pursuit Hovercraft.png"
+			}
+		},
+		{
+			"name": "Heist of the Century",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/141_Heist of the Century.png"
+			}
+		},
+		{
+			"name": "Hold for Ransom",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/19_Hold for Ransom.png"
+			}
+		},
+		{
+			"name": "Cardboard Box",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/228_Cardboard Box.png"
+			}
+		},
+		{
+			"name": "All According to Plan",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/3_All According to Plan.png"
+			}
+		},
+		{
+			"name": "Scuba Suit",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/69_Scuba Suit.png"
+			}
+		},
+		{
+			"name": "Steelbane Sniper",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Archer ",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/192_Steelbane Sniper.png"
+			}
+		},
+		{
+			"name": "Save the World",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/67_Save the World.png"
+			}
+		},
+		{
+			"name": "New Tellison Express",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/24_New Tellison Express.png"
+			}
+		},
+		{
+			"name": "Therese Grimblood",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Vampire Noble ",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/115_Therese Grimblood.png"
+			}
+		},
+		{
+			"name": "Blacklist",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/227_Blacklist.png"
+			}
+		},
+		{
+			"name": "White Spy",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/38_White Spy.png"
+			}
+		},
+		{
+			"name": "Live and Let Die",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/103_Live and Let Die.png"
+			}
+		},
+		{
+			"name": "Dream-Ash Phoenix",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Nightmare Phoenix ",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/133_Dream-Ash Phoenix.png"
+			}
+		},
+		{
+			"name": "Codename Wise Guy",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Otter Soldier ",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/48_Codename Wise Guy.png"
+			}
+		},
+		{
+			"name": "Codename Half Moon",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Creature — Shade Soldier ",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/85_Codename Half Moon.png"
+			}
+		},
+		{
+			"name": "Codename High Life",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Fox Soldier ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/9_Codename High Life.png"
+			}
+		},
+		{
+			"name": "Codename Cold Blood",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Vampire Soldier ",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/128_Codename Cold Blood.png"
+			}
+		},
+		{
+			"name": "Rambling Monologue",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Enchantment",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/147_Rambling Monologue.png"
+			}
+		},
+		{
+			"name": "Shock",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/153_Shock.png"
+			}
+		},
+		{
+			"name": "Daredevil Brandishing",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Instant",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/13_Daredevil Brandishing.png"
+			}
+		},
+		{
+			"name": "Grimblood's Mastermind",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Vampire Noble ",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/99_Grimblood's Mastermind.png"
+			}
+		},
+		{
+			"name": "Flamethrower Volley",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/137_Flamethrower Volley.png"
+			}
+		},
+		{
+			"name": "Gather Intel",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/57_Gather Intel.png"
+			}
+		},
+		{
+			"name": "Gearheart Baron",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Artifact Creature — Rogue Noble ",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/140_Gearheart Baron.png"
+			}
+		},
+		{
+			"name": "City Soarer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/45_City Soarer.png"
+			}
+		},
+		{
+			"name": "The Clock is Ticking",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/46_The Clock is Ticking.png"
+			}
+		},
+		{
+			"name": "Secret Base Sentinel",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Centaur Minion ",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/247_Secret Base Sentinel.png"
+			}
+		},
+		{
+			"name": "Steed of Agonies",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Nightmare Horse ",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/114_Steed of Agonies.png"
+			}
+		},
+		{
+			"name": "Arcane Catalyst",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/226_Arcane Catalyst.png"
+			}
+		},
+		{
+			"name": "Lay Low",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/22_Lay Low.png"
+			}
+		},
+		{
+			"name": "Field Worker",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Scout ",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/174_Field Worker.png"
+			}
+		},
+		{
+			"name": "Whirring Sky Gizmo",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Thopter ",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/254_Whirring Sky Gizmo.png"
+			}
+		},
+		{
+			"name": "Wire Gobbler",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Nightmare Ouphe ",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/200_Wire Gobbler.png"
+			}
+		},
+		{
+			"name": "Frank Atran, Augmented Agent",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}",
+			"type": "Legendary Artifact Creature — Human Soldier ",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/17_Frank Atran, Augmented Agent.png"
+			}
+		},
+		{
+			"name": "Take Out",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Sorcery",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/36_Take Out.png"
+			}
+		},
+		{
+			"name": "Jodanist Bishop",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Cleric ",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/20_Jodanist Bishop.png"
+			}
+		},
+		{
+			"name": "Scheming Sphinx",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Sphinx Wizard ",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/68_Scheming Sphinx.png"
+			}
+		},
+		{
+			"name": "Two Heads Are Better",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/76_Two Heads Are Better.png"
+			}
+		},
+		{
+			"name": "Crooked Politician",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/87_Crooked Politician.png"
+			}
+		},
+		{
+			"name": "Goon Squad",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Instant",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/97_Goon Squad.png"
+			}
+		},
+		{
+			"name": "Satellite Tower",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/246_Satellite Tower.png"
+			}
+		},
+		{
+			"name": "Descent of the Nightmares",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Instant",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/88_Descent of the Nightmares.png"
+			}
+		},
+		{
+			"name": "Worldender Engine",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Artifact Creature — Giant Minion ",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/120_Worldender Engine.png"
+			}
+		},
+		{
+			"name": "Brawl Instigator",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Minotaur Minion ",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/125_Brawl Instigator.png"
+			}
+		},
+		{
+			"name": "Deadshot Stunt",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/129_Deadshot Stunt.png"
+			}
+		},
+		{
+			"name": "Upgrade Stunt",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Sorcery",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/198_Upgrade Stunt.png"
+			}
+		},
+		{
+			"name": "Fight Scene",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/175_Fight Scene.png"
+			}
+		},
+		{
+			"name": "Execution Table",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/231_Execution Table.png"
+			}
+		},
+		{
+			"name": "Electric Goon",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Minion ",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/230_Electric Goon.png"
+			}
+		},
+		{
+			"name": "Quickdraw Pistol",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/243_Quickdraw Pistol.png"
+			}
+		},
+		{
+			"name": "Brot, Head Honcho",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Human Minion ",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/84_Brot, Head Honcho.png"
+			}
+		},
+		{
+			"name": "Undercover Gadgeteer",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/222_Undercover Gadgeteer.png"
+			}
+		},
+		{
+			"name": "Presence of the First Dream",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/65_Presence of the First Dream.png"
+			}
+		},
+		{
+			"name": "One Last Stunt",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/143_One Last Stunt.png"
+			}
+		},
+		{
+			"name": "Ancestral Scheme",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/42_Ancestral Scheme.png"
+			}
+		},
+		{
+			"name": "Boss's Favorites",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Vampire Minion ",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/83_Boss's Favorites.png"
+			}
+		},
+		{
+			"name": "Somnogoyf",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Nightmare Lhurgoyf ",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/190_Somnogoyf.png"
+			}
+		},
+		{
+			"name": "Flourishing Evil",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/176_Flourishing Evil.png"
+			}
+		},
+		{
+			"name": "Mana Smuggler",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Druid ",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/183_Mana Smuggler.png"
+			}
+		},
+		{
+			"name": "Night Drudger",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/184_Night Drudger.png"
+			}
+		},
+		{
+			"name": "Annihilator Suit",
+			"rarity": "rare",
+			"mana_cost": "{7}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/225_Annihilator Suit.png"
+			}
+		},
+		{
+			"name": "The First Dream",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{U}{B}{R}{G}",
+			"type": "Legendary Creature — Elder Nightmare ",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/205_The First Dream.png"
+			}
+		},
+		{
+			"name": "Enigmatic Progenitor",
+			"rarity": "mythic",
+			"mana_cost": "{5}{G}{G}{G}",
+			"type": "Creature — Nightmare Sliver ",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/172_Enigmatic Progenitor.png"
+			}
+		},
+		{
+			"name": "You Only Live Twice",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/40_You Only Live Twice.png"
+			}
+		},
+		{
+			"name": "Elder Mathias Jodan",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Creature — Avatar Cleric ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/15_Elder Mathias Jodan.png"
+			}
+		},
+		{
+			"name": "Theory of Everything",
+			"rarity": "mythic",
+			"mana_cost": "{5}{U}{U}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/72_Theory of Everything.png"
+			}
+		},
+		{
+			"name": "Bankbuster Heavy",
+			"rarity": "rare",
+			"mana_cost": "{G}{G}",
+			"type": "Creature — Human Minion ",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/165_Bankbuster Heavy.png"
+			}
+		},
+		{
+			"name": "Gild",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/96_Gild.png"
+			}
+		},
+		{
+			"name": "Organized Espionage",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/104_Organized Espionage.png"
+			}
+		},
+		{
+			"name": "Minion",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Minion ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/6_Minion.png"
+			}
+		},
+		{
+			"name": "Haste Gadget",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/18_Haste Gadget.png"
+			}
+		},
+		{
+			"name": "Double Strike Gadget",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/13_Double Strike Gadget.png"
+			}
+		},
+		{
+			"name": "First Strike Gadget",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/14_First Strike Gadget.png"
+			}
+		},
+		{
+			"name": "Nightmare",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Nightmare ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/7_Nightmare.png"
+			}
+		},
+		{
+			"name": "Cleric",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Cleric ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/3_Cleric.png"
+			}
+		},
+		{
+			"name": "Flying Gadget",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/15_Flying Gadget.png"
+			}
+		},
+		{
+			"name": "Ward Gadget",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment ",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/27_Ward Gadget.png"
+			}
+		},
+		{
+			"name": "Prowess Gadget",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment ",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/23_Prowess Gadget.png"
+			}
+		},
+		{
+			"name": "Menace Gadget",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment ",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/21_Menace Gadget.png"
+			}
+		},
+		{
+			"name": "Simone Birch",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Legendary Token Creature — Human Warlock Minion ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/8_Simone Birch.png"
+			}
+		},
+		{
+			"name": "Jamesson Stet",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Legendary Token Creature — Human Warrior Minion ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/5_Jamesson Stet.png"
+			}
+		},
+		{
+			"name": "Gold",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/17_Gold.png"
+			}
+		},
+		{
+			"name": "Lifelink Gadget",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment ",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/19_Lifelink Gadget.png"
+			}
+		},
+		{
+			"name": "Reach Gadget",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment ",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/24_Reach Gadget.png"
+			}
+		},
+		{
+			"name": "Trample Gadget",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment ",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/25_Trample Gadget.png"
+			}
+		},
+		{
+			"name": "Nightmare Sliver",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Nightmare Sliver ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/10_Nightmare Sliver.png"
+			}
+		},
+		{
+			"name": "Ninja",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Ninja ",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/11_Ninja.png"
+			}
+		},
+		{
+			"name": "Deathtouch Gadget",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/12_Deathtouch Gadget.png"
+			}
+		},
+		{
+			"name": "Black Spy",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/82_Black Spy.png"
+			}
+		},
+		{
+			"name": "Gutter Slosher",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Nightmare Ooze ",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/177_Gutter Slosher.png"
+			}
+		},
+		{
+			"name": "Laboratory Maniac",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/62_Laboratory Maniac.png"
+			}
+		},
+		{
+			"name": "Soldier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Soldier ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/4_Soldier.png"
+			}
+		},
+		{
+			"name": "Artifact Minion",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Minion ",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/22_Artifact Minion.png"
+			}
+		},
+		{
+			"name": "Escaped Subject",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Nightmare Serpent ",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/173_Escaped Subject.png"
+			}
+		},
+		{
+			"name": "Evil Plan",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token — Reminder",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/2_Evil Plan.png"
+			}
+		},
+		{
+			"name": "Endgame",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token — Reminder",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/1_Endgame.png"
+			}
+		},
+		{
+			"name": "Melee Gadget",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment ",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/20_Melee Gadget.png"
+			}
+		},
+		{
+			"name": "Back in Action",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/5_Back in Action.png"
+			}
+		},
+		{
+			"name": "Freezefire Corps",
+			"rarity": "rare",
+			"mana_cost": "{U}{R}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/206_Freezefire Corps.png"
+			}
+		},
+		{
+			"name": "Dreamreaper",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Nightmare Specter ",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/92_Dreamreaper.png"
+			}
+		},
+		{
+			"name": "Calamity's Cohort",
+			"rarity": "mythic",
+			"mana_cost": "{R}{W}",
+			"type": "Creature — Fox Rogue ",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/201_Calamity's Cohort.png"
+			}
+		},
+		{
+			"name": "Agent 107",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Artifact Creature — Rogue ",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/161_Agent 107.png"
+			}
+		},
+		{
+			"name": "Vigilance Gadget",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment ",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/26_Vigilance Gadget.png"
+			}
+		},
+		{
+			"name": "Biomancer's Workshop",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/256_Biomancer's Workshop.png"
+			}
+		},
+		{
+			"name": "Midnight Square",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/264_Midnight Square.png"
+			}
+		},
+		{
+			"name": "Cultist's Compound",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/257_Cultist's Compound.png"
+			}
+		},
+		{
+			"name": "Inconspicuous Volcano",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/261_Inconspicuous Volcano.png"
+			}
+		},
+		{
+			"name": "Glacial Base",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/260_Glacial Base.png"
+			}
+		},
+		{
+			"name": "Viridian's Trusty Sidearm",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Equipment ",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/253_Viridian's Trusty Sidearm.png"
+			}
+		},
+		{
+			"name": "Decadent Lobby",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/259_Decadent Lobby.png"
+			}
+		},
+		{
+			"name": "Underground Lab",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "271",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/271_Underground Lab.png"
+			}
+		},
+		{
+			"name": "Benthic Bunker",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/255_Benthic Bunker.png"
+			}
+		},
+		{
+			"name": "Thunderbrain Labs",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/270_Thunderbrain Labs.png"
+			}
+		},
+		{
+			"name": "Justiciar Headquarters",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/262_Justiciar Headquarters.png"
+			}
+		},
+		{
+			"name": "Trouble Brewing",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/75_Trouble Brewing.png"
+			}
+		},
+		{
+			"name": "Sewer Orgg",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Nightmare Orgg ",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/152_Sewer Orgg.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains ",
+			"collector_number": "272",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/272_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island ",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/273_Island.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest ",
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/276_Forest.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain ",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/275_Mountain.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp ",
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/274_Swamp.png"
+			}
+		},
+		{
+			"name": "Steam-Powered Steer",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Artifact Creature — Minotaur Minion ",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/156_Steam-Powered Steer.png"
+			}
+		},
+		{
+			"name": "Shark",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Shark ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/9_Shark.png"
+			}
+		},
+		{
+			"name": "Gilded Lotus",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/16_Gilded Lotus.png"
+			}
+		},
+		{
+			"name": "Precarious Evasion",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/28_Precarious Evasion.png"
+			}
+		},
+		{
+			"name": "Sir Hogginsworth, Quartermaster",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Fox Artificer ",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/31_Sir Hogginsworth, Quartermaster.png"
+			}
+		},
+		{
+			"name": "Uncanny Likeness",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/77_Uncanny Likeness.png"
+			}
+		},
+		{
+			"name": "Destructive Force",
+			"rarity": "rare",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/130_Destructive Force.png"
+			}
+		},
+		{
+			"name": "Lucas Locke, Paranormal Sleuth",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Legendary Creature — Human Rogue ",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/214_Lucas Locke, Paranormal Sleuth.png"
+			}
+		},
+		{
+			"name": "Monument to Vanity",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Artifact",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/215_Monument to Vanity.png"
+			}
+		},
+		{
+			"name": "Mana Rig",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/236_Mana Rig.png"
+			}
+		},
+		{
+			"name": "The World Is Not Enough",
+			"rarity": "rare",
+			"mana_cost": "{7}{U}",
+			"type": "Sorcery",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/80_The World Is Not Enough.png"
+			}
+		},
+		{
+			"name": "Darkhand Enterprises",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/VRD-files/img/258_Darkhand Enterprises.png"
+			}
+		},
+		]
+	[RareSlot(1)]
+	2 Aegis Pocketwatch
+		2 Awoken Arbiter
+		2 Veteran Gadgeteer
+		2 Paragon Agent
+		2 Piece Together
+		2 Awoken Thunderer
+		2 Trick Questions
+		2 Tobias Maxwell, Justiciar Boss
+		2 Awoken Corruptor
+		2 Facility Detonator
+		2 Smirk, Darkhand's Favored
+		2 Unkillable Henchman
+		2 Awoken Whelp
+		2 Doomsday Device
+		2 Ivas Taranka, Rogue Diplomat
+		2 Pit of Sharks
+		2 Awoken Ravager
+		2 Crafty Informant
+		2 Storm of Monstrosities
+		2 Evelyn Snakewood, Dark Druid
+		2 Prototype Jetmobile
+		2 The Rogue's Palace
+		2 Whirlwind Romantic
+		2 World Domination
+		2 Justiciar Overseer
+		2 Snakewood's Hideout
+		2 Rogue's Palace Cardshark
+		2 Iroshi's Devotee
+		2 Hit Me
+		2 Luxurious Estate
+		2 Blunt Instrument
+		2 Perspicacity
+		2 Tireless Innovation
+		2 Snakewood's Final Servant
+		2 Jebidiah Digsworth, the Mole
+		2 Heist of the Century
+		2 All According to Plan
+		2 Save the World
+		2 Blacklist
+		2 Live and Let Die
+		2 Rambling Monologue
+		2 The Clock is Ticking
+		2 Undercover Gadgeteer
+		2 Presence of the First Dream
+		2 One Last Stunt
+		2 Ancestral Scheme
+		2 Somnogoyf
+		2 Flourishing Evil
+		2 Night Drudger
+		2 Annihilator Suit
+		2 Bankbuster Heavy
+		2 Organized Espionage
+		2 Back in Action
+		2 Freezefire Corps
+		2 Dreamreaper
+		2 Agent 107
+		2 Viridian's Trusty Sidearm
+		2 Thunderbrain Labs
+		2 Justiciar Headquarters
+		2 Steam-Powered Steer
+		2 Sir Hogginsworth, Quartermaster
+		2 Uncanny Likeness
+		2 Destructive Force
+		2 Lucas Locke, Paranormal Sleuth
+		2 The World Is Not Enough
+		2 Darkhand Enterprises
+		1 Smuggling Kingpin
+		1 Hugo Darkhand, the Mastermind
+		1 International Manipulation
+		1 Codename Viridian
+		1 Iroshi, Blade of the Old Ways
+		1 The Sunfire
+		1 Calamity Smith In The Gilded Heist
+		1 Hugo's Handiwork
+		1 Therese Grimblood
+		1 Frank Atran, Augmented Agent
+		1 The First Dream
+		1 Enigmatic Progenitor
+		1 Elder Mathias Jodan
+		1 Theory of Everything
+		1 Calamity's Cohort
+		[UncommonSlot(3)]
+	9 Spycraft Survivalist
+		9 Unassuming Hooptie
+		9 Schemer of Ancient Ways
+		9 Jacques Elnis, Jetpack Rocketeer
+		9 Within My Grasp
+		9 Heart-Pounding Action
+		9 Sim Nichol, Trinket Enchanter
+		9 Firearms Dealer
+		9 Hemec Yor, Flamethrower Dragoon
+		9 Taranka's Posse
+		9 Contain the Monstrous
+		9 Stoneglare Agent
+		9 Fireslinger
+		9 Ace in the Hole
+		9 Grappling Hook
+		9 Mission Briefing
+		9 Ghostly Observer
+		9 Recover the Evidence
+		9 Pilgrim's Eye
+		9 Sainted Agent
+		9 Tactical Skis
+		9 Partners in Crime
+		9 Citystalker Moth
+		9 Inexorable Onslaught
+		9 Self-Destructing Message
+		9 Shifting Lair
+		9 Missile Silo
+		9 Clone
+		9 Codename Heavy Hitter
+		9 Granite Harbinger
+		9 The Rack
+		9 Cardboard Box
+		9 Scuba Suit
+		9 Steelbane Sniper
+		9 New Tellison Express
+		9 White Spy
+		9 Dream-Ash Phoenix
+		9 Codename Wise Guy
+		9 Codename Half Moon
+		9 Codename High Life
+		9 Codename Cold Blood
+		9 Daredevil Brandishing
+		9 Grimblood's Mastermind
+		9 Flamethrower Volley
+		9 Gather Intel
+		9 Gearheart Baron
+		9 City Soarer
+		9 Secret Base Sentinel
+		9 Steed of Agonies
+		9 Arcane Catalyst
+		9 Lay Low
+		9 Field Worker
+		9 Whirring Sky Gizmo
+		9 Wire Gobbler
+		9 Take Out
+		9 Jodanist Bishop
+		9 Scheming Sphinx
+		9 Two Heads Are Better
+		9 Crooked Politician
+		9 Goon Squad
+		9 Satellite Tower
+		9 Descent of the Nightmares
+		9 Worldender Engine
+		9 Brawl Instigator
+		9 Deadshot Stunt
+		9 Upgrade Stunt
+		9 Fight Scene
+		9 Electric Goon
+		9 Quickdraw Pistol
+		9 Brot, Head Honcho
+		9 Boss's Favorites
+		9 Mana Smuggler
+		9 You Only Live Twice
+		9 Gild
+		9 Black Spy
+		9 Gutter Slosher
+		9 Laboratory Maniac
+		9 Escaped Subject
+		9 Sewer Orgg
+		9 Monument to Vanity
+		[CommonSlot(10)]
+	30 Rogue's Palace Colossus
+		30 Dispose Of
+		30 Devious Electrocution
+		30 Brutal Butcher
+		30 Agent of Justiciar
+		30 It All Comes Together
+		30 Hugo's Watcher
+		30 Archive Bloodhound
+		30 Superweapon Blast
+		30 Lairbuster Vanguard
+		30 Right Where I Want You
+		30 Shootout Stunt
+		30 Spider's Touch
+		30 Crackling Watcher
+		30 Flare Gunner
+		30 Taranka's Cohort
+		30 Sweet Talker
+		30 Citypulse Tracker
+		30 Elvish Witness
+		30 Eavesdrop
+		30 Brutal Stunt
+		30 Renegade Agent
+		30 Conniving Spy
+		30 Full House
+		30 Acrobatic Stunt
+		30 Signature Stunt
+		30 Observant Contact
+		30 Wall Scaler
+		30 Grimblood Vampire
+		30 Talented Dealer
+		30 Sabotage
+		30 Cityweb Sentinel
+		30 Diabolical Minion
+		30 Zap Toady
+		30 Frantic Inventory
+		30 Charmed Stray
+		30 Endless Mooks
+		30 Cohort Battlemage
+		30 Electrocution Assistant
+		30 Political Puppeteer
+		30 Power Source
+		30 Deft Wingman
+		30 Scampering Journalist
+		30 Tracker's Cigar
+		30 Filigree Familiar
+		30 Tyrant's Machine
+		30 Lair Assistant
+		30 Concealed Firearms
+		30 Snakewood's Summons
+		30 Swift Gadgeteer
+		30 Cold-Blooded Assassin
+		30 Innovations in Interrogation
+		30 Workshop Crawler
+		30 Corrupt Form
+		30 Explode
+		30 Funding Organizer
+		30 Confronter of Evil
+		30 Bodyguard Bruisers
+		30 Missing in Action
+		30 Shoot to Kill
+		30 Emergent Doom
+		30 Standard-Issue Firearm
+		30 Face It All
+		30 Paranormal Investigators
+		30 Suave Jetster
+		30 Frightborn Skyshark
+		30 Adept Arcanist
+		30 Justiciar Stormblade
+		30 Scuttling Underling
+		30 Brain Backup
+		30 Without a Trace
+		30 Conquest Terminal
+		30 Smash to Smithereens
+		30 Outdated Crony
+		30 Soulsucker
+		30 Tough Customer
+		30 Evil Scheme
+		30 Torment Nexus
+		30 Torch Twirler
+		30 Rogue's Palace Bouncer
+		30 Rocket Shark
+		30 Prototype Robosaur
+		30 Reckless Spy
+		30 Toughened Goon
+		30 Disposable Mook
+		30 Lair Butler
+		30 Apparatus Operator
+		30 Sprocketed Brawler
+		30 Justiciar Dispatcher
+		30 Thrashing Devourer
+		30 Smuggler's Cunning
+		30 Suspicious Merchant
+		30 Sabotage Skitterer
+		30 Pursuit Hovercraft
+		30 Hold for Ransom
+		30 Shock
+		30 Execution Table
+		30 Trouble Brewing
+		30 Precarious Evasion
+		30 Mana Rig
+		[LandSlot(1)]
+	10 Remote Facility
+		10 Penthouse Office
+		10 Biomancer's Workshop
+		10 Midnight Square
+		10 Cultist's Compound
+		10 Inconspicuous Volcano
+		10 Glacial Base
+		10 Decadent Lobby
+		10 Underground Lab
+		10 Benthic Bunker
+		

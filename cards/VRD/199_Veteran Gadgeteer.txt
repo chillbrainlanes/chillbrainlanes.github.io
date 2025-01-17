@@ -1,0 +1,1 @@
+﻿Veteran Gadgeteer	G	rare	Creature – Elf Artificer 	199	G	1G	Sacrifice an Aura or Equipment attached to a creature you control: That creature gains indestructible until end of turn.	3/2		normal	VRD		RW03: constructed plant; supporting <enchantments-matter aggro>

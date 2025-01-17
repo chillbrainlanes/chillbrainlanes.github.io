@@ -1,0 +1,1 @@
+﻿Children of Korlis Concert	B	cube	Instant	100	B	1B	You gain life equal to the life you’ve lost this turn. Add that much B.			normal	2022		

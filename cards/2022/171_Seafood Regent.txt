@@ -1,0 +1,1 @@
+﻿Seafood Regent	R	cube	Creature – Human Noble 	171	R	2R	At the beginning of combat on your turn, roll a dX, where X is the number of creatures you control.NEWLINE0-2 | Create a 1/1 red Fish creature token.NEWLINE3-5 | Create a 2/2 red Crab creature tokenNEWLINE6+ | Create a 4/4 red Squid creature token.NEWLINEIt gains haste.	2/2		normal	2022		Dice

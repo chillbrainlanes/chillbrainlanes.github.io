@@ -1,0 +1,1 @@
+﻿Recording Artist	B	cube	Creature – Vampire Bard 	125	B	1B	Whenever Recording Artist or another creature you control dies, target player loses 1 life and you gain 1 life. If this is the third time this ability has resolved this turn, conjure a Songs of the Damned card into your hand. (B Instant: Add B for each creature card in your graveyard.)	0/1		normal	2022		

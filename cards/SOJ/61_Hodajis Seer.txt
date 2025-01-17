@@ -1,0 +1,1 @@
+﻿Hodaji's Seer	U	uncommon	Creature – Human Wizard 	61	U	1U	Whenever you spend six or more mana to cast an instant or sorcery spell, draw a card.	1/3		normal	SOJ		

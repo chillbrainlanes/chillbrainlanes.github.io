@@ -1,0 +1,1 @@
+﻿Clover Muncher	WG	cube	Creature – Sheep 	257	WG	G/W	Whenever you cast an Adventure spell, you may pay G/W. If you do, copy it. You may choose new targets for the copy.	2/1		normal	2022		

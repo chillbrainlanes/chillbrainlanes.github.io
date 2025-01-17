@@ -1,0 +1,1 @@
+﻿Organized Espionage	B	rare	Enchantment	104	B	1B	Black creatures you control get +1/+1.NEWLINEWhenever a creature you control deals combat damage to a player, you may sacrifice it and pay 3 life. If you do, that player discards a card and you draw a card.			normal	VRD		

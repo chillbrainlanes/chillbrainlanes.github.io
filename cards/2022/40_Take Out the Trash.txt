@@ -1,0 +1,1 @@
+﻿Take Out the Trash	W	cube	Sorcery	40	W	5WW	Delve (Each card you exile from your graveyard while casting this spell pays for 1.)NEWLINEDestroy all creatures.			normal	2022		

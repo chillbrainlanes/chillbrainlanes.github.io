@@ -1,0 +1,1 @@
+﻿Gutter Slosher	G	uncommon	Creature – Nightmare Ooze 	177	G	2GG	HasteNEWLINEWhenever another Nightmare you control enters, you may choose one –NEWLINE• Gutter Slosher becomes a copy of that creature until end of turn.NEWLINE• That creature becomes a copy of Gutter Slosher until end of turn.	3/2		normal	VRD		

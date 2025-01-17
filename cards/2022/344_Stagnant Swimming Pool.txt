@@ -1,0 +1,1 @@
+﻿Stagnant Swimming Pool		cube	Land	344	C		T, Pay 1 life: Add one mana of any color.NEWLINE1, T: Target nonbasic land you don’t control and target nonbasic land you control that isn’t named Stagnant Swimming Pool become copies of Stagnant Swimming Pool.			normal	2022		

@@ -1,0 +1,1 @@
+﻿Spirit Bond	WB	uncommon	Instant	240	WB	WB	Put two +1/+1 counters on target attacking creature you control.NEWLINEWhen this card leaves your graveyard, you may pay WB. If you do, put two +1/+1 counters on target attacking creature you control.			normal	SOJ		Spellbound (Aggro)

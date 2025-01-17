@@ -1,0 +1,1 @@
+﻿Solve the Mystery	B	cube	Sorcery	127	B	2B	Megadelve (Each card you exile from your graveyard while casting this spell pays for 1 or one mana of that card’s color.)NEWLINETarget player reveals their hand. You choose a nonland card from it. That player discards that card.			normal	2022		

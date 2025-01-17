@@ -1,0 +1,1 @@
+﻿Steam-Powered Steer	R	rare	Artifact Creature – Minotaur Minion 	156	R	3RR	Trample, hasteNEWLINEWhen this creature enters, it deals damage to any target equal to the amount of mana from artifacts spent to cast it.	5/4		normal	VRD		

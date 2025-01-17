@@ -1,0 +1,1 @@
+﻿Trade School Rector	W	cube	Creature – Human Cleric 	43	W	3W	When Trade School Rector dies, you may exile it. If you do, search your library for an artifact card, put that card onto the battlefield, then shuffle.	1/2		normal	2022		

@@ -1,0 +1,1 @@
+﻿Dhabu's Commander	W	rare	Creature – Human Soldier 	15	W	2WW	Whenever this creature attacks, you may return a land card from your graveyard to the battlefield.NEWLINELandfall – Whenever a land you control enters, create a 1/1 white Human Soldier creature token.	3/3		normal	SOJ		

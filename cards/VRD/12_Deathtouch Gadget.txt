@@ -1,0 +1,1 @@
+﻿Deathtouch Gadget		common	Token Artifact – Equipment 	12	C		Equipped creature has deathtouch.NEWLINEEquip 2			token	VRD		!related Stoneglare Agent;

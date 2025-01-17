@@ -1,0 +1,1 @@
+﻿Confronter of Evil	W	common	Creature – Angel Soldier 	10	W	1WW	FlyingNEWLINEEndgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINEThis creature has vigilance as long as you’re in your endgame.	2/3		normal	VRD		

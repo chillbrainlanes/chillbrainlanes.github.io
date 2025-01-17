@@ -1,0 +1,1 @@
+﻿Flying Men GX	U	cube	Legendary Creature – Human 	62	U	U	FlyingNEWLINESaffiyah’s Summons GX – 1U: Reveal the top six cards of your library. You may put any number of creature cards from among them into your hand. Put the rest into your graveyard. (Activate only one GX ability per game.)	1/1		normal	2022		!exportname Flying Men GX

@@ -1,0 +1,1 @@
+﻿Pilgrim's Eye		uncommon	Artifact Creature – Thopter 	239	C	3	FlyingNEWLINEWhen this creature enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle.	1/1		normal	VRD		Reprint !check

@@ -1,0 +1,1 @@
+﻿Bob's Revenge	B	cube	Creature – Human Wizard 	95	B	B	At the beginning of your upkeep, mill a card. You lose life equal to its mana value.	3/2		normal	2022		

@@ -1,0 +1,1 @@
+﻿Savage Wildlands		uncommon	Land	263	RG		T: Add C.NEWLINET: Add R. Activate this ability only if you control a Forest.NEWLINET: Add G. Activate this ability only if you control a Mountain.			normal	SOJ		

@@ -1,0 +1,1 @@
+﻿Codename Heavy Hitter	G	uncommon	Legendary Creature – Minotaur Soldier 	169	G	3GGG	When this creature enters, create four trample Gadgets, then attach them to this creature. (They’re Equipment artifact tokens with equip 2 that grant that ability.)NEWLINECreatures you control get +1/+1 for each permanent attached to them.	1/1		normal	VRD		!exportname Codename Heavy Hitter

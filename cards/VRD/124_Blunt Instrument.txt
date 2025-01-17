@@ -1,0 +1,1 @@
+﻿Blunt Instrument	R	rare	Creature – Human Soldier 	124	R	R	TrampleNEWLINEWhenever this creature is dealt damage, it deals that much damage to you unless it’s enchanted or equipped.	2/2		normal	VRD		

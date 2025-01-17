@@ -1,0 +1,1 @@
+﻿Devouring Light	W	common	Instant	12	W	1WW	Convoke (Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINEExile target attacking or blocking creature.			normal	SOJ		

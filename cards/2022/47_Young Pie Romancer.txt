@@ -1,0 +1,1 @@
+﻿Young Pie Romancer	W	cube	Creature – Human Shaman 	47	W	W	Whenever you cast a spell, create a Food token. (It’s an artifact with “2, T, Sacrifice this artifact: You gain 3 life.”)	2/1		normal	2022		

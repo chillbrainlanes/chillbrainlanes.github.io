@@ -1,0 +1,1 @@
+﻿Skill Issue	G	cube	Sorcery	220	G	G	Choose target creature you control and target creature you don’t control. Roll a dX, where X is the power of the creature you control, then those creatures fight.NEWLINE2-3 | Put a +1/+1 counter on the creature you control before it fights.NEWLINE4+ | Put two +1/+1 counters on the creature you control before it fights.			normal	2022		Dice

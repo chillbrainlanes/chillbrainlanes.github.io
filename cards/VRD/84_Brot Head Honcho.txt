@@ -1,0 +1,1 @@
+﻿Brot, Head Honcho	B	uncommon	Legendary Creature – Human Minion 	84	B	1B	Whenever Brot or another Minion you control dies, you draw a card and lose 1 life.	2/2		normal	VRD		

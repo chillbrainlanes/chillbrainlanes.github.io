@@ -1,0 +1,1 @@
+﻿Jacques Elnis, Jetpack Rocketeer	WU	uncommon	Legendary Creature – Human Soldier 	212	WU	2WU	When Jacques Elnis enters, create a flying Gadget, then attach it to Jacques Elnis. (It’s an Equipment artifact token with equip 2 that grants that ability.)NEWLINEWhenever a creature you control deals combat damage to a player, put a +1/+1 counter on it.	2/2		normal	VRD		

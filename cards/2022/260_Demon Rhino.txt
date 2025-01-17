@@ -1,0 +1,1 @@
+﻿Demon Rhino	BR	cube	Creature – Demon Rhino 	260	BR	1B/RB/RB/R	TrampleNEWLINEWhen Demon Rhino enters the battlefield, it deals 3 damage to each opponent.	4/5		normal	2022		

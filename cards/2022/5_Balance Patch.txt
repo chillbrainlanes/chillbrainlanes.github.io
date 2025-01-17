@@ -1,0 +1,1 @@
+﻿Balance Patch	W	cube	Artifact	5	W	2W	T: Add C.NEWLINEWhen Balance Patch enters the battlefield, each player chooses a number of lands they control equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players sacrifice creatures and discard cards the same way.			normal	2022		

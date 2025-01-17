@@ -1,0 +1,1 @@
+﻿Sunoco		cube	Land – Island Swamp 	347	C		(T: Add U or B.)NEWLINESunoco™ enters the battlefield tapped.NEWLINEWhen Sunoco™ enters the battlefield, conjure a Wastes card into your hand. (Land. T: Add C.)			normal	2022		!exportname Sunoco

@@ -1,0 +1,1 @@
+﻿Ash Barrens		common	Land	256	C		T: Add C.NEWLINEBasic landcycling 1 (1, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)			normal	SOJ		Reprint

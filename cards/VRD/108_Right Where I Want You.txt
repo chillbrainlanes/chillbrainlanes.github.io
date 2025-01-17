@@ -1,0 +1,1 @@
+﻿Right Where I Want You	B	common	Sorcery	108	B	2B	Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.NEWLINECreate a Gold token. (It’s an artifact with “Sacrifice this artifact: Add one mana of any color.”)			normal	VRD		

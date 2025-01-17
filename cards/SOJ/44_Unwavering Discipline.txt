@@ -1,0 +1,1 @@
+﻿Unwavering Discipline	W	uncommon	Enchantment	44	W	2W	Convoke (Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINEWhenever a creature you control becomes tapped, if it’s not attacking, put a +1/+1 counter on it.			normal	SOJ		

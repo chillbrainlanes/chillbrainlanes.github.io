@@ -1,0 +1,1 @@
+﻿Signature Stunt	R	common	Instant	154	R	3R	This spell costs 3 less to cast if you’ve cast another spell that targeted a creature this turn.NEWLINETarget creature you control deals damage equal to its power to target creature or planeswalker.			normal	VRD		

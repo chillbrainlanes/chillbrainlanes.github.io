@@ -1,0 +1,1 @@
+﻿Shapeshifter	R	common	Token Creature – Shapeshifter 	15	R		Changeling (This card is every creature type.)	2/1		token	SOJ		

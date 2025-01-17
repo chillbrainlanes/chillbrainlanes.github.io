@@ -1,0 +1,1 @@
+﻿Citypulse Tracker	G	common	Creature – Human Scout 	167	G	3G	When this creature enters, surveil 2. When you do, you may return a land card from your graveyard to your hand. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)	3/2		normal	VRD		

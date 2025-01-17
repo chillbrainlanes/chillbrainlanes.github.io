@@ -1,0 +1,1 @@
+﻿Mishra's Casino		cube	Land	334	C		T: Add C.NEWLINEX: Roll a dX.NEWLINE1-3 | Mishra’s Casino becomes a 2/2 Assembly-Worker artifact creature until end of turn. It’s still a land.NEWLINE4+ | Mishra’s Casino becomes an X/X Assembly-Worker artifact creature until end of turn. It’s still a land.			normal	2022		Dice

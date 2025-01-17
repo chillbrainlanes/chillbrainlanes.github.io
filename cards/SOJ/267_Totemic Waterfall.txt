@@ -1,0 +1,1 @@
+﻿Totemic Waterfall		uncommon	Land	267	UR		T: Add C.NEWLINET: Add U. Activate this ability only if you control a Mountain.NEWLINET: Add R. Activate this ability only if you control an Island.			normal	SOJ		

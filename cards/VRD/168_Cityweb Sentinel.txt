@@ -1,0 +1,1 @@
+﻿Cityweb Sentinel	G	common	Creature – Nightmare Spider 	168	G	4G	ReachNEWLINEWhen this creature enters, surveil 3. (Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)	3/4		normal	VRD		

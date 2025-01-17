@@ -1,0 +1,1 @@
+﻿Tumbiri Druid	G	uncommon	Creature – Monkey Druid 	210	G	3G		3/3	(Pay the Roar as an additional cost for an instant or sorcery spell to add its effect.)NEWLINET: Add GG.NEWLINE[Roar 2G] Mill three cards. You may return a creature or land card milled this way to your hand.NEWLINE	leveler	SOJ		

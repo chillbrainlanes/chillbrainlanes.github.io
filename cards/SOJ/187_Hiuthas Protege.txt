@@ -1,0 +1,1 @@
+﻿Hiutha's Protege	G	rare	Creature – Centaur Druid Nomad 	187	G	G	TrampleNEWLINEProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)NEWLINESpellbound – Whenever this creature attacks, you may exile an instant or sorcery card from your graveyard. If you do, untap target land.	1/2		normal	SOJ		

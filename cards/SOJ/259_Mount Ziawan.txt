@@ -1,0 +1,1 @@
+﻿Mount Ziawan		rare	Legendary Land	259	C		T: Add C. When that mana is spent to cast a Revelation spell, scry 1.NEWLINEBasic landcycling 2 (2, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)			normal	SOJ		

@@ -1,0 +1,1 @@
+﻿Perspicacity		rare	Artifact	238	C	3	Whenever an artifact or creature you control dies for the first time each turn, draw a card.NEWLINEWhenever you cast a colorless spell, create a 1/1 colorless Minion artifact creature token.			normal	VRD		!exportname Perspicacity

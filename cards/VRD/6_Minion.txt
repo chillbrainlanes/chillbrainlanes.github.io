@@ -1,0 +1,1 @@
+﻿Minion	B	common	Token Creature – Minion 	6	B			1/1		token	VRD		!related Crooked Politician;Goon Squad<3>;

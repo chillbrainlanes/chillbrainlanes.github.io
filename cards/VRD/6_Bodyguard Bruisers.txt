@@ -1,0 +1,1 @@
+﻿Bodyguard Bruisers	W	common	Creature – Human Minion 	6	W	1W	Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINEThis creature gets +2/+2 as long as you’re in your endgame.	2/2		normal	VRD		

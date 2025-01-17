@@ -1,0 +1,360 @@
+15_Elder Mathias Jodan
+71_Smuggling Kingpin
+100_Hugo Darkhand, the Mastermind
+127_Calamity Smith In The Gilded Heist
+172_Enigmatic Progenitor
+17_Frank Atran, Augmented Agent
+72_Theory of Everything
+115_Therese Grimblood
+142_International Manipulation
+178_Iroshi, Blade of the Old Ways
+1_﻿Aegis Pocketwatch
+42_Ancestral Scheme
+81_Awoken Corruptor
+123_Awoken Whelp
+161_Agent 107
+3_All According to Plan
+43_Awoken Thunderer
+92_Dreamreaper
+124_Blunt Instrument
+164_Awoken Ravager
+4_Awoken Arbiter
+46_The Clock is Ticking
+95_Facility Detonator
+130_Destructive Force
+165_Bankbuster Heavy
+5_Back in Action
+65_Presence of the First Dream
+103_Live and Let Die
+132_Doomsday Device
+176_Flourishing Evil
+12_Crafty Informant
+67_Save the World
+104_Organized Espionage
+141_Heist of the Century
+179_Iroshi's Devotee
+21_Justiciar Overseer
+73_Tobias Maxwell, Justiciar Boss
+110_Smirk, Darkhand's Favored
+143_One Last Stunt
+184_Night Drudger
+25_Paragon Agent
+74_Trick Questions
+111_Snakewood's Final Servant
+145_Pit of Sharks
+190_Somnogoyf
+26_Piece Together
+77_Uncanny Likeness
+118_Unkillable Henchman
+147_Rambling Monologue
+194_Storm of Monstrosities
+31_Sir Hogginsworth, Quartermaster
+80_The World Is Not Enough
+119_World Domination
+156_Steam-Powered Steer
+199_Veteran Gadgeteer
+8_Citystalker Moth
+45_City Soarer
+82_Black Spy
+121_Ace in the Hole
+169_Codename Heavy Hitter
+9_Codename High Life
+47_Clone
+83_Boss's Favorites
+125_Brawl Instigator
+173_Escaped Subject
+11_Contain the Monstrous
+48_Codename Wise Guy
+84_Brot, Head Honcho
+128_Codename Cold Blood
+174_Field Worker
+13_Daredevil Brandishing
+57_Gather Intel
+85_Codename Half Moon
+129_Deadshot Stunt
+175_Fight Scene
+20_Jodanist Bishop
+58_Ghostly Observer
+87_Crooked Politician
+133_Dream-Ash Phoenix
+177_Gutter Slosher
+22_Lay Low
+59_Inexorable Onslaught
+88_Descent of the Nightmares
+136_Fireslinger
+183_Mana Smuggler
+24_New Tellison Express
+62_Laboratory Maniac
+96_Gild
+137_Flamethrower Volley
+185_Recover the Evidence
+29_Sainted Agent
+63_Mission Briefing
+97_Goon Squad
+140_Gearheart Baron
+192_Steelbane Sniper
+36_Take Out
+68_Scheming Sphinx
+99_Grimblood's Mastermind
+144_Partners in Crime
+193_Stoneglare Agent
+38_White Spy
+69_Scuba Suit
+114_Steed of Agonies
+151_Self-Destructing Message
+198_Upgrade Stunt
+40_You Only Live Twice
+76_Two Heads Are Better
+120_Worldender Engine
+152_Sewer Orgg
+200_Wire Gobbler
+2_Agent of Justiciar
+41_Adept Arcanist
+86_Cold-Blooded Assassin
+122_Acrobatic Stunt
+162_Apparatus Operator
+6_Bodyguard Bruisers
+44_Brain Backup
+89_Devious Electrocution
+126_Brutal Butcher
+163_Archive Bloodhound
+7_Charmed Stray
+49_Conniving Spy
+90_Diabolical Minion
+131_Disposable Mook
+166_Brutal Stunt
+10_Confronter of Evil
+50_Conquest Terminal
+91_Dispose Of
+134_Emergent Doom
+167_Citypulse Tracker
+14_Deft Wingman
+51_Corrupt Form
+93_Endless Mooks
+135_Explode
+168_Cityweb Sentinel
+16_Face It All
+52_Crackling Watcher
+94_Evil Scheme
+138_Flare Gunner
+170_Cohort Battlemage
+18_Funding Organizer
+53_Eavesdrop
+98_Grimblood Vampire
+139_Full House
+171_Elvish Witness
+19_Hold for Ransom
+54_Electrocution Assistant
+101_Hugo's Watcher
+146_Prototype Robosaur
+180_Justiciar Dispatcher
+23_Missing in Action
+55_Frantic Inventory
+102_Innovations in Interrogation
+148_Reckless Spy
+181_Lair Butler
+27_Political Puppeteer
+56_Frightborn Skyshark
+105_Outdated Crony
+149_Rocket Shark
+182_Lairbuster Vanguard
+28_Precarious Evasion
+60_It All Comes Together
+106_Paranormal Investigators
+150_Rogue's Palace Bouncer
+186_Sabotage Skitterer
+30_Shoot to Kill
+61_Justiciar Stormblade
+107_Renegade Agent
+153_Shock
+187_Shootout Stunt
+32_Standard-Issue Firearm
+64_Observant Contact
+108_Right Where I Want You
+154_Signature Stunt
+188_Smuggler's Cunning
+33_Suave Jetster
+66_Sabotage
+109_Scampering Journalist
+155_Smash to Smithereens
+189_Snakewood's Summons
+34_Sweet Talker
+70_Scuttling Underling
+112_Soulsucker
+157_Superweapon Blast
+191_Sprocketed Brawler
+35_Swift Gadgeteer
+75_Trouble Brewing
+113_Spider's Touch
+158_Torch Twirler
+195_Suspicious Merchant
+37_Taranka's Cohort
+78_Wall Scaler
+116_Torment Nexus
+159_Toughened Goon
+196_Talented Dealer
+39_Workshop Crawler
+79_Without a Trace
+117_Tough Customer
+160_Zap Toady
+197_Thrashing Devourer
+er
+er
+er
+er
+er
+221_Tireless Innovation
+209_Hit Me
+223_Whirlwind Romantic
+216_Rogue's Palace Cardshark
+202_Codename Viridian
+212_Jacques Elnis, Jetpack Rocketeer
+224_Within My Grasp
+215_Monument to Vanity
+207_Heart-Pounding Action
+222_Undercover Gadgeteer
+e
+e
+e
+e
+218_Sim Nichol, Trinket Enchanter
+er
+er
+er
+er
+er
+214_Lucas Locke, Paranormal Sleuth
+210_Hugo's Handiwork
+213_Jebidiah Digsworth, the Mole
+206_Freezefire Corps
+201_Calamity's Cohort
+204_Firearms Dealer
+203_Evelyn Snakewood, Dark Druid
+219_Spycraft Survivalist
+208_Hemec Yor, Flamethrower Dragoon
+211_Ivas Taranka, Rogue Diplomat
+e
+217_Schemer of Ancient Ways
+e
+e
+220_Taranka's Posse
+er
+er
+er
+er
+er
+205_The First Dream
+e
+e
+e
+e
+er
+er
+er
+er
+er
+248_The Sunfire
+225_Annihilator Suit
+227_Blacklist
+238_Perspicacity
+241_Prototype Jetmobile
+253_Viridian's Trusty Sidearm
+226_Arcane Catalyst
+228_Cardboard Box
+230_Electric Goon
+233_Granite Harbinger
+234_Grappling Hook
+237_Missile Silo
+239_Pilgrim's Eye
+243_Quickdraw Pistol
+244_The Rack
+246_Satellite Tower
+247_Secret Base Sentinel
+249_Tactical Skis
+252_Unassuming Hooptie
+254_Whirring Sky Gizmo
+229_Concealed Firearms
+231_Execution Table
+232_Filigree Familiar
+235_Lair Assistant
+236_Mana Rig
+240_Power Source
+242_Pursuit Hovercraft
+245_Rogue's Palace Colossus
+250_Tracker's Cigar
+251_Tyrant's Machine
+er
+er
+er
+er
+er
+262_Justiciar Headquarters
+270_Thunderbrain Labs
+258_Darkhand Enterprises
+267_The Rogue's Palace
+269_Snakewood's Hideout
+264_Midnight Square
+260_Glacial Base
+259_Decadent Lobby
+261_Inconspicuous Volcano
+256_Biomancer's Workshop
+257_Cultist's Compound
+271_Underground Lab
+255_Benthic Bunker
+266_Remote Facility
+265_Penthouse Office
+er
+er
+er
+er
+er
+263_Luxurious Estate
+268_Shifting Lair
+e
+e
+e
+er
+er
+er
+er
+er
+272_Plains
+273_Island
+274_Swamp
+275_Mountain
+276_Forest
+er
+er
+er
+er
+er
+1t_Endgame
+2t_Evil Plan
+3t_Cleric
+4t_Soldier
+5t_Jamesson Stet
+6t_Minion
+7t_Nightmare
+8t_Simone Birch
+9t_Shark
+10t_Nightmare Sliver
+11t_Ninja
+12t_Deathtouch Gadget
+13t_Double Strike Gadget
+14t_First Strike Gadget
+15t_Flying Gadget
+16t_Gilded Lotus
+17t_Gold
+18t_Haste Gadget
+19t_Lifelink Gadget
+20t_Melee Gadget
+21t_Menace Gadget
+22t_Artifact Minion
+23t_Prowess Gadget
+24t_Reach Gadget
+25t_Trample Gadget
+26t_Vigilance Gadget
+27t_Ward Gadget
+e
+e
+e

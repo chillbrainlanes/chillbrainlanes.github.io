@@ -1,0 +1,1 @@
+﻿Annihilator Suit		rare	Artifact – Vehicle 	225	C	7	TrampleNEWLINEWhen this artifact enters, each opponent chooses an artifact, a creature, an enchantment, and a planeswalker from among the nonland permanents they control, then sacrifices the rest.NEWLINECrew 5	9/9		normal	VRD		

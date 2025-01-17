@@ -1,0 +1,1 @@
+﻿Mod	UB	cube	Sorcery	240	UB	1UB	As an additional cost to cast this spell, sacrifice an artifact.NEWLINESearch your library for an artifact card and put it onto the battlefield, then shuffle.NEWLINEJump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)			normal	2022		

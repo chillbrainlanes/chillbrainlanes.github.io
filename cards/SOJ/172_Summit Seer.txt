@@ -1,0 +1,1 @@
+﻿Summit Seer	R	common	Creature – Giraffe 	172	R	3R	When Summit Seer dies, it deals 1 damage to any target.	4/3	(Pay the Roar as an additional cost for an instant or sorcery spell to add its effect.)NEWLINEReachNEWLINE[Roar R] Discard a card. When you do, draw a card.NEWLINE	leveler	SOJ		

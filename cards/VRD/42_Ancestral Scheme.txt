@@ -1,0 +1,1 @@
+﻿Ancestral Scheme	U	rare	Instant	42	U	U	Add the top three cards of your library to your evil plan. (Look at those cards, then exile them face-down. You may pay 7 as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)			normal	VRD		

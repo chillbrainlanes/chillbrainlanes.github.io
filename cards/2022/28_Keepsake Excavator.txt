@@ -1,0 +1,1 @@
+﻿Keepsake Excavator	W	cube	Creature – Human Artificer 	28	W	1W	When Keepsake Excavator enters the battlefield, you may exile target noncreature, nonland permanent until Keepsake Excavator leaves the battlefield.	2/2		normal	2022		

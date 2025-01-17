@@ -1,0 +1,1 @@
+﻿Talented Dealer	G	common	Creature – Elf Minion 	196	G	1G	When this creature enters, add the top card of your library to your evil plan. You gain 2 life. (Look at it, then exile it face-down. You may pay 7 as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)	2/1		normal	VRD		

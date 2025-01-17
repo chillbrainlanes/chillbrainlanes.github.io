@@ -1,0 +1,1 @@
+﻿Cryptic Commander	U	cube	Creature – Elemental 	55	U	2UUU	FlashNEWLINEWhen Cryptic Commander enters the battlefield, choose two –NEWLINE• Counter target spell.NEWLINE• Return another target permanent to its owner’s hand.NEWLINE• Tap all creatures your opponents control.NEWLINE• Draw a card.	3/2		normal	2022		

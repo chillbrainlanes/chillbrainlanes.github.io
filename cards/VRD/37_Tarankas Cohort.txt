@@ -1,0 +1,1 @@
+﻿Taranka's Cohort	W	common	Creature – Cat Minion 	37	W	1W	W, T: Tap target creature.	1/2		normal	VRD		

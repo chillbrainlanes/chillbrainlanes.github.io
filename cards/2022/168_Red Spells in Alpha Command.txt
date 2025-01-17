@@ -1,0 +1,1 @@
+﻿Red Spells in Alpha Command	R	cube	Sorcery	168	R	1RRR	Choose two –NEWLINE• Destroy target artifact.NEWLINE• Destroy target land.NEWLINE• Red Spells in Alpha Command deals 3 damage to any target.NEWLINE• Each player discards their hand, then draws seven cards.			normal	2022		

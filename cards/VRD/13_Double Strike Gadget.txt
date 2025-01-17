@@ -1,0 +1,1 @@
+﻿Double Strike Gadget		common	Token Artifact – Equipment 	13	C		Equipped creature has double strike.NEWLINEEquip 2			token	VRD		!related Daredevil Brandishing;

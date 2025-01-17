@@ -1,0 +1,1 @@
+﻿Synthetic Heath		cube	Land	352	C		Synthetic Heath enters the battlefield tapped unless you control a Forest or Plains.NEWLINET, Sacrifice Synthetic Heath: Search your library for a Forest or Plains card and put it onto the battlefield, then shuffle.			normal	2022		

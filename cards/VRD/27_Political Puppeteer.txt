@@ -1,0 +1,1 @@
+﻿Political Puppeteer	W	common	Creature – Cat Advisor 	27	W	3W	Whenever an artifact you control enters for the first time each turn, you may pay 2. If you do, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay 7 as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)	3/3		normal	VRD		

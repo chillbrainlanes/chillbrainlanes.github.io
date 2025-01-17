@@ -1,0 +1,1 @@
+﻿Disembowler Adze	B	uncommon	Creature – Vampire 	99	B	3BB	This creature has flying as long as it’s attacking.NEWLINESpellbound – Whenever this creature attacks, you may exile an instant or sorcery card from your graveyard. If you do, create a 2/1 black Vampire creature token with “This creature has flying as long as it’s attacking.”	3/3		normal	SOJ		

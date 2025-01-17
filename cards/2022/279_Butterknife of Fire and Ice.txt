@@ -1,0 +1,1 @@
+﻿Butterknife of Fire and Ice		cube	Artifact – Equipment 	279	C	2	Whenever equipped creature deals combat damage to a player, Butterknife of Fire and Ice deals 2 damage to any target and you draw a card.NEWLINEEquip 1			normal	2022		

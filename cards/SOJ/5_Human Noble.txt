@@ -1,0 +1,1 @@
+﻿Human Noble	W	common	Token Creature – Human Noble 	5	W		Other creatures you control get +1/+1.	3/3		token	SOJ		

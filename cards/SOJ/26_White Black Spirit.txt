@@ -1,0 +1,1 @@
+﻿White Black Spirit	WB	common	Token Creature – Spirit 	26	WB			0/0		token	SOJ		!exportname White Black Spirit

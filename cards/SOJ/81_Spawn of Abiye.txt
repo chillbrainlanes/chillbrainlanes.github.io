@@ -1,0 +1,1 @@
+﻿Spawn of Abiye	U	common	Creature – Drake 	81	U	2U	FlyingNEWLINEWhen this creature enters, draw a card, then discard a card.	2/2		normal	SOJ		

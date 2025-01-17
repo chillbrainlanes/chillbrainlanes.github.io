@@ -1,0 +1,1 @@
+﻿Yillar's Charm	B	common	Sorcery	130	B	1B	Choose one –NEWLINE• Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.NEWLINE• Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.NEWLINE• Remove three counters from target permanent.			normal	SOJ		

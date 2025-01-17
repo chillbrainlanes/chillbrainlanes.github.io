@@ -1,0 +1,1 @@
+﻿Martial Alliance	W	rare	Sorcery	28	W	XXWW	Convoke (Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINECreate X 1/1 white Human Soldier creature tokens and X 2/2 green Cat creature tokens.			normal	SOJ		

@@ -1,0 +1,1 @@
+﻿Charitable Hellkite	R	cube	Creature – Dragon 	148	R	2RR	Flying, trampleNEWLINEWhenever an opponent casts a noncreature spell, that player may pay 2 life. If they don’t, conjure a Darksteel Relic card on top of their library. (0 Artifact: Indestructible.)	4/4		normal	2022		

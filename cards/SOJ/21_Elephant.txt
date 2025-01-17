@@ -1,0 +1,1 @@
+﻿Elephant	G	common	Token Creature – Elephant 	21	G			3/3		token	SOJ		

@@ -1,0 +1,1 @@
+﻿Raniko Merchants	R	common	Creature – Human Ranger 	162	R	3R	When this creature enters, discard any number of cards, then draw that many cards.	3/4		normal	SOJ		

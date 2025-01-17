@@ -1,0 +1,1 @@
+﻿Nightwater Enigma	U	common	Creature – Illusion Crocodile 	69	U	3U		2/5	(Pay the Roar as an additional cost for an instant or sorcery spell to add its effect.)NEWLINE[Roar U] Any number of players each mill three cards.NEWLINE	leveler	SOJ		

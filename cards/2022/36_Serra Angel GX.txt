@@ -1,0 +1,1 @@
+﻿Serra Angel GX	W	cube	Legendary Creature – Angel 	36	W	3WW/	Flying, vigilanceNEWLINEVengeance of Serra GX – 1W: Destroy all other creatures. (Activate only one GX ability per game.)	4/4		normal	2022		!exportname Serra Angel GX

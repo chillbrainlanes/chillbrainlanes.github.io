@@ -1,0 +1,1 @@
+﻿Recover the Evidence	G	uncommon	Sorcery	185	G	2G	Surveil 3. When you do, return target permanent card from your graveyard to your hand. (To surveil 3, look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)			normal	VRD		

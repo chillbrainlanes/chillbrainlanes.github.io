@@ -1,0 +1,1 @@
+﻿Merchant Scroll	U	uncommon	Sorcery	66	U	1U	Search your library for a blue instant card, reveal that card, put it into your hand, then shuffle.			normal	SOJ		Reprint

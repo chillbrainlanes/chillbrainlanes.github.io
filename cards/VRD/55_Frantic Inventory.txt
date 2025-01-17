@@ -1,0 +1,1 @@
+﻿Frantic Inventory	U	common	Instant	55	U	1U	Draw a card, then draw cards equal to the number of cards named Frantic Inventory in your graveyard.			normal	VRD		Collect Me CycleNEWLINEReprint

@@ -1,0 +1,1 @@
+﻿Boss's Favorites	B	uncommon	Creature – Vampire Minion 	83	B	1B	1, Sacrifice another creature: Add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay 7 as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)	2/2		normal	VRD		

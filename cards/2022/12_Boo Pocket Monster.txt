@@ -1,0 +1,1 @@
+﻿Boo, Pocket Monster	R	cube	Token Legendary Creature – Hamster 	12	R		Trample, hasteNEWLINEEvolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)	2/1		token	2022		!related Minsc, Pokémon Master;

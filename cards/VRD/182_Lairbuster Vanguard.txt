@@ -1,0 +1,1 @@
+﻿Lairbuster Vanguard	G	common	Creature – Human Soldier 	182	G	1G	Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINEWhenever you cast a spell that targets this creature, if you’re in your endgame, put two +1/+1 counters on it.	2/2		normal	VRD		

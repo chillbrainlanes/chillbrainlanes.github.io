@@ -1,0 +1,1 @@
+﻿Undercover Gadgeteer	WG	rare	Creature – Human Soldier 	222	WG	2GW	FlashNEWLINEWhen this creature enters, draw a card for each differently named Equipment you control.NEWLINEYou may activate equip abilities any time you could cast an instant.	3/3		normal	VRD		!rul Gadgets are named after their keyword, ie ’Flying Gadget,’ ’Trample Gadget,’ etc.

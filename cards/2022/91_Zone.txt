@@ -1,0 +1,1 @@
+﻿Zone	U	cube	Enchantment	91	U	U	FlashNEWLINEWhen Zone enters the battlefield, you may pay X. When you do, counter target spell unless its controller pays X.NEWLINE4UU: Return Zone to its owner’s hand.			normal	2022		art is the magic card guile doing a sonic boom

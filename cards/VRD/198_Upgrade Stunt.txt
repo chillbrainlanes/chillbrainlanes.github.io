@@ -1,0 +1,1 @@
+﻿Upgrade Stunt	G	uncommon	Sorcery	198	G	4G	This spell costs 4 less to cast if you’ve cast another spell that targeted a creature this turn.NEWLINETarget creature gets +4/+4 and gains trample until end of turn. It must be blocked this turn if able.			normal	VRD		

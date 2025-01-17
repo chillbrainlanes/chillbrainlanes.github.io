@@ -1,0 +1,1 @@
+﻿City Soarer	U	uncommon	Creature – Human Soldier 	45	U	2U	When this creature enters, create a flying Gadget and a ward 2 Gadget, then attach them to this creature. (They’re Equipment artifact tokens with equip 2 that grants those ability.)	2/2		normal	VRD		

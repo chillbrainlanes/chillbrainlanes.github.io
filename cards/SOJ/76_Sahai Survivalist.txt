@@ -1,0 +1,1 @@
+﻿Sahai Survivalist	U	common	Creature – Human Rogue 	76	U	3U	At the beginning of your end step, if a creature card was put into your graveyard from anywhere this turn, put a +1+1 counter on this creature. (This doesn’t count Revelations dying.)	3/3		normal	SOJ		

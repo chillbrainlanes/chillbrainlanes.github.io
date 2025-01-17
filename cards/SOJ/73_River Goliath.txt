@@ -1,0 +1,1 @@
+﻿River Goliath	U	common	Creature – Serpent 	73	U	4U	Whenever you spend six or more mana to cast an instant or sorcery spell, tap up to one target creature. Put a stun counter on it.	4/5		normal	SOJ		

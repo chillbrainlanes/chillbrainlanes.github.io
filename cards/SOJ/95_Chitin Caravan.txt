@@ -1,0 +1,1 @@
+﻿Chitin Caravan	B	uncommon	Creature – Insect 	95	B	1B	When this creature enters, mill two cards.NEWLINESpellbound – Whenever this creature attacks, you may exile an instant or sorcery card from your graveyard. If you do, create a 1/1 white Human Soldier creature token.	2/1		normal	SOJ		Preview: squid

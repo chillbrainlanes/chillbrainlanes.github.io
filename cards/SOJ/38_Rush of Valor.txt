@@ -1,0 +1,1 @@
+﻿Rush of Valor	W	common	Instant	38	W	W	Target creature gets +2/+0 and gains indestructible until end of turn.			normal	SOJ		

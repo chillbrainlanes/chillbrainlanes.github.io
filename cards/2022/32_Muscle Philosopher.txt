@@ -1,0 +1,1 @@
+﻿Muscle Philosopher	W	cube	Creature – Human Advisor 	32	W	1WW		4/5		adventure	2022		Followers of Muscle	W	Sorcery – Adventure 	W	W	Conjure two Traveling Philosopher cards into your hand. (1W 2/2 Human Advisor.)				

@@ -1,0 +1,1 @@
+﻿Toughened Goon	R	common	Creature – Minotaur Minion 	159	R	2RR	Menace	4/3		normal	VRD		

@@ -1,0 +1,1 @@
+﻿Strength Lies Within You	G	common	Sorcery – Revelation 	205	G	G	Realize as Demigod 3G (If you cast this for its Realize cost, put it onto the battlefield as a Demigod creature after it resolves.)NEWLINEUp to one target creature gets +3/+3 and gains trample until end of turn.NEWLINETrample	3/3		normal	SOJ		

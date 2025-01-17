@@ -1,0 +1,1 @@
+﻿New Tellison Express	W	uncommon	Artifact – Vehicle 	24	W	2W	VigilanceNEWLINEWhenever another artifact you control enters, put a +1/+1 counter on this artifact.NEWLINECrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)	4/4		normal	VRD		

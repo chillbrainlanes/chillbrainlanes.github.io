@@ -1,0 +1,1 @@
+﻿Fireslinger	R	uncommon	Creature – Human Wizard 	136	R	1R	T: This creature deals 1 damage to any target and 1 damage to you.	1/1		normal	VRD		Reprint

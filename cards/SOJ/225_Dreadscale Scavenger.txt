@@ -1,0 +1,1 @@
+﻿Dreadscale Scavenger	BG	uncommon	Creature – Snake 	225	BG	2BG		4/4	(Pay the Roar as an additional cost for an instant or sorcery spell to add its effect.)NEWLINEMenaceNEWLINE[Roar BG] Return up to one permanent card from your graveyard to your hand.NEWLINE	leveler	SOJ		graveyard Grind

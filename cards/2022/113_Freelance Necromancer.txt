@@ -1,0 +1,1 @@
+﻿Freelance Necromancer	B	cube	Creature – Human Warlock 	113	B	1B	DeathtouchNEWLINEPay 1 life, Sacrifice another creature: Conjure a random undead black creature card into your hand. (22be.net/effects/necro)	2/2		normal	2022		https://scryfall.com/random?q=(t%3Azombie+or+t%3Askeleton)+-is%3Afunny+ci%3Db

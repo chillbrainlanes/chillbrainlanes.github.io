@@ -1,0 +1,1 @@
+﻿Paragon Agent	W	rare	Creature – Human Soldier 	25	W	4W	When this creature enters, create a first strike Gadget, then attach it to this creature. (It’s an Equipment artifact token with equip 2 that grants that ability.)NEWLINEEquipment you control have equip 0.	4/2		normal	VRD		Bond Theme References: Nobody Does It BetterNEWLINERW04: rare payoff card for set mechanic

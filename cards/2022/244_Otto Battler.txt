@@ -1,0 +1,1 @@
+﻿Otto Battler	RG	cube	Legendary Creature – Human Noble 	244	RG	2RG	Otto Battler attacks each combat if able.NEWLINEAt the beginning of combat on your turn, Otto Battler fights target creature you don’t control chosen at random.NEWLINE2RG: Otto Battler gains indestructible until end of turn.	5/4		normal	2022		

@@ -1,0 +1,1 @@
+﻿Gild	B	uncommon	Sorcery	96	B	3B	Exile target creature. Create a Gold token. (It’s an artifact with “Sacrifice this artifact: Add one mana of any color.”)			normal	VRD		

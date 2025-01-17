@@ -1,0 +1,1 @@
+﻿Unconventional Therapist	W	cube	Creature – Human 	44	W	1W	Unconventional Therapist has first strike as long as it’s attacking.NEWLINEAs Unconventional Therapist enters the battlefield, look at an opponent’s hand, then choose a nonland card name.NEWLINEActivated abilities of sources with the chosen name can’t be activated.	3/1		normal	2022		

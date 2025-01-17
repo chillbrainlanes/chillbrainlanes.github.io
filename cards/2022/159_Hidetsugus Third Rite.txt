@@ -1,0 +1,1 @@
+﻿Hidetsugu's Third Rite	R	cube	Instant	159	R	R	Hidetsugu’s Third Rite deals 2 damage to any target. If that target has exactly 5 life, exactly 5 toughness, or exactly five loyalty counters on it, Hidetsugu’s Third Rite deals 5 damage to that target instead.			normal	2022		

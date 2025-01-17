@@ -1,0 +1,1 @@
+﻿Gather Intel	U	uncommon	Instant	57	U	1U	Draw three cards, then put two cards from your hand on top of your library in any order.			normal	VRD		

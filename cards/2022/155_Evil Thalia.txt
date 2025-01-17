@@ -1,0 +1,1 @@
+﻿Evil Thalia	R	cube	Legendary Creature – Soldier Human 	155	R	1R	First strikeNEWLINENoncreature spells you cast cost 1 less to cast.	2/1		normal	2022		

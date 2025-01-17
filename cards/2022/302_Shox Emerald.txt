@@ -1,0 +1,1 @@
+﻿Shox Emerald		cube	Artifact	302	G	0	When Shox Emerald enters the battlefield, it deals 2 damage to you.NEWLINET: Add G.			normal	2022		Power 10

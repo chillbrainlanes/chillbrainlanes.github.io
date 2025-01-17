@@ -1,0 +1,1 @@
+﻿Granite Harbinger		uncommon	Artifact Creature – Nightmare Gargoyle 	233	C	1	FlyingNEWLINEWhen this creature dies, you may search your library for a Nightmare card, reveal it, put it into your hand, then shuffle.	1/1		normal	VRD		

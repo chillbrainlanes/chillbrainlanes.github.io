@@ -1,0 +1,1 @@
+﻿Raze Raider	R	uncommon	Creature – Hyena Shaman 	164	R	2R	When Raze Raider dies, it deals 1 damage to any target.	4/3	(Pay the Roar as an additional cost for an instant or sorcery spell to add its effect.)NEWLINETrample [4/3]NEWLINE[Roar R] This creature deals damage to each opponent equal to twice the amount of life that player gained this turn.NEWLINE	leveler	SOJ		

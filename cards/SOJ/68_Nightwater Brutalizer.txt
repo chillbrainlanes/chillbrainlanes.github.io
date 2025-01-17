@@ -1,0 +1,1 @@
+﻿Nightwater Brutalizer	U	common	Creature – Crocodile 	68	U	5U	TrampleNEWLINEBasic landcycling 2 (2, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)	5/5		normal	SOJ		

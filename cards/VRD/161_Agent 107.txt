@@ -1,0 +1,1 @@
+﻿Agent 107	G	rare	Legendary Artifact Creature – Rogue 	161	G	1GG	Whenever you cast a spell that targets Agent 107, draw a card.NEWLINEWhenever Agent 107 attacks, if you’ve cast three or more spells that targeted him this turn, return up to three target cards from your graveyard to your hand.	2/2		normal	VRD		

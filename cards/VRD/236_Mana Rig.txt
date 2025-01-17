@@ -1,0 +1,1 @@
+﻿Mana Rig		common	Artifact	236	C	3	T: Add one mana of any color.NEWLINEWhenever you tap this artifact for mana, each opponent loses 1 life.			normal	VRD		

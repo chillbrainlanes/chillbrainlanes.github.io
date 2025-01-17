@@ -1,0 +1,1 @@
+﻿McCormick Guide	W	cube	Artifact Creature – Food Spirit 	30	W	3WW	FlyingNEWLINEWhen McCormick Guide enters the battlefield, return target artifact or creature card from your graveyard to the battlefield.NEWLINE2, T, Sacrifice McCormick Guide: You gain 3 life.	2/2		normal	2022		

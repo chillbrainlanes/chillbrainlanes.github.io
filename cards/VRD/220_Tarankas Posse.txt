@@ -1,0 +1,1 @@
+﻿Taranka's Posse	WR	uncommon	Creature – Cat Minion 	220	WR	1RW	Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINEWhen this creature enters, create a Gold token.NEWLINEThis creature gets +3/+3 as long as you’re in your endgame.	2/2		normal	VRD		

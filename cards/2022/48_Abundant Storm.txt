@@ -1,0 +1,1 @@
+﻿Abundant Storm	U	cube	Instant	48	U	U	Choose land or nonland. Reveal cards from the top of your library until you reveal three cards of the chosen kind. Put those cards into your hand and the rest on the bottom of your library in a random order.NEWLINEPut two cards from your hand on top of your library in any order.			normal	2022		

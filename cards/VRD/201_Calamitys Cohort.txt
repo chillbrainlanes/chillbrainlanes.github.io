@@ -1,0 +1,1 @@
+﻿Calamity's Cohort	WR	mythic	Creature – Fox Rogue 	201	WR	RW	Lifelink, hasteNEWLINEWhenever this creature attacks, exile the top card of defending player’s library. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast that spell. Spend only mana from artifacts to cast that spell.	2/2		normal	VRD		

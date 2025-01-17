@@ -1,0 +1,1 @@
+﻿Gearheart Baron	R	uncommon	Artifact Creature – Rogue Noble 	140	R	4RR	Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINEAt the beginning of your end step, if you’re in your endgame, this creature deals damage to any target equal to the number of tapped artifacts you control.	4/4		normal	VRD		

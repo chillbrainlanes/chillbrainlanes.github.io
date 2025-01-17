@@ -1,0 +1,1 @@
+﻿Human Soldier	W	common	Token Creature – Human Soldier 	6	W			1/1		token	SOJ		

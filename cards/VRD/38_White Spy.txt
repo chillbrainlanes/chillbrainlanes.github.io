@@ -1,0 +1,1 @@
+﻿White Spy	W	uncommon	Creature – Human Soldier 	38	W	1W	When this creature enters, create a first strike Gadget, then attach it to White Spy. (It’s an Equipment artifact token with equip 2 that grants that ability.)NEWLINEEnchanted creatures and equipped creatures you control have hexproof from black.	2/2		normal	VRD		

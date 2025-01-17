@@ -1,0 +1,1 @@
+﻿Shox Ruby		cube	Artifact	305	R	0	When Shox Ruby enters the battlefield, it deals 2 damage to you.NEWLINET: Add R.			normal	2022		Power 10

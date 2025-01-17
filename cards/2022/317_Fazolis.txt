@@ -1,0 +1,1 @@
+﻿Fazoli's		cube	Land – Mountain Forest 	317	C		(T: Add R or G.)NEWLINEFazoli’s™ enters the battlefield tapped.NEWLINEWhen Fazoli’s™ enters the battlefield, conjure a Wastes card into your hand. (Land. T: Add C.)			normal	2022		!exportname Fazoli’s

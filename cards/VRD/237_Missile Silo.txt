@@ -1,0 +1,1 @@
+﻿Missile Silo		uncommon	Artifact	237	C	4	This artifact enters the battlefield with two charge counters on it.NEWLINET: Put a charge counter on this artifact.NEWLINET,  Sacrifice this artifact: It deals damage equal to the number of charge counters on it to any target.			normal	VRD		

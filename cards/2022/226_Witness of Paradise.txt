@@ -1,0 +1,1 @@
+﻿Witness of Paradise	G	cube	Creature – Bird Shaman 	226	G	2G	When Witness of Paradise enters the battlefield, return target card from your graveyard to your hand.NEWLINEFlyingNEWLINET: Add one mana of any color.	0/1		normal	2022		

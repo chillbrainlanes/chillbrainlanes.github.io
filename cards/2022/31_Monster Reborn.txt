@@ -1,0 +1,1 @@
+﻿Monster Reborn	W	cube	Sorcery	31	W	1WW	Put target creature card from a graveyard onto the battlefield under your control.			normal	2022		Adaptations

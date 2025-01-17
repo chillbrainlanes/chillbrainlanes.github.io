@@ -1,0 +1,1 @@
+﻿Archivist of Akuga	W	common	Creature – Human Soldier 	6	W	W	Whenever this creature becomes tapped, scry 1.	1/3		normal	SOJ		

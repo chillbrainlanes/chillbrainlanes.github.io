@@ -1,0 +1,1 @@
+﻿Treasure		common	Token Artifact – Treasure 	28	C		T, Sacrifice this artifact: Add one mana of any color.			token	SOJ		

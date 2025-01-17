@@ -1,0 +1,1 @@
+﻿Innovations in Interrogation	B	common	Sorcery	102	B	4B	Target player discards two cards. Innovations in Interrogation deals 4 damage to that player.			normal	VRD		

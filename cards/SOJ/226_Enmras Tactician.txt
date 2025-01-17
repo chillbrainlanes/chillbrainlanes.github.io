@@ -1,0 +1,1 @@
+﻿Enmra's Tactician	RG	uncommon	Creature – Ape Advisor 	226	RG	RG	T, Return this creature to its owner’s hand: When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy. Activate only as a sorcery. (Roared text is still on the copy. Copying a Realized Revelation doesn’t give you a second creature.)	2/2		normal	SOJ		Roar

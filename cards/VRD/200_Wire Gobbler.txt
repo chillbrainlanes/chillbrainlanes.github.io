@@ -1,0 +1,1 @@
+﻿Wire Gobbler	G	uncommon	Creature – Nightmare Ouphe 	200	G	3G	When this creature enters, you may sacrifice an artifact or enchantment. If you do, draw two cards.	3/2		normal	VRD		

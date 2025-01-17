@@ -1,0 +1,1 @@
+﻿Dorkish Raccoon	G	cube	Creature – Raccoon Gamer 	191	G	G	When Dorkish Raccoon enters the battlefield, mill three cards.NEWLINET: Add G.	1/1		normal	2022		

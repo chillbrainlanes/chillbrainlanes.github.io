@@ -1,0 +1,1 @@
+﻿Imprisoned Soul	B	common	Creature – Spirit Rogue 	107	B	2B	FlashNEWLINEFlying	2/2		normal	SOJ		

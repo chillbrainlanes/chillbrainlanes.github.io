@@ -1,0 +1,1 @@
+﻿Apex Hlamarisa	B	rare	Creature – Dinosaur Cat 	91	B	5BB	Convoke (Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINEWhen this creature enters, sacrifice each creature that convoked it. Each opponent sacrifices that many creatures.	6/6		normal	SOJ		

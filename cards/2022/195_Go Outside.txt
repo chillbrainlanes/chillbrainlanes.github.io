@@ -1,0 +1,1 @@
+﻿Go Outside	G	cube	Sorcery	195	G	2G	Search your library for up to two Forest and/or basic land cards, reveal those cards, put one onto the battlefield and the other into your hand, then shuffle.			normal	2022		

@@ -1,0 +1,1 @@
+﻿Four Below		cube	Land	321	C		T: Add CC. Spend this mana only to cast spells with mana value 4 or less.			normal	2022		

@@ -1,0 +1,1 @@
+﻿State Park		cube	Land	345	C		T, Sacrifice State Park: Search your library for a basic land card or a legendary land card, put it onto the battlefield tapped, then shuffle.			normal	2022		

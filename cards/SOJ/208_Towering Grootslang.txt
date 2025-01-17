@@ -1,0 +1,1 @@
+﻿Towering Grootslang	G	common	Creature – Elephant Beast 	208	G	5GG	Vigilance, reach, trampleNEWLINEBasic landcycling 2 (2, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)	6/6		normal	SOJ		Preview: Matt

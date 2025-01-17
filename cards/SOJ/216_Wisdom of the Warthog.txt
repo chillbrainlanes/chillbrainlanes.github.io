@@ -1,0 +1,1 @@
+﻿Wisdom of the Warthog	G	common	Sorcery	216	G	G	Choose one –NEWLINE• Search your library for a basic land card, reveal it, put it into your hand, then shuffle.NEWLINE• Draw a card.			normal	SOJ		

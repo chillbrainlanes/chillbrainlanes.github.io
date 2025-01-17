@@ -1,0 +1,1 @@
+﻿Squid	R	cube	Token Creature – Squid 	19	R			4/4		token	2022		!related Seafood Regent;

@@ -1,0 +1,1 @@
+﻿Lifelink Gadget		common	Token Artifact – Equipment 	19	C		Equipped creature has lifelink.NEWLINEEquip 2			token	VRD		!related Agent of Justiciar;Codename High Life<2>;Sir Hogginsworth, Quartermaster;Codename Viridian;Back in Action;

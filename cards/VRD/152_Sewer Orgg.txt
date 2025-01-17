@@ -1,0 +1,1 @@
+﻿Sewer Orgg	R	uncommon	Creature – Nightmare Orgg 	152	R	3RR	TrampleNEWLINEThis creature can’t attack or block unless you pay 3 or sacrifice a nonland permanent.	7/7		normal	VRD		

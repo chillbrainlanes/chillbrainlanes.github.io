@@ -1,0 +1,1 @@
+﻿Presence of the First Dream	U	rare	Enchantment	65	WUBRG	1U	When this enchantment enters, return up to one target creature to its owner’s hand.NEWLINEAt the beginning of each end step, if you’ve spent WUBRG to cast spells this turn, draw a card.			normal	VRD		

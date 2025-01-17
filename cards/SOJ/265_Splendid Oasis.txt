@@ -1,0 +1,1 @@
+﻿Splendid Oasis		uncommon	Land	265	WG		T: Add C.NEWLINET: Add G. Activate this ability only if you control a Plains.NEWLINET: Add W. Activate this ability only if you control a Forest.			normal	SOJ		

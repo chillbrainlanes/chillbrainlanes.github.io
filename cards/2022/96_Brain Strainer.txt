@@ -1,0 +1,1 @@
+﻿Brain Strainer	B	cube	Artifact	96	B	B	When Brain Strainer enters the battlefield, target player reveals their hand. You choose a nonland card from it. Exile that card until Brain Strainer leaves the battlefield.			normal	2022		

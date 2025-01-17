@@ -1,0 +1,1 @@
+﻿Haste Gadget		common	Token Artifact – Equipment 	18	C		Equipped creature has haste.NEWLINEEquip 2			token	VRD		!related Flare Gunner;Codename Viridian;

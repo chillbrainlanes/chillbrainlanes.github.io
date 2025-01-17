@@ -1,0 +1,1 @@
+﻿Monster Hunt	W	uncommon	Instant	31	W	W	Destroy target creature with total power and toughness 7 or greater.			normal	SOJ		

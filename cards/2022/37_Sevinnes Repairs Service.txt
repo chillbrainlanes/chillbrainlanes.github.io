@@ -1,0 +1,1 @@
+﻿Sevinne's Repairs Service	W	cube	Sorcery	37	W	1W	Return target permanent card with mana value 3 or less from your graveyard to the battlefield.NEWLINEJump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)			normal	2022		

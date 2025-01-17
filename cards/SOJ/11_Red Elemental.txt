@@ -1,0 +1,1 @@
+﻿Red Elemental	R	common	Token Creature – Elemental 	11	R			4/4		token	SOJ		!exportname Red Elemental

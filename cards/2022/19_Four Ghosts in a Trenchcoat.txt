@@ -1,0 +1,1 @@
+﻿Four Ghosts in a Trenchcoat	W	cube	Creature – Spirit 	19	W	2WW	FlyingNEWLINEAfterlife 4 (Whenever this creature dies, create four 1/1 white and black Spirit creature tokens with flying.)	4/4		normal	2022		

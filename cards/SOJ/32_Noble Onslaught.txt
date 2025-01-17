@@ -1,0 +1,1 @@
+﻿Noble Onslaught	W	uncommon	Sorcery	32	W	2WWW	Creatures you control get +3/+3 and gain vigilance until end of turn.			normal	SOJ		

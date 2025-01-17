@@ -1,0 +1,1 @@
+﻿Dreadlaugh Raid Captain	B	uncommon	Creature – Hyena Warrior 	100	B	4B	Convoke (Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINEMenaceNEWLINEWhen this creature enters, put a +1/+1 counter on each Hyena that convoked it.	4/2		normal	SOJ		

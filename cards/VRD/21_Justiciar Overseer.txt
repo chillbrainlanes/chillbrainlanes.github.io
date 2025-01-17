@@ -1,0 +1,1 @@
+﻿Justiciar Overseer	W	rare	Creature – Angel Soldier 	21	W	2W	FlashNEWLINEFlyingNEWLINEWhen this creature enters, the next 2 damage that a source of your choice would deal to you and/or permanents you control this turn is dealt to any target instead.	3/1		normal	VRD		

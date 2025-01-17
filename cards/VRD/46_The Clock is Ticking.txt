@@ -1,0 +1,1 @@
+﻿The Clock is Ticking	U	rare	Enchantment	46	U	2UU	At the beginning of each opponent’s end step, put a time counter on this enchantment. When you do, choose one for each time counter on it. You may choose the same mode more than once.NEWLINE• Target player mills a card.NEWLINE• Draw a card, then discard a card.			normal	VRD		

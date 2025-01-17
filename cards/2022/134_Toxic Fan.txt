@@ -1,0 +1,1 @@
+﻿Toxic Fan	B	cube	Creature – Vampire Gamer 	134	B	1B	FlyingNEWLINEIncrease the amount of sides on each die you roll by X, where X is the amount of life lost by each opponent this turn.	2/2		normal	2022		Dice

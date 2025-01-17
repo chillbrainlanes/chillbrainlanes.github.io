@@ -1,0 +1,1 @@
+﻿Kneel Before Your Gods	G	rare	Sorcery – Revelation 	192	G	XG	Realize as Demigod XGGG (If you cast this for its Realize cost, put it onto the battlefield as a Demigod creature after it resolves.)NEWLINECreate an X/X green Demigod creature token.NEWLINEWhenever a Demigod or God you control deals combat damage to a player, draw a card.	3/3		normal	SOJ		

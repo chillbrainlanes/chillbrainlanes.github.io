@@ -1,0 +1,1 @@
+﻿Super Nerd	G	cube	Creature – Human Gamer 	222	G	G	T: Roll a dX, where X is the total power among creatures you control. Activate only as an instant.NEWLINE0-3 | Add one mana of any color.NEWLINE4-5 | Add one mana of any color. Scry 1.NEWLINE6+ | Add one mana of any color. Scry 2. Put two +1/+1 counters on Super Nerd.	0/1		normal	2022		Dice

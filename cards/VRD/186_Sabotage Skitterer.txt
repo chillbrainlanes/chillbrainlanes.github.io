@@ -1,0 +1,1 @@
+﻿Sabotage Skitterer	G	common	Artifact Creature – Insect 	186	G	G	G, T, Sacrifice this creature: Destroy target artifact or enchantment.	1/1		normal	VRD		

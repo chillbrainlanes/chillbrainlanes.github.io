@@ -1,0 +1,1 @@
+﻿Superweapon Blast	R	common	Instant	157	R	3RR	Superweapon Blast deals 7 damage to target creature. Destroy all Equipment attached to that creature.			normal	VRD		

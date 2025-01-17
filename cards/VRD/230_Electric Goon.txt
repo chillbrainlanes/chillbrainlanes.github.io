@@ -1,0 +1,1 @@
+﻿Electric Goon		uncommon	Artifact Creature – Minion 	230	C	3	Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINET: Add one mana of any color.NEWLINEAt the beginning of your upkeep, if you’re in your endgame, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)	2/2		normal	VRD		

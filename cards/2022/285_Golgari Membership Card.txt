@@ -1,0 +1,1 @@
+﻿Golgari Membership Card		cube	Artifact	285	BG	2	Golgari Membership Card enters the battlefield tapped unless you control a Swamp and a Forest.NEWLINET: Add B or G.			normal	2022		

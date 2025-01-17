@@ -1,0 +1,1 @@
+﻿Green Spirit	G	common	Token Creature – Spirit 	24	G		T: Add one mana of any color.	1/1		token	SOJ		!exportname Green Spirit

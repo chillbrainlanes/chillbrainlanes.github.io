@@ -1,0 +1,1 @@
+﻿Way of the Wilderness	G	rare	Sorcery	214	G	1GG	Choose one –NEWLINE• Return target card from your graveyard to your hand.NEWLINE• Create a green enchantment token named Survival of the Fittest with “G, Discard a creature card: Search your library for a creature card, reveal that card, put it into your hand, then shuffle.”			normal	SOJ		enchantment cycle

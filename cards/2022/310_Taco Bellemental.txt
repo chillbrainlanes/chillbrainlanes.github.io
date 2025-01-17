@@ -1,0 +1,1 @@
+﻿Taco Bellemental		cube	Artifact Creature – Elemental Spirit 	310	C	4	Whenever another artifact enters the battlefield under your control, draw a card. If it was a Food, draw an additional card.NEWLINET: Add X mana of any one color, where X is the number of spells you’ve cast this turn.	2/2		normal	2022		

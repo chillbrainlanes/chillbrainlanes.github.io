@@ -1,0 +1,1 @@
+﻿Jackal Pup GX	R	cube	Legendary Creature – Jackal 	161	R	R	Whenever Jackal Pup GX is dealt damage, it deals that much damage to you.NEWLINEFeral Fury GX – 3RR: Choose any target. Each creature you control deals damage equal to its power to that target. (Activate only one GX ability per game.)	2/1		normal	2022		!exportname Jackal Pup GX

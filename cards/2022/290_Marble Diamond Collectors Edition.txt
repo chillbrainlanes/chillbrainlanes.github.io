@@ -1,0 +1,1 @@
+﻿Marble Diamond Collector's Edition		cube	Artifact	290	W	2	Marble Diamond: Collector’s Edition enters the battlefield tapped.NEWLINET: Add W.			adventure	2022		Marble Diamond Collector's Edition	W	Sorcery – Adventure 	W	4WW	Destroy all creatures. (Then exile this card. You may cast the artifact later from exile.)				!exportname Marble Diamond Collector’s Edition

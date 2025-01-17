@@ -1,0 +1,1 @@
+﻿Impetuous Duo	B	common	Creature – Hyena Warrior 	106	B	1B	Spellbound – Whenever this creature attacks, you may exile an instant or sorcery card from your graveyard. If you do, put a +1/+1 counter or a menace counter on this creature.	2/2		normal	SOJ		

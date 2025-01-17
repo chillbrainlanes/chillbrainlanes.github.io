@@ -1,0 +1,1 @@
+﻿Grappling Hook		uncommon	Artifact – Equipment 	234	C	4	Equipped creature has double strike.NEWLINEWhenever equipped creature attacks, you may have target creature block it this turn if able.NEWLINEEquip 4			normal	VRD		Reprint

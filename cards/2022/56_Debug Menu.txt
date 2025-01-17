@@ -1,0 +1,1 @@
+﻿Debug Menu	U	cube	Artifact Creature – Construct 	56	U	6UUU	You may cast spells without paying their mana costs.NEWLINE1U: Search your library for a card and put it into your hand, then shuffle.NEWLINE3U: Create a token that’s a copy of another target permanent.	0/2		normal	2022		

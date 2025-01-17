@@ -1,0 +1,1 @@
+﻿Bankbuster Heavy	G	rare	Creature – Human Minion 	165	G	GG	Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINEG, Sacrifice this creature: Destroy target noncreature permanent. Activate only if you’re in your endgame.	3/3		normal	VRD		

@@ -1,0 +1,1 @@
+﻿Crackling Spellmaw	UR	rare	Creature – Elemental Crocodile 	222	UR	1UR		3/2	(Pay the Roar as an additional cost for an instant or sorcery spell to add its effect.)NEWLINETrampleNEWLINEWhenever this creature deals combat damage to a player, draw a card. [3/2]NEWLINE[Roar 1] Tap up to one creature.NEWLINE	leveler	SOJ		Preview: Kayiu

@@ -1,0 +1,1 @@
+﻿Attended Thief	R	common	Creature – Human Rogue 	135	R	2R	Spellbound – Whenever this creature attacks, you may exile an instant or sorcery card from your graveyard. If you do, create a 1/1 red Lizard creature token.	2/4		normal	SOJ		

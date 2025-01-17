@@ -1,0 +1,1 @@
+﻿Defy the Odds	R	common	Instant	142	R	1R	Target creature gets +2/+0 and gains first strike until end of turn. Put a +1/+1 counter on it.			normal	SOJ		

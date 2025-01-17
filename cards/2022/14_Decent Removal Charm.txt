@@ -1,0 +1,1 @@
+﻿Decent Removal Charm	W	cube	Instant	14	W	0	Choose one –NEWLINE• Conjure a Disenchant card into your hand. (1W Instant: Destroy target artifact or enchantment.)NEWLINE• Conjure a Swift Response card into your hand. (1W Instant: Destroy target tapped creature.)NEWLINE• Conjure a Planar Cleansing card into your hand. (3WWW Sorcery: Destroy all nonland permanents.)			normal	2022		

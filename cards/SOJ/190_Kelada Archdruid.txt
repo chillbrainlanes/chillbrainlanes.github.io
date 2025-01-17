@@ -1,0 +1,1 @@
+﻿Kelada Archdruid	G	common	Creature – Centaur Druid Nomad 	190	G	2G	Landfall – Whenever a land you control enters, scry 1.	1/4		normal	SOJ		Preview: Matt

@@ -1,0 +1,1 @@
+﻿Ohio		cube	Land	337	C		T: Add C.NEWLINET, Sacrifice Ohio: Destroy target nonbasic land.			normal	2022		

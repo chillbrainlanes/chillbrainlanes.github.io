@@ -1,0 +1,1 @@
+﻿Terrible Twos	B	cube	Sorcery	130	B	B	Target opponent reveals their hand. You choose a nonland card from it that doesn’t have mana value 2 and exile that card.			normal	2022		

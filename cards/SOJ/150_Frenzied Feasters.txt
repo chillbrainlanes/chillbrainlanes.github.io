@@ -1,0 +1,1 @@
+﻿Frenzied Feasters	R	common	Creature – Hyena Berserker 	150	R	R	MenaceNEWLINEWhenever this creature becomes tapped, it deals 1 damage to target opponent or planeswalker.	1/1		normal	SOJ		

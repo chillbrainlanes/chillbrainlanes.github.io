@@ -1,0 +1,1 @@
+﻿Isiphepho of the Dread Sea	UB	rare	Legendary Creature – Human Pirate 	230	UB	1UB	Pirates and Rogues you control have menace.NEWLINESpellbound – Whenever this creature attacks, you may exile an instant or sorcery card from your graveyard. When you do, choose a nonland card name. Defending player reveals their hand and discards all cards with that name.	4/3		normal	SOJ		

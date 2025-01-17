@@ -1,0 +1,1 @@
+﻿Nightmare	B	common	Token Creature – Nightmare 	7	B			1/1		token	VRD		!related Elder Mathias Jodan;Jodanist Bishop;Inexorable Onslaught<2>;Descent of the Nightmares;Awoken Ravager;Nowhere to Run;Dreamrender;

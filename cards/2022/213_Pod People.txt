@@ -1,0 +1,1 @@
+﻿Pod People	G	cube	Legendary Creature – Horror 	213	G	1G	Ward 3NEWLINEG, T, Sacrifice another creature: Search your library for a creature card with mana value equal to 1 plus the sacrificed creature’s mana value, put that card onto the battlefield, then shuffle. Activate only as a sorcery.	1/1		normal	2022		

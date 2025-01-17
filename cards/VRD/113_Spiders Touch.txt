@@ -1,0 +1,1 @@
+﻿Spider's Touch	B	common	Instant	113	B	1B	Up to one target creature gains deathtouch until end of turn.NEWLINEDraw a card.			normal	VRD		Bond Theme References: Goldfinger

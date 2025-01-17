@@ -1,0 +1,1 @@
+﻿Face It All	W	common	Enchantment – Aura 	16	W	1W	FlashNEWLINEEnchant creatureNEWLINEWhen this enchantment enters, prevent all damage that would be dealt to enchanted creature this turn.NEWLINEEnchanted creature gets +1/+1.			normal	VRD		Bond Theme References: Skyfall

@@ -1,0 +1,1 @@
+﻿Grizzly Bears GX	G	cube	Legendary Creature – Bear 	199	G	1G	Bear Down GX – G: Conjure a Balduvian Bears card, a Bear Cub card, a Forest Bear card, a Runeclaw Bear card, and a Grizzly Bears card into your hand. (They’re all 1G 2/2 Bears. Activate only one GX ability per game.)	2/2		normal	2022		!exportname Grizzly Bears GX

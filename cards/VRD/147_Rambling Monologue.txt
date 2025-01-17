@@ -1,0 +1,1 @@
+﻿Rambling Monologue	R	rare	Enchantment	147	R	2RR	Whenever you cast a spell, put a verse counter on this enchantment, then it deals damage to each opponent equal to the number of verse counters on it.NEWLINEWhenever an opponent casts a spell, remove all verse counters from this enchantment.			normal	VRD		

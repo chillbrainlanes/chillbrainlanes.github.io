@@ -1,0 +1,1 @@
+﻿Spider	G	cube	Token Creature – Spider 	22	G		Reach	1/3		token	2022		!related Giant Spider, Planeswalker;

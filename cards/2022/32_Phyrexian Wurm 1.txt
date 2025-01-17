@@ -1,0 +1,1 @@
+﻿Phyrexian Wurm 1		cube	Token Artifact Creature – Phyrexian Wurm 	32	C		Haste	3/3		token	2022		!related Wurmcoil Engine Mk. II

@@ -1,0 +1,1 @@
+﻿Doug, IT Guy	U	cube	Legendary Creature – Human Artificer 	57	U	3U	T: Untap each artifact you control.NEWLINE3U: Draw a card.	3/3		normal	2022		

@@ -1,0 +1,1 @@
+﻿Financial Compensation	U	cube	Instant	61	U	U	Counter target spell unless its controller pays 3. If a spell is countered this way, its controller conjures a Manalith card into their hand. (3 Artifact: T: Add one mana of any color.)			normal	2022		

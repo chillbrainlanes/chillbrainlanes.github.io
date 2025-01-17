@@ -1,0 +1,1 @@
+﻿Shox Jet		cube	Artifact	303	B	0	When Shox Jet enters the battlefield, it deals 2 damage to you.NEWLINET: Add B.			normal	2022		Power 10

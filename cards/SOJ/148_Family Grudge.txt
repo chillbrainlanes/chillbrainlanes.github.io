@@ -1,0 +1,1 @@
+﻿Family Grudge	R	uncommon	Sorcery	148	R	1R	As long as you control a Mountain and this spell targets a Hyena, you may cast it without paying its mana cost.NEWLINETarget creature gains double strike until end of turn.			normal	SOJ		

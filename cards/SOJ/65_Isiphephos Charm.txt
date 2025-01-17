@@ -1,0 +1,1 @@
+﻿Isiphepho's Charm	U	common	Instant	65	U	2U	Choose one –NEWLINE• Counter target permanent spell.NEWLINE• Up to two target creatures you control can’t be blocked this turn.NEWLINE• Return target creature to its owner’s hand.			normal	SOJ		

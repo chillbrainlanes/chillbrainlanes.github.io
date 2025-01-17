@@ -1,0 +1,1 @@
+﻿Adze Predator	B	common	Creature – Vampire 	90	B	1B	This creature has flying as long as it’s attacking.	2/1		normal	SOJ		Reprint

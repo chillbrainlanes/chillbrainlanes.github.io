@@ -1,0 +1,1 @@
+﻿Sunfletcher	R	common	Creature – Human Archer 	174	R	3R	Convoke (Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINEHasteNEWLINEWhenever this creature becomes tapped, target creature can’t block this turn.	3/2		normal	SOJ		

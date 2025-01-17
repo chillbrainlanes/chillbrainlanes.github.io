@@ -1,0 +1,1 @@
+﻿Erstfolk Archmage	U	uncommon	Creature – Erstfolk Warlock 	57	U	2U	When this creature enters, choose one or both –NEWLINE• Return target creature an opponent controls to its owner’s hand.NEWLINE• Return target planeswalker you control to its owner’s hand.	2/2		normal	SOJ		

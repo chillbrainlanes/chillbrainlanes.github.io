@@ -1,0 +1,1 @@
+﻿Paranormal Investigators	B	common	Creature – Human Scout 	106	B	1B	When this creature dies, you may put it on the bottom of its owner’s library. If you do, return target creature card from your graveyard to your hand.	2/1		normal	VRD		

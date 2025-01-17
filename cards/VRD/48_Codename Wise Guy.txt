@@ -1,0 +1,1 @@
+﻿Codename Wise Guy	U	uncommon	Legendary Creature – Otter Soldier 	48	U	2U	When this creature enters, create a prowess Gadget, then attach it to Codename: Wise Guy. (It’s an Equipment artifact token with equip 2 that grants that ability.)NEWLINEWhenever Wise Guy deals combat damage to a player, draw that many cards.	1/1		normal	VRD		!exportname Codename Wise Guy

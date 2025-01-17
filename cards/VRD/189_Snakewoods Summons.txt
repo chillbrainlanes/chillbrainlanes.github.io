@@ -1,0 +1,1 @@
+﻿Snakewood's Summons	G	common	Sorcery	189	G	2G	Add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay 7 as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)NEWLINESearch your library for a basic land card and put it onto the battlefield tapped. Then shuffle.			normal	VRD		

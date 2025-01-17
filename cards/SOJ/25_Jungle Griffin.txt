@@ -1,0 +1,1 @@
+﻿Jungle Griffin	W	common	Creature – Griffin 	25	W	4W	FlyingNEWLINESpellbound – Whenever this creature attacks, you may exile an instant or sorcery card from your graveyard. If you do, target creature gains flying until end of turn.	3/4		normal	SOJ		

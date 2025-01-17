@@ -1,0 +1,1 @@
+﻿Shark	R	common	Token Creature – Shark 	9	R			*/*		token	VRD		!related Pit of Sharks;

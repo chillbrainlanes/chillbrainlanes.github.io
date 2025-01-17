@@ -1,0 +1,1 @@
+﻿Somnogoyf	G	rare	Creature – Nightmare Lhurgoyf 	190	G	1G	Somnogoyf’s power and toughness are each equal to the number of different mana values among nonland cards in your graveyard.	*/*		normal	VRD		

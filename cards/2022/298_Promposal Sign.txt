@@ -1,0 +1,1 @@
+﻿Promposal Sign		cube	Artifact	298	C	2	T: Add C.NEWLINEX, T, Sacrifice Promposal Sign: Roll a dX. Activate only as a sorcery.NEWLINE0-2 | Rejected!NEWLINE3+ | Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.			normal	2022		Dice

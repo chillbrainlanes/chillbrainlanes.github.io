@@ -1,0 +1,1 @@
+﻿Cirrus Winder	U	common	Creature – Elemental 	49	U	2U	FlyingNEWLINEWhen this creature enters, you may mill two cards.	1/4		normal	SOJ		Reprint

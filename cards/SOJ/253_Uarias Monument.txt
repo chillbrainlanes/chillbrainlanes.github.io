@@ -1,0 +1,1 @@
+﻿Uaria's Monument		common	Artifact	253	C	3	T: Add one mana of any color.NEWLINET: Put a card from your graveyard on the bottom of your library.NEWLINE3, T: Scry 1.			normal	SOJ		

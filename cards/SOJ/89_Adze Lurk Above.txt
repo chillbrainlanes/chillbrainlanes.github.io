@@ -1,0 +1,1 @@
+﻿Adze Lurk Above	B	uncommon	Enchantment	89	B	1B	At the beginning of your upkeep, mill a card. Then if there are four or more creature cards in your graveyard, sacrifice Adze Lurk Above and create two 2/1 black Vampire creature tokens with “This creature has flying as long as it’s attacking.”			normal	SOJ		

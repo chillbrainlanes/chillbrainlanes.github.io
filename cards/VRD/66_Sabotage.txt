@@ -1,0 +1,1 @@
+﻿Sabotage	U	common	Instant	66	U	1UU	Choose one –NEWLINE• Counter target spell.NEWLINE• Draw two cards, then discard a card.			normal	VRD		

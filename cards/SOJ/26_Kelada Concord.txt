@@ -1,0 +1,1 @@
+﻿Kelada Concord	W	uncommon	Sorcery	26	W	5WW	Convoke (Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINECreate two 2/2 white Centaur Nomad creature tokens with vigilance. Then, put a +1/+1 counter on each Centaur you control.			normal	SOJ		

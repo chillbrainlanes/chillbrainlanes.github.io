@@ -1,0 +1,1 @@
+﻿Dreamreaper	B	rare	Creature – Nightmare Specter 	92	B	1BB	FlyingNEWLINEWhenever this creature deals damage to a player, that player discards a card.NEWLINEWhenever an opponent discards one or more cards, create a 1/1 black Nightmare creature token.	1/3		normal	VRD		

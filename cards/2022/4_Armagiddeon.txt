@@ -1,0 +1,1 @@
+﻿Armagiddeon	W	cube	Legendary Planeswalker – Gideon 	4	W	2WW			[+1]: Until end of turn, Armagiddeon becomes a 5/5 Human Soldier planeswalker creature with indestructible. Prevent all damage that would be dealt to him this turn.NEWLINE[0]: Create a 2/2 white Knight creature token.NEWLINE[-4]: Destroy all lands.	planeswalker	2022	4	

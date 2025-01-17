@@ -1,0 +1,1 @@
+﻿Hold for Ransom	W	common	Enchantment – Aura 	19	W	1W	Enchant creatureNEWLINEEnchanted creature can’t attack or block.NEWLINE8: Destroy Hold for Ransom. Any player may activate this ability.			normal	VRD		

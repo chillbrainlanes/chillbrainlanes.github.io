@@ -1,0 +1,1 @@
+﻿Crooked Politician	B	uncommon	Creature – Human Advisor 	87	B	2B	Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINEWhenever a nontoken creature you control dies, create a 1/1 black Minion creature token. If you’re in your endgame, you gain 1 life. Otherwise, you lose 1 life.	2/3		normal	VRD		

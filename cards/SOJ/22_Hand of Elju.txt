@@ -1,0 +1,1 @@
+﻿Hand of Elju	W	uncommon	Creature – Angel 	22	W	3WW	Convoke (Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINEFlyingNEWLINERevelation spells you cast for alternate costs have convoke.	3/4		normal	SOJ		Preview: Plasterman

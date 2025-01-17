@@ -1,0 +1,1 @@
+﻿Eloko Bonfire	R	common	Sorcery	146	R	3RR	Convoke (Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINECreate three 1/1 red Goblin creature tokens.			normal	SOJ		

@@ -1,0 +1,1 @@
+﻿Walking Oasis	G	common	Creature – Elemental 	212	G	3G	You may play an additional land on each of your turns.	3/4		normal	SOJ		Preview: Matt

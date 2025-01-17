@@ -1,0 +1,1 @@
+﻿Thunderstorm Crow	U	uncommon	Creature – Elemental Bird 	83	U	1U	FlyingNEWLINEWhenever you cast an instant or sorcery spell, put a +1/+1 counter on this creature.	1/2		normal	SOJ		

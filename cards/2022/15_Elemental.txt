@@ -1,0 +1,1 @@
+﻿Elemental	R	cube	Token Creature – Elemental 	15	R			1/1		token	2022		!related Laelia and Young Pyromancer’s Grand Day Out;

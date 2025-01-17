@@ -1,0 +1,1 @@
+﻿Iroshi's Devotee	G	rare	Creature – Cat Ninja 	179	G	6G	FlashNEWLINEAs an additional cost to cast this spell, you may return any number of creatures you control to their owners’ hands. This spell costs 2 less to cast for each creature returned to its owner’s hand this way.	5/5		normal	VRD		

@@ -1,0 +1,1 @@
+﻿Disposable Mook	R	common	Creature – Human Minion 	131	R	R	Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINEWhen this creature dies, create a Gold token. Then if you’re in your endgame, draw a card. (Gold is an artifact with “Sacrifice this artifact: Add one mana of any color.”)	1/1		normal	VRD		

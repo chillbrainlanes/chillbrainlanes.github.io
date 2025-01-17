@@ -1,0 +1,1 @@
+﻿Colossal Bledmaw	B	cube	Creature – Vampire Dinosaur 	102	B	4BB	TrampleNEWLINEWhen Colossal Bledmaw enters the battlefield, each opponent loses 6 life. You gain 6 life and create six Blood tokens. (They’re artifacts with “1, T, Discard a card, Sacrifice this artifact: Draw a card.”)	6/6		normal	2022		

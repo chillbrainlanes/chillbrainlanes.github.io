@@ -1,0 +1,1 @@
+﻿Something-Gang Commander	R	cube	Creature – Goblin 	175	R	3RR	When Something-Gang Commander enters the battlefield, conjure three random creature cards with mana value 1 onto the battlefield. (22be.net/effects/gang)NEWLINER, Sacrifice a creature with mana value 1 or less: Something-Gang Commander deals 2 damage to any target.	2/2		normal	2022		

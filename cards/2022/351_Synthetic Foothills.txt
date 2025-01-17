@@ -1,0 +1,1 @@
+﻿Synthetic Foothills		cube	Land	351	C		Synthetic Foothills enters the battlefield tapped unless you control a Mountain or Forest.NEWLINET, Sacrifice Synthetic Foothills: Search your library for a Mountain or Forest card and put it onto the battlefield, then shuffle.			normal	2022		

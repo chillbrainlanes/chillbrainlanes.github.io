@@ -1,0 +1,1 @@
+﻿Rampaging Grootslang	RG	rare	Creature – Elephant Beast 	233	RG	1RG		3/4	(Pay the Roar as an additional cost for an instant or sorcery spell to add its effect.)NEWLINEHaste, trampleNEWLINE[Roar RG] Up to one creature gains double strike until end of turn,NEWLINE	leveler	SOJ		

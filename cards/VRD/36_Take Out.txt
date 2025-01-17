@@ -1,0 +1,1 @@
+﻿Take Out	W	uncommon	Sorcery	36	W	W	Destroy target tapped creature.			normal	VRD		

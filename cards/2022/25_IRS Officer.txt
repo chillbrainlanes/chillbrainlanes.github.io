@@ -1,0 +1,1 @@
+﻿IRS Officer	W	cube	Creature – Human Soldier 	25	W	1W	Noncreature spells cost 1 more to cast.	2/2		adventure	2022		Tax Audit	W	Instant – Adventure 	W	1W	Counter target noncreature spell unless its controller pays 1. (Then exile this card. You may cast the creature later from exile.)				

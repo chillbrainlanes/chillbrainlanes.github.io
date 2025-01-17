@@ -1,0 +1,1 @@
+﻿Sim Nichol, Trinket Enchanter	WG	uncommon	Legendary Creature – Human Artificer 	218	WG	3GW	At the beginning of your end step, draw a card if you attached with an equipped creature this turn, then draw a card if you attacked with an enchanted creature this turn.	3/3		normal	VRD		

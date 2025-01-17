@@ -1,0 +1,1 @@
+﻿Ziawan Pilgrim	G	common	Creature – Human Scout 	219	G	G	2, T: Look at the top card of your library. If it’s a land card, you may reveal it and put it into your hand.	1/1		normal	SOJ		

@@ -1,0 +1,1 @@
+﻿Heist of the Century	R	rare	Sorcery	141	R	2R	Search your library for up to one artifact card, up to one Rogue card, and up to one Calamity planeswalker card. Reveal those cards, put them into your hand, discard a card at random, then shuffle.			normal	VRD		

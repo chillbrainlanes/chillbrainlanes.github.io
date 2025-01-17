@@ -1,0 +1,1 @@
+﻿Snakewood's Hideout		rare	Land	269	G		This land enters tapped unless you control two or more basic Forests.NEWLINET: Add G.NEWLINEGG, T: Put a +1/+1 counter on target creature. Activate only as a sorcery.			normal	VRD		Lair

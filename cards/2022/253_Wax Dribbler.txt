@@ -1,0 +1,1 @@
+﻿Wax Dribbler	BR	cube	Creature – Devil 	253	BR	BR	Whenever a creature you control dies, Wax Dribbler deals 1 damage to any target.	2/2		normal	2022		

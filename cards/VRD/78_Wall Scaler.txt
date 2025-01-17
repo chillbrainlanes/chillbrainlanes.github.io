@@ -1,0 +1,1 @@
+﻿Wall Scaler	U	common	Creature – Cat Rogue 	78	U	2U	Ward 2 (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 2.)NEWLINEWhenever this creature deals damage to a player, draw a card.	1/3		normal	VRD		

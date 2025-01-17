@@ -1,0 +1,1 @@
+﻿Tough Customer	B	common	Creature – Human Minion 	117	B	2B	Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINEWhen this creature dies, up to one target creature gets -1/-1 until end of turn. If you’re in your endgame, that creature gets -2/-2 until end of turn instead.	2/2		normal	VRD		

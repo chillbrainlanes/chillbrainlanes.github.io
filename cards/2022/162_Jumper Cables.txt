@@ -1,0 +1,1 @@
+﻿Jumper Cables	R	cube	Artifact	162	R	1R	Each instant and sorcery card in your graveyard has jump-start. (You may cast instant and sorcery cards from your graveyard by discarding a card in addition to paying their other costs. Then exile them.)			normal	2022		

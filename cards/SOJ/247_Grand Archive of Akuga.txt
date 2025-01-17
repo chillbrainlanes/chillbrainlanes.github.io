@@ -1,0 +1,1 @@
+﻿Grand Archive of Akuga		rare	Legendary Artifact	247	C	4	Skip your draw step.NEWLINEAt the beginning of your upkeep, look at the top three cards of your library. Put one of those cards into your hand. For each of those other cards, you may pay 4 life. If you do, put that card into your hand. Put the rest on top of your library in any order.			normal	SOJ		Preview: Pip

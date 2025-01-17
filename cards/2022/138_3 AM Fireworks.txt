@@ -1,0 +1,1 @@
+﻿3 AM Fireworks	R	cube	Instant	138	R	3RR	Megadelve (Each card you exile from your graveyard while casting this spell pays for 1 or one mana of that card’s color.)NEWLINE3 A.M. Fireworks deals 4 damage divided as you choose among any number of target creatures and/or planeswalkers.			normal	2022		!exportname 3 AM Fireworks

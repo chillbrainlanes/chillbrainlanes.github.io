@@ -1,0 +1,1 @@
+﻿Unassuming Hooptie		uncommon	Artifact – Vehicle 	252	C	2	Whenever this Vehicle becomes a creature, attach any number of Equipment you control to it.NEWLINEThis Vehicle gets +1/+1 for each Equipment attached to it.NEWLINECrew 1	3/2		normal	VRD		

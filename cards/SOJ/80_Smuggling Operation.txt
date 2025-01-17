@@ -1,0 +1,1 @@
+﻿Smuggling Operation	U	rare	Sorcery	80	U	2UU	Choose one –NEWLINE• Return up to three target creatures to their owners’ hands.NEWLINE• Create a blue enchantment token named Coastal Piracy with “Whenever a creature you control deals combat damage to an opponent, you may draw a card.”			normal	SOJ		enchantment cycle

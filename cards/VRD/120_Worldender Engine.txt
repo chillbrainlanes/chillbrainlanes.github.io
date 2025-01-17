@@ -1,0 +1,1 @@
+﻿Worldender Engine	B	uncommon	Artifact Creature – Giant Minion 	120	B	4BB	MenaceNEWLINEThis creature doesn’t untap during its controller’s untap step.NEWLINEWhenever another artifact you control enters, untap this creature.	8/8		normal	VRD		

@@ -1,0 +1,1 @@
+﻿Cold-Blooded Assassin	B	common	Creature – Human Assassin 	86	B	3B	When this creature, create a menace Gadget, then attach it to this creature. (It’s an Equipment artifact token with equip 2 that grants that ability.)	4/2		normal	VRD		

@@ -1,0 +1,1 @@
+﻿Tracker's Cigar		common	Artifact – Equipment 	250	C	2	When this artifact enters, search your library for a basic land card, reveal it, and put it into your hand, then shuffle.NEWLINEEquipped creature gets +1/+1.NEWLINEEquip 1			normal	VRD		

@@ -1,0 +1,1 @@
+﻿Piloted Shredder		cube	Artifact Creature – Soldier 	296	C	4	TrampleNEWLINEWhen Piloted Shredder dies, find a random creature card with mana value 2. You may conjure that card onto the battlefield under your control. (Use 22be.net/effects/shredder)	4/3		normal	2022		https://scryfall.com/random?q=t%3Acreature+cmc%3D2+-m%3Ax+-is%3AfunnyNEWLINEAdaptations

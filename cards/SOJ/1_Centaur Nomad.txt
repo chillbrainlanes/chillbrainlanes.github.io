@@ -1,0 +1,1 @@
+﻿Centaur Nomad	W	common	Token Creature – Centaur Nomad 	1	W		Vigilance	2/2		token	SOJ		

@@ -1,0 +1,1 @@
+﻿Glimpse of Nature	G	rare	Sorcery	184	G	G	Whenever you cast a creature spell this turn, draw a card.			normal	SOJ		Reprint

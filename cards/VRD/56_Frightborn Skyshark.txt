@@ -1,0 +1,1 @@
+﻿Frightborn Skyshark	U	common	Creature – Nightmare Shark 	56	U	2U	FlashNEWLINEFlying	2/2		normal	VRD		

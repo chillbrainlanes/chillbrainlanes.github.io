@@ -1,0 +1,1 @@
+﻿Spiderkin Sentry	G	uncommon	Creature – Spider Ranger 	204	G	1G	Reach, deathtouchNEWLINEWhen this creature enters, return a permanent you control to its owner’s hand.	3/3		normal	SOJ		Previw: Lycodrake

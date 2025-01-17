@@ -1,0 +1,1 @@
+﻿Devotee of the Cycle	G	uncommon	Creature – Human Shaman 	180	G	1G	When this creature enters, you may return target creature card from your graveyard to your hand. If you do, discard a card.	3/1		normal	SOJ		

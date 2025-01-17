@@ -1,0 +1,1 @@
+﻿Lake of the Living		cube	Land	327	G		As Lake of the Living :) enters the battlefield, sacrifice a Forest or put Lake of the Living :) into its owner’s graveyard.NEWLINET: Add G.NEWLINET, Sacrifice a Forest: Add GGGG. 			normal	2022		!exportname Lake of the Living

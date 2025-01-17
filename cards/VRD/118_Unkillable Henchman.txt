@@ -1,0 +1,1 @@
+﻿Unkillable Henchman	B	rare	Creature – Zombie Minion 	118	B	B	Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINEThis creature can’t block.NEWLINEYou may cast this card from your graveyard as long as you’re in your endgame.	2/1		normal	VRD		RX01: flex slot

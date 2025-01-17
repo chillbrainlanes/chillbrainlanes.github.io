@@ -1,0 +1,1 @@
+﻿Sahai Monstrosity	R	uncommon	Creature – Elemental Beast 	168	R	3RR	Whenever this creature attacks, search your library for an instant or sorcery card with mana value 3 and exile it, them shuffle. You may cast that card without paying its mana cost.	3/3		normal	SOJ		

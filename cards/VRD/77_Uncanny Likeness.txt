@@ -1,0 +1,1 @@
+﻿Uncanny Likeness	U	rare	Enchantment – Aura 	77	U	U	Enchant creatureNEWLINEWhen this enchantment enters, exile target creature card with mana value less than or equal to enchanted creature’s mana value from a graveyard.NEWLINEEnchanted creature is a copy of the exiled card.			normal	VRD		

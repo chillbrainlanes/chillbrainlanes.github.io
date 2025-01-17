@@ -1,0 +1,1 @@
+﻿Rock	R	cube	Legendary Creature – Dragon 	170	R	3RR	FlyingNEWLINEWhen Rock enters the battlefield, discard any number of cards, then draw that many cards.	5/5		adventure	2022		Surprise	R	Sorcery – Adventure 	R	2R	Put a creature card from your hand onto the battlefield. It gains haste. Sacrifice it at the beginning of the next end step.				

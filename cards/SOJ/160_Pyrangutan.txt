@@ -1,0 +1,1 @@
+﻿Pyrangutan	R	common	Creature – Elemental Ape 	160	R	2R	Whenever you cast an instant or sorcery spell, put a +1/+1 counter on Pyrangutan. If you spent six or more mana to cast that spell, put an additional +1/+1 counter and a trample counter on it.	2/2		normal	SOJ		

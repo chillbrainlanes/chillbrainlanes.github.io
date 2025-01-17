@@ -1,0 +1,1 @@
+﻿Smuggler's Cunning	G	common	Enchantment – Aura 	188	G	3G	Enchant creatureNEWLINEEnchanted creature gets +2/+2.NEWLINEWhen this enchantment enters, surveil 2, then draw a card. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)			normal	VRD		

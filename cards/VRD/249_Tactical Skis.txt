@@ -1,0 +1,1 @@
+﻿Tactical Skis		uncommon	Artifact – Equipment 	249	C	2	Equipped creature has haste and ward 2. (Whenever it becomes the target of a spell or ability an opponent controls, counter it unless its controller pays 2.)NEWLINEEquip 0			normal	VRD		

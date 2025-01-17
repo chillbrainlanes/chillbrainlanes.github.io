@@ -1,0 +1,1 @@
+﻿One Last Stunt	R	rare	Sorcery	143	R	3R	As long as lands you control could produce 3R and you’ve cast another spell that targeted a creature this turn, you may exile a red card from your hand rather than pay One Last Stunt’s mana cost.NEWLINEUntap target creature. After this main phase, there is an additional combat phase followed by an additional main phase.			normal	VRD		

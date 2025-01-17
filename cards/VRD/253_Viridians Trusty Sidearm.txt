@@ -1,0 +1,1 @@
+﻿Viridian's Trusty Sidearm		rare	Legendary Artifact – Equipment 	253	C	2	Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINEEquipped creature gets +2/+0.NEWLINESacrifice this artifact: Equipped creature gains indestructible until end of turn. If you’re in your endgame, draw a card.NEWLINEEquip 1			normal	VRD		

@@ -1,0 +1,1 @@
+﻿Cardboard Box		uncommon	Artifact	228	C	2	When this artifact enters, draw a card.NEWLINESpells that target you cost 2 more to cast.NEWLINET, Sacrifice this artifact: Untap target creature that’s attacking you and remove it from combat.			normal	VRD		

@@ -1,0 +1,1 @@
+﻿Black Demigod	B	common	Token Creature – Demigod 	8	B			6/6		token	SOJ		!exportname Black Demigod

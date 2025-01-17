@@ -1,0 +1,1 @@
+﻿House Hunters	G	cube	Creature – Human Ranger 	200	G	2G	House Hunters can’t be blocked by creatures with power 2 or less.NEWLINEWhenever House Hunters enters the battlefield or attacks, you may sacrifice a land. If you do, search your library for a land card, put it onto the battlefield tapped, then shuffle.	3/4		normal	2022		

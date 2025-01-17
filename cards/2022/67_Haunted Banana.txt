@@ -1,0 +1,1 @@
+﻿Haunted Banana	U	cube	Artifact Creature – Spirit 	67	U	2U	FlashNEWLINEFlyingNEWLINEWhen Haunted Banana enters the battlefield, you may discard a card. If you do, conjure a Peel from Reality card into your hand. (1U Instant: Return target creature you control and target creature you don’t control to their owners’ hands.)	3/1		normal	2022		

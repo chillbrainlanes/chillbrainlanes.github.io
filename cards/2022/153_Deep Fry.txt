@@ -1,0 +1,1 @@
+﻿Deep Fry	R	cube	Sorcery	153	R	R	Choose one –NEWLINE• Deep Fry deals 3 damage to target creature or planeswalker.NEWLINE• Destroy target noncreature artifact.			normal	2022		

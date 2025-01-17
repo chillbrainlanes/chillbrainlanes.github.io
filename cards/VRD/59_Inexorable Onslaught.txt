@@ -1,0 +1,1 @@
+﻿Inexorable Onslaught	U	uncommon	Instant	59	U	3U	This spell can’t be countered.NEWLINECreate two 1/1 black Nightmare creature tokens for each spell you’ve cast this turn.			normal	VRD		

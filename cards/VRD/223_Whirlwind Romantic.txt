@@ -1,0 +1,1 @@
+﻿Whirlwind Romantic	BR	rare	Creature – Human Rogue 	223	BR	1BR	HasteNEWLINEWhenever this creature attacks, you may gain control of target creature defending player both controls and owns with mana value 2 or less until end of turn. If you do, tap it. It’s attacking its owner.	3/1		normal	VRD		

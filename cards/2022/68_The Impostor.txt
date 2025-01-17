@@ -1,0 +1,1 @@
+﻿The Impostor	U	cube	Legendary Creature – Shapeshifter 	68	U	2U	You may have The Impostor enter the battlefield as a copy of any nonland permanent on the battlefield, except its name is The Impostor and it hasNEWLINE“Sus Out – When you control no other nonland permanents, sacrifice The Impostor.”	0/0		normal	2022		

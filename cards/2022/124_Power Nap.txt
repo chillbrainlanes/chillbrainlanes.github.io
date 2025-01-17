@@ -1,0 +1,1 @@
+﻿Power Nap	B	cube	Sorcery	124	B	1B	As an additional cost to cast this spell, sacrifice a creature.NEWLINEReturn target creature card from your graveyard to the battlefield.NEWLINERetrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)			normal	2022		

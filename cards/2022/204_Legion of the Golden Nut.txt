@@ -1,0 +1,1 @@
+﻿Legion of the Golden Nut	G	cube	Creature – Squirrel Army 	204	G	GG	TrampleNEWLINELegion of the Golden Nut’s power and toughness are each equal to your devotion to green. (Each G in the mana costs of permanents you control counts toward your devotion to green.)	*/*		normal	2022		

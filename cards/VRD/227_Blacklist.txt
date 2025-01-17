@@ -1,0 +1,1 @@
+﻿Blacklist		rare	Artifact	227	C	3	As this artifact enters, choose a nonland card name.NEWLINESpells with the chosen name can’t be cast.NEWLINECreatures with the chosen name can’t attack unless their controller pays 3.			normal	VRD		

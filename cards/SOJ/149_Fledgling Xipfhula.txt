@@ -1,0 +1,1 @@
+﻿Fledgling Xipfhula	R	common	Creature – Griffin 	149	R	1R	Flying, trample, hasteNEWLINESpellbound – Whenever this creature attacks, you may exile an instant or sorcery card from your graveyard. If you do, it gets +2/+2 until end of turn.	1/1		normal	SOJ		

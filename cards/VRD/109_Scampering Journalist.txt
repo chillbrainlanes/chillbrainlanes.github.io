@@ -1,0 +1,1 @@
+﻿Scampering Journalist	B	common	Creature – Rat Scout 	109	B	B	When this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)NEWLINEB: This creature gains deathtouch until end of turn.	1/1		normal	VRD		

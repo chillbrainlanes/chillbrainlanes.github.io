@@ -1,0 +1,1 @@
+﻿Descent of the Nightmares	B	uncommon	Instant	88	B	4BB	Destroy target creature. Create X 1/1 black Nightmare creature tokens, where X is that creature’s power.			normal	VRD		

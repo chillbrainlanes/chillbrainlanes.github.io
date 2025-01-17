@@ -1,0 +1,1 @@
+﻿Behold the Immolating Dawn	R	common	Sorcery – Revelation 	136	R	R	Realize as Demigod 4RR (If you cast this for its Realize cost, put it onto the battlefield as a Demigod creature after it resolves.)NEWLINEBehold the Immolating Dawn deals 2 damage to any target.	6/4		normal	SOJ		

@@ -1,0 +1,1 @@
+﻿Vertical Integration	G	cube	Instant	224	G	1G	Conjure an Urza’s Mine card, an Urza’s Power Plant card, and an Urza’s Tower card into your hand. (They’re lands with “T: Add C.” When you control all three, Mine and Power Plant produce CC and Tower produces CCC.)NEWLINECycling 2 (2, Discard this card: Draw a card.)			normal	2022		

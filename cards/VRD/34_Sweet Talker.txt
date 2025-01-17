@@ -1,0 +1,1 @@
+﻿Sweet Talker	W	common	Creature – Human Minion 	34	W	2W	When this creature enters, you gain 3 life.	2/3		normal	VRD		

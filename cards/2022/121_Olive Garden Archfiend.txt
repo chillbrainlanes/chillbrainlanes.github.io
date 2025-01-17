@@ -1,0 +1,1 @@
+﻿Olive Garden Archfiend	B	cube	Creature – Demon 	121	B	4BB	Flying, lifelink	6/6		adventure	2022		Unlimited Breadsticks	B	Sorcery – Adventure 	B	4B	Reveal the top card of your library and put that card into your hand. You lose life equal to its mana value. You may repeat this process any number of times.				

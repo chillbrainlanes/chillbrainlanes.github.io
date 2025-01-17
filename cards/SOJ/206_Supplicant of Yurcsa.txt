@@ -1,0 +1,1 @@
+﻿Supplicant of Yurcsa	G	common	Creature – Human Druid 	206	G	1G	T: Add one mana of any color.NEWLINEWhen this creature dies, draw a card.	1/1		normal	SOJ		

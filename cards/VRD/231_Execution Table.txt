@@ -1,0 +1,1 @@
+﻿Execution Table		common	Artifact	231	C	2	Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINE3, Sacrifice this artifact: It deals 3 damage to target creature. If you’re in your endgame, it deals 5 damage instead.			normal	VRD		

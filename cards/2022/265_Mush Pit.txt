@@ -1,0 +1,1 @@
+﻿Mush Pit	RG	cube	Creature – Fungus 	265	RG	2R/G	Riot (This creature enters with your choice of a +1/+1 counter or haste.)NEWLINEWhenever Mush Pit attacks, create two 1/1 green Saproling creature tokens that are tapped and attacking.	1/1		normal	2022		

@@ -1,0 +1,1 @@
+﻿Prototype Jetmobile		rare	Artifact – Vehicle 	241	C	3	Flying, hasteNEWLINEEndgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINEThis Vehicle is an artifact creature as long as you’re in your endgame.NEWLINECrew 3	5/3		normal	VRD		RC01: artifact creature or vehicle

@@ -1,0 +1,1 @@
+﻿Heir of the Tyrant	G	common	Token Creature – Ape Noble 	22	G		Trample, ward 1	3/3		token	SOJ		

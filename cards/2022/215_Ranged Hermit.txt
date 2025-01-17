@@ -1,0 +1,1 @@
+﻿Ranged Hermit	G	cube	Creature – Elf 	215	G	3GG	When Ranged Hermit enters the battlefield, create three 1/1 green Squirrel creature tokens. You gain 3 life.NEWLINESquirrels you control get +1/+1.	1/1		normal	2022		

@@ -1,0 +1,1 @@
+﻿Rogue's Palace Bouncer	R	common	Creature – Human Minion 	150	R	1R	DefenderNEWLINEEndgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINEThis creature can attack as though it didn’t have defender as long as you’re in your endgame.	3/3		normal	VRD		

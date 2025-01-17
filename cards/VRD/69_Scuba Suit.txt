@@ -1,0 +1,1 @@
+﻿Scuba Suit	U	uncommon	Artifact – Equipment 	69	U	U	Equipped creature has ward X, where X is the number of permanents attached to it. (Multiple instances of ward trigger separately.)NEWLINE1: Equipped creature can’t be blocked this turn.NEWLINEEquip 1			normal	VRD		

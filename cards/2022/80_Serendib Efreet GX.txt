@@ -1,0 +1,1 @@
+﻿Serendib Efreet GX	U	cube	Legendary Creature – Efreet 	80	U	2U	FlyingNEWLINEAt the beginning of your upkeep, Serendib Efreet GX deals 1 damage to you.NEWLINEEfreeti Trickery GX – XU: Gain control of target creature with mana value X until Serendib Efreet GX leaves the battlefield. (Activate only one GX ability per game.)	3/4		normal	2022		!exportname Serendib Efreet GX

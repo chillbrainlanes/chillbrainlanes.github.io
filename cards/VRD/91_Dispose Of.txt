@@ -1,0 +1,1 @@
+﻿Dispose Of	B	common	Sorcery	91	B	1B	Destroy target creature that isn’t enchanted or equipped.			normal	VRD		Bond Theme References: You Know My Name

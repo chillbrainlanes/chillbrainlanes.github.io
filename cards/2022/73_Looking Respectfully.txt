@@ -1,0 +1,1 @@
+﻿Looking Respectfully	U	cube	Instant	73	U	U	Roll a dX, where X is the number of spells you’ve cast this turn.NEWLINE1 | Draw a card. Surveil 1.NEWLINE2 | Surveil 1. Draw a card.NEWLINE3+ | Draw two cards, then discard a card.			normal	2022		Dice
