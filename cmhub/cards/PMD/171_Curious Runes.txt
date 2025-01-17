@@ -1,0 +1,1 @@
+﻿Curious Runes	R	common	Creature – Eye Spirit 	171	R	2R	When this creature enters, discard up to two cards, then draw that many cards.NEWLINEWhenever you cast an instant or sorcery spell, put a +1/+1 counter on this creature.	1/2		normal	PMD		tcg art

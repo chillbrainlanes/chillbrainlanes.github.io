@@ -1,0 +1,1 @@
+﻿Shifty Capo	G	uncommon	Creature – Dryad Ranger 	248	G	2G	Melee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)NEWLINEThis creature can’t be blocked by creatures with power 2 or less.NEWLINEAt the beginning of your upkeep, return a permanent you control to its owner’s hand.	3/3		normal	PMD		

@@ -1,0 +1,1 @@
+﻿Eager Adventurer	W	uncommon	Creature – Raccoon Ranger 	13	W	1W	Whenever one or more +1/+1 counters are put on a creature you control, that creature gains lifelink until end of turn.NEWLINE3W: Put a +1/+1 counter on Eager Adventurer.	2/1		normal	PMD		tumblr.com/beaniecapprints

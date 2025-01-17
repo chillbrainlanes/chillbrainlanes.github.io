@@ -1,0 +1,1 @@
+﻿Arcane Stairwell		uncommon	Artifact	284	C	1	Arcane Stairwell enters tapped.NEWLINE4, T: Draw two cards. You may put Arcane Stairwell into its owner’s library second from the top. Otherwise, sacrifice it. Activate only as a sorcery.			normal	PMD		

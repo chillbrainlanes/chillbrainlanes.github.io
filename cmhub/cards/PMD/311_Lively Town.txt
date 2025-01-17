@@ -1,0 +1,1 @@
+﻿Lively Town		common	Land	311	W		This land enters tapped. As it enters, choose a color.NEWLINET: Add W or one mana of the chosen color.NEWLINECycling 3 (3, Discard this card: Draw a card.)			normal	PMD		

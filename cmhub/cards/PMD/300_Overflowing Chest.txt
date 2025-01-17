@@ -1,0 +1,1 @@
+﻿Overflowing Chest		rare	Artifact	300	C	2	When this artifact enters, each player exiles the top card of their library.NEWLINEDuring each player’s turn, that player may play a card from among cards exiled with this artifact. If it’s a spell, mana of any type can be spent to cast it. When they do, that card’s owner exiles the top card of their library.			normal	PMD		

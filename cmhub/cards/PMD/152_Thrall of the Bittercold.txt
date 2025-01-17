@@ -1,0 +1,1 @@
+﻿Thrall of the Bittercold	B	common	Creature – Frog Warrior 	152	B	2B	MenaceNEWLINEWhen this creature enters, mill three cards.NEWLINEThis creature gets +2/+2 as long as there are six or more creature cards in your graveyard.	3/2		normal	PMD		

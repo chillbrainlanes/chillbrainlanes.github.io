@@ -1,0 +1,1 @@
+﻿Voracious Ooze	G	common	Creature – Ooze Rogue 	257	G	1G	DeathtouchNEWLINEWhenever one or more cards leave your graveyard, put a +1/+1 counter on up to one other target creature.	2/1		normal	PMD		

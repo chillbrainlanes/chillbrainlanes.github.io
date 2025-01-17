@@ -1,0 +1,1 @@
+﻿Curious Statue		uncommon	Artifact	289	C	4	T: Add CC.NEWLINE8: Until end of turn, this artifact becomes a 6/6 red Elder Beast Sculpture artifact creature with trample.			normal	PMD		

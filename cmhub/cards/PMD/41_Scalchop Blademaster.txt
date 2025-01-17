@@ -1,0 +1,1 @@
+﻿Scalchop Blademaster	W	uncommon	Creature – Otter Knight 	41	W	2W	VigilanceNEWLINEWhenever you cast an artifact or enchantment spell, create a colorless Equipment artifact token named Scalchop with “Equipped creature gets +1/+1.” and equip 1.	2/3		normal	PMD		

@@ -1,0 +1,1 @@
+﻿Scourge of the Dunes	B	common	Creature – Mongoose Berserker 	145	B	2B	HasteNEWLINEMelee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)NEWLINEThis creature can’t block.	3/1		normal	PMD		https://www.tumblr.com/paperbagedhead

@@ -1,0 +1,1 @@
+﻿Discharge	R	common	Sorcery	172	R	2RR	Choose up to one target creature. Discharge deals 3 damage to each other creature.			normal	PMD		

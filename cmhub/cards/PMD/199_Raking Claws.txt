@@ -1,0 +1,1 @@
+﻿Raking Claws	R	common	Instant	199	R	1R	Target creature gains double strike until end of turn.NEWLINECycling 2 (2, Discard this card: Draw a card.)			normal	PMD		Reprint

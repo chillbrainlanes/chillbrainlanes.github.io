@@ -1,0 +1,1 @@
+﻿Bond of Friendship	W	common	Enchantment – Aura 	6	W	1W	Enchant creatureNEWLINEEnchanted creature can’t attack you or block creatures you control.			normal	PMD		https://www.tumblr.com/mimicspider

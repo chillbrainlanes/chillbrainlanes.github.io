@@ -1,0 +1,1 @@
+﻿Kyurem's Rampage	B	common	Instant	135	B	1B	Choose two target creatures controlled by the same player. That player sacrifices one of them. Goad the other. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)			normal	PMD		

@@ -1,0 +1,1 @@
+﻿Virizion, the Solitary Sword	G	rare	Legendary Creature – Elk Knight 	256	G	1GG	Vigilance, trampleNEWLINEWhenever a creature you control attacks alone, untap it and put a +1/+1 counter on it. Until end of turn, it gains trample and “Whenever this creature deals damage to an opponent, it deals that much damage to any number of other opponents.”	4/3		normal	PMD		

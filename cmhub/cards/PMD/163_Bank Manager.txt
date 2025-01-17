@@ -1,0 +1,1 @@
+﻿Bank Manager	R	uncommon	Creature – Cat Citizen 	163	R	2R	At the beginning of your upkeep, create a Treasure token. (It’s an artifact with “T, Sacrifice this artifact: Add one mana of any color.”)NEWLINEWhenever you sacrifice an artifact, you may pay 2 and discard a card. If you do, draw a card.	1/2		normal	PMD		

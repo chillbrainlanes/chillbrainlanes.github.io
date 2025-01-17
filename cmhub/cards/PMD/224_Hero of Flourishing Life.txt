@@ -1,0 +1,1 @@
+﻿Hero of Flourishing Life	G	uncommon	Legendary Creature – Dinosaur Druid 	224	G	2G	DeathtouchNEWLINELandfall – Whenever a land you control enters, up to one other target creature gets +2/+1 and gains trample until end of turn.NEWLINEPartner (You can have two commanders if both have partner.)	1/4		normal	PMD		

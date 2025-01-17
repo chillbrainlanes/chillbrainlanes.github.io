@@ -1,0 +1,1 @@
+﻿Bone Club		common	Token Artifact – Equipment 	19	C		Equipped creature gets +1/+0 and has menace. (That creature can’t be blocked except by two or more creatures.)NEWLINEEquip 2			token	PMD		!related Hero of Dreaded Knight;NEWLINEhttps://www.deviantart.com/umberoff/art/lavender-627434182

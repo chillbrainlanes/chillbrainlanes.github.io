@@ -1,0 +1,1 @@
+﻿Kangaskhan Rock		common	Artifact	297	C	3	At the beginning of your upkeep, you gain 1 life.NEWLINET: Add one mana of any color.			normal	PMD		You have no maximum hand size.

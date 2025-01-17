@@ -1,0 +1,1 @@
+﻿Snowpass Warden	G	common	Creature – Treefolk Yeti 	250	G	5G	ReachNEWLINEWhen this creature enters, you may mill five cards. Then, return up to one non-Yeti permanent card from your graveyard to your hand.	4/5		normal	PMD		

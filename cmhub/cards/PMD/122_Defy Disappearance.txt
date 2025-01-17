@@ -1,0 +1,1 @@
+﻿Defy Disappearance	B	common	Instant	122	B	B	The next time target creature would leave the battlefield this turn, instead exile it, then return it to the battlefield tapped under its owner’s control. You gain 3 life.			normal	PMD		

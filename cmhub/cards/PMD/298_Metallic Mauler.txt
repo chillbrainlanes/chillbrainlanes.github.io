@@ -1,0 +1,1 @@
+﻿Metallic Mauler		uncommon	Artifact Creature – Dinosaur Warrior 	298	C	X	This creature enters with X +1/+1 counters on it.NEWLINEWhen this creature enters, if X is 5 or greater, you may discard your hand. If you do, draw a card for each artifact you control and each artifact you’ve sacrificed this turn.	0/0		normal	PMD		

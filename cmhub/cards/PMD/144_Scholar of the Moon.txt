@@ -1,0 +1,1 @@
+﻿Scholar of the Moon	B	uncommon	Creature – Fox Advisor 	144	B	1B	When this creature enters, create a colorless Entercard artifact token with “2, T: Scry 1.”NEWLINEWhenever an Entercard you control becomes tapped, each opponent loses 1 life and you gain 1 life.	2/2		normal	PMD		

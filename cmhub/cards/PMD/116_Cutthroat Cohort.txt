@@ -1,0 +1,1 @@
+﻿Cutthroat Cohort	B	common	Creature – Cat Rogue 	116	B	1B	Whenever you cast an instant or sorcery spell, until end of turn, up to one target creature that hasn’t been the target of this ability this turn gets +1/+0 and gains “When this creature dies, draw a card.”	2/1		normal	PMD		

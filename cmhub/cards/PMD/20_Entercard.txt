@@ -1,0 +1,1 @@
+﻿Entercard		common	Token Artifact – Entercard 	20	C		2, T: Scry 1.			token	PMD		!related Scholar of the Sun;Scholar of the Moon;

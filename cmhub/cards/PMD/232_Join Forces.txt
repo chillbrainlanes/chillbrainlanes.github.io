@@ -1,0 +1,1 @@
+﻿Join Forces	G	common	Instant	232	G	1G	Choose target creature you don’t control. Each player other than that creature’s controller may choose a creature they control. Each of those creatures deals damage equal to its power to the first chosen creature.			normal	PMD		

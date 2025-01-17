@@ -1,0 +1,1 @@
+﻿Titanic Hero	U	common	Creature – Crocodile Ranger 	100	U	4U	FlashNEWLINEThis creature enters tapped.NEWLINEWhen this creature enters, tap up to two target creatures.	5/5		normal	PMD		

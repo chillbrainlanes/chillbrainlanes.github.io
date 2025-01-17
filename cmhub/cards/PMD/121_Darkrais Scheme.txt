@@ -1,0 +1,1 @@
+﻿Darkrai's Scheme	B	rare	Sorcery	121	B	3BB	For each player, choose friend or foe. Each friend searches their library for a card and puts it into their hand, then shuffles. For each foe, look at that player’s hand. You choose a nonland card from it. That player discards that card.			normal	PMD		

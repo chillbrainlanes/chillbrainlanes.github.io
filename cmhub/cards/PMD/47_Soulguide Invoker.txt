@@ -1,0 +1,1 @@
+﻿Soulguide Invoker	W	common	Artifact Creature – Spirit Giant 	47	W	4W	VigilanceNEWLINE8: Create three 1/1 white Spirit creature tokens with flying and “This creature can’t block.”	5/5		normal	PMD		

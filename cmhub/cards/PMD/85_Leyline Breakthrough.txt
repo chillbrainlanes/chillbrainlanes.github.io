@@ -1,0 +1,1 @@
+﻿Leyline Breakthrough	U	uncommon	Instant	85	U	3UU	Discard your hand, then draw five cards.			normal	PMD		

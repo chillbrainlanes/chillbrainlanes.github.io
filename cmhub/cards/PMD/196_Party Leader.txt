@@ -1,0 +1,1 @@
+﻿Party Leader	R	common	Creature – Weasel Knight 	196	R	2R	Melee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)NEWLINEWhen this creature enters, create a 1/1 white Jackal Ranger creature token.	2/1		normal	PMD		

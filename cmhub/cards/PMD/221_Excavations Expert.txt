@@ -1,0 +1,1 @@
+﻿Excavations Expert	G	common	Creature – Rabbit Scout 	221	G	3G	Trample; melee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)NEWLINEWhen this creature enters, mill three cards. If you attacked two or more players this turn, you may put a card from your graveyard on top of your library.	3/2		normal	PMD		

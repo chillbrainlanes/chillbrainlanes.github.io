@@ -1,0 +1,1 @@
+﻿Elder Beast Illusion	R	common	Token Creature – Elder Beast Illusion 	12	R		Reach, trampleNEWLINEWhenever this creature deals damage or is dealt damage, sacrifice it.	5/5		token	PMD		!related Uxie of Fogbound Lake;NEWLINEhttps://www.tumblr.com/blehcado

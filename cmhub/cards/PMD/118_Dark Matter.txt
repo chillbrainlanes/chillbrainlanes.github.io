@@ -1,0 +1,1 @@
+﻿Dark Matter	B	mythic	Legendary Creature – Nightmare Incarnation 	118	B	BBBB	Whenever you cast a black spell, create a 2/2 black Nightmare creature token with “When this creature dies, mill cards until you mill a black card.”NEWLINEYou may cast this card from your graveyard by exiling five black cards from your graveyard in addition to paying its other costs.	5/5		normal	PMD		

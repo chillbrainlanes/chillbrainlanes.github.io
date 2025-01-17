@@ -1,0 +1,1 @@
+﻿Mission Mailbox		uncommon	Artifact	299	C	2	2, T: Draw a card, then discard a card. Create a Treasure token. (It’s an artifact with “T, Sacrifice this artifact: Add one mana of any color.”)			normal	PMD		

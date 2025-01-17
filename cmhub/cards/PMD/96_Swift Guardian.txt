@@ -1,0 +1,1 @@
+﻿Swift Guardian	U	common	Creature – Frog Rogue 	96	U	3U	FlashNEWLINEWhen this creature enters, choose target nonland permanent. Its controller may return it to its owner’s hand.	4/3		normal	PMD		

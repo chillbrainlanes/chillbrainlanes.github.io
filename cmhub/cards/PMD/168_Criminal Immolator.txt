@@ -1,0 +1,1 @@
+﻿Criminal Immolator	R	common	Creature – Dog Rogue 	168	R	4RR	When this creature enters, for each opponent, goad target creature that player controls. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)NEWLINE3R: This creature gets +2/+0 and gains trample until end of turn.	5/5		normal	PMD		

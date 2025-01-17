@@ -1,0 +1,1 @@
+﻿Abrupt Awakening	R	uncommon	Sorcery	157	R	2RR	Creatures target player controls can’t block this turn. Goad each of them. (Until your next turn, they attacks each combat if able and attack a player other than you if able.)			normal	PMD		

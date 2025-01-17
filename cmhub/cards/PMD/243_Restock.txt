@@ -1,0 +1,1 @@
+﻿Restock	G	uncommon	Sorcery	243	G	3GG	Return two target cards from your graveyard to your hand. Exile Restock.			normal	PMD		reprint

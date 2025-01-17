@@ -1,0 +1,1 @@
+﻿Vengeful Shopkeeper	R	uncommon	Creature – Lizard Citizen 	205	R	2R	DefenderNEWLINEWhenever you’re dealt damage by one or more creatures an opponent controls, put five +1/+1 counters on this creature. Until the end of your next turn, it loses defender and attacks that player each combat if able.	1/1		normal	PMD		

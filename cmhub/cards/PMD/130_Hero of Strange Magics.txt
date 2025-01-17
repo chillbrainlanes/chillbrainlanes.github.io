@@ -1,0 +1,1 @@
+﻿Hero of Strange Magics	B	uncommon	Legendary Creature – Fox Wizard 	130	B	1B	LifelinkNEWLINEWhenever you cast an instant or sorcery spell, each opponent loses 1 life and you gain 1 life.NEWLINEPartner (You can have two commanders if both have partner.)	2/1		normal	PMD		

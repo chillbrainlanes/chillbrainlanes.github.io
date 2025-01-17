@@ -1,0 +1,1 @@
+﻿Hero of Gilded Trickery	B	uncommon	Legendary Creature – Cat Rogue 	129	B	3B	When this creature enters, create a Treasure token.NEWLINECreatures you control enter the battlefield with an additional +1/+1 counter on them for each mana from a Treasure spent to cast them.NEWLINEPartner (You can have two commanders if both have partner.)	4/2		normal	PMD		

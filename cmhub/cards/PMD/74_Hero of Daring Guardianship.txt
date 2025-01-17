@@ -1,0 +1,1 @@
+﻿Hero of Daring Guardianship	U	uncommon	Legendary Creature – Otter Knight 	74	U	1U	Ward 2NEWLINEWhenever you cast your second spell each turn, create a colorless Equipment artifact token named Scalchop with “Equipped creature gets +1/+1.” and equip 1.NEWLINEPartner (You can have two commanders if both have partner.)	2/1		normal	PMD		

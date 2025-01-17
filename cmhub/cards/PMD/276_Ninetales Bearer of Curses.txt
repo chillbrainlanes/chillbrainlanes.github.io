@@ -1,0 +1,1 @@
+﻿Ninetales, Bearer of Curses	UB	uncommon	Legendary Creature – Fox Warlock 	276	UB	1UB	Whenever an opponent attacks, if you’re a defending player, you may exile an instant or sorcery card from your graveyard. If you do, create a black Aura enchantment token with enchant opponent attached to that player with “At the beginning of your upkeep, you lose 1 life.”	2/3		normal	PMD		

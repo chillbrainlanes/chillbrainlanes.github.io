@@ -1,0 +1,1 @@
+﻿Victory Fire	R	common	Enchantment – Aura 	207	R	2R	Enchant creatureNEWLINEEnchanted creature gets +2/+0.NEWLINEWhen this enchantment enters, enchanted creature deals damage equal to its power to up to one target creature.			normal	PMD		https://www.deviantart.com/supertuler/art/Victini-VS-Heatmor-200825441

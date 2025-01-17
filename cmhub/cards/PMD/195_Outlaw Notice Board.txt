@@ -1,0 +1,1 @@
+﻿Outlaw Notice Board	R	rare	Artifact	195	R	1R	1, T: Target instant or sorcery card in a graveyard gains bounty until end of turn. (As long as its owner has attacked a player who had the most life of their opponents this turn, they may cast that spell from their graveyard. If they do, exile it.)			normal	PMD		

@@ -1,0 +1,1 @@
+﻿Xerneas of the Tree of Life	G	rare	Legendary Creature – Elder Elk 	259	G	4GG	Vigilance, reach, ward 2NEWLINEWhenever another permanent with mana value 5 or greater you control enters, create a token that’s a copy of it. This ability triggers only once each turn.	5/8		normal	PMD		
