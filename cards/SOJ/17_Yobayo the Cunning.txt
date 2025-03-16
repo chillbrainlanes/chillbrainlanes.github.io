@@ -1,1 +1,0 @@
-﻿Yobayo the Cunning	R	common	Legendary Token Creature – Human Rogue 	17	R		Whenever this creature attacks, target creature can’t block this turn.	2/1		token	SOJ		

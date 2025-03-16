@@ -1,1 +1,0 @@
-﻿Raniko Firebomb		common	Artifact	251	C	1	FlashNEWLINE3, T, Sacrifice this artifact: It deals 3 damage to any target.			normal	SOJ		

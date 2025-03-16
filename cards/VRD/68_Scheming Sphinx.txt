@@ -1,1 +1,0 @@
-﻿Scheming Sphinx	U	uncommon	Creature – Sphinx Wizard 	68	U	3UU	FlyingNEWLINEWhenever this creature attacks, draw a card, then add a card from your hand to your evil plan. (Look at it, then exile it face-down. You may pay 7 as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)	3/4		normal	VRD		

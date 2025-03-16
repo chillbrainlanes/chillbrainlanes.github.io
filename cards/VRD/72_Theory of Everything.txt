@@ -1,1 +1,0 @@
-﻿Theory of Everything	U	mythic	Enchantment	72	U	5UUUU	If you would draw a card, you may draw two cards instead.NEWLINEWhenever you cast a spell, you may copy it. If you do, you may choose new targets for the copy. (A copy of a permanent spell becomes a token.)			normal	VRD		

@@ -1,1 +1,0 @@
-﻿Swords to Lottery Tickets	W	cube	Instant	39	W	W	Exile target creature. Its controller rolls a dX, where X is its power.NEWLINE0-2 | Its controller gains 1 life.NEWLINE3-4 | Its controller gains 3 life.NEWLINE5+ | Its controller gains 3 life and investigates. (They create a Clue artifact token with “2, Sacrifice this artifact: Draw a card.”)			normal	2022		Dice

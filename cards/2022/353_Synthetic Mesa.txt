@@ -1,1 +1,0 @@
-﻿Synthetic Mesa		cube	Land	353	C		Synthetic Mesa enters the battlefield tapped unless you control a Mountain or Plains.NEWLINET, Sacrifice Synthetic Mesa: Search your library for a Mountain or Plains card and put it onto the battlefield, then shuffle.			normal	2022		

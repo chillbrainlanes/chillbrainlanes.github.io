@@ -1,1 +1,0 @@
-﻿Carnophage GX	B	cube	Legendary Creature – Zombie 	99	B	B	At the beginning of your upkeep, tap Carnophage GX unless you pay 1 life.NEWLINEEternal Hunger GX – B: Return Carnophage GX from your graveyard to the battlefield tapped. (Activate only one GX ability per game.)	2/2		normal	2022		!exportname Carnophage GX

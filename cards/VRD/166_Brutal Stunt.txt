@@ -1,1 +1,0 @@
-﻿Brutal Stunt	G	common	Instant	166	G	1G	This spell costs 1 less to cast if you’ve cast another spell that targeted a creature this turn.NEWLINETarget creature you control gets +4/+4 until end of turn.			normal	VRD		

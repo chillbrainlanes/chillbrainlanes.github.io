@@ -1,1 +1,0 @@
-﻿Flying Lawn Chair		cube	Artifact – Equipment 	283	C	2	Equipped creature has flying.NEWLINEWhenever equipped creature deals combat damage to a player, draw a card.NEWLINEEquip 1			normal	2022		

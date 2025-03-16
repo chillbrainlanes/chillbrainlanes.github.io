@@ -1,1 +1,0 @@
-﻿Flying Gadget		common	Token Artifact – Equipment 	15	C		Equipped creature has flying.NEWLINEEquip 2			token	VRD		!related Suave Jetster;City Soarer;Glider! Deploy!;Justiciar Stormblade;Jacques Elnis, Jetpack Rocketeer;

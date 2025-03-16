@@ -1,1 +1,0 @@
-﻿Hyena	B	common	Token Creature – Hyena 	9	B			2/2		token	SOJ		Adze

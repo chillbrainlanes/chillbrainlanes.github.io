@@ -1,1 +1,0 @@
-﻿Kumra Canopy Weaver	G	uncommon	Creature – Spider Druid 	193	G	4G	ReachNEWLINEWhen this creature enters, reveal at the top five cards of your library. You may put a creature or Revelation card from among them and put it into your hand. Put the rest into your graveyard.	2/5		normal	SOJ		

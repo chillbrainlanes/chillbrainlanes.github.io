@@ -1,1 +1,0 @@
-﻿Four Million Myr on Typewriters	W	cube	Artifact Creature – Myr 	20	W	4W	Affinity for artifacts (This spell costs 1 less to cast for each artifact you control.)NEWLINEWhen Four Million Myr on Typewriters enters the battlefield, you may return target artifact card from your graveyard to your hand.NEWLINESpells you cast have affinity for artifacts.	2/3		normal	2022		

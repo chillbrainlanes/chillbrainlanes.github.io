@@ -1,1 +1,0 @@
-﻿Quest Courier	W	common	Creature – Bird Scout 	37	W	W	FlyingNEWLINE5W: Creatures you control get +1/+1 and gain vigilance until end of turn.NEWLINE5W, Exile this card from your graveyard: Creatures you control get +1/+1 and gain vigilance until end of turn.	1/2		normal	PMD		

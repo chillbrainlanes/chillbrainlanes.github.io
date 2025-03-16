@@ -1,1 +1,0 @@
-﻿Unlikely Teammate	W	uncommon	Creature – Bird Scout 	51	W	4W	FlyingNEWLINEWhen this creature enters, create a 1/1 green Insect creature token.NEWLINEWhenever you create a token, put a +1/+1 counter on this creature.	2/2		normal	PMD		https://twitter.com/DAY_Walker1117/status/1274350223301570563

@@ -1,1 +1,0 @@
-﻿Full House	R	common	Sorcery	139	R	3RR	Add the top three cards of your library to your evil plan (Look at them, then exile them face down. You may pay 7 as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)NEWLINECreate three Gold tokens. (They’re artifacts with “Sacrifice this artifact: Add one mana of any color.”)			normal	VRD		

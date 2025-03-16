@@ -1,1 +1,0 @@
-﻿Erratic Inferno	R	common	Instant	176	R	R	Choose two creatures controlled by different players. Erratic Inferno deals 5 damage to one of those creatures chosen at random. Goad the other. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)			normal	PMD		

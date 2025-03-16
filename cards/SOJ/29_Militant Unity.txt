@@ -1,1 +1,0 @@
-﻿Militant Unity	W	rare	Sorcery	29	W	1WW	Choose one –NEWLINE• Create three 1/1 white Human Soldier creature tokens.NEWLINE• Create a white enchantment token named Glorious Anthem with “Creatures you control get +1/+1.”			normal	SOJ		Preview: JanahNEWLINEenchantment cycle

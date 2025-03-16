@@ -1,1 +1,0 @@
-﻿Craven Raider	R	uncommon	Creature – Hyena Coward 	139	R	R	HasteNEWLINEThis creature can’t block.NEWLINEThis creature can’t attack alone.	2/2		normal	SOJ		

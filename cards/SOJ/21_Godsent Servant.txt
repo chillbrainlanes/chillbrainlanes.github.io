@@ -1,1 +1,0 @@
-﻿Godsent Servant	W	common	Creature – Angel 	21	W	3W	FlyingNEWLINEWhenever you cast a Revelation spell, scry 1.	3/3		normal	SOJ		

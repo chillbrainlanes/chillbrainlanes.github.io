@@ -1,1 +1,0 @@
-﻿Isbindi the Brave	R	common	Legendary Token Creature – Human Warrior 	13	R		Creatures you control have haste.	3/3		token	SOJ		

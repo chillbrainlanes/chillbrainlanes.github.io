@@ -1,1 +1,0 @@
-﻿Hydreigon's Call	G	rare	Sorcery	230	G	4GG	For each player, choose friend or foe. Each friend puts a creature card from their hand or a commander they own from the command zone onto the battlefield. Then, for each foe, up to one creature you control fights target creature that player controls.			normal	PMD		

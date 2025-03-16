@@ -1,1 +1,0 @@
-﻿Simic Membership Card		cube	Artifact	307	UG	2	Simic Membership Card enters the battlefield tapped unless you control a Forest and an Island.NEWLINET: Add G or U.			normal	2022		

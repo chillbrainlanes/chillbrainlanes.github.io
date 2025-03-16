@@ -1,1 +1,0 @@
-﻿Nimbus Maze		uncommon	Land	260	WU		T: Add C.NEWLINET: Add W. Activate this ability only if you control an Island.NEWLINET: Add U. Activate this ability only if you control a Plains.			normal	SOJ		Reprint

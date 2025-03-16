@@ -1,1 +1,0 @@
-﻿Cat	G	common	Token Creature – Cat 	18	G			2/2		token	SOJ		

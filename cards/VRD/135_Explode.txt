@@ -1,1 +1,0 @@
-﻿Explode	R	common	Sorcery	135	R	2R	Choose one –NEWLINE• Explode deals 4 damage to target creature without flying.NEWLINE• Destroy target artifact.			normal	VRD		

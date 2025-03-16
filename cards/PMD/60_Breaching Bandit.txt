@@ -1,1 +1,0 @@
-﻿Breaching Bandit	U	common	Creature – Elemental Fox Rogue 	60	U	1U	This creature can’t be blocked.NEWLINEWhenever you cast your second spell each turn, put a +1/+1 counter on this creature.	1/1		normal	PMD		https://www.deviantart.com/azurelly/favourites/46430829/pokemon

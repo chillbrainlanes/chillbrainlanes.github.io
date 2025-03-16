@@ -1,1 +1,0 @@
-﻿Arcane Spelunker	B	common	Creature – Fox Wizard 	107	B	1B	DeathtouchNEWLINE1, T, Pay 1 life: Draw a card, then discard a card.	2/1		normal	PMD		

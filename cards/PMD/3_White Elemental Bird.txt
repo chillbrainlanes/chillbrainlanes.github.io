@@ -1,1 +1,0 @@
-﻿White Elemental Bird	W	common	Token Creature – Elemental Bird 	3	W		Flying	8/8		token	PMD		!exportname White Elemental BirdNEWLINE!related Mount Thunder;

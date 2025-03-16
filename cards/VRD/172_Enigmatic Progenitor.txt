@@ -1,1 +1,0 @@
-﻿Enigmatic Progenitor	G	mythic	Creature – Nightmare Sliver 	172	G	5GGG	Slivers you control have “At the beginning of each upkeep, create a 1/1 green Nightmare Sliver creature token.”	7/7		normal	VRD		

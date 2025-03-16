@@ -1,1 +1,0 @@
-﻿Llanowar Elves GX	G	cube	Legendary Creature – Elf Druid 	205	G	G	T: Add G.NEWLINESoul of Llanowar GX – GGG, T: Add GGGGG. (Activate only one GX ability per game.)	1/1		normal	2022		!exportname Llanowar Elves GX

@@ -1,1 +1,0 @@
-﻿Shox Pearl		cube	Artifact	304	W	0	When Shox Pearl enters the battlefield, it deals 2 damage to you.NEWLINET: Add W.			normal	2022		Power 10

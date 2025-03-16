@@ -1,1 +1,0 @@
-﻿Brutish Brigand	B	common	Creature – Hyena Berserker 	93	B	2B		3/3	(Pay the Roar as an additional cost for an instant or sorcery spell to add its effect.)NEWLINEMenaceNEWLINEThis creature can’t block. [3/3]NEWLINE[Roar B] Up to one creature gets +2/+0 until end of turn.NEWLINE	leveler	SOJ		Preview: Mako

@@ -1,1 +1,0 @@
-﻿Fearless Howl	G	uncommon	Instant	182	G	G	Target creature you control gets +3/+3 until end of turn.NEWLINEIf this spell was roared, draw a card.			normal	SOJ		

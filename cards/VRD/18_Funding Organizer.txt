@@ -1,1 +1,0 @@
-﻿Funding Organizer	W	common	Creature – Human Advisor 	18	W	2W	Artifact and enchantment spells you cast cost 1 less to cast.	3/2		normal	VRD		

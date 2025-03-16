@@ -1,1 +1,0 @@
-﻿Underground Lab		common	Land	271	BG		This land enters tapped. When it enters, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay 7 as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)NEWLINET: Add B or G.			normal	VRD		!landslot

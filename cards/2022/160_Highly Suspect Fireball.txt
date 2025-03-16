@@ -1,1 +1,0 @@
-﻿Highly Suspect Fireball	R	cube	Instant	160	R	XR	Highly Suspect Fireball deals X damage to any target.NEWLINEInvestigate. (Create a Clue token. It’s an artifact with “2, Sacrifice this artifact: Draw a card.”)			normal	2022		

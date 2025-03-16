@@ -1,1 +1,0 @@
-﻿Colossal Wedmaw	W	cube	Creature – Dinosaur 	10	W	4WW	TrampleNEWLINEWhen Colossal Wedmaw enters the battlefield, create a 6/6 white Dinosaur creature token with trample named Bride of Wedmaw.	6/6		normal	2022		

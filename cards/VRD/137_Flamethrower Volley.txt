@@ -1,1 +1,0 @@
-﻿Flamethrower Volley	R	uncommon	Instant	137	R	1R	Flamethrower Volley deals 3 damage to target creature or planeswalker. Then you may pay 6. If you do, Flamethrower Volley deals 6 damage to that permanent’s controller.			normal	VRD		

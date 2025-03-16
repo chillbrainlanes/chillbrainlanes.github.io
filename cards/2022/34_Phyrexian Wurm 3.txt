@@ -1,1 +1,0 @@
-﻿Phyrexian Wurm 3		cube	Token Artifact Creature – Phyrexian Wurm 	34	C		Trample	3/3		token	2022		!related Wurmcoil Engine Mk. II

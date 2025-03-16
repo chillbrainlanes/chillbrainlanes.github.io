@@ -1,1 +1,0 @@
-﻿Snarg's House of Sin		cube	Legendary Land	343	C		Snarg’s House of Sin enters the battlefield tapped. When it does, you may search your library for a legendary card, reveal it, shuffle your library then put that card on top of it.NEWLINET: Add C.			normal	2022		

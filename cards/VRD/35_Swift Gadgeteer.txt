@@ -1,1 +1,0 @@
-﻿Swift Gadgeteer	W	common	Creature – Human Artificer 	35	W	1W	Whenever an artifact you control enters, target creature gets +1/+1 until end of turn.	2/2		normal	VRD		

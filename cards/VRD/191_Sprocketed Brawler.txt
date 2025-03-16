@@ -1,1 +1,0 @@
-﻿Sprocketed Brawler	G	common	Creature – Minotaur Soldier 	191	G	4G	When this creature enters, create a trample Gadget, then attach it to this creature. (It’s an Equipment artifact token with equip 2 that grants that ability.)	5/5		normal	VRD		

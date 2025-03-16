@@ -1,1 +1,0 @@
-﻿Automated Terror Machine	R	cube	Artifact Creature – Spirit 	141	R	R	When Automated Terror Machine enters the battlefield, create a Treasure token. (It’s an artifact with “T, Sacrifice this artifact: Add one mana of any color.”)NEWLINEWhen Automated Terror Machine dies, it deals 2 damage to any target.	1/1		normal	2022		

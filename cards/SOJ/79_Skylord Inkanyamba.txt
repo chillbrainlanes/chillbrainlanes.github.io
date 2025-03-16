@@ -1,1 +1,0 @@
-﻿Skylord Inkanyamba	U	mythic	Legendary Creature – Elder Serpent 	79	U	6UUU	Convoke (Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINEFlyingNEWLINEWhen this creature enters, for each creature that convoked it, create a token that’s a copy of that creature. Put a flying counter on it.	6/6		normal	SOJ		Preview: Fblthp

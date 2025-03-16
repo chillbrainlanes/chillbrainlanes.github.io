@@ -1,1 +1,0 @@
-﻿Devious Electrocution	B	common	Sorcery	89	B	2B	Devious Electrocution deals 3 damage to any target. You gain 1 life for each artifact you control.			normal	VRD		

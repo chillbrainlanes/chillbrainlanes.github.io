@@ -1,1 +1,0 @@
-﻿End Career	B	cube	Instant	111	B	B	Choose one –NEWLINE• Exile target creature with power 2 or less.NEWLINE• Exile target planeswalker with four or fewer loyalty counters on it.			normal	2022		

@@ -1,1 +1,0 @@
-﻿Irjan of the Order of Narset	WU	rare	Legendary Creature – Human Cleric 	229	WU	1WU	Convoke (Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINEWhenever you cast a spell, draw a card for each creature you control that convoked it.	2/3		normal	SOJ		

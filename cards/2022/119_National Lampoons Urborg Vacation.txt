@@ -1,1 +1,0 @@
-﻿National Lampoon's Urborg Vacation	B	cube	Legendary Enchantment	119	B	3B	When National Lampoon’s Urborg Vacation enters the battlefield, it deals X damage to up to one target creature or planeswalker and you gain X life, where X is the number of Swamps you control.NEWLINEWhenever you tap a Swamp for mana, add an additional B.			normal	2022		

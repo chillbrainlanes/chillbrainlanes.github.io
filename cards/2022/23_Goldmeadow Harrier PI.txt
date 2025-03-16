@@ -1,1 +1,0 @@
-﻿Goldmeadow Harrier PI	W	cube	Creature – Kithkin Soldier 	23	W	W	When Goldmeadow Harrier, P.I. enters the battlefield, investigate. (Create a Clue token. It’s an artifact with “2, Sacrifice this artifact: Draw a card.”)NEWLINEW, T: Tap target creature.	1/1		normal	2022		!exportname Goldmeadow Harrier PI

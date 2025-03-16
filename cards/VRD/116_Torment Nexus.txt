@@ -1,1 +1,0 @@
-﻿Torment Nexus	B	common	Artifact	116	B	2B	Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINET: Target player loses 1 life.NEWLINET, Sacrifice this artifact: Target player loses 3 life. Activate only if you’re in your endgame.			normal	VRD		

@@ -1,1 +1,0 @@
-﻿Amateur Resurrection Job	B	cube	Sorcery	94	B	1B	Choose target creature card in your graveyard. Roll a dX, where X is the number of other creature cards in your graveyard.NEWLINE0-2 | Return it to the battlefield tapped with a -1/-1 counter on it.NEWLINE3-4 | Return it to the battlefield.NEWLINE5+ |Return it to the battlefield with two +1/+1 counters on it.			normal	2022		Dice

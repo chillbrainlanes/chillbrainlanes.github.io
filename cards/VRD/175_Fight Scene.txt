@@ -1,1 +1,0 @@
-﻿Fight Scene	G	uncommon	Enchantment	175	G	2G	When this enchantment enters, target creature you control fights up to one target creature.NEWLINEWhenever you cast a spell that targets a creature you control, you may return this enchantment to its owner’s hand.			normal	VRD		

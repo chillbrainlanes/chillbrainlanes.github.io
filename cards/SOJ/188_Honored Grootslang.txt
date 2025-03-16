@@ -1,1 +1,0 @@
-﻿Honored Grootslang	G	rare	Creature – Elephant Beast 	188	G	2GG	Convoke (Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINETrample	5/5		normal	SOJ		

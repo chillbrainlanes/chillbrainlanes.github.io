@@ -1,1 +1,0 @@
-﻿Notorious Duo	B	uncommon	Creature – Elemental Bat Rogue 	140	B	1B	FlyingNEWLINEWhenever you sacrifice a permanent, target creature gets +1/+1 until end of turn.	2/1		normal	PMD		

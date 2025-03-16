@@ -1,1 +1,0 @@
-﻿Really Long Stab	R	cube	Sorcery	167	R	1R	Really Long Stab deals 4 damage to target creature or planeswalker. Excess damage is dealt to its controller instead.			normal	2022		

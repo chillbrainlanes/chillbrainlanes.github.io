@@ -1,1 +1,0 @@
-﻿Wall		cube	Token Artifact Creature – Wall 	37	C		Defender	0/4		token	2022		!related The Birth of Cleveland;

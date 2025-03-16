@@ -1,1 +1,0 @@
-﻿Synthetic Catacombs		cube	Land	348	C		Synthetic Catacombs enters the battlefield tapped unless you control a Swamp or Forest.NEWLINET, Sacrifice Synthetic Catacombs: Search your library for a Swamp or Forest card and put it onto the battlefield, then shuffle.			normal	2022		

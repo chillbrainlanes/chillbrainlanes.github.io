@@ -1,1 +1,0 @@
-﻿Uncover Forbidden Memories	B	common	Sorcery – Revelation 	127	B	1B	Realize as Demigod 4BB (If you cast this for its Realize cost, put it onto the battlefield as a Demigod creature after it resolves.)NEWLINEMill four cards. Draw a card.NEWLINEThis creature’s power is equal to the number of creature cards in your graveyard.	*/5		normal	SOJ		

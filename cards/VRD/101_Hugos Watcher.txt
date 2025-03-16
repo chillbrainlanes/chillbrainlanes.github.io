@@ -1,1 +1,0 @@
-﻿Hugo's Watcher	B	common	Creature – Vampire Minion 	101	B	3B	FlyingNEWLINEWhen this creature enters, add the top card of your library to your evil plan (Look at it, then exile it face-down. You may pay 7 as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)	2/3		normal	VRD		

@@ -1,1 +1,0 @@
-﻿Thorn Fetcher	W	cube	Creature – Dog 	42	W	W	When Thorn Fetcher enters the battlefield, conjure a Thorn of Amethyst card into your hand. (2 Artifact: Noncreature spells cost 1 more to cast.)NEWLINESacrifice Thorn Fetcher: Another target creature you control gains indestructible until end of turn.	1/1		normal	2022		

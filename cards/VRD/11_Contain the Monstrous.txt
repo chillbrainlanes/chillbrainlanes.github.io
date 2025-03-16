@@ -1,1 +1,0 @@
-﻿Contain the Monstrous	W	uncommon	Enchantment	11	W	3W	This spell costs 2 less to cast if a player controls a Nightmare.NEWLINEWhen this enchantment enters, exile target nonland permanent until this enchantment leaves the battlefield.			normal	VRD		

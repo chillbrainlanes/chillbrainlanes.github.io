@@ -1,1 +1,0 @@
-﻿Holy Walla	W	cube	Creature – Angel Lizard 	24	W	W	Miracle 0 (You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)NEWLINEWW: Holy Walla gets +3/+3 and gains flying and vigilance until end of turn. Activate only once each turn.	1/1		normal	2022		

@@ -1,1 +1,0 @@
-﻿Evolutionary Aspirant	G	common	Creature – Serpent Druid 	220	G	1G	TrampleNEWLINE5G: Put three +1/+1 counters on this creature. Draw a card. Activate only once.	2/2		normal	PMD		https://www.tumbex.com/blehcado.tumblr/post/750977641585213440

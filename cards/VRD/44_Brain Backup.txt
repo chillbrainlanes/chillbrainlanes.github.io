@@ -1,1 +1,0 @@
-﻿Brain Backup	U	common	Creature – Brain 	44	U	1U	T: Surveil 1. Activate only as a sorcery. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)	0/4		normal	VRD		

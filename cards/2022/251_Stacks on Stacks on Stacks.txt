@@ -1,1 +1,0 @@
-﻿Stacks on Stacks on Stacks	UB	cube	Enchantment	251	UB	1UB	At the beginning of your upkeep, you draw a card, lose 1 life, and mill two cards.NEWLINEIf you would draw a card while your library has no cards in it, you win the game instead.			normal	2022		

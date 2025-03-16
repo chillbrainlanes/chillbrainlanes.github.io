@@ -1,1 +1,0 @@
-﻿White Demigod	W	common	Token Creature – Demigod 	2	W			2/2		token	SOJ		!exportname White Demigod

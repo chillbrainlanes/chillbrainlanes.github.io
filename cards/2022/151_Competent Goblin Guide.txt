@@ -1,1 +1,0 @@
-﻿Competent Goblin Guide	R	cube	Creature – Goblin Scout 	151	R	R	When Competent Goblin Guide enters the battlefield, it explores. (Reveal the top card of your library. Put it into your hand if it’s a land. Otherwise, put a +1/+1 counter then, then put the card back or put it into your graveyard.)	1/1		normal	2022		

@@ -1,1 +1,0 @@
-﻿Kakrako's Irregular	B	common	Creature – Crocodile 	110	B	1B		2/1	(Pay the Roar as an additional cost for an instant or sorcery spell to add its effect.)NEWLINEThis creature has lifelink as long as it’s your turn. [2/1]NEWLINE[Roar 1B] This spell deals 2 damage to each opponent. You gain 2 life.NEWLINE	leveler	SOJ		

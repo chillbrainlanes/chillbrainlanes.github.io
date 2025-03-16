@@ -1,1 +1,0 @@
-﻿Noble Enigma	U	rare	Creature – Illusion Cat 	71	U	1U	Spellbound – Whenever this creature attacks, you may exile an instant or sorcery card from your graveyard. If you do, you may cast a copy of it. (You still pay its costs.)	1/3		normal	SOJ		Preview: Dork

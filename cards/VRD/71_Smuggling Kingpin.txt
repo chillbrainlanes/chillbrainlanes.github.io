@@ -1,1 +1,0 @@
-﻿Smuggling Kingpin	U	mythic	Creature – Human Noble 	71	U	1U	Whenever you attack, you may put a contraband counter on this creature.NEWLINEOnce each turn, you may cast a spell with mana value X from your hand without paying its mana cost, where X is the number of contraband counters on this creature.	2/1		normal	VRD		M04: constructed-oriented creature

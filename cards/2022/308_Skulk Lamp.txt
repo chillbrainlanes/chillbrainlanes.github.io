@@ -1,1 +1,0 @@
-﻿Skulk Lamp		cube	Artifact – Equipment 	308	C	2	Equipped creature gets +2/+2.NEWLINEWhenever equipped creature dies, draw two cards.NEWLINEEquip 2			normal	2022		

@@ -1,1 +1,0 @@
-﻿Necropolis for Lease		cube	Land	335	B		T: Add C.NEWLINET, Pay 1 life: Add B.NEWLINEB, T: The next spell you cast this turn has delve. (Each card you exile from your graveyard while casting that spell pays for 1.)			normal	2022		

@@ -1,1 +1,0 @@
-﻿Gozani's Journal		rare	Legendary Artifact	246	BG	0	1, T, Exile a nonland card from your graveyard: Put a note counter on this artifact.NEWLINET, Remove a note counter from this artifact: Add B or G.			normal	SOJ		

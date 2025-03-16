@@ -1,1 +1,0 @@
-﻿Constellation Augur	U	common	Creature – Human Wizard 	51	U	1U	T: Add U. Spend this mana only to cast an instant or sorcery spell.NEWLINEU, T: Draw a card, then discard a card.	1/2		normal	SOJ		

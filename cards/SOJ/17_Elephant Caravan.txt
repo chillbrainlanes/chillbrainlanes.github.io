@@ -1,1 +1,0 @@
-﻿Elephant Caravan	W	uncommon	Enchantment	17	W	2W	Once each turn, when one or more tokens are created under your control, create a 3/3 green Elephant creature token.			normal	SOJ		

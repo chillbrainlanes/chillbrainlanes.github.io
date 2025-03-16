@@ -1,1 +1,0 @@
-﻿Rocket Shark	R	common	Creature – Shark 	149	R	3RR	HasteNEWLINEThis creature has flying as long as you’ve cast two or more spells this turn.	4/3		normal	VRD		

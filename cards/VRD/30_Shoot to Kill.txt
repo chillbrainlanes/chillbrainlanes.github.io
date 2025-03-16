@@ -1,1 +1,0 @@
-﻿Shoot to Kill	W	common	Instant	30	W	W	Choose one –NEWLINE• Shoot to Kill deals 2 damage to target attacking creature.NEWLINE• Put a +1/+1 counter on target creature. If it’s your turn, it gains first strike until end of turn.			normal	VRD		

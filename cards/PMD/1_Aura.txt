@@ -1,1 +1,0 @@
-﻿Aura	W	common	Token Enchantment – Aura 	1	W		Enchant creatureNEWLINEEnchanted creature can’t attack you or block creatures you control.			token	PMD		!related Worldcore Wishes;

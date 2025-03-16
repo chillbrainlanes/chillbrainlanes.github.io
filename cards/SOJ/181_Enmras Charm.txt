@@ -1,1 +1,0 @@
-﻿Enmra's Charm	G	common	Instant	181	G	1G	Choose one –NEWLINE• Target creature gets +4/+4 until end of turn.NEWLINE• Destroy target artifact.NEWLINE• Enmra’s Charm deals 4 damage to target creature with flying.			normal	SOJ		

@@ -1,1 +1,0 @@
-﻿Gold		common	Token Artifact	17	C		Sacrifice this artifact: Add one mana of any color.			token	VRD		!related Calamity Smith In The Gilded Heist;Disposable Mook;Ivas Taranka, Rogue Diplomat;Taranka’s Posse;Infiltrating Lackey;It All Comes Together;Right Where I Want You;

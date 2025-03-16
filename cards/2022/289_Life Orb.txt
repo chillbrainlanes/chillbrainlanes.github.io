@@ -1,1 +1,0 @@
-﻿Life Orb		cube	Artifact – Equipment 	289	C	1	Equipped creature gets +3/+3.NEWLINEAt the beginning of your upkeep, put a -1/-1 counter on equipped creature.NEWLINEEquip 2			normal	2022		

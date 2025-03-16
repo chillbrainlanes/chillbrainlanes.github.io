@@ -1,1 +1,0 @@
-﻿Collected Monopoly	G	cube	Instant	185	G	3GG	Look at the top ten cards of your library. Put up to two creature cards with mana value 4 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.			normal	2022		

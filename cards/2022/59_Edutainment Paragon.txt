@@ -1,1 +1,0 @@
-﻿Edutainment Paragon	U	cube	Creature – Human 	59	U	3U	Whenever Edutainment Paragon attacks, draw a card.	2/3		adventure	2022		Take a Look	U	Sorcery – Adventure 	U	U	Scry 1, then draw a card. (Then exile this card. You may cast the creature later from exile.)				

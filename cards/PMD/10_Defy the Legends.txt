@@ -1,1 +1,0 @@
-﻿Defy the Legends	W	common	Instant	10	W	2W	Choose one –NEWLINE• Destroy target creature with power 4 or greater.NEWLINE• Creatures you control gain indestructible until end of turn.			normal	PMD		Blazing Defiance

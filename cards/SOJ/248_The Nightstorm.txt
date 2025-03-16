@@ -1,1 +1,0 @@
-﻿The Nightstorm		mythic	Legendary Artifact – Equipment 	248	BG	2	Equipped creature gets +2/+2.NEWLINEWhenever equipped creature attacks, choose any number –NEWLINE• Pay B. When you do, defending player discards a card.NEWLINE• Pay G. When you do, draw a card.NEWLINEEquip 2			normal	SOJ		

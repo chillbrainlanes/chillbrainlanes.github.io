@@ -1,1 +1,0 @@
-﻿Whim of Aruj	R	rare	Sorcery	176	R	1RRR	Exile target artifact. That artifact’s controller reveals cards from the top of their library until they reveal an artifact card. That player puts that card onto the battlefield, then shuffles the rest into their library.			normal	SOJ		

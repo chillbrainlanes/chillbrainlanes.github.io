@@ -1,1 +1,0 @@
-﻿Uhlaka the Wise	R	common	Legendary Token Creature – Human Wizard 	16	R		T: This creature deals 1 damage to any target.	1/1		token	SOJ		

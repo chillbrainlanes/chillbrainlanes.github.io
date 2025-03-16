@@ -1,1 +1,0 @@
-﻿Sickening Revival	B	common	Sorcery	121	B	2B	Return target creature card from your graveyard to your hand. Target player loses life equal to its power.			normal	SOJ		Reprint

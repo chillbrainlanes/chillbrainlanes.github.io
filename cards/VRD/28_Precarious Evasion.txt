@@ -1,1 +1,0 @@
-﻿Precarious Evasion	W	common	Instant	28	W	1W	Prevent all damage that would be dealt to you this turn.			normal	VRD		

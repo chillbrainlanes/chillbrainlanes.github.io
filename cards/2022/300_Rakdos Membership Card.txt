@@ -1,1 +1,0 @@
-﻿Rakdos Membership Card		cube	Artifact	300	BR	2	Rakdos Membership Card enters the battlefield tapped unless you control a Swamp and a Mountain.NEWLINET: Add B or R.			normal	2022		

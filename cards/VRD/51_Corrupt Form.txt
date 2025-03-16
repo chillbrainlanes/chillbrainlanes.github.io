@@ -1,1 +1,0 @@
-﻿Corrupt Form	U	common	Enchantment – Aura 	51	U	U	FlashNEWLINEEnchant artifact or creatureNEWLINEEnchanted permanent doesn’t untap during its controller’s untap step.			normal	VRD		

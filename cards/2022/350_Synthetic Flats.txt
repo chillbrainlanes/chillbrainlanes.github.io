@@ -1,1 +1,0 @@
-﻿Synthetic Flats		cube	Land	350	C		Synthetic Flats enters the battlefield tapped unless you control a Plains or Swamp.NEWLINET, Sacrifice Synthetic Flats: Search your library for a Plains or Swamp card and put it onto the battlefield, then shuffle.			normal	2022		

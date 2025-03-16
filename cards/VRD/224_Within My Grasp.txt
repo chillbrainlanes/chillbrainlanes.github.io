@@ -1,1 +1,0 @@
-﻿Within My Grasp	UB	uncommon	Enchantment	224	UB	UB	At the beginning of your end step, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay 7 as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)			normal	VRD		

@@ -1,1 +1,0 @@
-﻿Akugan War-Priest	W	common	Creature – Human Cleric 	5	W	1W	Lifelink	2/2		normal	SOJ		Reprint

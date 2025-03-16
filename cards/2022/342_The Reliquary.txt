@@ -1,1 +1,0 @@
-﻿The Reliquary		cube	Legendary Land	342	WG		T: Add C.NEWLINEGW: Until end of turn, The Reliquary becomes a 2/2 green and white Knight creature with “This creature gets +1/+1 for each land card in your graveyard.”NEWLINE2, T, Sacrifice a Forest or Plains: Search your library for a land card, put it onto the battlefield, then shuffle.			normal	2022		

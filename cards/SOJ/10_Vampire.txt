@@ -1,1 +1,0 @@
-﻿Vampire	B	common	Token Creature – Vampire 	10	B		This creature has flying as long as it’s attacking.	2/1		token	SOJ		Adze

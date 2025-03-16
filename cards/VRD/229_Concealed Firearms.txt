@@ -1,1 +1,0 @@
-﻿Concealed Firearms		common	Artifact – Equipment 	229	C	2	Equipped creature gets +1/+1 and has “Whenever this creature attacks, surveil 1.” (To surveil 1, look at the top card of your library. You may put it into your graveyard.)NEWLINEEquip 1			normal	VRD		

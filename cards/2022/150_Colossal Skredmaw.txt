@@ -1,1 +1,0 @@
-﻿Colossal Skredmaw	R	cube	Creature – Dinosaur 	150	R	4RR	TrampleNEWLINEWhen Colossal Skredmaw enters the battlefield, it deals damage to any target equal to the number of basic lands you control.	6/6		normal	2022		

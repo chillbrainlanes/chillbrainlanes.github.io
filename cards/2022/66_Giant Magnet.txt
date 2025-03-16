@@ -1,1 +1,0 @@
-﻿Giant Magnet	U	cube	Artifact Creature – Construct 	66	U	1U	T: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)NEWLINEU, T: Copy target triggered ability you control. You may choose new targets for the copy. (A triggered ability uses the words “when,” “whenever,” or “at.”)	0/5		normal	2022		

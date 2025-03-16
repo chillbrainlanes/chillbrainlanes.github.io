@@ -1,1 +1,0 @@
-﻿Phyrexian Wurm 2		cube	Token Artifact Creature – Phyrexian Wurm 	33	C		Lifelink	3/3		token	2022		!related Wurmcoil Engine Mk. II

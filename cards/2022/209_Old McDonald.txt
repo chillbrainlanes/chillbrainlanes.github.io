@@ -1,1 +1,0 @@
-﻿Old McDonald	G	cube	Legendary Creature – Human Peasant 	209	G	G	Whenever Old McDonald enters the battlefield or attacks, conjure a Zodiac Rooster card, a Brindle Boar card, or an Ironhoof Ox card into your hand. (1G 2/1 Bird: Plainswalk. 2G 2/2 Boar: Sacrifice Brindle Boar: You gain 4 life. 3GG 4/4 Ox: Ironhoof Ox can’t be blocked by more than one creature.)	1/1		normal	2022		

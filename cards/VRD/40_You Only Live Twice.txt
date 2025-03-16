@@ -1,1 +1,0 @@
-﻿You Only Live Twice	W	uncommon	Enchantment – Aura 	40	W	3W	Enchant creatureNEWLINEEnchanted creature gets +3/+3.NEWLINEWhen enchanted creature dies, return that card to its owner’s hand.			normal	VRD		Bond Theme References: You Only Live Twice

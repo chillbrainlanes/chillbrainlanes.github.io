@@ -1,1 +1,0 @@
-﻿Sky Gift		common	Token Artifact	23	C		T, Sacrifice this artifact: Choose one. Sky Gift’s owner also chooses one.NEWLINE• Put three +1/+1 counters on target creature.NEWLINE• Draw a card. You gain 3 life.			token	PMD		!related Shaymin of Sky Peak;

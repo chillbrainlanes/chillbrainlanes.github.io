@@ -1,1 +1,0 @@
-﻿Rightful Rule	R	rare	Enchantment	165	R	R	Once each turn, whenever you cast a roared spell, copy that spell. You may choose new targets for the copy. (Roared text is still on the copy.)			normal	SOJ		

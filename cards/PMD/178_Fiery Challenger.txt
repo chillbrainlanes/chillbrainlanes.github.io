@@ -1,1 +1,0 @@
-﻿Fiery Challenger	R	common	Creature – Weasel Warrior 	178	R	3R	When this creature enters, distribute two +1/+1 counters among up to two target creatures.NEWLINECreatures with +1/+1 counters on them that are attacking your opponents have trample.	2/1		normal	PMD		

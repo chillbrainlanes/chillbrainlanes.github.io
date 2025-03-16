@@ -1,1 +1,0 @@
-﻿Shootout Stunt	G	common	Sorcery	187	G	2G	This spell costs 2 less to cast if you’ve cast another spell that targeted a creature this turn.NEWLINETarget creature you control gets +1/+1 until end of turn. It fights target creature an opponent controls.			normal	VRD		

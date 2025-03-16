@@ -1,1 +1,0 @@
-﻿Sky Uppercut	G	common	Instant	249	G	XG	Untap up to one target creature. It gets +X/+X and gains reach and trample until end of turn.NEWLINECycling 2 (2, Discard this card: Draw a card.)			normal	PMD		

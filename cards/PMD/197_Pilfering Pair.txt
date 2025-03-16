@@ -1,1 +1,0 @@
-﻿Pilfering Pair	R	common	Creature – Spirit Raccoon Rogue 	197	R	3R	When this creature enters, create a Treasure token. (It’s an artifact with “T, Sacrifice this artifact: Add one mana of any color.”)NEWLINEWhenever you sacrifice a Treasure, this creature gains flying until end of turn.	3/3		normal	PMD		

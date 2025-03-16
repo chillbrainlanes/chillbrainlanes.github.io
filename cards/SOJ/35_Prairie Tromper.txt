@@ -1,1 +1,0 @@
-﻿Prairie Tromper	W	rare	Creature – Human Scout 	35	W	2W	First strikeNEWLINEThis creature enters with a +1/+1 counter on it if you control another creature.NEWLINEWhen this creature dies, if you control another creature, draw a card.	2/1		normal	SOJ		ReprintNEWLINEPreview: Kayiu

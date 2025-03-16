@@ -1,1 +1,0 @@
-﻿Wall of Drywall	W	cube	Artifact Creature – Wall 	46	W	1W	DefenderNEWLINEW, T: Scry 1. You gain 1 life.	0/4		adventure	2022		Watch Paint Dry	W	Instant – Adventure 	W	W	Draw a card. (Then exile this card. You may cast the creature later from exile.)				

@@ -1,1 +1,0 @@
-﻿Summoner's Study	R	common	Sorcery	173	R	1R	Discard a card, then draw two cards. If you discarded a nonland card this way, create a 1/1 red Goblin creature token.			normal	SOJ		

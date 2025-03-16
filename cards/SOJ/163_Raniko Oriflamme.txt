@@ -1,1 +1,0 @@
-﻿Raniko Oriflamme	R	uncommon	Enchantment	163	R	2R	Convoke (Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINECreatures you control get +1/+0.			normal	SOJ		

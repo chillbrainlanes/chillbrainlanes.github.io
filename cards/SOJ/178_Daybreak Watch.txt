@@ -1,1 +1,0 @@
-﻿Daybreak Watch	G	common	Creature – Elf Ranger 	178	G	3G	Reach	4/4		normal	SOJ		

@@ -1,1 +1,0 @@
-﻿Blaze Splicer	R	cube	Creature – Phyrexian Artificer 	143	R	2R	When Blaze Splicer enters the battlefield, create a 3/3 colorless Phyrexian Golem artifact creature token.NEWLINEGolems you control have haste.	1/1		normal	2022		

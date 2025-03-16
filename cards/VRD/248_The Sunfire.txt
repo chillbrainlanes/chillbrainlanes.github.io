@@ -1,1 +1,0 @@
-﻿The Sunfire		mythic	Legendary Artifact – Equipment 	248	WR	2	Equipped creature gets +2/+2.NEWLINEWhenever equipped creature attacks, choose any number –NEWLINE• Pay R. When you do, The Sunfire deals 2 damage to any target.NEWLINE• Pay W. When you do, tap target creature you don’t control. You gain life equal to its power.NEWLINEEquip 2			normal	VRD		

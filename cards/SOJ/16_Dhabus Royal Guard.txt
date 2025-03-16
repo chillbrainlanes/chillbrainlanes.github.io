@@ -1,1 +1,0 @@
-﻿Dhabu's Royal Guard	W	common	Creature – Human Soldier 	16	W	4W	Convoke (Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINEWhen this creature enters, draw a card.	4/3		normal	SOJ		

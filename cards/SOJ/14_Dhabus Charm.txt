@@ -1,1 +1,0 @@
-﻿Dhabu's Charm	W	common	Sorcery	14	W	3W	Choose one –NEWLINE• Create three 1/1 white Human Soldier creature tokens.NEWLINE• Creatures you control get +2/+0 until end of turn.NEWLINE• Exile target enchantment. You gain life equal to its mana value.			normal	SOJ		

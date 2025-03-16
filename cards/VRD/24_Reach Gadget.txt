@@ -1,1 +1,0 @@
-﻿Reach Gadget		common	Token Artifact – Equipment 	24	C		Equipped creature has reach.NEWLINEEquip 2			token	VRD		!related Apparatus Operator;Steelbane Sniper;Codename Viridian;

@@ -1,1 +1,0 @@
-﻿Better Call Bhaal	BG	cube	Enchantment	230	BG	1BG	When Better Call Bhaal enters the battlefield, you may sacrifice a nonland permanent. When you do, destroy target nonland permanent.NEWLINEWhenever a creature you control dies, put a +1/+1 counter on another target creature you control.			normal	2022		

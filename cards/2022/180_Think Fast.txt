@@ -1,1 +1,0 @@
-﻿Think Fast	R	cube	Instant	180	R	R	Exile the top card of your library. Until end of turn, you may play that card.NEWLINEFlashback R (You may cast this card from your graveyard for its flashback cost. Then exile it.)			normal	2022		

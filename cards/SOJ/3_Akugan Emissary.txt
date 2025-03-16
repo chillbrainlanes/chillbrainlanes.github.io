@@ -1,1 +1,0 @@
-﻿Akugan Emissary	W	common	Creature – Human Ranger 	3	W	2W	Whenever another creature you control enters, put a +1/+1 counter on Akugan Emissary.	2/1		normal	SOJ		

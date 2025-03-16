@@ -1,1 +1,0 @@
-﻿Indicator	WB	cube	Creature – Human Knight 	236	WB	3WB	LifelinkNEWLINEWhenever you cast a spell that targets a permanent or player, you draw a card and lose 1 life.	3/1		adventure	2022		Indicate with a V	WB	Sorcery – Adventure 	WB	1WB	Destroy target permanent. (Then exile this card. You may cast the creature later from exile.)				

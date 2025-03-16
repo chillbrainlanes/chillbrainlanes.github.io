@@ -1,1 +1,0 @@
-﻿Lair Butler	G	common	Creature – Minotaur Minion 	181	G	3G	When this creature enters, add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay 7 as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)	2/4		normal	VRD		

@@ -1,1 +1,0 @@
-﻿Booster Boxer	G	cube	Creature – Raccoon Warrior 	183	G	3G	Vigilance, trampleNEWLINEWhenever Booster Boxer deals combat damage to a player, open a pack of 2022be. Choose a card from that pack. Conjure that card into your hand. (Use 22be.net/effects/pack)	4/4		normal	2022		https://scryfall.com/random?q=t%3Aaura+ci%3Dg+-is%3Afunny+o%3A"enchant+creature"

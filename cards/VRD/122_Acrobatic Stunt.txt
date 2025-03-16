@@ -1,1 +1,0 @@
-﻿Acrobatic Stunt	R	common	Instant	122	R	1R	This spell costs 1 less to cast if you’ve cast another spell that targeted a creature this turn.NEWLINETarget creature you control gets +3/+0 and gains first strike until end of turn.			normal	VRD		

@@ -1,1 +1,0 @@
-﻿Enigmatic Revel	U	mythic	Instant	55	U	3U	Draw two cards.NEWLINE5U, Exile this card from your graveyard: Draw three cards.NEWLINE6UU, Put this card from exile on the bottom of its owner’s library: Draw four cards.			normal	SOJ		Preview: Pip

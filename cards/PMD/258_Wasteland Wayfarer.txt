@@ -1,1 +1,0 @@
-﻿Wasteland Wayfarer	G	rare	Creature – Camel Scout 	258	G	3G	You may look at the top card of your library any time.NEWLINEYou may play lands from the top of your library.NEWLINELandfall – Whenever a land you control enters, put a +1/+1 counter on up to one other target creature.	2/2		normal	PMD		

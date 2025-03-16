@@ -1,1 +1,0 @@
-﻿Sixteen Squirrels	G	cube	Creature – Squirrel 	219	G	4GG	This spell can’t be countered.NEWLINEReach, ward 16	16/16		normal	2022		

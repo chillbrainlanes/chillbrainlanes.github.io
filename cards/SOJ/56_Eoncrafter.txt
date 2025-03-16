@@ -1,1 +1,0 @@
-﻿Eoncrafter	U	rare	Creature – Human Wizard 	56	U	2U	VigilanceNEWLINESpellbound – Whenever this creature attacks, you may exile an instant or sorcery card from your graveyard. If you do and it isn’t an extra turn, take an extra turn after this one. Skip that turn’s beginning phase.	2/4		normal	SOJ		

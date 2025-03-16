@@ -1,1 +1,0 @@
-﻿Buy Low	B	cube	Sorcery	97	B	1B	Kicker–Discard a card. (You may discard a card in addition to any other costs as you cast this spell.)NEWLINEPut target creature card from a graveyard onto the battlefield under your control. You lose life equal to its mana value unless Buy Low was kicked.			normal	2022		

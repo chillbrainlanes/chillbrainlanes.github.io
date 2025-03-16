@@ -1,1 +1,0 @@
-﻿Burn Spell Name	R	cube	Sorcery	145	R	R	Burn Spell Name deals 3 damage to any target. If a player is dealt damage this way, scry 1.			normal	2022		

@@ -1,1 +1,0 @@
-﻿Filigree Familiar		common	Artifact Creature – Fox 	232	C	3	When this creature enters, you gain 2 life.NEWLINEWhen this creature dies, draw a card.	2/2		normal	VRD		Reprint

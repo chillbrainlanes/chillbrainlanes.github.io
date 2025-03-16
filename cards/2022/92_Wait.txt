@@ -1,1 +1,0 @@
-﻿Wait	U	cube	Sorcery	92	U	3U	Exile a nonland card from your hand with two time counters on it. If it doesn’t have suspend, it gains suspend. (At your upkeep, remove a time counter. When the last is removed, cast it for free with haste.)			fuse split	2022		See	U	Sorcery	U	4UU	Return all permanents to their owners’ hands.				

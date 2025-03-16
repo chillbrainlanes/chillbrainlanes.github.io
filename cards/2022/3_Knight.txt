@@ -1,1 +1,0 @@
-﻿Knight	W	cube	Token Creature – Knight 	3	W			2/2		token	2022		!related Armagiddeon;

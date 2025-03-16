@@ -1,1 +1,0 @@
-﻿Power of Evolution	W	common	Enchantment – Aura 	36	W	3W	Enchant creatureNEWLINEEnchanted creature gets +4/+4.NEWLINECycling 3 (3, Discard this card: Draw a card.)NEWLINEWhen you cycle this card, put a +1/+1 counter on up to one target creature.			normal	PMD		

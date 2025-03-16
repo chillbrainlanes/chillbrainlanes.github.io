@@ -1,1 +1,0 @@
-﻿Synthetic Rainforest		cube	Land	355	C		Synthetic Rainforest enters the battlefield tapped unless you control a Forest or Island.NEWLINET, Sacrifice Synthetic Rainforest: Search your library for a Forest or Island card and put it onto the battlefield, then shuffle.			normal	2022		

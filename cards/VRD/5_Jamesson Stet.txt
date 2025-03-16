@@ -1,1 +1,0 @@
-﻿Jamesson Stet	B	common	Legendary Token Creature – Human Warrior Minion 	5	B		Menace	4/3		token	VRD		!related Hugo Darkhand;

@@ -1,1 +1,0 @@
-﻿Helpless Grub	G	common	Creature – Insect 	223	G	G	T: Add one mana of any color.NEWLINECycling 2 (2, Discard this card: Draw a card.)	0/2		normal	PMD		

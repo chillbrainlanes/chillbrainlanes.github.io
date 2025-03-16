@@ -1,1 +1,0 @@
-﻿Shamanic Aspirant	G	uncommon	Creature – Human Shaman 	202	G	1G	Revelation spells you cast cost 1 less to cast.NEWLINEEach Demigod and God you control enters with an additional +1/+1 counter on it.	1/2		normal	SOJ		

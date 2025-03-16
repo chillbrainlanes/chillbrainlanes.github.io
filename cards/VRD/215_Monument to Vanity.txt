@@ -1,1 +1,0 @@
-﻿Monument to Vanity	BR	uncommon	Artifact	215	BR	2BR	Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINET: Add BR.NEWLINEWhenever you tap this artifact for mana, if you’re in your endgame, exile the top card of your library. You may play that card this turn.			normal	VRD		!New Horizons

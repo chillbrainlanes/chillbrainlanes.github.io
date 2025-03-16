@@ -1,1 +1,0 @@
-﻿Quickdraw Pistol		uncommon	Artifact – Equipment 	243	C	2	FlashNEWLINEWhen this artifact enters, you may attach it to target creature you control.NEWLINEEquipped creature gets +2/+0.NEWLINEEquip 2			normal	VRD		

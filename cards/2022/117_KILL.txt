@@ -1,1 +1,0 @@
-﻿KILL	B	cube	Instant	117	B	1B	Destroy target creature.			normal	2022		

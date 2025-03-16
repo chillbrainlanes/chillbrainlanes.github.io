@@ -1,1 +1,0 @@
-﻿Rabbit Hole	U	cube	Instant	79	U	U	Investigate. Draw a card. (To investigate, create a Clue token. It’s an artifact with “2, Sacrifice this artifact: Draw a card.”)			normal	2022		

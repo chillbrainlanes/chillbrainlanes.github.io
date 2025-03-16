@@ -1,1 +1,0 @@
-﻿Hero of Girded Leadership	G	uncommon	Legendary Creature – Squirrel Knight 	225	G	1G	TrampleNEWLINEWhenever you cast a spell that targets a creature, you may put a +1/+1 counter on that creature.NEWLINEPartner (You can have two commanders if both have partner.)	2/3		normal	PMD		

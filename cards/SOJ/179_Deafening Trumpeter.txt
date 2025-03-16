@@ -1,1 +1,0 @@
-﻿Deafening Trumpeter	G	uncommon	Creature – Elephant Beast 	179	G	4G		4/5	(Pay the Roar as an additional cost for an instant or sorcery spell to add its effect.)NEWLINEVigilance, trampleNEWLINE[Roar 1G] Each opponent must block this turn if able.NEWLINE	leveler	SOJ		

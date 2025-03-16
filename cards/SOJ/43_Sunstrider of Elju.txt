@@ -1,1 +1,0 @@
-﻿Sunstrider of Elju	W	rare	Creature – Human Warrior 	43	W	1W	Spellbound – Whenever this creature attacks, you may exile an instant or sorcery card from your graveyard. If you do, put a +1/+1 counter on this creature. It gains double strike until end of turn.	1/1		normal	SOJ		Preview: Featherfall

@@ -1,1 +1,0 @@
-﻿Sandstorm Historian	U	common	Creature – Lizard Wizard 	91	U	1U	4, T: Survey. (Scry 2 or search for a basic land, put it into your hand, then shuffle.)	1/3		normal	PMD		

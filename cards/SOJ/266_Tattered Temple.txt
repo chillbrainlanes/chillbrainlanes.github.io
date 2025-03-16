@@ -1,1 +1,0 @@
-﻿Tattered Temple		uncommon	Land	266	WB		T: Add C.NEWLINET: Add W. Activate this ability only if you control a Swamp.NEWLINET: Add B. Activate this ability only if you control a Plains.			normal	SOJ		

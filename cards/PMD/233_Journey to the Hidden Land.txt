@@ -1,1 +1,0 @@
-﻿Journey to the Hidden Land	G	rare	Sorcery	233	G	3G	There is an additional beginning phase after this phase, followed by an additional main phase. You may play an additional land this turn. (The beginning phase includes the untap, upkeep, and draw steps.)			normal	PMD		

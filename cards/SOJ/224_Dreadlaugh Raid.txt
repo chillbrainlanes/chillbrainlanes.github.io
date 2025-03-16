@@ -1,1 +1,0 @@
-﻿Dreadlaugh Raid	BR	uncommon	Sorcery	224	BR	1BR	Until end of turn, creatures you control get +2/+1 and creatures your opponents control get -2/-1.			normal	SOJ		

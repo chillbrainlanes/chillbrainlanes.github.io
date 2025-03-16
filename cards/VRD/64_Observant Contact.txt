@@ -1,1 +1,0 @@
-﻿Observant Contact	U	common	Creature – Human Advisor 	64	U	3U	When this creature dies, choose one –NEWLINE• Return target instant or sorcery card from your graveyard to your hand.NEWLINE• Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)	3/3		normal	VRD		

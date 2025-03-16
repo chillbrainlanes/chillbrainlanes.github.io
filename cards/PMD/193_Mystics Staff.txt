@@ -1,1 +1,0 @@
-﻿Mystic's Staff	R	common	Artifact – Equipment 	193	R	2R	When this artifact enters, return up to one target instant or sorcery card from your graveyard to your hand.NEWLINEEquipped creature gets +2/+1.NEWLINEEquip 2			normal	PMD		

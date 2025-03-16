@@ -1,1 +1,0 @@
-﻿Orcane	U	cube	Token Legendary Creature – Whale Dog 	9	U		Whenever this creature deals combat damage to a player, cast a copy of a card you own in exile with a puddle counter without paying its mana cost.	2/1		token	2022		!related Splice onto Orcane;

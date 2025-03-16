@@ -1,1 +1,0 @@
-﻿Voracious Kholomodumo	B	common	Creature – Demon Frog 	128	B	4BB	TrampleNEWLINESpellbound – Whenever this creature attacks, you may exile an instant or sorcery card from your graveyard. If you do, you gain 4 life.	6/5		normal	SOJ		Preview: squid

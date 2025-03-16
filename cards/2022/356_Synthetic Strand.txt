@@ -1,1 +1,0 @@
-﻿Synthetic Strand		cube	Land	356	C		Synthetic Strand enters the battlefield tapped unless you control a Plains or Island.NEWLINET, Sacrifice Synthetic Strand: Search your library for a Plains or Island card and put it onto the battlefield, then shuffle.			normal	2022		

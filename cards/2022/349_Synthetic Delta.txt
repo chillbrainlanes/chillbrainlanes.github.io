@@ -1,1 +1,0 @@
-﻿Synthetic Delta		cube	Land	349	C		Synthetic Delta enters the battlefield tapped unless you control an Island or Swamp.NEWLINET, Sacrifice Synthetic Delta: Search your library for an Island or Swamp card and put it onto the battlefield, then shuffle.			normal	2022		

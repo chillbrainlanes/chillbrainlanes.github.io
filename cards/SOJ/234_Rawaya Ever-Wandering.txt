@@ -1,1 +1,0 @@
-﻿Rawaya, Ever-Wandering	UG	rare	Legendary Creature – Human Nomad 	234	UG	GU	When Rawaya enters, search your library for a basic land card, reveal it, and put it into your hand, then shuffle.NEWLINELandfall – Whenever a land you control enters, draw a card, then discard a card.	1/1		normal	SOJ		Preview: Kayiu

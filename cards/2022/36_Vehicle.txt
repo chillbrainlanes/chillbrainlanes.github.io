@@ -1,1 +1,0 @@
-﻿Vehicle		cube	Token Artifact – Vehicle 	36	C		Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)	3/3		token	2022		!related Forklift Certification Training;

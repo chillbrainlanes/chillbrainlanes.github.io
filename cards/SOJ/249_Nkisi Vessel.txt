@@ -1,1 +1,0 @@
-﻿Nkisi Vessel		uncommon	Artifact	249	C	1	Whenever an instant or sorcery card leaves your graveyard, put a +1/+1 counter on this artifact. If this is the third time the ability has resolved this turn, put a lifelink counter on this artifact.NEWLINET, Sacrifice this artifact: Create a 0/0 white and black Spirit creature token. Put this artifact’s counters on it.			normal	SOJ		

@@ -1,1 +1,0 @@
-﻿Support Your Local Library	UB	cube	Enchantment	272	UB	XU/B	FlashNEWLINEWhen Support Your Local Library enters the battlefield, you draw X cards and lose X life.NEWLINEYou have no maximum hand size.			normal	2022		

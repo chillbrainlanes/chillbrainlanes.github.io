@@ -1,1 +1,0 @@
-﻿Raniko Bard	R	common	Creature – Human Bard 	161	R	1R	Whenever this creature becomes tapped, create a Treasure token. (It’s an artifact with “T, Sacrifice this artifact: Add one mana of any color.”)NEWLINE2R: This creature gains first strike until end of turn.	2/1		normal	SOJ		Preview: gynoidpoet

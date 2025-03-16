@@ -1,1 +1,0 @@
-﻿Child of Usiquq	B	uncommon	Creature – Insect 	94	B	3B		2/3	(Pay the Roar as an additional cost for an instant or sorcery spell to add its effect.)NEWLINEFlyingNEWLINE[Roar B] Up to one creature gets -1/-1 until end of turn.NEWLINE	leveler	SOJ		

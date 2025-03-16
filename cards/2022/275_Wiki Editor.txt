@@ -1,1 +1,0 @@
-﻿Wiki Editor	WB	cube	Creature – Human Gamer 	275	WB	2W/B	When Wiki Editor enters the battlefield, search your library for a legendary card, reveal it, and put it into your hand, then shuffle.	2/1		normal	2022		

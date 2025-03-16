@@ -1,1 +1,0 @@
-﻿Bronze Oath Cleric	W	common	Creature – Human Cleric 	9	W	2W	VigilanceNEWLINESpellbound – Whenever this creature attacks, you may exile an instant or sorcery card from your graveyard. If you do, tap target creature.	3/3		normal	SOJ		

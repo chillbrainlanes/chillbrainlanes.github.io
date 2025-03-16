@@ -1,1 +1,0 @@
-﻿Elder Mathias Jodan	W	mythic	Legendary Creature – Avatar Cleric 	15	WB	1WW	At the beginning of your end step, create a 1/1 white Cleric creature token.NEWLINE1B, Sacrifice a non-Nightmare creature: Create a 1/1 black Nightmare creature token and draw a card.	2/2		normal	VRD		

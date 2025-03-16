@@ -1,1 +1,0 @@
-﻿Rise of the Adze	B	rare	Enchantment – Saga 	118	B	1BB			(As this Saga enters and after your draw step, add a lore counter. Sacrifice after V.)NEWLINEI, II, III, IV, V – Create a 2/1 black Vampire creature token with “This creature has flying as long as it’s attacking.” for each lore counter on Rise of the Adze. Then, sacrifice that many creatures.	saga	SOJ		

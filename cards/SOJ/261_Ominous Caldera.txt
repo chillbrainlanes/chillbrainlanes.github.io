@@ -1,1 +1,0 @@
-﻿Ominous Caldera		uncommon	Land	261	BR		T: Add C.NEWLINET: Add B. Activate this ability only if you control a Mountain.NEWLINET: Add R. Activate this ability only if you control a Swamp.			normal	SOJ		

@@ -1,1 +1,0 @@
-﻿Dream-Ash Phoenix	R	uncommon	Creature – Nightmare Phoenix 	133	R	2R	FlyingNEWLINER: Return this card from your graveyard to your hand. Activate only if you’ve cast two or more spells this turn.	2/2		normal	VRD		

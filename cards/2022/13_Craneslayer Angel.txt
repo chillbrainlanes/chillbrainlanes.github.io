@@ -1,1 +1,0 @@
-﻿Craneslayer Angel	W	cube	Creature – Angel 	13	W	3WW	Flying, first strike, lifelink, protection from Birds and from Vehicles	5/5		normal	2022		

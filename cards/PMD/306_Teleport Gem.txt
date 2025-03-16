@@ -1,1 +1,0 @@
-﻿Teleport Gem		common	Artifact	306	C	2	FlashNEWLINEWhen this artifact enters, exile target creature you control, then return it to the battlefield under its owner’s control.NEWLINE6, T, Sacrifice this artifact: Creatures you control can’t be blocked this turn.			normal	PMD		

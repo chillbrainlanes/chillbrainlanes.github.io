@@ -1,1 +1,0 @@
-﻿Legend of the Three Heroes	R	common	Instant	156	R	3R	Exile the top three cards of your library. Until the end of your next turn, you may play one land card and one nonland card from among them.NEWLINECreate two Treasure tokens. (They’re artifacts with “T, Sacrifice this artifact: Add one mana of any color.”)			normal	SOJ		

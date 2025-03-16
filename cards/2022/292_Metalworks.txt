@@ -1,1 +1,0 @@
-﻿Metalworks		cube	Artifact	292	C	3	T: Reveal any number of artifact cards in your hand. Add CC for each card revealed this way.			normal	2022		

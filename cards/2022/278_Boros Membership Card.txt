@@ -1,1 +1,0 @@
-﻿Boros Membership Card		cube	Artifact	278	WR	2	Boros Membership Card enters the battlefield tapped unless you control a Mountain and a Plains.NEWLINET: Add R or W.			normal	2022		

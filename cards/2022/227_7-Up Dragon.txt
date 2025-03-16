@@ -1,1 +1,0 @@
-﻿7-Up Dragon	UG	cube	Creature – Faerie Dragon 	227	UG	GU	Flying, ward 3NEWLINEWhenever you cast a noncreature spell, put a +1/+1 counter on 7-Up Dragon.	1/1		normal	2022		

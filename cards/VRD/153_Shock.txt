@@ -1,1 +1,0 @@
-﻿Shock	R	common	Instant	153	R	R	Shock deals 2 damage to any target.			normal	VRD		

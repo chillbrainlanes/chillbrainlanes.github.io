@@ -1,1 +1,0 @@
-﻿White Elemental	W	common	Token Creature – Elemental 	3	W			1/1		token	SOJ		!exportname White Elemental

@@ -1,1 +1,0 @@
-﻿Installation Wizard	U	cube	Creature – Human Wizard 	69	U	1U	T: Draw a card, then roll a dX, where X is the number of instant and sorcery cards in your graveyard.NEWLINE0-3 | Error – Discard a card.NEWLINE4+ | Successful Installation.	0/3		normal	2022		Dice

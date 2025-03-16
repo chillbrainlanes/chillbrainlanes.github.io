@@ -1,1 +1,0 @@
-﻿Dewdrop Rainforest		uncommon	Land	257	UG		T: Add C.NEWLINET: Add G. Activate this ability only if you control an Island.NEWLINET: Add U. Activate this ability only if you control a Forest.			normal	SOJ		

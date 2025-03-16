@@ -1,1 +1,0 @@
-﻿Nightmare	B	common	Token Creature – Nightmare 	11	B		When this creature dies, mill cards until you mill a black card.	2/2		token	PMD		!related Dark Matter;Creeping Shadows<3>;

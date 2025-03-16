@@ -1,1 +1,0 @@
-﻿Sagely Baboon	U	common	Creature – Monkey Wizard 	74	U	1U		1/3	(Pay the Roar as an additional cost for an instant or sorcery spell to add its effect.)NEWLINE[Roar 1U] Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)NEWLINE	leveler	SOJ		

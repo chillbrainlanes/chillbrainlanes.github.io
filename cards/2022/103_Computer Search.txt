@@ -1,1 +1,0 @@
-﻿Computer Search	B	cube	Sorcery	103	B	B	As an additional cost to cast this spell, discard two cards.NEWLINESearch your library for a card and put it into your hand, then shuffle.NEWLINECycling 1 (1, Discard this card: Draw a card.)			normal	2022		Adaptations

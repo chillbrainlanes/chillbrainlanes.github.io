@@ -1,1 +1,0 @@
-﻿Dusknoir, the Betrayer	UB	rare	Legendary Creature – Spirit Warlock 	267	UB	2UB	Goblins you control have deathtouch.NEWLINEWhenever you cast a spell, if it’s not your main phase, create a 1/1 red Goblin creature token with melee and “This creature can’t block.” (Whenever it attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)	3/5		normal	PMD		

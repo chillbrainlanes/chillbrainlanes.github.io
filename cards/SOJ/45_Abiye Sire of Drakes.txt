@@ -1,1 +1,0 @@
-﻿Abiye, Sire of Drakes	U	uncommon	Legendary Creature – Elder Drake 	45	U	2UUU	FlyingNEWLINEOther Drakes you control get +1/+0.NEWLINEWhenever you cast a blue spell, create a 2/2 blue Drake creature token with flying.	3/4		normal	SOJ		

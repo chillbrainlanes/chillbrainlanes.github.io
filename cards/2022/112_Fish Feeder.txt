@@ -1,1 +1,0 @@
-﻿Fish Feeder	B	cube	Creature – Vampire Shaman 	112	B	B	Sacrifice another creature: Choose one –NEWLINE• Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)NEWLINE• Conjure a Gurmag Angler card into your hand. (6B 5/5 Zombie Fish. Delve. (Each card you exile from your graveyard while casting it pays for 1.))	1/1		normal	2022		

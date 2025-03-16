@@ -1,1 +1,0 @@
-﻿Skyblaze	R	uncommon	Sorcery	170	R	R	Exile the top two cards of your library. Until the end of your next turn, you may play one of those cards. If this spell was roared, you may play both of those cards instead.			normal	SOJ		

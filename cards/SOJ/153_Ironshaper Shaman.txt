@@ -1,1 +1,0 @@
-﻿Ironshaper Shaman	R	common	Creature – Human Shaman 	153	R	2R	When this creature enters, choose one –NEWLINE• Destroy target artifact.NEWLINE• Create a Treasure token. (It’s an artifact with “T, Sacrifice this artifact: Add one mana of any color.”)	2/2		normal	SOJ		

@@ -1,1 +1,0 @@
-﻿Anxious Prodigy	U	uncommon	Creature – Cat Wizard 	54	U	1U	Whenever you scry, put a +1/+1 counter on this creature.NEWLINE2: This creature can’t be blocked by creatures with lesser power this turn.	2/1		normal	PMD		https://www.deviantart.com/pinkgermy/art/Day-29-Mega-Gengar-and-Espurr-424041913

@@ -1,1 +1,0 @@
-﻿Junmra's Throneguard	G	common	Creature – Cat 	189	G	2G		3/3	(Pay the Roar as an additional cost for an instant or sorcery spell to add its effect.)NEWLINETrampleNEWLINE[Roar 1G] Put a +1/+1 counter on up to one creature.NEWLINE	leveler	SOJ		

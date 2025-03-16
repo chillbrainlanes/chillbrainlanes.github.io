@@ -1,1 +1,0 @@
-﻿Mana George	G	cube	Legendary Creature – Hydra 	206	G	2G	TrampleNEWLINEWhenever a player casts a spell, put a +1/+1 counter on Mana George.	1/1		adventure	2022		George Gets a Raise	G	Sorcery – Adventure 	G	G	Create a Treasure token. (Then exile this card. You may cast the creature later from exile.)				

@@ -1,1 +1,0 @@
-﻿Lagtusk	G	cube	Artifact Creature – Beast 	203	G	3G	When Lagtusk enters the battlefield, conjure a Whitesun’s Passage card into exile with two time counters on it. It gains suspend. (You gain 5 life.)NEWLINEWhen Lagtusk leaves the battlefield, conjure a Kalonian Tusker card into exile with two time counters on it. It gains suspend. (3/3 green Beast.)	5/3		normal	2022		

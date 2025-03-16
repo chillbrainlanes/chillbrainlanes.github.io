@@ -1,1 +1,0 @@
-﻿FETCH With Guff Guffman	WB	cube	Sorcery	233	WB	WB	Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINESearch your library for a card and put it into your hand, then shuffle.			normal	2022		!exportname FETCH With Guff Guffman

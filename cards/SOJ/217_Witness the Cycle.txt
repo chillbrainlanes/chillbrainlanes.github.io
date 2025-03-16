@@ -1,1 +1,0 @@
-﻿Witness the Cycle	G	common	Enchantment	217	G	G	When this enchantment enters, mill two cards.NEWLINEG: Mill a card.NEWLINE2G, Sacrifice this enchantment: Return up to one target land card and up to one target nonland card from your graveyard to your hand.			normal	SOJ		

@@ -1,1 +1,0 @@
-﻿Aruji Pyromancer	R	uncommon	Creature – Human Wizard 	134	R	2R	Whenever you spend six or more mana to cast an instant or sorcery spell, create a 4/4 red Elemental creature token.	2/2		normal	SOJ		Preview: gynoidpoet

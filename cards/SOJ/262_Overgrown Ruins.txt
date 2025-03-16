@@ -1,1 +1,0 @@
-﻿Overgrown Ruins		uncommon	Land	262	BG		T: Add C.NEWLINET: Add B. Activate this ability only if you control a Forest.NEWLINET: Add G. Activate this ability only if you control a Swamp.			normal	SOJ		

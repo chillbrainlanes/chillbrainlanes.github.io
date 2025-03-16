@@ -1,1 +1,0 @@
-﻿Monastabby Mentor	R	cube	Creature – Human Monk 	165	R	2R	Haste, prowessNEWLINEWhenever you cast a noncreature spell, conjure a Monastery Swiftspear card into your hand. (R 1/2 Human Monk: Haste, prowess.)	3/2		normal	2022		

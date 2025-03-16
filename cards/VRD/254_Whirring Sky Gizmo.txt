@@ -1,1 +1,0 @@
-﻿Whirring Sky Gizmo		uncommon	Artifact Creature – Thopter 	254	C	4	FlashNEWLINEFlyingNEWLINEWhen this creature enters, you may exile target non-Thopter artifact or creature you control, then return that card to the battlefield under your control.	2/3		normal	VRD		

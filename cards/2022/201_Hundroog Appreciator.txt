@@ -1,1 +1,0 @@
-﻿Hundroog Appreciator	G	cube	Creature – Elf Druid 	201	G	1G	When Hundroog Appreciator enters the battlefield, conjure a Hundroog card into your hand. (6G 4/7 Beast: Cycling 3.)NEWLINET: Add one mana of any color.	1/2		normal	2022		

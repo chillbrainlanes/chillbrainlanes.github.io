@@ -1,1 +1,0 @@
-﻿Corn Field Evangel	WG	cube	Creature – Elf Shaman 	258	WG	1G/W	T, Tap an untapped creature you control: Create a 1/1 green Saproling creature token.	2/3		normal	2022		

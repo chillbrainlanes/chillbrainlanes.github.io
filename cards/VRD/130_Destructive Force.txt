@@ -1,1 +1,0 @@
-﻿Destructive Force	R	rare	Sorcery	130	R	5RR	Each player sacrifices five lands. Destructive Force deals 5 damage to each creature.			normal	VRD		

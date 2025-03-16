@@ -1,1 +1,0 @@
-﻿Canopy Scout	G	common	Creature – Spider Scout 	214	G	1G	ReachNEWLINELandfall – Whenever a land you control enters, scry 1.	1/3		normal	PMD		

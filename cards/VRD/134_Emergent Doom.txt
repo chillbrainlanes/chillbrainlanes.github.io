@@ -1,1 +1,0 @@
-﻿Emergent Doom	R	common	Creature – Nightmare Giant 	134	R	6R	HasteNEWLINEWhen this creature enters, it gets +2/+0 and gains trample until end of turn.	6/5		normal	VRD		

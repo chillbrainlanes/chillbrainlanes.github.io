@@ -1,1 +1,0 @@
-﻿Phyrexian Golem		cube	Token Artifact Creature – Phyrexian Golem 	31	C			3/3		token	2022		!related Blaze Splicer;

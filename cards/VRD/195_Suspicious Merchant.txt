@@ -1,1 +1,0 @@
-﻿Suspicious Merchant	G	common	Creature – Fox Rogue 	195	G	2G	Reach, deathtouch	1/3		normal	VRD		

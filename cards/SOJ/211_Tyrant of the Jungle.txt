@@ -1,1 +1,0 @@
-﻿Tyrant of the Jungle	G	mythic	Creature – Ape Noble 	211	G	3GG	This spell can’t be countered.NEWLINETrample, ward 2NEWLINEWhen this creature dies, create an 3/3 green Ape Noble creature token with trample and ward 1 named Heir of the Tyrant.	6/6		normal	SOJ		

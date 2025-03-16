@@ -1,1 +1,0 @@
-﻿Raniko Knobkerrie		uncommon	Artifact – Equipment 	252	C	1	When this artifact enters, draw a card, then discard a card.NEWLINESpellbound – Whenever equipped creature attacks, you may exile an instant or sorcery card from your graveyard. If you do, equipped creature gets +2/+2 until end of turn.NEWLINEEquip 1			normal	SOJ		

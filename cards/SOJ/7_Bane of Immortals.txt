@@ -1,1 +1,0 @@
-﻿Bane of Immortals	W	common	Sorcery	7	W	1W	Exile target artifact, enchantment, Demigod, or God.			normal	SOJ		

@@ -1,1 +1,0 @@
-﻿Shox Sapphire		cube	Artifact	306	U	0	When Shox Sapphire enters the battlefield, it deals 2 damage to you.NEWLINET: Add U.			normal	2022		Power 10

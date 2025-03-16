@@ -1,1 +1,0 @@
-﻿Mantis	WR	cube	Creature – Insect 	264	WR	R/W	You may sacrifice a creature rather than pay this spell’s mana cost.NEWLINEDouble strike 	1/1		normal	2022		Adaptations

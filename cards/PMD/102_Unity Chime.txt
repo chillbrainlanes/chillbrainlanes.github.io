@@ -1,1 +1,0 @@
-﻿Unity Chime	U	common	Creature – Spirit Advisor 	102	U	1U	FlyingNEWLINE1, T: Draw a card, then discard a card.	2/1		normal	PMD		https://www.deviantart.com/gabe-uhh-saurus/gallery

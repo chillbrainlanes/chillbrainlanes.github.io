@@ -1,1 +1,0 @@
-﻿Hemec Yor, Flamethrower Dragoon	UR	uncommon	Legendary Creature – Fox Artificer 	208	UR	3UR	Flying, hasteNEWLINEWhenever Hemec Yor attacks, she deals damage to any target equal to the number of spells you’ve cast this turn.	3/4		normal	VRD		

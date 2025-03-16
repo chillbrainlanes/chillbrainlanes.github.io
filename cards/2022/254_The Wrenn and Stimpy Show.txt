@@ -1,1 +1,0 @@
-﻿The Wrenn and Stimpy Show	RG	cube	Enchantment	254	RG	RG	At the beginning of your end step, return up to one target land card from your graveyard to your hand.NEWLINE2RRGG, Sacrifice The Wrenn and Stimpy Show: Create Stimpy, a legendary X/X red Cat creature token with haste and trample, where X is the number of lands you control. Activate only as a sorcery.			normal	2022		

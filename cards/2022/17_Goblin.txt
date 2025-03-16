@@ -1,1 +1,0 @@
-﻿Goblin	R	cube	Token Creature – Goblin 	17	R			1/1		token	2022		

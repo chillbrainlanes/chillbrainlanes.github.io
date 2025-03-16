@@ -1,1 +1,0 @@
-﻿Formerly Ridden Allosaurus	G	cube	Creature – Dinosaur 	192	G	5GG	Megadelve (Each card you exile from your graveyard while casting this spell pays for 1 or one mana of that card’s color.)NEWLINETrampleNEWLINEFormerly Ridden Allosaurus gets +1/+1 for each land you control.	1/1		normal	2022		

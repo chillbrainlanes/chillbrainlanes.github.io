@@ -1,1 +1,0 @@
-﻿Flooded Bog		uncommon	Land	258	UB		T: Add C.NEWLINET: Add U. Activate this ability only if you control a Swamp.NEWLINET: Add B. Activate this ability only if you control an Island.			normal	SOJ		

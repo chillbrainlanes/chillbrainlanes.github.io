@@ -1,1 +1,0 @@
-﻿Spycraft Survivalist	UG	uncommon	Creature – Elf Rogue 	219	UG	2GU	Whenever you surveil, draw a card. (Do this after your surveil.)	4/4		normal	VRD		RG04: rare payoff card for set mechanic

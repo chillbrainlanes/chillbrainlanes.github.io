@@ -1,1 +1,0 @@
-﻿Seeker of Ziawan	U	rare	Creature – Bird Wizard 	77	U	1U	FlyingNEWLINESpellbound – Whenever this creature attacks, you may exile an instant or sorcery card from your graveyard. If you do, draw a card.	2/1		normal	SOJ		Preview: Featherfall

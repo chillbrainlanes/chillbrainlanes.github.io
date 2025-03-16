@@ -1,1 +1,0 @@
-﻿Mana Hunter	G	uncommon	Creature – Human Ranger 	196	G	1G	Spellbound – Whenever this creature attacks, you may exile an instant or sorcery card from your graveyard. If you do, reveal the top three cards of your library. Put all land cards revealed this way into your hand and the rest into your graveyard.	2/3		normal	SOJ		

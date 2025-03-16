@@ -1,1 +1,0 @@
-﻿Satellite Tower		uncommon	Artifact	246	C	3	T: Add one mana of any color.NEWLINEAt the beginning of your end step, untap target artifact.			normal	VRD		

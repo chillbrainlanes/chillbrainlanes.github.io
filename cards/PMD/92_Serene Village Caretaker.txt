@@ -1,1 +1,0 @@
-﻿Serene Village Caretaker	U	uncommon	Creature – Turtle Citizen 	92	U	3U	Creature spells you cast cost 1 less to cast.NEWLINEWhenever you cast your second spell each turn, create a 1/1 white Jackal Ranger creature token.	2/5		normal	PMD		

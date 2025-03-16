@@ -1,1 +1,0 @@
-﻿Grapple with the Past	G	common	Instant	185	G	1G	Mill three cards, then you may return a creature or land card from your graveyard to your hand.			normal	SOJ		Reprint

@@ -1,1 +1,0 @@
-﻿Izzet Membership Card		cube	Artifact	288	UR	2	Izzet Membership Card enters the battlefield tapped unless you control an Island and a Mountain.NEWLINET: Add U or R.			normal	2022		

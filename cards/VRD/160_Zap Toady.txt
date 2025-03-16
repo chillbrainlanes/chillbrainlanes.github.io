@@ -1,1 +1,0 @@
-﻿Zap Toady	R	common	Creature – Human Minion 	160	R	2R	When this creature enters, create a Gold token for each creature you control named Zap Toady. (Gold is an artifact with “Sacrifice this artifact: Add one mana of any color.”)	1/4		normal	VRD		Collect Me CycleNEWLINEStorm

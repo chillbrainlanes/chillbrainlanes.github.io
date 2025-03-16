@@ -1,1 +1,0 @@
-﻿Conniving Spy	U	common	Creature – Human Minion 	49	U	2U	When this creature enters, surveil 1, then add the top card of your library to your evil plan. (Look at it, then exile it face-down. You may pay 7 as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)	2/3		normal	VRD		

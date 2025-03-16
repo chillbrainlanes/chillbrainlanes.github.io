@@ -1,1 +1,0 @@
-﻿Elder of the Village	W	common	Creature – Beast Citizen 	14	W	2W	When Elder of the Village dies, draw a card.	4/2		normal	PMD		ptcg

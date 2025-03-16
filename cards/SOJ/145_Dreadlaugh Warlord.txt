@@ -1,1 +1,0 @@
-﻿Dreadlaugh Warlord	R	common	Creature – Hyena Warrior 	145	R	1R	When Dreadlaugh Warlord dies, it deals 1 damage to any target.	2/1	(Pay the Roar as an additional cost for an instant or sorcery spell to add its effect.)NEWLINEHasteNEWLINE[Roar R] Each opponent chooses an untapped creature they control. It can’t block this turn.NEWLINE	leveler	SOJ		

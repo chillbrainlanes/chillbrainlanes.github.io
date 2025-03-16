@@ -1,1 +1,0 @@
-﻿Imperial Recruiter of the Guard	WR	cube	Creature – Human Advisor 	262	WR	2R/W	When Imperial Recruiter of the Guard enters the battlefield, search your library for a creature card with combined power and toughness 4 or less, reveal it, put it into your hand, then shuffle.	1/1		normal	2022		

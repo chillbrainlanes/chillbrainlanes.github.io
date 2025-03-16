@@ -1,1 +1,0 @@
-﻿Money Catcher Booth		cube	Artifact – Treasure 	293	C	0	Kicker 2 (You may pay an additional 2 as you cast this spell.)NEWLINEMoney Catcher Booth has storm as long as it was kicked. (When you cast it, if it was kicked. copy it for each spell cast before it this turn.)NEWLINET, Sacrifice Money Catcher Booth: Add one mana of any color.			normal	2022		

@@ -1,1 +1,0 @@
-﻿Scholar of the Sun	W	uncommon	Creature – Fox Advisor 	42	W	2W	When this creature enters, create a colorless Entercard artifact token with “2, T: Scry 1.”NEWLINEWhenever an Entercard you control becomes tapped, up to one target creature gets +1/+1 until end of turn.	3/2		normal	PMD		

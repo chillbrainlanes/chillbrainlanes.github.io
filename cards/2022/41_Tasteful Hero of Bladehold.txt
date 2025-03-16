@@ -1,1 +1,0 @@
-﻿Tasteful Hero of Bladehold	W	cube	Creature – Human Knight 	41	W	2WW	Whenever Tasteful Hero of Bladehold attacks, create two 1/1 white Soldier creature tokens that are tapped and attacking.	3/4		adventure	2022		Bundle Up	W	Sorcery – Adventure 	W	1W	Exile target artifact or enchantment. (Then exile this card. You may cast the creature later from exile.)				

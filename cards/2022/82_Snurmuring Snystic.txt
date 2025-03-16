@@ -1,1 +1,0 @@
-﻿Snurmuring Snystic	U	cube	Creature – Human Wizard 	82	U	2U	Whenever you cast an instant or sorcery spell, conjure a Sea Snidd card into your hand. (4U 3/3 Beast: T: Target land becomes the basic land type of your choice until end of turn.)NEWLINEDiscard a card: Create a 1/1 blue Bird Beast Illusion creature token with flying.	1/4		normal	2022		

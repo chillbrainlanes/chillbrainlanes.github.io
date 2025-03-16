@@ -1,1 +1,0 @@
-﻿Endless Mooks	B	common	Creature – Human Minion 	93	B	2B	When this creature enters, you may search your library for any number of cards named Endless Mooks, reveal them, put them into your hand, then shuffle.	2/2		normal	VRD		Collect Me Cycle

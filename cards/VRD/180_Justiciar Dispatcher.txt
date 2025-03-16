@@ -1,1 +1,0 @@
-﻿Justiciar Dispatcher	G	common	Creature – Minotaur Advisor 	180	G	4G	When this creature enters, if you control an Aura or Equipment, draw a card.	4/4		normal	VRD		

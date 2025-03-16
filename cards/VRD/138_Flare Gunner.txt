@@ -1,1 +1,0 @@
-﻿Flare Gunner	R	common	Creature – Human Soldier 	138	R	2R	When this creature enters, create a haste Gadget, then attach it to this creature. (It’s an Equipment artifact token with equip 2 that grants that ability.)NEWLINE1, T: Target creature an opponent controls can’t block this turn.	2/2		normal	VRD		

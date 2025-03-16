@@ -1,1 +1,0 @@
-﻿Nightmare Sliver	G	common	Token Creature – Nightmare Sliver 	10	G			1/1		token	VRD		!related Enigmatic Progenitor;

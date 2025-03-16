@@ -1,1 +1,0 @@
-﻿Free Bird		cube	Artifact Creature – Bird 	284	C	0	Flying	1/1		normal	2022		

@@ -1,1 +1,0 @@
-﻿Escaped Subject	G	uncommon	Creature – Nightmare Serpent 	173	WUBRG	2G	Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINET: Add one mana of any color.NEWLINEWUBRG: Draw two cards. Put two +1/+1 counters on this creature. Activate only as a sorcery and only if you’re in your endgame.	1/3		normal	VRD		

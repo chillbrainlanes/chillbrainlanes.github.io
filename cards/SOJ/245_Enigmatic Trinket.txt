@@ -1,1 +1,0 @@
-﻿Enigmatic Trinket		uncommon	Artifact	245	C	4	This artifact enters tapped.NEWLINEWhen this artifact enters, you may search your library for a card named Enigmatic Trinket, reveal it, and put it into your hand, then shuffle.NEWLINET: Add CC.			normal	SOJ		

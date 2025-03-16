@@ -1,1 +1,0 @@
-﻿Diabolical Minion	B	common	Creature – Human Minion 	90	B	B	Whenever you cast a black spell or an artifact spell, each opponent loses 1 life and you gain 1 life.NEWLINEWhenever you cast a nonblack, nonartifact spell, you lose 1 life.	1/1		normal	VRD		Mono Black ThemeNEWLINE!rul Casting a black artifact spell only triggers the first ability once.

@@ -1,1 +1,0 @@
-﻿Ivas Taranka, Rogue Diplomat	WR	rare	Legendary Creature – Cat Advisor 	211	WR	3RW	Whenever a creature deals combat damage to one of your opponents, that creature’s controller creates a Gold token.NEWLINE1, T: Target creature attacks target player or planeswalker this turn if able.	3/5		normal	VRD		RX04: flex slot

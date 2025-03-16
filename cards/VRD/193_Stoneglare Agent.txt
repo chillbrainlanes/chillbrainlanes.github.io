@@ -1,1 +1,0 @@
-﻿Stoneglare Agent	G	uncommon	Creature – Gorgon Rogue 	193	G	3G	When this creature enters, create a deathtouch Gadget, then attach it to this creature. (It’s an Equipment artifact token with equip 2 that grants that ability.)	2/2		normal	VRD		

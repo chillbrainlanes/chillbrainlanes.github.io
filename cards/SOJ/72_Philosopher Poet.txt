@@ -1,1 +1,0 @@
-﻿Philosopher Poet	U	uncommon	Creature – Human Bard 	72	U	U	3U: Draw a card.	0/4		normal	SOJ		

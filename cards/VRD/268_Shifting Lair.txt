@@ -1,1 +1,0 @@
-﻿Shifting Lair		uncommon	Land	268	C		This land enters tapped. When it enters, return a land you control to its owner’s hand.NEWLINET: Add C and one mana of any color.			normal	VRD		

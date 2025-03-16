@@ -1,1 +1,0 @@
-﻿Planeswalking Ballista		cube	Legendary Artifact Planeswalker	297	C	XX			4: Put a loyalty counter on Planeswalking Ballista.NEWLINE[+1]: Planeswalking Ballista deals 1 damage to target player or planeswalker.NEWLINE[-X]: Planeswalking Ballista deals X damage to any target.	planeswalker	2022	X	

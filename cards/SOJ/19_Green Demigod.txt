@@ -1,1 +1,0 @@
-﻿Green Demigod	G	common	Token Creature – Demigod 	19	G			X/X		token	SOJ		!exportname Green Demigod

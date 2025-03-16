@@ -1,1 +1,0 @@
-﻿Scalchop		common	Token Artifact – Equipment 	22	C		Equipped creature gets +1/+1.NEWLINEEquip 1			token	PMD		!related Scalchop Blademaster;Hero of Daring Guardianship;NEWLINEhttps://www.deviantart.com/yassui/art/Scalchop-Brothers-329643719

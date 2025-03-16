@@ -1,1 +1,0 @@
-﻿Gorilla Tactician	G	cube	Creature – Ape Soldier 	196	G	3GG	At the beginning of your end step, conjure a Silverback Ape card into your hand. (3GG 5/5 Ape.)NEWLINEWhenever an Ape you control dies, you may draw a card.	6/8		adventure	2022		Go Ape	G	Sorcery – Adventure 	G	G	Destroy target artifact. (Then exile this card. You may cast the creature later from exile.)				

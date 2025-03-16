@@ -1,1 +1,0 @@
-﻿The Relic Fragment		rare	Legendary Artifact	304	C	2	T: Add C.NEWLINEIf you would put one or more cards on the bottom of your library while scrying, exile those cards face-down instead.NEWLINE8, T, Sacrifice The Relic Fragment: Put all cards exiled with it into your hand.			normal	PMD		

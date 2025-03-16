@@ -1,1 +1,0 @@
-﻿Cohort Battlemage	G	common	Creature – Human Shaman Minion 	170	G	2GG	This creature gets +1/+0 and has trample as long as you control another creature named Cohort Battlemage.	4/4		normal	VRD		Collect Me Cycle

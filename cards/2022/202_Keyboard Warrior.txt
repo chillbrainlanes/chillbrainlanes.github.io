@@ -1,1 +1,0 @@
-﻿Keyboard Warrior	G	cube	Creature – Troll Warrior 	202	G	2G	Haste, trampleNEWLINEG: Keyboard Warrior gains indestructible until end of turn.	3/3		adventure	2022		We Do A Little Trolling	G	Sorcery – Adventure 	G	G	Target creature you control gains indestructible until end of turn. (Then exile this card. You may cast the creature later from exile.)				

@@ -1,1 +1,0 @@
-﻿Maul	G	common	Sorcery	197	G	2G	Target creature you control gets +1/+0 until end of turn. It deals damage equal to its power to target creature you don’t control.			normal	SOJ		Reprint

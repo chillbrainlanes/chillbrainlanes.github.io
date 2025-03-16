@@ -1,1 +1,0 @@
-﻿Goblin Garage Sale	BR	cube	Enchantment	234	BR	BR	Sacrifice another nonland permanent: Goblin Garage Sale deals 1 damage to any target.			normal	2022		

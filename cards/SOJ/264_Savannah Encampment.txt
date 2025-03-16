@@ -1,1 +1,0 @@
-﻿Savannah Encampment		uncommon	Land	264	WR		T: Add C.NEWLINET: Add R. Activate this ability only if you control a Plains.NEWLINET: Add W. Activate this ability only if you control a Mountain.			normal	SOJ		

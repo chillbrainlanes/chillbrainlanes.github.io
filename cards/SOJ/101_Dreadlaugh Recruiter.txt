@@ -1,1 +1,0 @@
-﻿Dreadlaugh Recruiter	B	rare	Creature – Hyena Shaman 	101	B	1B	You may look at the top card of your library any time.NEWLINEYou may cast Hyena and Gozani spells from the top of your library.	2/1		normal	SOJ		

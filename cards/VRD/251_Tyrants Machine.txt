@@ -1,1 +1,0 @@
-﻿Tyrant's Machine		common	Artifact	251	C	2	4, T: Tap target creature.			normal	VRD		Reprint

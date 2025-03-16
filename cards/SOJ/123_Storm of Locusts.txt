@@ -1,1 +1,0 @@
-﻿Storm of Locusts	B	uncommon	Creature – Insect 	123	B	1B	FlyingNEWLINEWhen this creature enters, discard a card.	3/3		normal	SOJ		

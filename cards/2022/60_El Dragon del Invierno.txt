@@ -1,1 +1,0 @@
-﻿El Dragon del Invierno	U	cube	Legendary Creature – Dragon Warrior 	60	U	4UU	FlashNEWLINEFlyingNEWLINEWhenever you cast an instant or sorcery spell, draw a card.	6/6		adventure	2022		El Dragon del Invierno	U	Instant – Adventure 	U	1UU	Counter target spell. (Then exile this card. You may cast the creature later from exile.)				!exportname El Dragon del Invierno

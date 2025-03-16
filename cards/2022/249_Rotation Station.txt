@@ -1,1 +1,0 @@
-﻿Rotation Station	WG	cube	Artifact	249	WG	1GW	Whenever another permanent enters the battlefield under your control, you may activate one of that permanent’s abilities without paying its costs.NEWLINET, Sacrifice a land: Search your library for a land card and put it onto the battlefield, then shuffle.			normal	2022		

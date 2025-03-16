@@ -1,1 +1,0 @@
-﻿Azorius Membership Card		cube	Artifact	277	WU	2	Azorius Membership Card enters the battlefield tapped unless you control a Plains and an Island.NEWLINET: Add W or U.			normal	2022		

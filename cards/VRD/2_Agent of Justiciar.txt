@@ -1,1 +1,0 @@
-﻿Agent of Justiciar	W	common	Creature – Human Soldier 	2	W	2W	When this creature enters, create a lifelink Gadget, then attach it to Agent of Justiciar. (It’s an Equipment artifact token with equip 2 that grants that ability.)	1/3		normal	VRD		

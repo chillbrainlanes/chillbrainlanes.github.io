@@ -1,1 +1,0 @@
-﻿Conquest Terminal	U	common	Artifact	50	U	1U	Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINET: Target player mills a card. If you’re in your endgame, that player mills two cards instead.			normal	VRD		

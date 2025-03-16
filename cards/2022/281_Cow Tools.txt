@@ -1,1 +1,0 @@
-﻿Cow Tools		cube	Artifact	281	C	2	T: Add C.NEWLINEWhenever you discard a card, you may pay 1. If you do, draw a card.			normal	2022		

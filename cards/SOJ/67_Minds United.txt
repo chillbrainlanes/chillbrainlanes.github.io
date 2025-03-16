@@ -1,1 +1,0 @@
-﻿Minds United	U	rare	Sorcery	67	U	5UUU	Convoke (Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINEExile the top six cards of your library. Until end of turn, you may play cards exiled this way not named Minds United without paying their mana costs.			normal	SOJ		

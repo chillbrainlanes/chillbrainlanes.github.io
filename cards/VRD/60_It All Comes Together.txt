@@ -1,1 +1,0 @@
-﻿It All Comes Together	U	common	Sorcery	60	U	1U	Add the top two cards of your library to your evil plan. (Look at them, then exile them face-down. You may pay 7 as a sorcery to cast any number of cards in your evil plan without paying their mana costs.)NEWLINECreate a Gold token. (It’s an artifact with “Sacrifice this artifact: Add one mana of any color.”)			normal	VRD		

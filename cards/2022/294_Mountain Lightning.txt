@@ -1,1 +1,0 @@
-﻿Mountain Lightning		cube	Artifact	294	R	1	When Mountain Lightning enters the battlefield, conjure a Mountain card into your hand. (Like, a basic one. The card named Mountain.)NEWLINE1R, T, Sacrifice Mountain Lightning: It deals 3 damage to any target.			normal	2022		

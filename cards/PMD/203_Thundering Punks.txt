@@ -1,1 +1,0 @@
-﻿Thundering Punks	R	common	Creature – Lizard Warrior 	203	R	4R	When this creature enters, for each opponent, choose an artifact or creature that player controls. Choose one of those permanents at random. If it’s a creature, this creature deals 4 damage to it. Otherwise, destroy it.	4/4		normal	PMD		

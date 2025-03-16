@@ -1,1 +1,0 @@
-﻿First Strike Gadget		common	Token Artifact – Equipment 	14	C		Equipped creature has first strike.NEWLINEEquip 2			token	VRD		!related Deft Wingman;Paragon Agent;White Spy;Black Spy;Codename Cold Blood;Codename Viridian;

@@ -1,1 +1,0 @@
-﻿Elvish Witness	G	common	Creature – Elf Rogue 	171	G	1G	When this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)NEWLINET: Add one mana of any color.	1/1		normal	VRD		

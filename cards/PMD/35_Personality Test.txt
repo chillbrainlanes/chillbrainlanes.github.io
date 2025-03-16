@@ -1,1 +1,0 @@
-﻿Personality Test	W	rare	Enchantment – Aura 	35	W	2W	Enchant opponentNEWLINEAt the beginning of enchanted player’s upkeep, that player chooses one. (You can ask them a question if you want, it’s more fun that way.)NEWLINE• Yes – You draw a card.NEWLINE• No – Spells that player casts cost 1 more to cast this turn.			normal	PMD		

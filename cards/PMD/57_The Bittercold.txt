@@ -1,1 +1,0 @@
-﻿The Bittercold	U	mythic	Legendary Creature – Elemental Incarnation 	57	U	2UU	Flying, defenderNEWLINEWhenever you put one or more stun counters on a permanent, if it’s tapped, gain control of it for as long as it remains tapped.NEWLINEYou may attack with tapped creatures as though they were untapped.	2/5		normal	PMD		

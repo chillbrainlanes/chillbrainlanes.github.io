@@ -1,1 +1,0 @@
-﻿Night Drudger	G	rare	Creature – Human Soldier 	184	G	2G	Endgame (If you control eight or more tapped permanents, enter your endgame for the rest of the game.)NEWLINEG: Exile target creature card from a graveyard. Put a +1/+1 counter on this creature. If you’re in your endgame, you gain 2 life.	3/3		normal	VRD		

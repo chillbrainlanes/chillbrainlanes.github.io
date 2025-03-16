@@ -1,1 +1,0 @@
-﻿Charmed Stray	W	common	Creature – Cat 	7	W	W	LifelinkNEWLINEWhen this creature enters, put a +1/+1 counter on each other creature you control named Charmed Stray.	1/1		normal	VRD		Collect Me CycleNEWLINEReprint

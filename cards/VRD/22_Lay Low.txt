@@ -1,1 +1,0 @@
-﻿Lay Low	W	uncommon	Instant	22	W	W	Counter target spell that targets you or a permanent you control.NEWLINESurveil 1. (Look at the top card of your library. You may put it into your graveyard.)			normal	VRD		

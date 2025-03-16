@@ -1,1 +1,0 @@
-﻿Infinite Blades	B	cube	Enchantment	116	B	B	At the beginning of your upkeep, conjure a Shiv card into your hand. ( 0 Sorcery: Shiv deals 1 damage to any target. Exile Shiv.)			normal	2022		Adaptations

@@ -1,1 +1,0 @@
-﻿Stamp Collector	R	cube	Creature – Human Artificer 	178	R	2R	When Stamp Collector enters the battlefield, choose an artifact you control or an artifact card in your graveyard. Create a token that’s a copy of it, except it has haste. Sacrifice it at the beginning of the next end step.	2/2		normal	2022		

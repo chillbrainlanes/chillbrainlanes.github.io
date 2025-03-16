@@ -1,1 +1,0 @@
-﻿Creeping Shadows	B	uncommon	Sorcery	114	B	6B	This spell costs 1 less to cast for each creature card in your graveyard.NEWLINECreate three 2/2 black Nightmare creature tokens with “When this creature dies, mill cards until you mill a black card.”			normal	PMD		https://www.deviantart.com/ninjaunicorn252/gallery

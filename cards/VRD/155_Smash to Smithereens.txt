@@ -1,1 +1,0 @@
-﻿Smash to Smithereens	R	common	Instant	155	R	1R	Destroy target artifact. Smash to Smithereens deals 3 damage to that artifact’s controller.			normal	VRD		Reprint

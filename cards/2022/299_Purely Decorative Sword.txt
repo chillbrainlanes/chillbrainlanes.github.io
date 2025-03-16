@@ -1,1 +1,0 @@
-﻿Purely Decorative Sword		cube	Artifact	299	R	2	Purely Decorative Sword enters the battlefield tapped.NEWLINET: Add R.			adventure	2022		Ceremonial Stab	R	Instant – Adventure 	R	3R	Ceremonial Stab deals 4 damage to any target. (Then exile this card. You may cast the artifact later from exile.)				

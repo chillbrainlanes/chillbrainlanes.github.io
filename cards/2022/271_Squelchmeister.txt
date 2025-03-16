@@ -1,1 +1,0 @@
-﻿Squelchmeister	UG	cube	Creature – Goblin Wizard 	271	UG	1G/U	FlashNEWLINEWhen Squelchmeister enters the battlefield, choose one –NEWLINE• Counter target activated or triggered ability. (Mana abilities can’t be targeted.)NEWLINE• Counter target spell that targets another permanent you control.	3/1		normal	2022		

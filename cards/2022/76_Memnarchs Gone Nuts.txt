@@ -1,1 +1,0 @@
-﻿Memnarchs Gone Nuts	U	cube	Sorcery	76	U	1U	Conjure a Memnite card into your hand. (0: 1/1 artifact Construct.)NEWLINEStorm (When you cast this spell, copy it for each spell cast before it this turn.)			normal	2022		!exportname Memnarchs Gone Nuts

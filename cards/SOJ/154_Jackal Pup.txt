@@ -1,1 +1,0 @@
-﻿Jackal Pup	R	uncommon	Creature – Jackal 	154	R	R	Whenever this creature is dealt damage, it deals that much damage to you.	2/1		normal	SOJ		Mirrored PairNEWLINEReprintNEWLINEPreview: Janah

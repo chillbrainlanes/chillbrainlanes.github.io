@@ -1,1 +1,0 @@
-﻿Blue Elemental Bird	U	common	Token Creature – Elemental Bird 	6	U		Flying	8/8		token	PMD		!exportname Blue Elemental BirdNEWLINE!related Frosty Forest;NEWLINEhttps://www.tumblr.com/friedunicornstudio

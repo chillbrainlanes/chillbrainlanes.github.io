@@ -1,1 +1,0 @@
-﻿Shaman of Wild Kinship	G	rare	Creature – Human Shaman 	201	G	1G	Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)NEWLINEWhenever you cast a spell that targets this creature, draw a card.	1/1		normal	SOJ		

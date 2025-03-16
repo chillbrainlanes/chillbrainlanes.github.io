@@ -1,1 +1,0 @@
-﻿Allergy Elemental	B	cube	Creature – Elemental 	93	B	2BB	FlyingNEWLINEDiscard a card: You gain 1 life. Add B.	4/4		adventure	2022		Thoughtsneeze	B	Sorcery – Adventure 	B	B	Pay X life. Target player reveals their hand. You may choose a nonland card with mana value X or less from it. That player discards that card.				

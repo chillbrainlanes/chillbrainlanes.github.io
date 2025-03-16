@@ -1,1 +1,0 @@
-﻿Back in Action	W	rare	Sorcery	5	W	2W	Return target permanent card with mana value 3 or less from your graveyard to the battlefield.NEWLINEDraw a card.			normal	VRD		

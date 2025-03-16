@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/2022-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>2022 visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/2022-files/logo.png" />
+	<img class="preload-hidden" src="/sets/2022-files/icon.png" />
+		<img class="preload-hidden" src="/sets/PMD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SOJ-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VRD-files/icon.png" />
+		<img class="preload-hidden" id="bg" src="/sets/2022-files/bg.png" />
+		
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="2022"><img src="/sets/2022-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="PMD"><img src="/sets/PMD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SOJ"><img src="/sets/SOJ-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VRD"><img src="/sets/VRD-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/2022-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\2022-files\img\3_The Accord.png" id="3_The Accord" data-flag="@X" onclick="openSidebar('3_The Accord',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\48_Abundant Storm.png" id="48_Abundant Storm" data-flag="@X" onclick="openSidebar('48_Abundant Storm',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\93_Allergy Elemental.png" id="93_Allergy Elemental" data-flag="@X" onclick="openSidebar('93_Allergy Elemental',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\138_3 AM Fireworks.png" id="138_3 AM Fireworks" data-flag="@X" onclick="openSidebar('138_3 AM Fireworks',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\183_Booster Boxer.png" id="183_Booster Boxer" data-flag="@X" onclick="openSidebar('183_Booster Boxer',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\4_Armagiddeon.png" id="4_Armagiddeon" data-flag="@X" onclick="openSidebar('4_Armagiddeon',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\49_Ancestral Snecall.png" id="49_Ancestral Snecall" data-flag="@X" onclick="openSidebar('49_Ancestral Snecall',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\94_Amateur Resurrection Job.png" id="94_Amateur Resurrection Job" data-flag="@X" onclick="openSidebar('94_Amateur Resurrection Job',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\139_Aggro AI.png" id="139_Aggro AI" data-flag="@X" onclick="openSidebar('139_Aggro AI',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\184_Boseiju Tourist.png" id="184_Boseiju Tourist" data-flag="@X" onclick="openSidebar('184_Boseiju Tourist',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\5_Balance Patch.png" id="5_Balance Patch" data-flag="@X" onclick="openSidebar('5_Balance Patch',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\50_chill lofi beats to panic study to.png" id="50_chill lofi beats to panic study to" data-flag="@X" onclick="openSidebar('50_chill lofi beats to panic study to',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\95_Bob's Revenge.png" id="95_Bobs Revenge" data-flag="@X" onclick="openSidebar('95_Bobs Revenge',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\140_Aspiring Alpha.png" id="140_Aspiring Alpha" data-flag="@X" onclick="openSidebar('140_Aspiring Alpha',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\185_Collected Monopoly.png" id="185_Collected Monopoly" data-flag="@X" onclick="openSidebar('185_Collected Monopoly',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\6_Ban Hammer.png" id="6_Ban Hammer" data-flag="@X" onclick="openSidebar('6_Ban Hammer',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\51_Colossal Leadmaw.png" id="51_Colossal Leadmaw" data-flag="@X" onclick="openSidebar('51_Colossal Leadmaw',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\96_Brain Strainer.png" id="96_Brain Strainer" data-flag="@X" onclick="openSidebar('96_Brain Strainer',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\141_Automated Terror Machine.png" id="141_Automated Terror Machine" data-flag="@X" onclick="openSidebar('141_Automated Terror Machine',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\186_Colossal Breadmaw.png" id="186_Colossal Breadmaw" data-flag="@X" onclick="openSidebar('186_Colossal Breadmaw',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\7_The Birth of Cleveland.png" id="7_The Birth of Cleveland" data-flag="@X" onclick="openSidebar('7_The Birth of Cleveland',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\52_Countersnell.png" id="52_Countersnell" data-flag="@X" onclick="openSidebar('52_Countersnell',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\97_Buy Low.png" id="97_Buy Low" data-flag="@X" onclick="openSidebar('97_Buy Low',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\142_Badass Fire Skeleton Biker.png" id="142_Badass Fire Skeleton Biker" data-flag="@X" onclick="openSidebar('142_Badass Fire Skeleton Biker',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\187_Cryptolith Left.png" id="187_Cryptolith Left" data-flag="@X" onclick="openSidebar('187_Cryptolith Left',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\8_Boneforge Mystic.png" id="8_Boneforge Mystic" data-flag="@X" onclick="openSidebar('8_Boneforge Mystic',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\53_Crack Open a Cold One.png" id="53_Crack Open a Cold One" data-flag="@X" onclick="openSidebar('53_Crack Open a Cold One',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\98_Card Creep.png" id="98_Card Creep" data-flag="@X" onclick="openSidebar('98_Card Creep',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\143_Blaze Splicer.png" id="143_Blaze Splicer" data-flag="@X" onclick="openSidebar('143_Blaze Splicer',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\188_Deep Lore.png" id="188_Deep Lore" data-flag="@X" onclick="openSidebar('188_Deep Lore',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\9_Brimaz, Kitty King.png" id="9_Brimaz, Kitty King" data-flag="@X" onclick="openSidebar('9_Brimaz, Kitty King',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\54_Crunch Time.png" id="54_Crunch Time" data-flag="@X" onclick="openSidebar('54_Crunch Time',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\99_Carnophage GX.png" id="99_Carnophage GX" data-flag="@X" onclick="openSidebar('99_Carnophage GX',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\144_Broken Mirror.png" id="144_Broken Mirror" data-flag="@X" onclick="openSidebar('144_Broken Mirror',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\189_Dig Dog.png" id="189_Dig Dog" data-flag="@X" onclick="openSidebar('189_Dig Dog',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\10_Colossal Wedmaw.png" id="10_Colossal Wedmaw" data-flag="@X" onclick="openSidebar('10_Colossal Wedmaw',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\55_Cryptic Commander.png" id="55_Cryptic Commander" data-flag="@X" onclick="openSidebar('55_Cryptic Commander',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\100_Children of Korlis Concert.png" id="100_Children of Korlis Concert" data-flag="@X" onclick="openSidebar('100_Children of Korlis Concert',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\145_Burn Spell Name.png" id="145_Burn Spell Name" data-flag="@X" onclick="openSidebar('145_Burn Spell Name',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\190_Dire Corgi.png" id="190_Dire Corgi" data-flag="@X" onclick="openSidebar('190_Dire Corgi',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\11_Combine Harvester.png" id="11_Combine Harvester" data-flag="@X" onclick="openSidebar('11_Combine Harvester',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\56_Debug Menu.png" id="56_Debug Menu" data-flag="@X" onclick="openSidebar('56_Debug Menu',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\101_Chuck, the Evil Sandwich Making Guy.png" id="101_Chuck, the Evil Sandwich Making Guy" data-flag="@X" onclick="openSidebar('101_Chuck, the Evil Sandwich Making Guy',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\146_Cartridge Tilt.png" id="146_Cartridge Tilt" data-flag="@X" onclick="openSidebar('146_Cartridge Tilt',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\191_Dorkish Raccoon.png" id="191_Dorkish Raccoon" data-flag="@X" onclick="openSidebar('191_Dorkish Raccoon',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\12_The Comfiest Couch.png" id="12_The Comfiest Couch" data-flag="@X" onclick="openSidebar('12_The Comfiest Couch',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\57_Doug, IT Guy.png" id="57_Doug, IT Guy" data-flag="@X" onclick="openSidebar('57_Doug, IT Guy',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\102_Colossal Bledmaw.png" id="102_Colossal Bledmaw" data-flag="@X" onclick="openSidebar('102_Colossal Bledmaw',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\147_Cereal Mascot.png" id="147_Cereal Mascot" data-flag="@X" onclick="openSidebar('147_Cereal Mascot',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\192_Formerly Ridden Allosaurus.png" id="192_Formerly Ridden Allosaurus" data-flag="@X" onclick="openSidebar('192_Formerly Ridden Allosaurus',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\13_Craneslayer Angel.png" id="13_Craneslayer Angel" data-flag="@X" onclick="openSidebar('13_Craneslayer Angel',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\58_Dumb Bird Charm.png" id="58_Dumb Bird Charm" data-flag="@X" onclick="openSidebar('58_Dumb Bird Charm',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\103_Computer Search.png" id="103_Computer Search" data-flag="@X" onclick="openSidebar('103_Computer Search',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\148_Charitable Hellkite.png" id="148_Charitable Hellkite" data-flag="@X" onclick="openSidebar('148_Charitable Hellkite',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\193_Get Real.png" id="193_Get Real" data-flag="@X" onclick="openSidebar('193_Get Real',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\14_Decent Removal Charm.png" id="14_Decent Removal Charm" data-flag="@X" onclick="openSidebar('14_Decent Removal Charm',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\59_Edutainment Paragon.png" id="59_Edutainment Paragon" data-flag="@X" onclick="openSidebar('59_Edutainment Paragon',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\104_Cool Ultimatum.png" id="104_Cool Ultimatum" data-flag="@X" onclick="openSidebar('104_Cool Ultimatum',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\149_Cobblebrute GX.png" id="149_Cobblebrute GX" data-flag="@X" onclick="openSidebar('149_Cobblebrute GX',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\194_Giant Spider, Planeswalker.png" id="194_Giant Spider, Planeswalker" data-flag="@X" onclick="openSidebar('194_Giant Spider, Planeswalker',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\15_Excused Absence.png" id="15_Excused Absence" data-flag="@X" onclick="openSidebar('15_Excused Absence',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\60_El Dragon del Invierno.png" id="60_El Dragon del Invierno" data-flag="@X" onclick="openSidebar('60_El Dragon del Invierno',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\105_Damned Daniel.png" id="105_Damned Daniel" data-flag="@X" onclick="openSidebar('105_Damned Daniel',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\150_Colossal Skredmaw.png" id="150_Colossal Skredmaw" data-flag="@X" onclick="openSidebar('150_Colossal Skredmaw',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\195_Go Outside.png" id="195_Go Outside" data-flag="@X" onclick="openSidebar('195_Go Outside',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\16_Fan of Hammers.png" id="16_Fan of Hammers" data-flag="@X" onclick="openSidebar('16_Fan of Hammers',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\61_Financial Compensation.png" id="61_Financial Compensation" data-flag="@X" onclick="openSidebar('61_Financial Compensation',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\106_Dark Hole.png" id="106_Dark Hole" data-flag="@X" onclick="openSidebar('106_Dark Hole',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\151_Competent Goblin Guide.png" id="151_Competent Goblin Guide" data-flag="@X" onclick="openSidebar('151_Competent Goblin Guide',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\196_Gorilla Tactician.png" id="196_Gorilla Tactician" data-flag="@X" onclick="openSidebar('196_Gorilla Tactician',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\17_Father of Runes.png" id="17_Father of Runes" data-flag="@X" onclick="openSidebar('17_Father of Runes',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\62_Flying Men GX.png" id="62_Flying Men GX" data-flag="@X" onclick="openSidebar('62_Flying Men GX',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\107_Dark Ritoil.png" id="107_Dark Ritoil" data-flag="@X" onclick="openSidebar('107_Dark Ritoil',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\152_Cool Ass Dragon Charm.png" id="152_Cool Ass Dragon Charm" data-flag="@X" onclick="openSidebar('152_Cool Ass Dragon Charm',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\197_Goyf Rancher.png" id="197_Goyf Rancher" data-flag="@X" onclick="openSidebar('197_Goyf Rancher',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\18_Forklift Certification Training.png" id="18_Forklift Certification Training" data-flag="@X" onclick="openSidebar('18_Forklift Certification Training',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\63_Force of Boat.png" id="63_Force of Boat" data-flag="@X" onclick="openSidebar('63_Force of Boat',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\108_Demonic Tudor's.png" id="108_Demonic Tudors" data-flag="@X" onclick="openSidebar('108_Demonic Tudors',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\153_Deep Fry.png" id="153_Deep Fry" data-flag="@X" onclick="openSidebar('153_Deep Fry',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\198_The Great Pumpkin.png" id="198_The Great Pumpkin" data-flag="@X" onclick="openSidebar('198_The Great Pumpkin',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\19_Four Ghosts in a Trenchcoat.png" id="19_Four Ghosts in a Trenchcoat" data-flag="@X" onclick="openSidebar('19_Four Ghosts in a Trenchcoat',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\64_Game Genie.png" id="64_Game Genie" data-flag="@X" onclick="openSidebar('64_Game Genie',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\109_Dr Gerhard Zomagk.png" id="109_Dr Gerhard Zomagk" data-flag="@X" onclick="openSidebar('109_Dr Gerhard Zomagk',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\154_Dumpster Fire.png" id="154_Dumpster Fire" data-flag="@X" onclick="openSidebar('154_Dumpster Fire',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\199_Grizzly Bears GX.png" id="199_Grizzly Bears GX" data-flag="@X" onclick="openSidebar('199_Grizzly Bears GX',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\20_Four Million Myr on Typewriters.png" id="20_Four Million Myr on Typewriters" data-flag="@X" onclick="openSidebar('20_Four Million Myr on Typewriters',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\65_Garbage Day.png" id="65_Garbage Day" data-flag="@X" onclick="openSidebar('65_Garbage Day',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\110_Electrician's Edict.png" id="110_Electricians Edict" data-flag="@X" onclick="openSidebar('110_Electricians Edict',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\155_Evil Thalia.png" id="155_Evil Thalia" data-flag="@X" onclick="openSidebar('155_Evil Thalia',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\200_House Hunters.png" id="200_House Hunters" data-flag="@X" onclick="openSidebar('200_House Hunters',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\21_Gigaflicker.png" id="21_Gigaflicker" data-flag="@X" onclick="openSidebar('21_Gigaflicker',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\66_Giant Magnet.png" id="66_Giant Magnet" data-flag="@X" onclick="openSidebar('66_Giant Magnet',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\111_End Career.png" id="111_End Career" data-flag="@X" onclick="openSidebar('111_End Career',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\156_Get the Place Jumping.png" id="156_Get the Place Jumping" data-flag="@X" onclick="openSidebar('156_Get the Place Jumping',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\201_Hundroog Appreciator.png" id="201_Hundroog Appreciator" data-flag="@X" onclick="openSidebar('201_Hundroog Appreciator',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\22_Give Blood.png" id="22_Give Blood" data-flag="@X" onclick="openSidebar('22_Give Blood',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\67_Haunted Banana.png" id="67_Haunted Banana" data-flag="@X" onclick="openSidebar('67_Haunted Banana',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\112_Fish Feeder.png" id="112_Fish Feeder" data-flag="@X" onclick="openSidebar('112_Fish Feeder',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\157_Goblin Hiring Manager.png" id="157_Goblin Hiring Manager" data-flag="@X" onclick="openSidebar('157_Goblin Hiring Manager',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\202_Keyboard Warrior.png" id="202_Keyboard Warrior" data-flag="@X" onclick="openSidebar('202_Keyboard Warrior',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\23_Goldmeadow Harrier PI.png" id="23_Goldmeadow Harrier PI" data-flag="@X" onclick="openSidebar('23_Goldmeadow Harrier PI',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\68_The Impostor.png" id="68_The Impostor" data-flag="@X" onclick="openSidebar('68_The Impostor',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\113_Freelance Necromancer.png" id="113_Freelance Necromancer" data-flag="@X" onclick="openSidebar('113_Freelance Necromancer',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\158_Hell Kite.png" id="158_Hell Kite" data-flag="@X" onclick="openSidebar('158_Hell Kite',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\203_Lagtusk.png" id="203_Lagtusk" data-flag="@X" onclick="openSidebar('203_Lagtusk',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\24_Holy Walla.png" id="24_Holy Walla" data-flag="@X" onclick="openSidebar('24_Holy Walla',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\69_Installation Wizard.png" id="69_Installation Wizard" data-flag="@X" onclick="openSidebar('69_Installation Wizard',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\114_Ghosts in a Can.png" id="114_Ghosts in a Can" data-flag="@X" onclick="openSidebar('114_Ghosts in a Can',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\159_Hidetsugu's Third Rite.png" id="159_Hidetsugus Third Rite" data-flag="@X" onclick="openSidebar('159_Hidetsugus Third Rite',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\204_Legion of the Golden Nut.png" id="204_Legion of the Golden Nut" data-flag="@X" onclick="openSidebar('204_Legion of the Golden Nut',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\25_IRS Officer.png" id="25_IRS Officer" data-flag="@X" onclick="openSidebar('25_IRS Officer',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\70_Jace Beleren, Hypebeast.png" id="70_Jace Beleren, Hypebeast" data-flag="@X" onclick="openSidebar('70_Jace Beleren, Hypebeast',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\115_Highly Spooky Charm.png" id="115_Highly Spooky Charm" data-flag="@X" onclick="openSidebar('115_Highly Spooky Charm',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\160_Highly Suspect Fireball.png" id="160_Highly Suspect Fireball" data-flag="@X" onclick="openSidebar('160_Highly Suspect Fireball',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\205_Llanowar Elves GX.png" id="205_Llanowar Elves GX" data-flag="@X" onclick="openSidebar('205_Llanowar Elves GX',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\26_Jail for Idiot Babies.png" id="26_Jail for Idiot Babies" data-flag="@X" onclick="openSidebar('26_Jail for Idiot Babies',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\71_Jin-Gitaxias' Hot Pants.png" id="71_Jin-Gitaxias Hot Pants" data-flag="@X" onclick="openSidebar('71_Jin-Gitaxias Hot Pants',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\116_Infinite Blades.png" id="116_Infinite Blades" data-flag="@X" onclick="openSidebar('116_Infinite Blades',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\161_Jackal Pup GX.png" id="161_Jackal Pup GX" data-flag="@X" onclick="openSidebar('161_Jackal Pup GX',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\206_Mana George.png" id="206_Mana George" data-flag="@X" onclick="openSidebar('206_Mana George',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\27_Junk of Virtue.png" id="27_Junk of Virtue" data-flag="@X" onclick="openSidebar('27_Junk of Virtue',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\72_Kiora, Snehemoth Sneckoner.png" id="72_Kiora, Snehemoth Sneckoner" data-flag="@X" onclick="openSidebar('72_Kiora, Snehemoth Sneckoner',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\117_KILL.png" id="117_KILL" data-flag="@X" onclick="openSidebar('117_KILL',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\162_Jumper Cables.png" id="162_Jumper Cables" data-flag="@X" onclick="openSidebar('162_Jumper Cables',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\207_Math Class.png" id="207_Math Class" data-flag="@X" onclick="openSidebar('207_Math Class',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\28_Keepsake Excavator.png" id="28_Keepsake Excavator" data-flag="@X" onclick="openSidebar('28_Keepsake Excavator',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\73_Looking Respectfully.png" id="73_Looking Respectfully" data-flag="@X" onclick="openSidebar('73_Looking Respectfully',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\118_The Meathook Massacre Girl.png" id="118_The Meathook Massacre Girl" data-flag="@X" onclick="openSidebar('118_The Meathook Massacre Girl',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\163_Korg.png" id="163_Korg" data-flag="@X" onclick="openSidebar('163_Korg',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\208_Oko's Very Hilarious Charm.png" id="208_Okos Very Hilarious Charm" data-flag="@X" onclick="openSidebar('208_Okos Very Hilarious Charm',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\29_Mana Leak but it's White.png" id="29_Mana Leak but its White" data-flag="@X" onclick="openSidebar('29_Mana Leak but its White',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\74_Magecon 2022.png" id="74_Magecon 2022" data-flag="@X" onclick="openSidebar('74_Magecon 2022',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\119_National Lampoon's Urborg Vacation.png" id="119_National Lampoons Urborg Vacation" data-flag="@X" onclick="openSidebar('119_National Lampoons Urborg Vacation',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\164_Laelia and Young Pyromancer's Grand Day Out.png" id="164_Laelia and Young Pyromancers Grand Day Out" data-flag="@X" onclick="openSidebar('164_Laelia and Young Pyromancers Grand Day Out',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\209_Old McDonald.png" id="209_Old McDonald" data-flag="@X" onclick="openSidebar('209_Old McDonald',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\30_McCormick Guide.png" id="30_McCormick Guide" data-flag="@X" onclick="openSidebar('30_McCormick Guide',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\75_Man of War.png" id="75_Man of War" data-flag="@X" onclick="openSidebar('75_Man of War',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\120_Nick Ropotence.png" id="120_Nick Ropotence" data-flag="@X" onclick="openSidebar('120_Nick Ropotence',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\165_Monastabby Mentor.png" id="165_Monastabby Mentor" data-flag="@X" onclick="openSidebar('165_Monastabby Mentor',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\210_One Third of Muldrotha.png" id="210_One Third of Muldrotha" data-flag="@X" onclick="openSidebar('210_One Third of Muldrotha',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\31_Monster Reborn.png" id="31_Monster Reborn" data-flag="@X" onclick="openSidebar('31_Monster Reborn',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\76_Memnarchs Gone Nuts.png" id="76_Memnarchs Gone Nuts" data-flag="@X" onclick="openSidebar('76_Memnarchs Gone Nuts',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\121_Olive Garden Archfiend.png" id="121_Olive Garden Archfiend" data-flag="@X" onclick="openSidebar('121_Olive Garden Archfiend',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\166_Ostentatious Volleyballer.png" id="166_Ostentatious Volleyballer" data-flag="@X" onclick="openSidebar('166_Ostentatious Volleyballer',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\211_Ooze Cruise.png" id="211_Ooze Cruise" data-flag="@X" onclick="openSidebar('211_Ooze Cruise',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\32_Muscle Philosopher.png" id="32_Muscle Philosopher" data-flag="@X" onclick="openSidebar('32_Muscle Philosopher',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\77_Murktide Shinobi.png" id="77_Murktide Shinobi" data-flag="@X" onclick="openSidebar('77_Murktide Shinobi',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\122_The Other Whip of Erebos.png" id="122_The Other Whip of Erebos" data-flag="@X" onclick="openSidebar('122_The Other Whip of Erebos',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\167_Really Long Stab.png" id="167_Really Long Stab" data-flag="@X" onclick="openSidebar('167_Really Long Stab',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\212_Percussive Maintenance.png" id="212_Percussive Maintenance" data-flag="@X" onclick="openSidebar('212_Percussive Maintenance',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\33_The Ohio Turnpike.png" id="33_The Ohio Turnpike" data-flag="@X" onclick="openSidebar('33_The Ohio Turnpike',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\78_Oracle of Mul Drifter.png" id="78_Oracle of Mul Drifter" data-flag="@X" onclick="openSidebar('78_Oracle of Mul Drifter',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\123_Phyrexian Work Mixer.png" id="123_Phyrexian Work Mixer" data-flag="@X" onclick="openSidebar('123_Phyrexian Work Mixer',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\168_Red Spells in Alpha Command.png" id="168_Red Spells in Alpha Command" data-flag="@X" onclick="openSidebar('168_Red Spells in Alpha Command',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\213_Pod People.png" id="213_Pod People" data-flag="@X" onclick="openSidebar('213_Pod People',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\34_Savannah Lions GX.png" id="34_Savannah Lions GX" data-flag="@X" onclick="openSidebar('34_Savannah Lions GX',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\79_Rabbit Hole.png" id="79_Rabbit Hole" data-flag="@X" onclick="openSidebar('79_Rabbit Hole',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\124_Power Nap.png" id="124_Power Nap" data-flag="@X" onclick="openSidebar('124_Power Nap',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\169_Rob, Faithless Looter.png" id="169_Rob, Faithless Looter" data-flag="@X" onclick="openSidebar('169_Rob, Faithless Looter',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\214_Polukranos, Rotated.png" id="214_Polukranos, Rotated" data-flag="@X" onclick="openSidebar('214_Polukranos, Rotated',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\35_School Dance Chaperone.png" id="35_School Dance Chaperone" data-flag="@X" onclick="openSidebar('35_School Dance Chaperone',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\80_Serendib Efreet GX.png" id="80_Serendib Efreet GX" data-flag="@X" onclick="openSidebar('80_Serendib Efreet GX',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\125_Recording Artist.png" id="125_Recording Artist" data-flag="@X" onclick="openSidebar('125_Recording Artist',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\170_Rock.png" id="170_Rock" data-flag="@X" onclick="openSidebar('170_Rock',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\215_Ranged Hermit.png" id="215_Ranged Hermit" data-flag="@X" onclick="openSidebar('215_Ranged Hermit',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\36_Serra Angel GX.png" id="36_Serra Angel GX" data-flag="@X" onclick="openSidebar('36_Serra Angel GX',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\81_Sniddspeaker.png" id="81_Sniddspeaker" data-flag="@X" onclick="openSidebar('81_Sniddspeaker',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\126_Sneadly Disnute.png" id="126_Sneadly Disnute" data-flag="@X" onclick="openSidebar('126_Sneadly Disnute',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\171_Seafood Regent.png" id="171_Seafood Regent" data-flag="@X" onclick="openSidebar('171_Seafood Regent',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\216_Rofellos, Karametra's Acolyte.png" id="216_Rofellos, Karametras Acolyte" data-flag="@X" onclick="openSidebar('216_Rofellos, Karametras Acolyte',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\37_Sevinne's Repairs Service.png" id="37_Sevinnes Repairs Service" data-flag="@X" onclick="openSidebar('37_Sevinnes Repairs Service',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\82_Snurmuring Snystic.png" id="82_Snurmuring Snystic" data-flag="@X" onclick="openSidebar('82_Snurmuring Snystic',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\127_Solve the Mystery.png" id="127_Solve the Mystery" data-flag="@X" onclick="openSidebar('127_Solve the Mystery',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\172_Shin Nightmare Omega God Ragavan.png" id="172_Shin Nightmare Omega God Ragavan" data-flag="@X" onclick="openSidebar('172_Shin Nightmare Omega God Ragavan',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\217_Sandstorm Titan.png" id="217_Sandstorm Titan" data-flag="@X" onclick="openSidebar('217_Sandstorm Titan',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\38_Some Guy.png" id="38_Some Guy" data-flag="@X" onclick="openSidebar('38_Some Guy',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\83_sorry i wasn't paying attention.png" id="83_sorry i wasnt paying attention" data-flag="@X" onclick="openSidebar('83_sorry i wasnt paying attention',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\128_sony vegas pro 80 keygen.png" id="128_sony vegas pro 80 keygen" data-flag="@X" onclick="openSidebar('128_sony vegas pro 80 keygen',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\173_Six Time NBA Champion Michael Jordan.png" id="173_Six Time NBA Champion Michael Jordan" data-flag="@X" onclick="openSidebar('173_Six Time NBA Champion Michael Jordan',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\218_Simic Init.png" id="218_Simic Init" data-flag="@X" onclick="openSidebar('218_Simic Init',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\39_Swords to Lottery Tickets.png" id="39_Swords to Lottery Tickets" data-flag="@X" onclick="openSidebar('39_Swords to Lottery Tickets',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\84_Splice onto Orcane.png" id="84_Splice onto Orcane" data-flag="@X" onclick="openSidebar('84_Splice onto Orcane',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\129_Termination Notice.png" id="129_Termination Notice" data-flag="@X" onclick="openSidebar('129_Termination Notice',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\174_Snapcaster Electrician.png" id="174_Snapcaster Electrician" data-flag="@X" onclick="openSidebar('174_Snapcaster Electrician',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\219_Sixteen Squirrels.png" id="219_Sixteen Squirrels" data-flag="@X" onclick="openSidebar('219_Sixteen Squirrels',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\40_Take Out the Trash.png" id="40_Take Out the Trash" data-flag="@X" onclick="openSidebar('40_Take Out the Trash',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\85_Talrand and Urza Go to White Castle.png" id="85_Talrand and Urza Go to White Castle" data-flag="@X" onclick="openSidebar('85_Talrand and Urza Go to White Castle',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\130_Terrible Twos.png" id="130_Terrible Twos" data-flag="@X" onclick="openSidebar('130_Terrible Twos',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\175_Something-Gang Commander.png" id="175_Something-Gang Commander" data-flag="@X" onclick="openSidebar('175_Something-Gang Commander',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\220_Skill Issue.png" id="220_Skill Issue" data-flag="@X" onclick="openSidebar('220_Skill Issue',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\41_Tasteful Hero of Bladehold.png" id="41_Tasteful Hero of Bladehold" data-flag="@X" onclick="openSidebar('41_Tasteful Hero of Bladehold',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\86_Time Blender.png" id="86_Time Blender" data-flag="@X" onclick="openSidebar('86_Time Blender',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\131_Tormenting Chef.png" id="131_Tormenting Chef" data-flag="@X" onclick="openSidebar('131_Tormenting Chef',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\176_Spark Ritual.png" id="176_Spark Ritual" data-flag="@X" onclick="openSidebar('176_Spark Ritual',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\221_Spirit of the Format.png" id="221_Spirit of the Format" data-flag="@X" onclick="openSidebar('221_Spirit of the Format',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\42_Thorn Fetcher.png" id="42_Thorn Fetcher" data-flag="@X" onclick="openSidebar('42_Thorn Fetcher',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\87_Time Walk on the Wild Side.png" id="87_Time Walk on the Wild Side" data-flag="@X" onclick="openSidebar('87_Time Walk on the Wild Side',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\132_Torrent.png" id="132_Torrent" data-flag="@X" onclick="openSidebar('132_Torrent',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\177_Speed Like the Movie.png" id="177_Speed Like the Movie" data-flag="@X" onclick="openSidebar('177_Speed Like the Movie',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\222_Super Nerd.png" id="222_Super Nerd" data-flag="@X" onclick="openSidebar('222_Super Nerd',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\43_Trade School Rector.png" id="43_Trade School Rector" data-flag="@X" onclick="openSidebar('43_Trade School Rector',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\88_Trade Show.png" id="88_Trade Show" data-flag="@X" onclick="openSidebar('88_Trade Show',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\133_Tourach, Dinosaur Hunter.png" id="133_Tourach, Dinosaur Hunter" data-flag="@X" onclick="openSidebar('133_Tourach, Dinosaur Hunter',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\178_Stamp Collector.png" id="178_Stamp Collector" data-flag="@X" onclick="openSidebar('178_Stamp Collector',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\223_Titania, Argothian Rocker.png" id="223_Titania, Argothian Rocker" data-flag="@X" onclick="openSidebar('223_Titania, Argothian Rocker',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\44_Unconventional Therapist.png" id="44_Unconventional Therapist" data-flag="@X" onclick="openSidebar('44_Unconventional Therapist',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\89_Universal Remote.png" id="89_Universal Remote" data-flag="@X" onclick="openSidebar('89_Universal Remote',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\134_Toxic Fan.png" id="134_Toxic Fan" data-flag="@X" onclick="openSidebar('134_Toxic Fan',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\179_That Time My Uncle Tony Lightning Bolted Someone.png" id="179_That Time My Uncle Tony Lightning Bolted Someone" data-flag="@X" onclick="openSidebar('179_That Time My Uncle Tony Lightning Bolted Someone',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\224_Vertical Integration.png" id="224_Vertical Integration" data-flag="@X" onclick="openSidebar('224_Vertical Integration',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\45_Utterly Horrifying Geist.png" id="45_Utterly Horrifying Geist" data-flag="@X" onclick="openSidebar('45_Utterly Horrifying Geist',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\90_Uxie The Legends Awakened One.png" id="90_Uxie The Legends Awakened One" data-flag="@X" onclick="openSidebar('90_Uxie The Legends Awakened One',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\135_Vampire Nighthawk GX.png" id="135_Vampire Nighthawk GX" data-flag="@X" onclick="openSidebar('135_Vampire Nighthawk GX',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\180_Think Fast.png" id="180_Think Fast" data-flag="@X" onclick="openSidebar('180_Think Fast',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\225_Wiggles the Worm.png" id="225_Wiggles the Worm" data-flag="@X" onclick="openSidebar('225_Wiggles the Worm',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\46_Wall of Drywall.png" id="46_Wall of Drywall" data-flag="@X" onclick="openSidebar('46_Wall of Drywall',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\91_Zone.png" id="91_Zone" data-flag="@X" onclick="openSidebar('91_Zone',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\136_Wheel of Distortion.png" id="136_Wheel of Distortion" data-flag="@X" onclick="openSidebar('136_Wheel of Distortion',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\181_Tibalt, Gambling Addict.png" id="181_Tibalt, Gambling Addict" data-flag="@X" onclick="openSidebar('181_Tibalt, Gambling Addict',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\226_Witness of Paradise.png" id="226_Witness of Paradise" data-flag="@X" onclick="openSidebar('226_Witness of Paradise',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\47_Young Pie Romancer.png" id="47_Young Pie Romancer" data-flag="@X" onclick="openSidebar('47_Young Pie Romancer',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\92_Wait.png" id="92_Wait" data-flag="@X" onclick="openSidebar('92_Wait',true)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\137_Yawgmoth's Will Kenrith.png" id="137_Yawgmoths Will Kenrith" data-flag="@X" onclick="openSidebar('137_Yawgmoths Will Kenrith',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\182_Wrench Collection.png" id="182_Wrench Collection" data-flag="@X" onclick="openSidebar('182_Wrench Collection',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\232_Entirely Unsuspicious Rise to Power.png" id="232_Entirely Unsuspicious Rise to Power" data-flag="@X" onclick="openSidebar('232_Entirely Unsuspicious Rise to Power',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\240_Mod.png" id="240_Mod" data-flag="@X" onclick="openSidebar('240_Mod',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\234_Goblin Garage Sale.png" id="234_Goblin Garage Sale" data-flag="@X" onclick="openSidebar('234_Goblin Garage Sale',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\238_Minsc, Pokemon Master.png" id="238_Minsc, Pokemon Master" data-flag="@X" onclick="openSidebar('238_Minsc, Pokemon Master',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\245_Questing Bees.png" id="245_Questing Bees" data-flag="@X" onclick="openSidebar('245_Questing Bees',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\247_Reflector's Copter.png" id="247_Reflectors Copter" data-flag="@X" onclick="openSidebar('247_Reflectors Copter',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\241_Newsies.png" id="241_Newsies" data-flag="@X" onclick="openSidebar('241_Newsies',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\246_Rakdos Sweepstakes.png" id="246_Rakdos Sweepstakes" data-flag="@X" onclick="openSidebar('246_Rakdos Sweepstakes',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\244_Otto Battler.png" id="244_Otto Battler" data-flag="@X" onclick="openSidebar('244_Otto Battler',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\249_Rotation Station.png" id="249_Rotation Station" data-flag="@X" onclick="openSidebar('249_Rotation Station',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\248_Reveka, Homelander.png" id="248_Reveka, Homelander" data-flag="@X" onclick="openSidebar('248_Reveka, Homelander',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\251_Stacks on Stacks on Stacks.png" id="251_Stacks on Stacks on Stacks" data-flag="@X" onclick="openSidebar('251_Stacks on Stacks on Stacks',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\253_Wax Dribbler.png" id="253_Wax Dribbler" data-flag="@X" onclick="openSidebar('253_Wax Dribbler',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\254_The Wrenn and Stimpy Show.png" id="254_The Wrenn and Stimpy Show" data-flag="@X" onclick="openSidebar('254_The Wrenn and Stimpy Show',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\257_Clover Muncher.png" id="257_Clover Muncher" data-flag="@X" onclick="openSidebar('257_Clover Muncher',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\259_Daze of Our Lives.png" id="259_Daze of Our Lives" data-flag="@X" onclick="openSidebar('259_Daze of Our Lives',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\261_Gone Wishin'.png" id="261_Gone Wishin" data-flag="@X" onclick="openSidebar('261_Gone Wishin',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\260_Demon Rhino.png" id="260_Demon Rhino" data-flag="@X" onclick="openSidebar('260_Demon Rhino',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\265_Mush Pit.png" id="265_Mush Pit" data-flag="@X" onclick="openSidebar('265_Mush Pit',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\258_Corn Field Evangel.png" id="258_Corn Field Evangel" data-flag="@X" onclick="openSidebar('258_Corn Field Evangel',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\274_Verbal Abuse.png" id="274_Verbal Abuse" data-flag="@X" onclick="openSidebar('274_Verbal Abuse',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\272_Support Your Local Library.png" id="272_Support Your Local Library" data-flag="@X" onclick="openSidebar('272_Support Your Local Library',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\263_Infernal Injury Lawyer.png" id="263_Infernal Injury Lawyer" data-flag="@X" onclick="openSidebar('263_Infernal Injury Lawyer',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\267_Roadkill.png" id="267_Roadkill" data-flag="@X" onclick="openSidebar('267_Roadkill',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\233_FETCH With Guff Guffman.png" id="233_FETCH With Guff Guffman" data-flag="@X" onclick="openSidebar('233_FETCH With Guff Guffman',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\229_Arceus and Dialga and Palkia Tag Team GX.png" id="229_Arceus and Dialga and Palkia Tag Team GX" data-flag="@X" onclick="openSidebar('229_Arceus and Dialga and Palkia Tag Team GX',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\230_Better Call Bhaal.png" id="230_Better Call Bhaal" data-flag="@X" onclick="openSidebar('230_Better Call Bhaal',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\228_Alfredo Linguini From Ratatouille.png" id="228_Alfredo Linguini From Ratatouille" data-flag="@X" onclick="openSidebar('228_Alfredo Linguini From Ratatouille',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\227_7-Up Dragon.png" id="227_7-Up Dragon" data-flag="@X" onclick="openSidebar('227_7-Up Dragon',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\236_Indicator.png" id="236_Indicator" data-flag="@X" onclick="openSidebar('236_Indicator',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\235_Goblin Whatevermancer.png" id="235_Goblin Whatevermancer" data-flag="@X" onclick="openSidebar('235_Goblin Whatevermancer',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\250_Spiritmonger 2 Tokyo Drift.png" id="250_Spiritmonger 2 Tokyo Drift" data-flag="@X" onclick="openSidebar('250_Spiritmonger 2 Tokyo Drift',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\231_Burninate the Countryside.png" id="231_Burninate the Countryside" data-flag="@X" onclick="openSidebar('231_Burninate the Countryside',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\237_Kinnan, Snonder Snodigy.png" id="237_Kinnan, Snonder Snodigy" data-flag="@X" onclick="openSidebar('237_Kinnan, Snonder Snodigy',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\243_Olympic Stax Team.png" id="243_Olympic Stax Team" data-flag="@X" onclick="openSidebar('243_Olympic Stax Team',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\252_Super Duper Dynamo.png" id="252_Super Duper Dynamo" data-flag="@X" onclick="openSidebar('252_Super Duper Dynamo',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\256_Bug Juice.png" id="256_Bug Juice" data-flag="@X" onclick="openSidebar('256_Bug Juice',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\262_Imperial Recruiter of the Guard.png" id="262_Imperial Recruiter of the Guard" data-flag="@X" onclick="openSidebar('262_Imperial Recruiter of the Guard',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\239_MIRARI The Musical.png" id="239_MIRARI The Musical" data-flag="@X" onclick="openSidebar('239_MIRARI The Musical',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\268_Schmitty, Lurrus' Nephew.png" id="268_Schmitty, Lurrus Nephew" data-flag="@X" onclick="openSidebar('268_Schmitty, Lurrus Nephew',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\269_Showdown of the Scalds.png" id="269_Showdown of the Scalds" data-flag="@X" onclick="openSidebar('269_Showdown of the Scalds',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\266_Phyrexian Eldrazi Sliver Planeswalker.png" id="266_Phyrexian Eldrazi Sliver Planeswalker" data-flag="@X" onclick="openSidebar('266_Phyrexian Eldrazi Sliver Planeswalker',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\264_Mantis.png" id="264_Mantis" data-flag="@X" onclick="openSidebar('264_Mantis',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\255_Bird Watching Club.png" id="255_Bird Watching Club" data-flag="@X" onclick="openSidebar('255_Bird Watching Club',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\275_Wiki Editor.png" id="275_Wiki Editor" data-flag="@X" onclick="openSidebar('275_Wiki Editor',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\270_Spork.png" id="270_Spork" data-flag="@X" onclick="openSidebar('270_Spork',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\273_Survival of the Schnastiest.png" id="273_Survival of the Schnastiest" data-flag="@X" onclick="openSidebar('273_Survival of the Schnastiest',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\271_Squelchmeister.png" id="271_Squelchmeister" data-flag="@X" onclick="openSidebar('271_Squelchmeister',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\242_Niv-Mizzet Reborn Reborn.png" id="242_Niv-Mizzet Reborn Reborn" data-flag="@X" onclick="openSidebar('242_Niv-Mizzet Reborn Reborn',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\1_Tim, of the Wilds.png" id="1_Tim, of the Wilds" data-flag="@X" onclick="openSidebar('1_Tim, of the Wilds',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\2_Ucko Fucko, the Classic Lovable Character.png" id="2_Ucko Fucko, the Classic Lovable Character" data-flag="@X" onclick="openSidebar('2_Ucko Fucko, the Classic Lovable Character',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\276_Ancient Tom.png" id="276_Ancient Tom" data-flag="@X" onclick="openSidebar('276_Ancient Tom',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\277_Azorius Membership Card.png" id="277_Azorius Membership Card" data-flag="@X" onclick="openSidebar('277_Azorius Membership Card',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\278_Boros Membership Card.png" id="278_Boros Membership Card" data-flag="@X" onclick="openSidebar('278_Boros Membership Card',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\279_Butterknife of Fire and Ice.png" id="279_Butterknife of Fire and Ice" data-flag="@X" onclick="openSidebar('279_Butterknife of Fire and Ice',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\280_Colossal Shredmaw.png" id="280_Colossal Shredmaw" data-flag="@X" onclick="openSidebar('280_Colossal Shredmaw',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\281_Cow Tools.png" id="281_Cow Tools" data-flag="@X" onclick="openSidebar('281_Cow Tools',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\282_Dimir Membership Card.png" id="282_Dimir Membership Card" data-flag="@X" onclick="openSidebar('282_Dimir Membership Card',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\283_Flying Lawn Chair.png" id="283_Flying Lawn Chair" data-flag="@X" onclick="openSidebar('283_Flying Lawn Chair',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\284_Free Bird.png" id="284_Free Bird" data-flag="@X" onclick="openSidebar('284_Free Bird',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\285_Golgari Membership Card.png" id="285_Golgari Membership Card" data-flag="@X" onclick="openSidebar('285_Golgari Membership Card',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\286_Gruul Membership Card.png" id="286_Gruul Membership Card" data-flag="@X" onclick="openSidebar('286_Gruul Membership Card',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\287_Hyperlotus.png" id="287_Hyperlotus" data-flag="@X" onclick="openSidebar('287_Hyperlotus',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\288_Izzet Membership Card.png" id="288_Izzet Membership Card" data-flag="@X" onclick="openSidebar('288_Izzet Membership Card',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\289_Life Orb.png" id="289_Life Orb" data-flag="@X" onclick="openSidebar('289_Life Orb',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\290_Marble Diamond Collector's Edition.png" id="290_Marble Diamond Collectors Edition" data-flag="@X" onclick="openSidebar('290_Marble Diamond Collectors Edition',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\291_Masticore GX.png" id="291_Masticore GX" data-flag="@X" onclick="openSidebar('291_Masticore GX',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\292_Metalworks.png" id="292_Metalworks" data-flag="@X" onclick="openSidebar('292_Metalworks',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\293_Money Catcher Booth.png" id="293_Money Catcher Booth" data-flag="@X" onclick="openSidebar('293_Money Catcher Booth',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\294_Mountain Lightning.png" id="294_Mountain Lightning" data-flag="@X" onclick="openSidebar('294_Mountain Lightning',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\295_Orzhov Membership Card.png" id="295_Orzhov Membership Card" data-flag="@X" onclick="openSidebar('295_Orzhov Membership Card',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\296_Piloted Shredder.png" id="296_Piloted Shredder" data-flag="@X" onclick="openSidebar('296_Piloted Shredder',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\297_Planeswalking Ballista.png" id="297_Planeswalking Ballista" data-flag="@X" onclick="openSidebar('297_Planeswalking Ballista',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\298_Promposal Sign.png" id="298_Promposal Sign" data-flag="@X" onclick="openSidebar('298_Promposal Sign',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\299_Purely Decorative Sword.png" id="299_Purely Decorative Sword" data-flag="@X" onclick="openSidebar('299_Purely Decorative Sword',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\300_Rakdos Membership Card.png" id="300_Rakdos Membership Card" data-flag="@X" onclick="openSidebar('300_Rakdos Membership Card',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\301_Selesnya Membership Card.png" id="301_Selesnya Membership Card" data-flag="@X" onclick="openSidebar('301_Selesnya Membership Card',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\302_Shox Emerald.png" id="302_Shox Emerald" data-flag="@X" onclick="openSidebar('302_Shox Emerald',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\303_Shox Jet.png" id="303_Shox Jet" data-flag="@X" onclick="openSidebar('303_Shox Jet',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\304_Shox Pearl.png" id="304_Shox Pearl" data-flag="@X" onclick="openSidebar('304_Shox Pearl',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\305_Shox Ruby.png" id="305_Shox Ruby" data-flag="@X" onclick="openSidebar('305_Shox Ruby',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\306_Shox Sapphire.png" id="306_Shox Sapphire" data-flag="@X" onclick="openSidebar('306_Shox Sapphire',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\307_Simic Membership Card.png" id="307_Simic Membership Card" data-flag="@X" onclick="openSidebar('307_Simic Membership Card',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\308_Skulk Lamp.png" id="308_Skulk Lamp" data-flag="@X" onclick="openSidebar('308_Skulk Lamp',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\309_Sny Diamond.png" id="309_Sny Diamond" data-flag="@X" onclick="openSidebar('309_Sny Diamond',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\310_Taco Bellemental.png" id="310_Taco Bellemental" data-flag="@X" onclick="openSidebar('310_Taco Bellemental',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\311_Tajitte.png" id="311_Tajitte" data-flag="@X" onclick="openSidebar('311_Tajitte',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\312_Tungsten-Arm O'Doyle.png" id="312_Tungsten-Arm ODoyle" data-flag="@X" onclick="openSidebar('312_Tungsten-Arm ODoyle',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\313_Ucko Fucko's Catheter.png" id="313_Ucko Fuckos Catheter" data-flag="@X" onclick="openSidebar('313_Ucko Fuckos Catheter',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\314_Wurmcoil Engine Mk II.png" id="314_Wurmcoil Engine Mk II" data-flag="@X" onclick="openSidebar('314_Wurmcoil Engine Mk II',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\315_Moyai.png" id="315_Moyai" data-flag="@X" onclick="openSidebar('315_Moyai',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\359_Tolaria State University.png" id="359_Tolaria State University" data-flag="@X" onclick="openSidebar('359_Tolaria State University',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\335_Necropolis for Lease.png" id="335_Necropolis for Lease" data-flag="@X" onclick="openSidebar('335_Necropolis for Lease',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\322_Gaea's Secret Treehouse.png" id="322_Gaeas Secret Treehouse" data-flag="@X" onclick="openSidebar('322_Gaeas Secret Treehouse',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\327_Lake of the Living.png" id="327_Lake of the Living" data-flag="@X" onclick="openSidebar('327_Lake of the Living',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\328_Lowe's.png" id="328_Lowes" data-flag="@X" onclick="openSidebar('328_Lowes',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\329_Maine.png" id="329_Maine" data-flag="@X" onclick="openSidebar('329_Maine',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\336_New Mexico.png" id="336_New Mexico" data-flag="@X" onclick="openSidebar('336_New Mexico',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\317_Fazoli's.png" id="317_Fazolis" data-flag="@X" onclick="openSidebar('317_Fazolis',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\326_Kentucky.png" id="326_Kentucky" data-flag="@X" onclick="openSidebar('326_Kentucky',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\332_Minnesota.png" id="332_Minnesota" data-flag="@X" onclick="openSidebar('332_Minnesota',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\347_Sunoco.png" id="347_Sunoco" data-flag="@X" onclick="openSidebar('347_Sunoco',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\341_Red Lobster.png" id="341_Red Lobster" data-flag="@X" onclick="openSidebar('341_Red Lobster',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\338_Oregon.png" id="338_Oregon" data-flag="@X" onclick="openSidebar('338_Oregon',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\342_The Reliquary.png" id="342_The Reliquary" data-flag="@X" onclick="openSidebar('342_The Reliquary',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\346_Subway.png" id="346_Subway" data-flag="@X" onclick="openSidebar('346_Subway',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\325_Kansas.png" id="325_Kansas" data-flag="@X" onclick="openSidebar('325_Kansas',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\323_Hawaii.png" id="323_Hawaii" data-flag="@X" onclick="openSidebar('323_Hawaii',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\320_Florida.png" id="320_Florida" data-flag="@X" onclick="openSidebar('320_Florida',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\324_The Home Depot.png" id="324_The Home Depot" data-flag="@X" onclick="openSidebar('324_The Home Depot',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\316_Dick's Sporting Goods.png" id="316_Dicks Sporting Goods" data-flag="@X" onclick="openSidebar('316_Dicks Sporting Goods',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\358_TGI Friday's.png" id="358_TGI Fridays" data-flag="@X" onclick="openSidebar('358_TGI Fridays',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\339_Planet Fitness.png" id="339_Planet Fitness" data-flag="@X" onclick="openSidebar('339_Planet Fitness',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\331_Menards.png" id="331_Menards" data-flag="@X" onclick="openSidebar('331_Menards',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\360_Wyoming.png" id="360_Wyoming" data-flag="@X" onclick="openSidebar('360_Wyoming',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\330_Maryland.png" id="330_Maryland" data-flag="@X" onclick="openSidebar('330_Maryland',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\361_Plains.png" id="361_Plains" data-flag="@X" onclick="openSidebar('361_Plains',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\362_Island.png" id="362_Island" data-flag="@X" onclick="openSidebar('362_Island',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\363_Swamp.png" id="363_Swamp" data-flag="@X" onclick="openSidebar('363_Swamp',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\364_Mountain.png" id="364_Mountain" data-flag="@X" onclick="openSidebar('364_Mountain',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\365_Forest.png" id="365_Forest" data-flag="@X" onclick="openSidebar('365_Forest',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\1t_Flash of Steel.png" id="1t_Flash of Steel" data-flag="@X" onclick="openSidebar('1t_Flash of Steel',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\2t_Pot of Greed.png" id="2t_Pot of Greed" data-flag="@X" onclick="openSidebar('2t_Pot of Greed',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\3t_Professor Oak.png" id="3t_Professor Oak" data-flag="@X" onclick="openSidebar('3t_Professor Oak',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\4t_Shiv.png" id="4t_Shiv" data-flag="@X" onclick="openSidebar('4t_Shiv',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\27t_Blood.png" id="27t_Blood" data-flag="@X" onclick="openSidebar('27t_Blood',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\28t_Clue.png" id="28t_Clue" data-flag="@X" onclick="openSidebar('28t_Clue',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\29t_Crave Case.png" id="29t_Crave Case" data-flag="@X" onclick="openSidebar('29t_Crave Case',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\30t_Food.png" id="30t_Food" data-flag="@X" onclick="openSidebar('30t_Food',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\31t_Phyrexian Golem.png" id="31t_Phyrexian Golem" data-flag="@X" onclick="openSidebar('31t_Phyrexian Golem',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\32t_Phyrexian Wurm 1.png" id="32t_Phyrexian Wurm 1" data-flag="@X" onclick="openSidebar('32t_Phyrexian Wurm 1',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\33t_Phyrexian Wurm 2.png" id="33t_Phyrexian Wurm 2" data-flag="@X" onclick="openSidebar('33t_Phyrexian Wurm 2',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\34t_Phyrexian Wurm 3.png" id="34t_Phyrexian Wurm 3" data-flag="@X" onclick="openSidebar('34t_Phyrexian Wurm 3',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\35t_Treasure.png" id="35t_Treasure" data-flag="@X" onclick="openSidebar('35t_Treasure',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\36t_Vehicle.png" id="36t_Vehicle" data-flag="@X" onclick="openSidebar('36t_Vehicle',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\37t_Wall.png" id="37t_Wall" data-flag="@X" onclick="openSidebar('37t_Wall',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\1t_Bride of Wedmaw.png" id="1t_Bride of Wedmaw" data-flag="@X" onclick="openSidebar('1t_Bride of Wedmaw',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\2t_Human.png" id="2t_Human" data-flag="@X" onclick="openSidebar('2t_Human',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\3t_Knight.png" id="3t_Knight" data-flag="@X" onclick="openSidebar('3t_Knight',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\4t_Soldier.png" id="4t_Soldier" data-flag="@X" onclick="openSidebar('4t_Soldier',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\5t_Spirit.png" id="5t_Spirit" data-flag="@X" onclick="openSidebar('5t_Spirit',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\6t_Vans.png" id="6t_Vans" data-flag="@X" onclick="openSidebar('6t_Vans',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\7t_Bird Beast Illusion.png" id="7t_Bird Beast Illusion" data-flag="@X" onclick="openSidebar('7t_Bird Beast Illusion',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\8t_Drake.png" id="8t_Drake" data-flag="@X" onclick="openSidebar('8t_Drake',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\9t_Orcane.png" id="9t_Orcane" data-flag="@X" onclick="openSidebar('9t_Orcane',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\10t_Phyrexian Eldrazi Sliver Spawn.png" id="10t_Phyrexian Eldrazi Sliver Spawn" data-flag="@X" onclick="openSidebar('10t_Phyrexian Eldrazi Sliver Spawn',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\11t_Rat.png" id="11t_Rat" data-flag="@X" onclick="openSidebar('11t_Rat',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\12t_Boo, Pocket Monster.png" id="12t_Boo, Pocket Monster" data-flag="@X" onclick="openSidebar('12t_Boo, Pocket Monster',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\13t_Crab.png" id="13t_Crab" data-flag="@X" onclick="openSidebar('13t_Crab',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\14t_Demon.png" id="14t_Demon" data-flag="@X" onclick="openSidebar('14t_Demon',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\15t_Elemental.png" id="15t_Elemental" data-flag="@X" onclick="openSidebar('15t_Elemental',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\16t_Fish.png" id="16t_Fish" data-flag="@X" onclick="openSidebar('16t_Fish',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\17t_Goblin.png" id="17t_Goblin" data-flag="@X" onclick="openSidebar('17t_Goblin',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\18t_Skeleton Pilot.png" id="18t_Skeleton Pilot" data-flag="@X" onclick="openSidebar('18t_Skeleton Pilot',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\19t_Squid.png" id="19t_Squid" data-flag="@X" onclick="openSidebar('19t_Squid',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\20t_Stimpy.png" id="20t_Stimpy" data-flag="@X" onclick="openSidebar('20t_Stimpy',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\21t_Saproling.png" id="21t_Saproling" data-flag="@X" onclick="openSidebar('21t_Saproling',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\22t_Spider.png" id="22t_Spider" data-flag="@X" onclick="openSidebar('22t_Spider',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\23t_Squirrel.png" id="23t_Squirrel" data-flag="@X" onclick="openSidebar('23t_Squirrel',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\24t_Worm.png" id="24t_Worm" data-flag="@X" onclick="openSidebar('24t_Worm',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\25t_Fractal.png" id="25t_Fractal" data-flag="@X" onclick="openSidebar('25t_Fractal',false)"></div>
+			<div class="container"><img alt="/sets\2022-files\img\26t_Insect.png" id="26t_Insect" data-flag="@X" onclick="openSidebar('26t_Insect',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		document.body.style.backgroundImage = 'url(' + document.getElementById("bg").src + ')';
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

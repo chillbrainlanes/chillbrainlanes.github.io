@@ -1,1 +1,0 @@
-﻿Thornbite Brawler	G	common	Creature – Plant Warrior 	253	G	4G	Melee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)NEWLINEWhen this creature enters, up to one target creature you control fights target creature you don’t control.	3/3		normal	PMD		

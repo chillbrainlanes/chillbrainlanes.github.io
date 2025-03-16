@@ -1,1 +1,0 @@
-﻿Skin	B	common	Instant	122	B	1B	Destroy target non-Human creature.			normal	SOJ		

@@ -1,1 +1,0 @@
-﻿Craw Companion	G	common	Creature – Wurm Warrior 	216	G	4GG	TrampleNEWLINEWhen this creature enters, creatures you control get +1/+1 and gain trample until end of turn.	6/4		normal	PMD		

@@ -1,1 +1,0 @@
-﻿Bird Beast Illusion	U	cube	Token Creature – Bird Beast Illusion 	7	U		Flying	1/1		token	2022		!related Snurmuring Snystic;

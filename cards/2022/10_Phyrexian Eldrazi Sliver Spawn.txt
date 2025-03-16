@@ -1,1 +1,0 @@
-﻿Phyrexian Eldrazi Sliver Spawn	B	cube	Token Creature – Phyrexian Eldrazi Sliver Spawn 	10	B		Slivers you control have “Sacrifice this permanent: Add C.”	0/1		token	2022		!related Phyrexian Eldrazi Sliver Planeswalker;

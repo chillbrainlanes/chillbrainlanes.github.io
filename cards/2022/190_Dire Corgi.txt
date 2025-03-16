@@ -1,1 +1,0 @@
-﻿Dire Corgi	G	cube	Creature – Dog 	190	G	3GG	TrampleNEWLINEWhen Dire Corgi enters the battlefield, put target noncreature, nonbasic permanent on the top or bottom of its owner’s library.NEWLINEEvoke 2G (You may cast this spell for its evoke cost. If you do, it’s sacrificed when it enters.)	7/7		normal	2022		

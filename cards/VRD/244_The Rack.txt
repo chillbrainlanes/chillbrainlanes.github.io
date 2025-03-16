@@ -1,1 +1,0 @@
-﻿The Rack		uncommon	Artifact	244	C	1	As this artifact enters, choose an opponent.NEWLINEAt the beginning of the chosen player’s upkeep, this artifact deals X damage to that player, where X is 3 minus the number of cards in their hand.			normal	VRD		Reprint

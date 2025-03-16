@@ -1,1 +1,0 @@
-﻿Hyperlotus		cube	Legendary Artifact	287	C	0	T, Sacrifice Hyperlotus: Add three mana of different colors.			normal	2022		Power 10

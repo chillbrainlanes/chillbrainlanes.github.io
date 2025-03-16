@@ -1,1 +1,0 @@
-﻿Greater Necromancy	B	common	Instant	105	B	XBB	Mill X cards. When you do, return up to two target creature cards from your graveyard to your hand.			normal	SOJ		Preview: squid

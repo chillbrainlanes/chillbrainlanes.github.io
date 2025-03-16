@@ -1,1 +1,0 @@
-﻿Gilded Lotus		common	Token Artifact	16	C		T: Add three mana of any one color.			token	VRD		!related Calamity Smith In The Gilded Heist;

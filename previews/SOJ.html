@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/SOJ-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>SOJ visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/SOJ-files/logo.png" />
+	<img class="preload-hidden" src="/sets/2022-files/icon.png" />
+		<img class="preload-hidden" src="/sets/PMD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SOJ-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VRD-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="2022"><img src="/sets/2022-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="PMD"><img src="/sets/PMD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SOJ"><img src="/sets/SOJ-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="VRD"><img src="/sets/VRD-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/SOJ-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\SOJ-files\img\14_Dhabu, Daughter of Uaria.png" id="14_Dhabu, Daughter of Uaria" data-flag="@X" onclick="openSidebar('14_Dhabu, Daughter of Uaria',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\55_Enigmatic Revel.png" id="55_Enigmatic Revel" data-flag="@X" onclick="openSidebar('55_Enigmatic Revel',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\92_Birth of Midnight.png" id="92_Birth of Midnight" data-flag="@X" onclick="openSidebar('92_Birth of Midnight',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\133_Aruj, Who Brings Epiphany.png" id="133_Aruj, Who Brings Epiphany" data-flag="@X" onclick="openSidebar('133_Aruj, Who Brings Epiphany',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\212_Tyrant of the Jungle.png" id="212_Tyrant of the Jungle" data-flag="@X" onclick="openSidebar('212_Tyrant of the Jungle',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\19_Elju, Who Raises Cities.png" id="19_Elju, Who Raises Cities" data-flag="@X" onclick="openSidebar('19_Elju, Who Raises Cities',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\60_Hodaji, Who Turns the Stars.png" id="60_Hodaji, Who Turns the Stars" data-flag="@X" onclick="openSidebar('60_Hodaji, Who Turns the Stars',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\119_Sakte, Who Shapes the Sands.png" id="119_Sakte, Who Shapes the Sands" data-flag="@X" onclick="openSidebar('119_Sakte, Who Shapes the Sands',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\167_Roselyn, the Traveler.png" id="167_Roselyn, the Traveler" data-flag="@X" onclick="openSidebar('167_Roselyn, the Traveler',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\218_Yurcsa, Who Wills New Life.png" id="218_Yurcsa, Who Wills New Life" data-flag="@X" onclick="openSidebar('218_Yurcsa, Who Wills New Life',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\20_Eshaha, Light of Akuga.png" id="20_Eshaha, Light of Akuga" data-flag="@X" onclick="openSidebar('20_Eshaha, Light of Akuga',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\78_Skylord Inkanyamba.png" id="78_Skylord Inkanyamba" data-flag="@X" onclick="openSidebar('78_Skylord Inkanyamba',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\129_Yillar Ficheka, Dreadlaugh Alpha.png" id="129_Yillar Ficheka, Dreadlaugh Alpha" data-flag="@X" onclick="openSidebar('129_Yillar Ficheka, Dreadlaugh Alpha',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\175_Three Mighty Heroes.png" id="175_Three Mighty Heroes" data-flag="@X" onclick="openSidebar('175_Three Mighty Heroes',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\177_Call Across Unknown Eternities.png" id="177_Call Across Unknown Eternities" data-flag="@X" onclick="openSidebar('177_Call Across Unknown Eternities',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\2_Age A Thousand Lifetimes.png" id="2_Age A Thousand Lifetimes" data-flag="@X" onclick="openSidebar('2_Age A Thousand Lifetimes',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\53_Divine Wish.png" id="53_Divine Wish" data-flag="@X" onclick="openSidebar('53_Divine Wish',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\91_Apex Hlamarisa.png" id="91_Apex Hlamarisa" data-flag="@X" onclick="openSidebar('91_Apex Hlamarisa',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\137_Brilliant Hymn.png" id="137_Brilliant Hymn" data-flag="@X" onclick="openSidebar('137_Brilliant Hymn',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\184_Glimpse of Nature.png" id="184_Glimpse of Nature" data-flag="@X" onclick="openSidebar('184_Glimpse of Nature',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\3_Akuga Awaits A Worthy Leader.png" id="3_Akuga Awaits A Worthy Leader" data-flag="@X" onclick="openSidebar('3_Akuga Awaits A Worthy Leader',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\56_Eoncrafter.png" id="56_Eoncrafter" data-flag="@X" onclick="openSidebar('56_Eoncrafter',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\100_Dreadlaugh Recruiter.png" id="100_Dreadlaugh Recruiter" data-flag="@X" onclick="openSidebar('100_Dreadlaugh Recruiter',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\139_Creation Ignites Awaiting Minds.png" id="139_Creation Ignites Awaiting Minds" data-flag="@X" onclick="openSidebar('139_Creation Ignites Awaiting Minds',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\186_Grove of Sacred Reeds.png" id="186_Grove of Sacred Reeds" data-flag="@X" onclick="openSidebar('186_Grove of Sacred Reeds',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\11_Conscripted By Divine Will.png" id="11_Conscripted By Divine Will" data-flag="@X" onclick="openSidebar('11_Conscripted By Divine Will',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\58_The First Visitation.png" id="58_The First Visitation" data-flag="@X" onclick="openSidebar('58_The First Visitation',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\102_Finger Nibbler.png" id="102_Finger Nibbler" data-flag="@X" onclick="openSidebar('102_Finger Nibbler',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\140_Dance of Many Forms.png" id="140_Dance of Many Forms" data-flag="@X" onclick="openSidebar('140_Dance of Many Forms',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\187_Hiutha's Protege.png" id="187_Hiuthas Protege" data-flag="@X" onclick="openSidebar('187_Hiuthas Protege',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\17_Dhabu's Second.png" id="17_Dhabus Second" data-flag="@X" onclick="openSidebar('17_Dhabus Second',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\63_Ipundu, the First Thunderbird.png" id="63_Ipundu, the First Thunderbird" data-flag="@X" onclick="openSidebar('63_Ipundu, the First Thunderbird',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\103_Glimpse Eternity.png" id="103_Glimpse Eternity" data-flag="@X" onclick="openSidebar('103_Glimpse Eternity',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\151_Incendiary Augury.png" id="151_Incendiary Augury" data-flag="@X" onclick="openSidebar('151_Incendiary Augury',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\188_Honored Grootslang.png" id="188_Honored Grootslang" data-flag="@X" onclick="openSidebar('188_Honored Grootslang',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\28_Martial Alliance.png" id="28_Martial Alliance" data-flag="@X" onclick="openSidebar('28_Martial Alliance',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\70_Noble Enigma.png" id="70_Noble Enigma" data-flag="@X" onclick="openSidebar('70_Noble Enigma',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\109_Kakrako's Cruelty.png" id="109_Kakrakos Cruelty" data-flag="@X" onclick="openSidebar('109_Kakrakos Cruelty',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\154_Jimuaja, Roselyn's Muse.png" id="154_Jimuaja, Roselyns Muse" data-flag="@X" onclick="openSidebar('154_Jimuaja, Roselyns Muse',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\193_Kneel Before Your Gods.png" id="193_Kneel Before Your Gods" data-flag="@X" onclick="openSidebar('193_Kneel Before Your Gods',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\30_Militant Unity.png" id="30_Militant Unity" data-flag="@X" onclick="openSidebar('30_Militant Unity',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\76_Seeker of Ziawan.png" id="76_Seeker of Ziawan" data-flag="@X" onclick="openSidebar('76_Seeker of Ziawan',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\113_Madness Begs for Company.png" id="113_Madness Begs for Company" data-flag="@X" onclick="openSidebar('113_Madness Begs for Company',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\157_Manikto, Defier of Fate.png" id="157_Manikto, Defier of Fate" data-flag="@X" onclick="openSidebar('157_Manikto, Defier of Fate',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\195_Legacy of the Wild Sovereign.png" id="195_Legacy of the Wild Sovereign" data-flag="@X" onclick="openSidebar('195_Legacy of the Wild Sovereign',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\34_Prairie Tromper.png" id="34_Prairie Tromper" data-flag="@X" onclick="openSidebar('34_Prairie Tromper',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\77_Sever the Thread of Time.png" id="77_Sever the Thread of Time" data-flag="@X" onclick="openSidebar('77_Sever the Thread of Time',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\116_Outcast Necromancer.png" id="116_Outcast Necromancer" data-flag="@X" onclick="openSidebar('116_Outcast Necromancer',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\165_Rightful Rule.png" id="165_Rightful Rule" data-flag="@X" onclick="openSidebar('165_Rightful Rule',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\202_Shaman of Wild Kinship.png" id="202_Shaman of Wild Kinship" data-flag="@X" onclick="openSidebar('202_Shaman of Wild Kinship',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\36_Retell.png" id="36_Retell" data-flag="@X" onclick="openSidebar('36_Retell',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\79_Smuggling Operation.png" id="79_Smuggling Operation" data-flag="@X" onclick="openSidebar('79_Smuggling Operation',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\117_Rise Again in Servitude.png" id="117_Rise Again in Servitude" data-flag="@X" onclick="openSidebar('117_Rise Again in Servitude',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\166_Rivergift Dragon.png" id="166_Rivergift Dragon" data-flag="@X" onclick="openSidebar('166_Rivergift Dragon',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\210_Tremble In Titans' Wake.png" id="210_Tremble In Titans Wake" data-flag="@X" onclick="openSidebar('210_Tremble In Titans Wake',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\40_Stalwart Seeker.png" id="40_Stalwart Seeker" data-flag="@X" onclick="openSidebar('40_Stalwart Seeker',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\87_Ziwe, God-Touched Astronomer.png" id="87_Ziwe, God-Touched Astronomer" data-flag="@X" onclick="openSidebar('87_Ziwe, God-Touched Astronomer',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\118_Rise of the Adze.png" id="118_Rise of the Adze" data-flag="@X" onclick="openSidebar('118_Rise of the Adze',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\171_Spectacular Performance.png" id="171_Spectacular Performance" data-flag="@X" onclick="openSidebar('171_Spectacular Performance',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\215_Way of the Wilderness.png" id="215_Way of the Wilderness" data-flag="@X" onclick="openSidebar('215_Way of the Wilderness',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\43_Sunstrider of Elju.png" id="43_Sunstrider of Elju" data-flag="@X" onclick="openSidebar('43_Sunstrider of Elju',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\88_Ziwe's Grand Telescope.png" id="88_Ziwes Grand Telescope" data-flag="@X" onclick="openSidebar('88_Ziwes Grand Telescope',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\124_Throatslasher.png" id="124_Throatslasher" data-flag="@X" onclick="openSidebar('124_Throatslasher',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\176_Whim of Aruj.png" id="176_Whim of Aruj" data-flag="@X" onclick="openSidebar('176_Whim of Aruj',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\179_Deafening Trumpeter.png" id="179_Deafening Trumpeter" data-flag="@X" onclick="openSidebar('179_Deafening Trumpeter',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\5_Akugan Noble.png" id="5_Akugan Noble" data-flag="@X" onclick="openSidebar('5_Akugan Noble',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\45_Abiye, Sire of Drakes.png" id="45_Abiye, Sire of Drakes" data-flag="@X" onclick="openSidebar('45_Abiye, Sire of Drakes',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\89_Adze Lurk Above.png" id="89_Adze Lurk Above" data-flag="@X" onclick="openSidebar('89_Adze Lurk Above',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\134_Aruji Pyromancer.png" id="134_Aruji Pyromancer" data-flag="@X" onclick="openSidebar('134_Aruji Pyromancer',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\180_Devotee of the Cycle.png" id="180_Devotee of the Cycle" data-flag="@X" onclick="openSidebar('180_Devotee of the Cycle',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\18_Elephant Caravan.png" id="18_Elephant Caravan" data-flag="@X" onclick="openSidebar('18_Elephant Caravan',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\51_Dance Among the Stars.png" id="51_Dance Among the Stars" data-flag="@X" onclick="openSidebar('51_Dance Among the Stars',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\94_Child of Usiquq.png" id="94_Child of Usiquq" data-flag="@X" onclick="openSidebar('94_Child of Usiquq',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\138_Craven Raider.png" id="138_Craven Raider" data-flag="@X" onclick="openSidebar('138_Craven Raider',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\182_Fearless Howl.png" id="182_Fearless Howl" data-flag="@X" onclick="openSidebar('182_Fearless Howl',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\22_Hand of Elju.png" id="22_Hand of Elju" data-flag="@X" onclick="openSidebar('22_Hand of Elju',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\52_Divine Rebuke.png" id="52_Divine Rebuke" data-flag="@X" onclick="openSidebar('52_Divine Rebuke',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\95_Chitin Caravan.png" id="95_Chitin Caravan" data-flag="@X" onclick="openSidebar('95_Chitin Caravan',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\142_Draconic Chorus.png" id="142_Draconic Chorus" data-flag="@X" onclick="openSidebar('142_Draconic Chorus',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\192_Kholomodumo's Hunger.png" id="192_Kholomodumos Hunger" data-flag="@X" onclick="openSidebar('192_Kholomodumos Hunger',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\24_Judgment, Swift and Absolute.png" id="24_Judgment, Swift and Absolute" data-flag="@X" onclick="openSidebar('24_Judgment, Swift and Absolute',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\54_Drift Through Endless Space.png" id="54_Drift Through Endless Space" data-flag="@X" onclick="openSidebar('54_Drift Through Endless Space',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\97_Death Rots Away Dissent.png" id="97_Death Rots Away Dissent" data-flag="@X" onclick="openSidebar('97_Death Rots Away Dissent',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\143_Dreadlaugh Outlander.png" id="143_Dreadlaugh Outlander" data-flag="@X" onclick="openSidebar('143_Dreadlaugh Outlander',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\194_Kumra Canopy Weaver.png" id="194_Kumra Canopy Weaver" data-flag="@X" onclick="openSidebar('194_Kumra Canopy Weaver',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\26_Kelada Concord.png" id="26_Kelada Concord" data-flag="@X" onclick="openSidebar('26_Kelada Concord',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\57_Erstfolk Archmage.png" id="57_Erstfolk Archmage" data-flag="@X" onclick="openSidebar('57_Erstfolk Archmage',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\98_Disembowler Adze.png" id="98_Disembowler Adze" data-flag="@X" onclick="openSidebar('98_Disembowler Adze',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\146_Face Indomitable Strength.png" id="146_Face Indomitable Strength" data-flag="@X" onclick="openSidebar('146_Face Indomitable Strength',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\196_Look Upon Divine Brilliance.png" id="196_Look Upon Divine Brilliance" data-flag="@X" onclick="openSidebar('196_Look Upon Divine Brilliance',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\29_Militant Hawk.png" id="29_Militant Hawk" data-flag="@X" onclick="openSidebar('29_Militant Hawk',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\59_Flood of Stars.png" id="59_Flood of Stars" data-flag="@X" onclick="openSidebar('59_Flood of Stars',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\99_Dreadlaugh Raid Captain.png" id="99_Dreadlaugh Raid Captain" data-flag="@X" onclick="openSidebar('99_Dreadlaugh Raid Captain',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\147_Family Grudge.png" id="147_Family Grudge" data-flag="@X" onclick="openSidebar('147_Family Grudge',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\197_Mana Hunter.png" id="197_Mana Hunter" data-flag="@X" onclick="openSidebar('197_Mana Hunter',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\31_Noble Onslaught.png" id="31_Noble Onslaught" data-flag="@X" onclick="openSidebar('31_Noble Onslaught',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\61_Hodaji's Seer.png" id="61_Hodajis Seer" data-flag="@X" onclick="openSidebar('61_Hodajis Seer',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\107_Infest.png" id="107_Infest" data-flag="@X" onclick="openSidebar('107_Infest',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\153_Jackal Pup.png" id="153_Jackal Pup" data-flag="@X" onclick="openSidebar('153_Jackal Pup',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\200_Power Too Beautiful For Mortals.png" id="200_Power Too Beautiful For Mortals" data-flag="@X" onclick="openSidebar('200_Power Too Beautiful For Mortals',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\38_Savannah Lions.png" id="38_Savannah Lions" data-flag="@X" onclick="openSidebar('38_Savannah Lions',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\65_Merchant Scroll.png" id="65_Merchant Scroll" data-flag="@X" onclick="openSidebar('65_Merchant Scroll',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\108_Isiphepho's Crewmate.png" id="108_Isiphephos Crewmate" data-flag="@X" onclick="openSidebar('108_Isiphephos Crewmate',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\159_Phoenix Chord.png" id="159_Phoenix Chord" data-flag="@X" onclick="openSidebar('159_Phoenix Chord',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\203_Shamanic Aspirant.png" id="203_Shamanic Aspirant" data-flag="@X" onclick="openSidebar('203_Shamanic Aspirant',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\39_Slay the Scourge.png" id="39_Slay the Scourge" data-flag="@X" onclick="openSidebar('39_Slay the Scourge',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\69_Nightwater Leviathan.png" id="69_Nightwater Leviathan" data-flag="@X" onclick="openSidebar('69_Nightwater Leviathan',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\114_Mindvenom Scorpion.png" id="114_Mindvenom Scorpion" data-flag="@X" onclick="openSidebar('114_Mindvenom Scorpion',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\163_Raniko Oriflamme.png" id="163_Raniko Oriflamme" data-flag="@X" onclick="openSidebar('163_Raniko Oriflamme',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\204_The Sky Owes the Land Homage.png" id="204_The Sky Owes the Land Homage" data-flag="@X" onclick="openSidebar('204_The Sky Owes the Land Homage',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\41_Stern Sergeant.png" id="41_Stern Sergeant" data-flag="@X" onclick="openSidebar('41_Stern Sergeant',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\71_Philosopher Poet.png" id="71_Philosopher Poet" data-flag="@X" onclick="openSidebar('71_Philosopher Poet',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\126_Tyranny.png" id="126_Tyranny" data-flag="@X" onclick="openSidebar('126_Tyranny',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\164_Raze Raider.png" id="164_Raze Raider" data-flag="@X" onclick="openSidebar('164_Raze Raider',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\205_Spiderkin Sentry.png" id="205_Spiderkin Sentry" data-flag="@X" onclick="openSidebar('205_Spiderkin Sentry',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\42_Succumb to Unyielding Light.png" id="42_Succumb to Unyielding Light" data-flag="@X" onclick="openSidebar('42_Succumb to Unyielding Light',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\82_Thunderstorm Crow.png" id="82_Thunderstorm Crow" data-flag="@X" onclick="openSidebar('82_Thunderstorm Crow',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\131_Yillar's Quarry.png" id="131_Yillars Quarry" data-flag="@X" onclick="openSidebar('131_Yillars Quarry',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\168_Sahai Monstrosity.png" id="168_Sahai Monstrosity" data-flag="@X" onclick="openSidebar('168_Sahai Monstrosity',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\211_Tumbiri Druid.png" id="211_Tumbiri Druid" data-flag="@X" onclick="openSidebar('211_Tumbiri Druid',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\44_Unwavering Discipline.png" id="44_Unwavering Discipline" data-flag="@X" onclick="openSidebar('44_Unwavering Discipline',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\84_Understand Your Insignificance.png" id="84_Understand Your Insignificance" data-flag="@X" onclick="openSidebar('84_Understand Your Insignificance',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\132_Yillar's Warmaster.png" id="132_Yillars Warmaster" data-flag="@X" onclick="openSidebar('132_Yillars Warmaster',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\170_Skyblaze.png" id="170_Skyblaze" data-flag="@X" onclick="openSidebar('170_Skyblaze',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\178_Daybreak Watch.png" id="178_Daybreak Watch" data-flag="@X" onclick="openSidebar('178_Daybreak Watch',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\1_Adze Trapper.png" id="1_Adze Trapper" data-flag="@X" onclick="openSidebar('1_Adze Trapper',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\46_Air Augur.png" id="46_Air Augur" data-flag="@X" onclick="openSidebar('46_Air Augur',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\90_Adze Predator.png" id="90_Adze Predator" data-flag="@X" onclick="openSidebar('90_Adze Predator',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\135_Attended Thief.png" id="135_Attended Thief" data-flag="@X" onclick="openSidebar('135_Attended Thief',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\181_Enmra's Charm.png" id="181_Enmras Charm" data-flag="@X" onclick="openSidebar('181_Enmras Charm',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\4_Akugan Emissary.png" id="4_Akugan Emissary" data-flag="@X" onclick="openSidebar('4_Akugan Emissary',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\47_But a Glimpse of Sublimity.png" id="47_But a Glimpse of Sublimity" data-flag="@X" onclick="openSidebar('47_But a Glimpse of Sublimity',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\93_Brutish Brigand.png" id="93_Brutish Brigand" data-flag="@X" onclick="openSidebar('93_Brutish Brigand',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\136_Behold the Immolating Dawn.png" id="136_Behold the Immolating Dawn" data-flag="@X" onclick="openSidebar('136_Behold the Immolating Dawn',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\183_Fog.png" id="183_Fog" data-flag="@X" onclick="openSidebar('183_Fog',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\6_Akugan War-Priest.png" id="6_Akugan War-Priest" data-flag="@X" onclick="openSidebar('6_Akugan War-Priest',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\48_Cease Mortal Struggles.png" id="48_Cease Mortal Struggles" data-flag="@X" onclick="openSidebar('48_Cease Mortal Struggles',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\96_Curious Constrictor.png" id="96_Curious Constrictor" data-flag="@X" onclick="openSidebar('96_Curious Constrictor',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\141_Defy the Odds.png" id="141_Defy the Odds" data-flag="@X" onclick="openSidebar('141_Defy the Odds',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\185_Grapple with the Past.png" id="185_Grapple with the Past" data-flag="@X" onclick="openSidebar('185_Grapple with the Past',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\7_Archivist of Akuga.png" id="7_Archivist of Akuga" data-flag="@X" onclick="openSidebar('7_Archivist of Akuga',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\49_Cirrus Winder.png" id="49_Cirrus Winder" data-flag="@X" onclick="openSidebar('49_Cirrus Winder',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\101_Dreadlaugh Soothsayer.png" id="101_Dreadlaugh Soothsayer" data-flag="@X" onclick="openSidebar('101_Dreadlaugh Soothsayer',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\144_Dreadlaugh Warlord.png" id="144_Dreadlaugh Warlord" data-flag="@X" onclick="openSidebar('144_Dreadlaugh Warlord',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\189_Junmra's Throneguard.png" id="189_Junmras Throneguard" data-flag="@X" onclick="openSidebar('189_Junmras Throneguard',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\8_Bane of Immortals.png" id="8_Bane of Immortals" data-flag="@X" onclick="openSidebar('8_Bane of Immortals',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\50_Constellation Augur.png" id="50_Constellation Augur" data-flag="@X" onclick="openSidebar('50_Constellation Augur',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\104_Greater Necromancy.png" id="104_Greater Necromancy" data-flag="@X" onclick="openSidebar('104_Greater Necromancy',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\145_Eloko Bonfire.png" id="145_Eloko Bonfire" data-flag="@X" onclick="openSidebar('145_Eloko Bonfire',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\190_Kelada Archdruid.png" id="190_Kelada Archdruid" data-flag="@X" onclick="openSidebar('190_Kelada Archdruid',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\9_Beastial Cavalier.png" id="9_Beastial Cavalier" data-flag="@X" onclick="openSidebar('9_Beastial Cavalier',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\62_Hours Slip Away.png" id="62_Hours Slip Away" data-flag="@X" onclick="openSidebar('62_Hours Slip Away',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\105_Impetuous Duo.png" id="105_Impetuous Duo" data-flag="@X" onclick="openSidebar('105_Impetuous Duo',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\148_Fledgling Xipfhula.png" id="148_Fledgling Xipfhula" data-flag="@X" onclick="openSidebar('148_Fledgling Xipfhula',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\191_Kelada Outrider.png" id="191_Kelada Outrider" data-flag="@X" onclick="openSidebar('191_Kelada Outrider',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\10_Bronze Oath Cleric.png" id="10_Bronze Oath Cleric" data-flag="@X" onclick="openSidebar('10_Bronze Oath Cleric',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\64_Isiphepho's Charm.png" id="64_Isiphephos Charm" data-flag="@X" onclick="openSidebar('64_Isiphephos Charm',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\106_Imprisoned Soul.png" id="106_Imprisoned Soul" data-flag="@X" onclick="openSidebar('106_Imprisoned Soul',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\149_Frenzied Feasters.png" id="149_Frenzied Feasters" data-flag="@X" onclick="openSidebar('149_Frenzied Feasters',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\198_Maul.png" id="198_Maul" data-flag="@X" onclick="openSidebar('198_Maul',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\12_Decorated Hero.png" id="12_Decorated Hero" data-flag="@X" onclick="openSidebar('12_Decorated Hero',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\66_Negate.png" id="66_Negate" data-flag="@X" onclick="openSidebar('66_Negate',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\110_Kakrako's Irregular.png" id="110_Kakrakos Irregular" data-flag="@X" onclick="openSidebar('110_Kakrakos Irregular',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\150_Greed Devours Feeble Hearts.png" id="150_Greed Devours Feeble Hearts" data-flag="@X" onclick="openSidebar('150_Greed Devours Feeble Hearts',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\199_The Might of the Land Rises.png" id="199_The Might of the Land Rises" data-flag="@X" onclick="openSidebar('199_The Might of the Land Rises',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\13_Devouring Light.png" id="13_Devouring Light" data-flag="@X" onclick="openSidebar('13_Devouring Light',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\67_Nightwater Brutalizer.png" id="67_Nightwater Brutalizer" data-flag="@X" onclick="openSidebar('67_Nightwater Brutalizer',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\111_Karoo Merfolk.png" id="111_Karoo Merfolk" data-flag="@X" onclick="openSidebar('111_Karoo Merfolk',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\152_Ironshaper Shaman.png" id="152_Ironshaper Shaman" data-flag="@X" onclick="openSidebar('152_Ironshaper Shaman',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\201_Sahai Ranger.png" id="201_Sahai Ranger" data-flag="@X" onclick="openSidebar('201_Sahai Ranger',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\15_Dhabu's Charm.png" id="15_Dhabus Charm" data-flag="@X" onclick="openSidebar('15_Dhabus Charm',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\68_Nightwater Enigma.png" id="68_Nightwater Enigma" data-flag="@X" onclick="openSidebar('68_Nightwater Enigma',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\112_Learn Much from Nothing.png" id="112_Learn Much from Nothing" data-flag="@X" onclick="openSidebar('112_Learn Much from Nothing',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\155_Legend of the Three Heroes.png" id="155_Legend of the Three Heroes" data-flag="@X" onclick="openSidebar('155_Legend of the Three Heroes',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\206_Strength Lies Within You.png" id="206_Strength Lies Within You" data-flag="@X" onclick="openSidebar('206_Strength Lies Within You',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\16_Dhabu's Royal Guard.png" id="16_Dhabus Royal Guard" data-flag="@X" onclick="openSidebar('16_Dhabus Royal Guard',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\72_River Goliath.png" id="72_River Goliath" data-flag="@X" onclick="openSidebar('72_River Goliath',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\115_Nightwater Yearling.png" id="115_Nightwater Yearling" data-flag="@X" onclick="openSidebar('115_Nightwater Yearling',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\156_Lightning Strike.png" id="156_Lightning Strike" data-flag="@X" onclick="openSidebar('156_Lightning Strike',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\207_Supplicant of Yurcsa.png" id="207_Supplicant of Yurcsa" data-flag="@X" onclick="openSidebar('207_Supplicant of Yurcsa',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\21_Godsent Servant.png" id="21_Godsent Servant" data-flag="@X" onclick="openSidebar('21_Godsent Servant',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\73_Sagely Baboon.png" id="73_Sagely Baboon" data-flag="@X" onclick="openSidebar('73_Sagely Baboon',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\120_Sandform.png" id="120_Sandform" data-flag="@X" onclick="openSidebar('120_Sandform',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\158_Manikto's Charm.png" id="158_Maniktos Charm" data-flag="@X" onclick="openSidebar('158_Maniktos Charm',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\208_Thrive in the Bounty of Kumra.png" id="208_Thrive in the Bounty of Kumra" data-flag="@X" onclick="openSidebar('208_Thrive in the Bounty of Kumra',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\23_In Battle Lies the Answer.png" id="23_In Battle Lies the Answer" data-flag="@X" onclick="openSidebar('23_In Battle Lies the Answer',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\74_Sahai Star Charter.png" id="74_Sahai Star Charter" data-flag="@X" onclick="openSidebar('74_Sahai Star Charter',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\121_Sickening Revival.png" id="121_Sickening Revival" data-flag="@X" onclick="openSidebar('121_Sickening Revival',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\160_Pyrangutan.png" id="160_Pyrangutan" data-flag="@X" onclick="openSidebar('160_Pyrangutan',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\209_Towering Grootslang.png" id="209_Towering Grootslang" data-flag="@X" onclick="openSidebar('209_Towering Grootslang',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\25_Jungle Griffin.png" id="25_Jungle Griffin" data-flag="@X" onclick="openSidebar('25_Jungle Griffin',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\75_Sahai Survivalist.png" id="75_Sahai Survivalist" data-flag="@X" onclick="openSidebar('75_Sahai Survivalist',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\122_Skin.png" id="122_Skin" data-flag="@X" onclick="openSidebar('122_Skin',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\161_Raniko Bard.png" id="161_Raniko Bard" data-flag="@X" onclick="openSidebar('161_Raniko Bard',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\213_Walking Oasis.png" id="213_Walking Oasis" data-flag="@X" onclick="openSidebar('213_Walking Oasis',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\27_Kelada Coursers.png" id="27_Kelada Coursers" data-flag="@X" onclick="openSidebar('27_Kelada Coursers',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\80_Spawn of Abiye.png" id="80_Spawn of Abiye" data-flag="@X" onclick="openSidebar('80_Spawn of Abiye',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\123_A Swift and Beautiful End.png" id="123_A Swift and Beautiful End" data-flag="@X" onclick="openSidebar('123_A Swift and Beautiful End',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\162_Raniko Merchants.png" id="162_Raniko Merchants" data-flag="@X" onclick="openSidebar('162_Raniko Merchants',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\214_Watchful Grazer.png" id="214_Watchful Grazer" data-flag="@X" onclick="openSidebar('214_Watchful Grazer',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\32_Pacifism.png" id="32_Pacifism" data-flag="@X" onclick="openSidebar('32_Pacifism',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\81_Swept into the Sandstorm.png" id="81_Swept into the Sandstorm" data-flag="@X" onclick="openSidebar('81_Swept into the Sandstorm',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\125_Tribute to the Sands.png" id="125_Tribute to the Sands" data-flag="@X" onclick="openSidebar('125_Tribute to the Sands',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\169_Seismic Upheaval.png" id="169_Seismic Upheaval" data-flag="@X" onclick="openSidebar('169_Seismic Upheaval',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\216_Wisdom of the Warthog.png" id="216_Wisdom of the Warthog" data-flag="@X" onclick="openSidebar('216_Wisdom of the Warthog',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\33_Pay Due Respect.png" id="33_Pay Due Respect" data-flag="@X" onclick="openSidebar('33_Pay Due Respect',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\83_Turn to Starlight.png" id="83_Turn to Starlight" data-flag="@X" onclick="openSidebar('83_Turn to Starlight',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\127_Uncover Forbidden Memories.png" id="127_Uncover Forbidden Memories" data-flag="@X" onclick="openSidebar('127_Uncover Forbidden Memories',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\172_Summit Seer.png" id="172_Summit Seer" data-flag="@X" onclick="openSidebar('172_Summit Seer',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\217_Witness the Cycle.png" id="217_Witness the Cycle" data-flag="@X" onclick="openSidebar('217_Witness the Cycle',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\35_Receive a Fragment of Divinity.png" id="35_Receive a Fragment of Divinity" data-flag="@X" onclick="openSidebar('35_Receive a Fragment of Divinity',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\85_Vision.png" id="85_Vision" data-flag="@X" onclick="openSidebar('85_Vision',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\128_Voracious Kholomodumo.png" id="128_Voracious Kholomodumo" data-flag="@X" onclick="openSidebar('128_Voracious Kholomodumo',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\173_Summoner's Study.png" id="173_Summoners Study" data-flag="@X" onclick="openSidebar('173_Summoners Study',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\219_Ziawan Pilgrim.png" id="219_Ziawan Pilgrim" data-flag="@X" onclick="openSidebar('219_Ziawan Pilgrim',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\37_Rush of Valor.png" id="37_Rush of Valor" data-flag="@X" onclick="openSidebar('37_Rush of Valor',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\86_Waters to Cleanse Impurity.png" id="86_Waters to Cleanse Impurity" data-flag="@X" onclick="openSidebar('86_Waters to Cleanse Impurity',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\130_Yillar's Charm.png" id="130_Yillars Charm" data-flag="@X" onclick="openSidebar('130_Yillars Charm',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\174_Sunfletcher.png" id="174_Sunfletcher" data-flag="@X" onclick="openSidebar('174_Sunfletcher',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\230_Irjan of the Order of Narset.png" id="230_Irjan of the Order of Narset" data-flag="@X" onclick="openSidebar('230_Irjan of the Order of Narset',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\233_Kakrako, the Eternal King.png" id="233_Kakrako, the Eternal King" data-flag="@X" onclick="openSidebar('233_Kakrako, the Eternal King',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\237_Reflection of Gozani.png" id="237_Reflection of Gozani" data-flag="@X" onclick="openSidebar('237_Reflection of Gozani',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\234_Rampaging Grootslang.png" id="234_Rampaging Grootslang" data-flag="@X" onclick="openSidebar('234_Rampaging Grootslang',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\244_Tumbiri Socialite.png" id="244_Tumbiri Socialite" data-flag="@X" onclick="openSidebar('244_Tumbiri Socialite',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\243_Tikoloshe Scribe.png" id="243_Tikoloshe Scribe" data-flag="@X" onclick="openSidebar('243_Tikoloshe Scribe',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\231_Isiphepho of the Dread Sea.png" id="231_Isiphepho of the Dread Sea" data-flag="@X" onclick="openSidebar('231_Isiphepho of the Dread Sea',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\221_Consortium Operative.png" id="221_Consortium Operative" data-flag="@X" onclick="openSidebar('221_Consortium Operative',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\226_Enmra's Tactician.png" id="226_Enmras Tactician" data-flag="@X" onclick="openSidebar('226_Enmras Tactician',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\245_Witness the Farworld's Majesty.png" id="245_Witness the Farworlds Majesty" data-flag="@X" onclick="openSidebar('245_Witness the Farworlds Majesty',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\228_Fathom the Expanse of Ages.png" id="228_Fathom the Expanse of Ages" data-flag="@X" onclick="openSidebar('228_Fathom the Expanse of Ages',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\224_Dreadlaugh Raid.png" id="224_Dreadlaugh Raid" data-flag="@X" onclick="openSidebar('224_Dreadlaugh Raid',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\239_Sakte's Immortal Bargain.png" id="239_Saktes Immortal Bargain" data-flag="@X" onclick="openSidebar('239_Saktes Immortal Bargain',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\222_Crackling Spellmaw.png" id="222_Crackling Spellmaw" data-flag="@X" onclick="openSidebar('222_Crackling Spellmaw',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\229_Gozani Ficheka.png" id="229_Gozani Ficheka" data-flag="@X" onclick="openSidebar('229_Gozani Ficheka',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\238_Reweave the World.png" id="238_Reweave the World" data-flag="@X" onclick="openSidebar('238_Reweave the World',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\235_Rawaya, Ever-Wandering.png" id="235_Rawaya, Ever-Wandering" data-flag="@X" onclick="openSidebar('235_Rawaya, Ever-Wandering',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\240_Sandstorm Sovereign.png" id="240_Sandstorm Sovereign" data-flag="@X" onclick="openSidebar('240_Sandstorm Sovereign',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\242_Thunderous Emergence.png" id="242_Thunderous Emergence" data-flag="@X" onclick="openSidebar('242_Thunderous Emergence',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\220_The All-Devouring.png" id="220_The All-Devouring" data-flag="@X" onclick="openSidebar('220_The All-Devouring',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\223_Cyclonic Epiphany.png" id="223_Cyclonic Epiphany" data-flag="@X" onclick="openSidebar('223_Cyclonic Epiphany',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\236_Recall Forgotten Eternities.png" id="236_Recall Forgotten Eternities" data-flag="@X" onclick="openSidebar('236_Recall Forgotten Eternities',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\241_Spirit Bond.png" id="241_Spirit Bond" data-flag="@X" onclick="openSidebar('241_Spirit Bond',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\225_Dreadscale Scavenger.png" id="225_Dreadscale Scavenger" data-flag="@X" onclick="openSidebar('225_Dreadscale Scavenger',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\227_Faralyn, Hand of the Shadow.png" id="227_Faralyn, Hand of the Shadow" data-flag="@X" onclick="openSidebar('227_Faralyn, Hand of the Shadow',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\232_Junmra Ascendant.png" id="232_Junmra Ascendant" data-flag="@X" onclick="openSidebar('232_Junmra Ascendant',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\249_The Nightstorm.png" id="249_The Nightstorm" data-flag="@X" onclick="openSidebar('249_The Nightstorm',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\247_Gozani's Journal.png" id="247_Gozanis Journal" data-flag="@X" onclick="openSidebar('247_Gozanis Journal',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\248_Grand Archive of Akuga.png" id="248_Grand Archive of Akuga" data-flag="@X" onclick="openSidebar('248_Grand Archive of Akuga',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\254_Sealing Stone.png" id="254_Sealing Stone" data-flag="@X" onclick="openSidebar('254_Sealing Stone',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\246_Enigmatic Trinket.png" id="246_Enigmatic Trinket" data-flag="@X" onclick="openSidebar('246_Enigmatic Trinket',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\250_Nkisi Vessel.png" id="250_Nkisi Vessel" data-flag="@X" onclick="openSidebar('250_Nkisi Vessel',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\253_Raniko Knobkerrie.png" id="253_Raniko Knobkerrie" data-flag="@X" onclick="openSidebar('253_Raniko Knobkerrie',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\251_Prophetic Prism.png" id="251_Prophetic Prism" data-flag="@X" onclick="openSidebar('251_Prophetic Prism',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\252_Raniko Firebomb.png" id="252_Raniko Firebomb" data-flag="@X" onclick="openSidebar('252_Raniko Firebomb',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\255_Uaria's Monument.png" id="255_Uarias Monument" data-flag="@X" onclick="openSidebar('255_Uarias Monument',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\261_Nimbus Maze.png" id="261_Nimbus Maze" data-flag="@X" onclick="openSidebar('261_Nimbus Maze',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\259_Flooded Bog.png" id="259_Flooded Bog" data-flag="@X" onclick="openSidebar('259_Flooded Bog',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\262_Ominous Caldera.png" id="262_Ominous Caldera" data-flag="@X" onclick="openSidebar('262_Ominous Caldera',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\264_Savage Wildlands.png" id="264_Savage Wildlands" data-flag="@X" onclick="openSidebar('264_Savage Wildlands',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\256_Akuga, Opus of Mortals.png" id="256_Akuga, Opus of Mortals" data-flag="@X" onclick="openSidebar('256_Akuga, Opus of Mortals',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\266_Splendid Oasis.png" id="266_Splendid Oasis" data-flag="@X" onclick="openSidebar('266_Splendid Oasis',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\267_Tattered Temple.png" id="267_Tattered Temple" data-flag="@X" onclick="openSidebar('267_Tattered Temple',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\268_Totemic Waterfall.png" id="268_Totemic Waterfall" data-flag="@X" onclick="openSidebar('268_Totemic Waterfall',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\263_Overgrown Ruins.png" id="263_Overgrown Ruins" data-flag="@X" onclick="openSidebar('263_Overgrown Ruins',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\265_Savannah Encampment.png" id="265_Savannah Encampment" data-flag="@X" onclick="openSidebar('265_Savannah Encampment',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\258_Dewdrop Rainforest.png" id="258_Dewdrop Rainforest" data-flag="@X" onclick="openSidebar('258_Dewdrop Rainforest',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\269_Plains.png" id="269_Plains" data-flag="@X" onclick="openSidebar('269_Plains',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\270_Island.png" id="270_Island" data-flag="@X" onclick="openSidebar('270_Island',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\271_Swamp.png" id="271_Swamp" data-flag="@X" onclick="openSidebar('271_Swamp',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\272_Mountain.png" id="272_Mountain" data-flag="@X" onclick="openSidebar('272_Mountain',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\273_Forest.png" id="273_Forest" data-flag="@X" onclick="openSidebar('273_Forest',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\29t_Enmra the Chosen.png" id="29t_Enmra the Chosen" data-flag="@X" onclick="openSidebar('29t_Enmra the Chosen',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\32t_Treasure.png" id="32t_Treasure" data-flag="@X" onclick="openSidebar('32t_Treasure',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\1t_Centaur Nomad.png" id="1t_Centaur Nomad" data-flag="@X" onclick="openSidebar('1t_Centaur Nomad',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\2t_White Elemental.png" id="2t_White Elemental" data-flag="@X" onclick="openSidebar('2t_White Elemental',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\3t_Elju's Blessing.png" id="3t_Eljus Blessing" data-flag="@X" onclick="openSidebar('3t_Eljus Blessing',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\4t_Glorious Anthem.png" id="4t_Glorious Anthem" data-flag="@X" onclick="openSidebar('4t_Glorious Anthem',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\5t_Human Noble.png" id="5t_Human Noble" data-flag="@X" onclick="openSidebar('5t_Human Noble',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\6t_Human Soldier.png" id="6t_Human Soldier" data-flag="@X" onclick="openSidebar('6t_Human Soldier',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\7t_Coastal Piracy.png" id="7t_Coastal Piracy" data-flag="@X" onclick="openSidebar('7t_Coastal Piracy',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\8t_Drake.png" id="8t_Drake" data-flag="@X" onclick="openSidebar('8t_Drake',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\9t_Black Demigod.png" id="9t_Black Demigod" data-flag="@X" onclick="openSidebar('9t_Black Demigod',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\10t_Greed.png" id="10t_Greed" data-flag="@X" onclick="openSidebar('10t_Greed',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\11t_Hyena.png" id="11t_Hyena" data-flag="@X" onclick="openSidebar('11t_Hyena',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\12t_Vampire.png" id="12t_Vampire" data-flag="@X" onclick="openSidebar('12t_Vampire',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\13t_Double Vision.png" id="13t_Double Vision" data-flag="@X" onclick="openSidebar('13t_Double Vision',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\14t_Red Elemental.png" id="14t_Red Elemental" data-flag="@X" onclick="openSidebar('14t_Red Elemental',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\15t_Goblin.png" id="15t_Goblin" data-flag="@X" onclick="openSidebar('15t_Goblin',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\16t_Isbindi the Brave.png" id="16t_Isbindi the Brave" data-flag="@X" onclick="openSidebar('16t_Isbindi the Brave',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\17t_Lizard.png" id="17t_Lizard" data-flag="@X" onclick="openSidebar('17t_Lizard',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\18t_Shapeshifter.png" id="18t_Shapeshifter" data-flag="@X" onclick="openSidebar('18t_Shapeshifter',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\19t_Uhlaka the Wise.png" id="19t_Uhlaka the Wise" data-flag="@X" onclick="openSidebar('19t_Uhlaka the Wise',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\20t_Yobayo the Cunning.png" id="20t_Yobayo the Cunning" data-flag="@X" onclick="openSidebar('20t_Yobayo the Cunning',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\21t_Cat.png" id="21t_Cat" data-flag="@X" onclick="openSidebar('21t_Cat',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\22t_Green Demigod.png" id="22t_Green Demigod" data-flag="@X" onclick="openSidebar('22t_Green Demigod',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\23t_Green Elemental.png" id="23t_Green Elemental" data-flag="@X" onclick="openSidebar('23t_Green Elemental',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\24t_Elephant.png" id="24t_Elephant" data-flag="@X" onclick="openSidebar('24t_Elephant',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\25t_Heir of the Tyrant.png" id="25t_Heir of the Tyrant" data-flag="@X" onclick="openSidebar('25t_Heir of the Tyrant',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\26t_Spider.png" id="26t_Spider" data-flag="@X" onclick="openSidebar('26t_Spider',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\27t_Green Spirit.png" id="27t_Green Spirit" data-flag="@X" onclick="openSidebar('27t_Green Spirit',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\28t_Survival of the Fittest.png" id="28t_Survival of the Fittest" data-flag="@X" onclick="openSidebar('28t_Survival of the Fittest',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\30t_White Black Spirit.png" id="30t_White Black Spirit" data-flag="@X" onclick="openSidebar('30t_White Black Spirit',false)"></div>
+			<div class="container"><img alt="/sets\SOJ-files\img\31t_Uaria the Eldest.png" id="31t_Uaria the Eldest" data-flag="@X" onclick="openSidebar('31t_Uaria the Eldest',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

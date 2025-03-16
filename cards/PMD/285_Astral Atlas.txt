@@ -1,1 +1,0 @@
-﻿Astral Atlas		common	Artifact	285	C	1	This artifact enters tapped.NEWLINEX, T, Sacrifice this artifact: Add X mana in any combination of colors.NEWLINEWhen this artifact is put into a graveyard from the battlefield, survey. (Scry 2 or search for a basic land, put it into your hand, then shuffle.)			normal	PMD		

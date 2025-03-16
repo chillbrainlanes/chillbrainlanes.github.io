@@ -1,1 +1,0 @@
-﻿Korg	R	cube	Legendary Creature – Alien Warrior 	163	R	R	Korg can’t block.NEWLINEWhen Korg enters the battlefield, conjure a Darksteel Relic card into target opponent’s library, then that player shuffles. (0 Artifact: Indestructible.)	2/2		normal	2022		

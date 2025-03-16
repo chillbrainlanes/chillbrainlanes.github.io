@@ -1,1 +1,0 @@
-﻿First National Bank of Sarpadia		cube	Legendary Land	319	C		When First National Bank of Sarpadia enters the battlefield, create a Treasure token. (It’s an artifact with “T, Sacrifice this artifact: Add one mana of any color.”)NEWLINET: Add C.			normal	2022		

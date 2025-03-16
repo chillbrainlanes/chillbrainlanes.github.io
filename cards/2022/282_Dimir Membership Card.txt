@@ -1,1 +1,0 @@
-﻿Dimir Membership Card		cube	Artifact	282	UB	2	Dimir Membership Card enters the battlefield tapped unless you control an Island and a Swamp.NEWLINET: Add U or B.			normal	2022		

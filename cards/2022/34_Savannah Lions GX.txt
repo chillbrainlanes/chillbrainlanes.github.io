@@ -1,1 +1,0 @@
-﻿Savannah Lions GX	W	cube	Legendary Creature – Cat 	34	W	W	Song of the Pride GX – 1W: Conjure a Glorious Anthem card into your hand. (1WW Enchantment: Creatures you control get +1/+1. Activate only one GX ability per game.)	2/1		normal	2022		!exportname Savannah Lions GX

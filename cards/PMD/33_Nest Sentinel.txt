@@ -1,1 +1,0 @@
-﻿Nest Sentinel	W	common	Creature – Bird Warrior 	33	W	5W	FlyingNEWLINECycling 3 (3, Discard this card: Draw a card.)NEWLINEWhen you cycle this card, you  may return target permanent you control to its owner’s hand.	4/4		normal	PMD		https://www.deviantart.com/sa-dui

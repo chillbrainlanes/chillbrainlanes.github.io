@@ -1,1 +1,0 @@
-﻿Enigmatic Youth	U	common	Creature – Nymph 	68	U	2U	When this creature enters, scry 2, then draw a card.	1/3		normal	PMD		

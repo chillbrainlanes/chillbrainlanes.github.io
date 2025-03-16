@@ -1,1 +1,0 @@
-﻿Menace Gadget		common	Token Artifact – Equipment 	21	C		Equipped creature has menace.NEWLINEEquip 2			token	VRD		!related Codename Half Moon;Cold-Blooded Assassin;

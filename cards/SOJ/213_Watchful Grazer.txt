@@ -1,1 +1,0 @@
-﻿Watchful Grazer	G	common	Creature – Rhino 	213	G	3G	When Watchful Grazer dies, it deals 1 damage to any target.	4/4	(Pay the Roar as an additional cost for an instant or sorcery spell to add its effect.)NEWLINE[Roar G] Untap up to one creature.NEWLINE	leveler	SOJ		

@@ -1,1 +1,0 @@
-﻿Crave Case		cube	Token Artifact	29	U		2U, T: Search your library for a noncreature, nonland card, reveal it, put it into your hand, then shuffle.			token	2022		!related Talrand and Urza Go To White Castle;

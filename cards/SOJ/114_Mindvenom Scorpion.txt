@@ -1,1 +1,0 @@
-﻿Mindvenom Scorpion	B	uncommon	Creature – Scorpion 	114	B	2B		2/2	(Pay the Roar as an additional cost for an instant or sorcery spell to add its effect.)NEWLINEDeathtouchNEWLINET, Pay 1 life: Add B.NEWLINE[Roar 1B] Each opponent with two or more cards in hand discards a card. For each opponent with one or fewer cards in hand, draw a card.NEWLINE	leveler	SOJ		

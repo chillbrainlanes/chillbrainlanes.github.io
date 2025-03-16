@@ -1,1 +1,0 @@
-﻿Decorated Hero	W	common	Creature – Human Knight 	11	W	5WW	Convoke (Each creature you tap while casting this spell pays for 1 or one mana of that creature’s color.)NEWLINEVigilance, ward 2	4/6		normal	SOJ		

@@ -1,1 +1,0 @@
-﻿Sainted Agent	W	uncommon	Creature – Angel Soldier 	29	W	3W	FlyingNEWLINEIf a nontoken creature an opponent controls would die, instead exile that card and put a +1/+1 counter on this creature.	2/2		normal	VRD		

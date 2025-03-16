@@ -1,1 +1,0 @@
-﻿Elju's Blessing	W	common	Token Enchantment	4	W		Sacrifice this enchantment: Prevent all damage a source of your choice would deal this turn.			token	SOJ		
