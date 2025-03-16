@@ -9,10 +9,6 @@
 	  font-family: 'Beleren Small Caps';
 	  src: url('/resources/beleren-caps.ttf');
 	}
-	@font-face {
-	  font-family: 'Beleren';
-	  src: url('/resources/beleren.ttf');
-	}
 	body {
 		background-image: linear-gradient(to top, #ffdde1, #ee9ca7);
 		background-attachment: fixed;
@@ -20,18 +16,6 @@
 		font-family: 'Helvetica', 'Arial', sans-serif;
 		display: grid;
 	}
-	.shandalarlogo {
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  text-align: center;
-}
-	.credits {
-			font-family: 'Beleren';
-			text-align: center;
-			font-size: 1.0em;
-			margin: 0% 10% 0%;
-		}
 	.selects {
 		position: absolute;
 	}
@@ -94,8 +78,7 @@
 		margin: 0;
 	}
 	.container p {
-		padding-top: 11px;
-		padding-bottom: 16px;
+		padding: 11px 0px;
 	}
 	.preview-container {
 		display: grid;
@@ -103,12 +86,19 @@
 		gap: 2px;
 		justify-items: center;
 		align-items: center;
-		padding-bottom: 20px;
+		padding-bottom: 10px;
+	}
+	.set-group {
+		font-family: Beleren Small Caps;
+		font-size: 18px;
+		width: 100%;
+		margin-bottom: 10px;
+		border-bottom: 2px solid #171717;
 	}
 	.button-grid {
 		display: grid;
 		margin: auto;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: repeat(3, 1fr);
 		gap: 20px;
 		padding-top: 10px;
 		padding-bottom: 20px;
@@ -177,6 +167,7 @@
 	.set-icon-container a {
 		text-decoration: none;
 		color: #171717;
+		height: 100%;
 	}
 	.set-icon {
 		height: 60px;
@@ -188,7 +179,8 @@
 		width: 60px;
 	}
 	.set-icon-name {
-		height: 30px;
+		min-height: 30px;
+		height: 100%;
 	}
 	@media ( max-width: 750px ) {
 		.item-container {
@@ -212,29 +204,32 @@
 			<input type="text" inputmode="search" placeholder="Search ..." autofocus="autofocus" name="search" id="search" spellcheck="false" autocomplete="off" autocorrext="off" spellcheck="false">
 			<div class="button-grid">
 				<button onclick="goToSets()"><img src="/img/sets.png" class="btn-img">All Sets</button>
+				<button onclick="goToDeckbuilder()"><img src="/img/deck.png" class="btn-img">Deckbuilder</button>
 				<button onclick="randomCard()"><img src="/img/random.png" class="btn-img">Random Card</button>
 			</div>
 			<div class="two-part-grid">
 				<div class="container" id="preview-container">
 					<p>Preview Galleries</p>
-					<div class="preview-container">
-					<div class="set-icon-container">
-								<a href="2022-spoiler"><div class="set-icon"><img src="sets/2022-files/icon.png" title=""></img></div>
-								<div class="set-icon-name"></div></a>
-							</div>
-			<div class="set-icon-container">
-								<a href="PMD-spoiler"><div class="set-icon"><img src="sets/PMD-files/icon.png" title=""></img></div>
-								<div class="set-icon-name"></div></a>
-							</div>
-			<div class="set-icon-container">
-								<a href="SOJ-spoiler"><div class="set-icon"><img src="sets/SOJ-files/icon.png" title="Song of Jannada"></img></div>
-								<div class="set-icon-name"></div></a>
-							</div>
-			<div class="set-icon-container">
-								<a href="VRD-spoiler"><div class="set-icon"><img src="sets/VRD-files/icon.png" title="Viridian’s Last Mission"></img></div>
-								<div class="set-icon-name"></div></a>
-							</div>
-							</div>
+										<div class="set-group"></div>
+							<div class="preview-container">
+		<div class="set-icon-container">
+									<a href="previews/2022"><div class="set-icon"><img src="sets/2022-files/icon.png" title="The 2022be"></img></div>
+									<div class="set-icon-name">The 2022be</div></a>
+								</div>
+				<div class="set-icon-container">
+									<a href="previews/PMD"><div class="set-icon"><img src="sets/PMD-files/icon.png" title="Commander Legends: Pokémon Mystery Dungeon"></img></div>
+									<div class="set-icon-name">Commander Legends: Pokémon Mystery Dungeon</div></a>
+								</div>
+				<div class="set-icon-container">
+									<a href="previews/SOJ"><div class="set-icon"><img src="sets/SOJ-files/icon.png" title="Song of Jannada"></img></div>
+									<div class="set-icon-name">Song of Jannada</div></a>
+								</div>
+				<div class="set-icon-container">
+									<a href="previews/VRD"><div class="set-icon"><img src="sets/VRD-files/icon.png" title="Viridian’s Last Mission"></img></div>
+									<div class="set-icon-name">Viridian’s Last Mission</div></a>
+								</div>
+									</div>
+		
 				</div>
 				<div class="card-container" id="cotd-image">
 					<p>Card of the Day</p>
@@ -249,20 +244,20 @@
 
 			document.addEventListener("DOMContentLoaded", async function () {
 				try {
-					const response = await fetch('./resources/gradients.txt');
-					raw_gradients = await response.text();
+					const response = await fetch('./resources/gradients.json');
+					raw_gradients = await response.json();
 				}
 				catch(error) {
 					console.error('Error:', error);
 				}
 
-				gradients = raw_gradients.split('\n');
+				gradients = raw_gradients.gradients;
 				prepareGradients();
 
-				await fetch('/lists/all-cards.txt')
-					.then(response => response.text())
-					.then(text => {
-						card_list_stringified = text;
+				await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
 				await fetch('/resources/replacechars.txt')
@@ -271,12 +266,7 @@
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
-				card_list_arrayified = card_list_stringified.split('\\n');
-
-				for (let i = 0; i < card_list_arrayified.length; i++)
-				{
-					card_list_arrayified[i] = card_list_arrayified[i].split('\t');
-				}
+				card_list_arrayified = card_list.cards;
 
 				card_list_cleaned = [];
 
@@ -284,12 +274,19 @@
 				{
 					let card_stats = [];
 
-					for (let i = 0; i < card.length; i++)
+					for (var key in card)
 					{
-						card_stats.push(card[i].toLowerCase());
+						if (isNaN(card[key]))
+						{
+							card_stats[key] = card[key].toLowerCase();
+						}
+						else
+						{
+							card_stats[key] = card[key];
+						}
 					}
 
-					if (!card_stats[10].includes("token") && !card_stats[3].includes("basic"))
+					if (!card_stats.shape.includes("token") && !card_stats.type.includes("basic"))
 					{
 						card_list_cleaned.push(card);
 					}
@@ -299,18 +296,23 @@
 				const card_stats = card_list_cleaned[cotd];
 
 				const a = document.createElement("a");
-				let card_name = card_stats[0];
-				for (const char of specialchars)
-				{
-					card_name = card_name.replaceAll(char, "");
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: card_stats.set,
+					num: card_stats.number,
+					name: card_stats.card_name
 				}
-				a.href = '/cards/' + card_stats[11] + '/' + card_stats[4] + '_' + card_name;
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+				a.href = url;
 
 				const img = document.createElement("img");
 				img.id = "cotd";
 
 
-				img.src = '/sets/' + card_stats[11] + '-files/img/' + card_stats[4] + '_' + card_stats[0] + (card_stats[10].includes('double') ? '_front' : '') + '.png';
+				img.src = '/sets/' + card_stats.set + '-files/img/' + card_stats.number + '_' + card_stats.card_name + (card_stats.shape.includes('double') ? '_front' : '') + '.' + card_stats.image_type;
 
 				a.append(img);
 				document.getElementById("cotd-image").append(a);
@@ -361,11 +363,9 @@
 			function prepareGradients() {
 				for (const gradient of gradients)
 				{
-					gradientStats = gradient.split('\t');
-
 					const opt = document.createElement("option");
-					opt.value = gradientStats[0].replace(' ', '-');
-					opt.text = gradientStats[0];
+					opt.value = gradient.name.replace(' ', '-');
+					opt.text = gradient.name;
 					document.getElementById("color-select").appendChild(opt);
 				}
 
@@ -379,11 +379,10 @@
 				gradBottom = "#FFFFFF";
 				for (const grad of gradients)
 				{
-					gradientStats = grad.split('\t');
-					if (gradient == gradientStats[0].replace(' ', '-'))
+					if (gradient == grad.name.replace(' ', '-'))
 					{
-						gradTop = gradientStats[1];
-						gradBottom = gradientStats[2];
+						gradTop = grad.color1;
+						gradBottom = grad.color2;
 					}
 				}
 
@@ -394,45 +393,32 @@
 				window.location = ("/all-sets");
 			}
 
+			function goToDeckbuilder() {
+				window.location = ("/deckbuilder");
+			}
+
 			function search() {
-				window.location = ("search?search=" + document.getElementById("search").value);
+				const url = new URL('search', window.location.origin);
+				url.searchParams.append('search', document.getElementById("search").value);
+				window.location.href = url;
 			}
 
 			function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-				let card_name = card_list_arrayified[i][0];
-				for (const char of specialchars)
-				{
-					card_name = card_name.replaceAll(char, "");
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
 				}
 
-				window.location = ('/cards/' + card_list_arrayified[i][11] + '/' + card_list_arrayified[i][4] + '_' + card_name);
+				window.location.href = url;
 			}
 		</script>
-	<div class="credits">
-		Logo sprite by Grimlin.<br>VRD background art by Ioan Dumitrescu.<br>SOJ background art by Rashieq Sasman.
-	</div>
-	<div class="shandalarlogo">
-    <img
-      src="shandalarfiles/Jirachi2.png"
-      alt="Jirachi Gif"
-      style="width: 8%"
-      class="centerimage"
-    />
-    <a href="index.html">
-      <img
-        src="shandalarfiles/homepage.gif"
-        alt="Click here to go back to my homepage"
-        style="width: 55%"
-        class="centerimage"
-      />
-    </a>
-    <img
-      src="shandalarfiles/Jirachi2.png"
-      alt="Jirachi Gif"
-      style="width: 8%"
-      class="centerimage"
-    />
-  </div>
 	</body>
 	</html>
