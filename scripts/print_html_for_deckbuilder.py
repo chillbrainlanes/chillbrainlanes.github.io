@@ -405,7 +405,7 @@ def generateHTML(codes):
 <body>
 	<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<a href="/msehub"><img class="sg-logo" src="/img/banner.png"></a>
 			<img class="sg-icon" src="/img/search.png" onclick="goToSearch()">
 			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
 			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
