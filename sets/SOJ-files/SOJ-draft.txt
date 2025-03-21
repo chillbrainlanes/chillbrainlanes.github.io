@@ -21,13 +21,13 @@
 			}
 		},
 		{
-			"name": "Junmra's Throneguard",
+			"name": "Enmra's Throneguard",
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Cat ",
-			"collector_number": "189",
+			"collector_number": "183",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/189_Junmra's Throneguard.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/183_Enmra's Throneguard.png"
 			}
 		},
 		{
@@ -45,9 +45,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "181",
+			"collector_number": "182",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/181_Enmra's Charm.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/182_Enmra's Charm.png"
 			}
 		},
 		{
@@ -55,9 +55,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Enchantment — Saga ",
-			"collector_number": "195",
+			"collector_number": "196",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/195_Legacy of the Wild Sovereign.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/196_Legacy of the Wild Sovereign.png"
 			}
 		},
 		{
@@ -65,9 +65,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Sorcery",
-			"collector_number": "85",
+			"collector_number": "84",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/85_Vision.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/84_Vision.png"
 			}
 		},
 		{
@@ -135,9 +135,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Hyena Warrior ",
-			"collector_number": "124",
+			"collector_number": "123",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/124_Throatslasher.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/123_Throatslasher.png"
 			}
 		},
 		{
@@ -225,9 +225,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Sorcery — Revelation ",
-			"collector_number": "123",
+			"collector_number": "122",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/123_A Swift and Beautiful End.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/122_A Swift and Beautiful End.png"
 			}
 		},
 		{
@@ -275,9 +275,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery — Revelation ",
-			"collector_number": "119",
+			"collector_number": "118",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/119_Sakte, Who Shapes the Sands.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/118_Sakte, Who Shapes the Sands.png"
 			}
 		},
 		{
@@ -375,9 +375,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "185",
+			"collector_number": "187",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/185_Grapple with the Past.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/187_Grapple with the Past.png"
 			}
 		},
 		{
@@ -425,9 +425,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Druid ",
-			"collector_number": "207",
+			"collector_number": "208",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/207_Supplicant of Yurcsa.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/208_Supplicant of Yurcsa.png"
 			}
 		},
 		{
@@ -501,13 +501,13 @@
 			}
 		},
 		{
-			"name": "Understand Your Insignificance",
+			"name": "Weep At Holy Perfection",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}",
 			"type": "Sorcery — Revelation ",
-			"collector_number": "84",
+			"collector_number": "86",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/84_Understand Your Insignificance.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/86_Weep At Holy Perfection.png"
 			}
 		},
 		{
@@ -545,9 +545,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Centaur Nomad ",
-			"collector_number": "191",
+			"collector_number": "192",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/191_Kelada Outrider.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/192_Kelada Outrider.png"
 			}
 		},
 		{
@@ -555,9 +555,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
-			"collector_number": "198",
+			"collector_number": "199",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/198_Maul.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/199_Maul.png"
 			}
 		},
 		{
@@ -595,9 +595,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment",
-			"collector_number": "186",
+			"collector_number": "188",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/186_Grove of Sacred Reeds.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/188_Grove of Sacred Reeds.png"
 			}
 		},
 		{
@@ -681,13 +681,13 @@
 			}
 		},
 		{
-			"name": "Rise Again in Servitude",
+			"name": "Understand Your Insignificance",
 			"rarity": "rare",
-			"mana_cost": "{1}{B}",
+			"mana_cost": "{B}{B}",
 			"type": "Sorcery — Revelation ",
-			"collector_number": "117",
+			"collector_number": "127",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/117_Rise Again in Servitude.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/127_Understand Your Insignificance.png"
 			}
 		},
 		{
@@ -745,9 +745,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Enchantment — Saga ",
-			"collector_number": "118",
+			"collector_number": "117",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/118_Rise of the Adze.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/117_Rise of the Adze.png"
 			}
 		},
 		{
@@ -765,9 +765,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Shaman ",
-			"collector_number": "203",
+			"collector_number": "204",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/203_Shamanic Aspirant.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/204_Shamanic Aspirant.png"
 			}
 		},
 		{
@@ -855,9 +855,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Shaman ",
-			"collector_number": "180",
+			"collector_number": "181",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/180_Devotee of the Cycle.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/181_Devotee of the Cycle.png"
 			}
 		},
 		{
@@ -895,9 +895,9 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Sorcery — Revelation ",
-			"collector_number": "206",
+			"collector_number": "207",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/206_Strength Lies Within You.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/207_Strength Lies Within You.png"
 			}
 		},
 		{
@@ -1013,7 +1013,7 @@
 		{
 			"name": "Stalwart Seeker",
 			"rarity": "rare",
-			"mana_cost": "{W}{W}",
+			"mana_cost": "{W}",
 			"type": "Creature — Centaur Nomad ",
 			"collector_number": "40",
 			"image_uris": {
@@ -1065,9 +1065,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Elf Ranger ",
-			"collector_number": "178",
+			"collector_number": "179",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/178_Daybreak Watch.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/179_Daybreak Watch.png"
 			}
 		},
 		{
@@ -1121,13 +1121,13 @@
 			}
 		},
 		{
-			"name": "Sickening Revival",
+			"name": "Sickening Resurrection",
 			"rarity": "common",
-			"mana_cost": "{2}{B}",
-			"type": "Sorcery",
-			"collector_number": "121",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "120",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/121_Sickening Revival.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/120_Sickening Resurrection.png"
 			}
 		},
 		{
@@ -1395,9 +1395,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Sorcery — Revelation ",
-			"collector_number": "199",
+			"collector_number": "200",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/199_The Might of the Land Rises.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/200_The Might of the Land Rises.png"
 			}
 		},
 		{
@@ -1425,9 +1425,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "122",
+			"collector_number": "121",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/122_Skin.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/121_Skin.png"
 			}
 		},
 		{
@@ -1445,9 +1445,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery — Revelation ",
-			"collector_number": "127",
+			"collector_number": "126",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/127_Uncover Forbidden Memories.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/126_Uncover Forbidden Memories.png"
 			}
 		},
 		{
@@ -1455,9 +1455,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Sorcery — Revelation ",
-			"collector_number": "86",
+			"collector_number": "85",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/86_Waters to Cleanse Impurity.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/85_Waters to Cleanse Impurity.png"
 			}
 		},
 		{
@@ -1665,9 +1665,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "120",
+			"collector_number": "119",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/120_Sandform.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/119_Sandform.png"
 			}
 		},
 		{
@@ -1675,9 +1675,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Elf Ranger ",
-			"collector_number": "201",
+			"collector_number": "202",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/201_Sahai Ranger.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/202_Sahai Ranger.png"
 			}
 		},
 		{
@@ -1695,9 +1695,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{G}",
 			"type": "Instant",
-			"collector_number": "192",
+			"collector_number": "193",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/192_Kholomodumo's Hunger.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/193_Kholomodumo's Hunger.png"
 			}
 		},
 		{
@@ -1755,9 +1755,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Elephant Beast ",
-			"collector_number": "188",
+			"collector_number": "190",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/188_Honored Grootslang.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/190_Honored Grootslang.png"
 			}
 		},
 		{
@@ -1765,9 +1765,9 @@
 			"rarity": "common",
 			"mana_cost": "{5}{G}{G}",
 			"type": "Creature — Elephant Beast ",
-			"collector_number": "209",
+			"collector_number": "210",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/209_Towering Grootslang.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/210_Towering Grootslang.png"
 			}
 		},
 		{
@@ -1845,9 +1845,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
 			"type": "Instant",
-			"collector_number": "182",
+			"collector_number": "184",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/182_Fearless Howl.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/184_Fearless Howl.png"
 			}
 		},
 		{
@@ -1875,9 +1875,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Ranger ",
-			"collector_number": "197",
+			"collector_number": "198",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/197_Mana Hunter.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/198_Mana Hunter.png"
 			}
 		},
 		{
@@ -1885,9 +1885,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Shaman ",
-			"collector_number": "202",
+			"collector_number": "203",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/202_Shaman of Wild Kinship.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/203_Shaman of Wild Kinship.png"
 			}
 		},
 		{
@@ -1915,9 +1915,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G}",
 			"type": "Creature — Elephant Beast ",
-			"collector_number": "179",
+			"collector_number": "180",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/179_Deafening Trumpeter.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/180_Deafening Trumpeter.png"
 			}
 		},
 		{
@@ -2075,9 +2075,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "125",
+			"collector_number": "124",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/125_Tribute to the Sands.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/124_Tribute to the Sands.png"
 			}
 		},
 		{
@@ -2105,9 +2105,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "126",
+			"collector_number": "125",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/126_Tyranny.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/125_Tyranny.png"
 			}
 		},
 		{
@@ -2174,7 +2174,7 @@
 			"name": "Legend of the Three Heroes",
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
-			"type": "Instant",
+			"type": "Sorcery",
 			"collector_number": "155",
 			"image_uris": {
 				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/155_Legend of the Three Heroes.png"
@@ -2265,9 +2265,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G}",
 			"type": "Creature — Spider Druid ",
-			"collector_number": "194",
+			"collector_number": "195",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/194_Kumra Canopy Weaver.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/195_Kumra Canopy Weaver.png"
 			}
 		},
 		{
@@ -2275,9 +2275,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery — Revelation ",
-			"collector_number": "208",
+			"collector_number": "209",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/208_Thrive in the Bounty of Kumra.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/209_Thrive in the Bounty of Kumra.png"
 			}
 		},
 		{
@@ -2285,9 +2285,9 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Instant",
-			"collector_number": "183",
+			"collector_number": "185",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/183_Fog.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/185_Fog.png"
 			}
 		},
 		{
@@ -2295,9 +2295,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery — Revelation ",
-			"collector_number": "196",
+			"collector_number": "197",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/196_Look Upon Divine Brilliance.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/197_Look Upon Divine Brilliance.png"
 			}
 		},
 		{
@@ -2305,9 +2305,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Centaur Druid Nomad ",
-			"collector_number": "190",
+			"collector_number": "191",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/190_Kelada Archdruid.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/191_Kelada Archdruid.png"
 			}
 		},
 		{
@@ -2315,9 +2315,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Spider Ranger ",
-			"collector_number": "205",
+			"collector_number": "206",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/205_Spiderkin Sentry.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/206_Spiderkin Sentry.png"
 			}
 		},
 		{
@@ -2325,9 +2325,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery — Revelation ",
-			"collector_number": "200",
+			"collector_number": "201",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/200_Power Too Beautiful For Mortals.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/201_Power Too Beautiful For Mortals.png"
 			}
 		},
 		{
@@ -2335,19 +2335,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery — Revelation ",
-			"collector_number": "204",
+			"collector_number": "205",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/204_The Sky Owes the Land Homage.png"
-			}
-		},
-		{
-			"name": "Tremble In Titans' Wake",
-			"rarity": "rare",
-			"mana_cost": "{1}{G}",
-			"type": "Sorcery — Revelation ",
-			"collector_number": "210",
-			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/210_Tremble In Titans' Wake.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/205_The Sky Owes the Land Homage.png"
 			}
 		},
 		{
@@ -2355,9 +2345,9 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{G}",
 			"type": "Sorcery — Revelation ",
-			"collector_number": "193",
+			"collector_number": "194",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/193_Kneel Before Your Gods.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/194_Kneel Before Your Gods.png"
 			}
 		},
 		{
@@ -2365,9 +2355,9 @@
 			"rarity": "rare",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
-			"collector_number": "184",
+			"collector_number": "186",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/184_Glimpse of Nature.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/186_Glimpse of Nature.png"
 			}
 		},
 		{
@@ -2375,9 +2365,9 @@
 			"rarity": "rare",
 			"mana_cost": "{G}",
 			"type": "Creature — Centaur Druid Nomad ",
-			"collector_number": "187",
+			"collector_number": "189",
 			"image_uris": {
-				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/187_Hiutha's Protege.png"
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/189_Hiutha's Protege.png"
 			}
 		},
 		{
@@ -3049,6 +3039,16 @@
 			"image_uris": {
 				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/237_Reflection of Gozani.png"
 			}
+		},
+		{
+			"name": "Champion of Enmra",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elemental Giraffe Beast ",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://chillbrainlanes.github.io/sets/SOJ-files/img/178_Champion of Enmra.png"
+			}
 		}
 	]
 [RareSlot(1)]
@@ -3061,7 +3061,7 @@
 2 Grove of Sacred Reeds
 2 Prairie Tromper
 2 Martial Alliance
-2 Rise Again in Servitude
+2 Understand Your Insignificance
 2 Rise of the Adze
 2 Seeker of Ziawan
 2 Eoncrafter
@@ -3100,7 +3100,6 @@
 2 Rightful Rule
 2 Whim of Aruj
 2 Creation Ignites Awaiting Minds
-2 Tremble In Titans' Wake
 2 Kneel Before Your Gods
 2 Glimpse of Nature
 2 Hiutha's Protege
@@ -3117,6 +3116,7 @@
 2 Conscripted By Divine Will
 2 Crackling Spellmaw
 2 Sealing Stone
+2 Champion of Enmra
 1 Junmra Ascendant
 1 Kakrako, the Eternal King
 1 Gozani Ficheka
@@ -3156,7 +3156,7 @@
 9 Elephant Caravan
 9 Witness the Farworld's Majesty
 9 Hodaji's Seer
-9 Understand Your Insignificance
+9 Weep At Holy Perfection
 9 Dance Among the Stars
 9 Shamanic Aspirant
 9 Disembowler Adze
@@ -3225,7 +3225,7 @@
 [CommonSlot(11)]
 30 Bronze Oath Cleric
 30 Eloko Bonfire
-30 Junmra's Throneguard
+30 Enmra's Throneguard
 30 Enmra's Charm
 30 Vision
 30 Kakrako's Irregular
@@ -3265,7 +3265,7 @@
 30 Daybreak Watch
 30 Walking Oasis
 30 Swept into the Sandstorm
-30 Sickening Revival
+30 Sickening Resurrection
 30 Rush of Valor
 30 Beastial Cavalier
 30 Impetuous Duo
