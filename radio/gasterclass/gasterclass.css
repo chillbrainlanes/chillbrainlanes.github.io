@@ -1,0 +1,81 @@
+html {
+  background-image: url("assets/bg.gif");
+  background-repeat: repeat;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-size: 0.8rem;
+}
+p,
+ul {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-size: 1.9em;
+}
+h2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-size: 2em;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.centertext {
+  text-align: center;
+}
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: center;
+}
+.centerimage {
+  display: inline-block;
+}
+.floatright {
+  float: right;
+}
+.floatleft {
+  float: left;
+}
+li {
+  padding: 5px;
+}
+.topmargin {
+  margin-top: 3em;
+}
+@font-face {
+  font-family: Determination;
+  src: url(assets/Determination.ttf);
+}
+body {
+  font-family: "Determination", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.browsecard {
+  font-size: 5em;
+  width: 70%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+a,
+a:visited {
+  color: #6e6eff;
+}
+.showstable {
+  font-size: 2.5em;
+  border-collapse: collapse;
+  width: 80%;
+}
