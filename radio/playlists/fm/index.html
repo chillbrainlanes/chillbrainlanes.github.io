@@ -14,9 +14,52 @@
   </head>
 
   <body>
-    <div id="app" style="height: 100vh">
+    <h2 class="centertext">
+      <img
+        src="../../assets/fmmix.png"
+        alt="Logo"
+        style="width: 100%"
+        class="centerimage"
+      />
+    </h2>
+    <p>From Wikipedia, the Free Encyclopedia:</p>
+    <p>
+      Frequency modulation synthesis (or FM synthesis) is a form of sound
+      synthesis whereby the frequency of a waveform is changed by modulating its
+      frequency with a modulator. The (instantaneous) frequency of an oscillator
+      is altered in accordance with the amplitude of a modulating signal.
+    </p>
+    <div id="app" style="height: 50vh">
       <!-- Webamp will attempt to center itself within this div -->
     </div>
+    <p>
+      FM synthesis can create both harmonic and inharmonic sounds. To synthesize
+      harmonic sounds, the modulating signal must have a harmonic relationship
+      to the original carrier signal. As the amount of frequency modulation
+      increases, the sound grows progressively complex. Through the use of
+      modulators with frequencies that are non-integer multiples of the carrier
+      signal (i.e. inharmonic), inharmonic bell-like and percussive spectra can
+      be created.
+    </p>
+    <p>
+      The YM2608, a.k.a. OPNA, is a sound chip developed by Yamaha. It is a
+      member of Yamaha's OPN family of FM synthesis chips, and is the successor
+      to the YM2203. It was notably used in NEC's PC-8801/PC-9801 series
+      computers.
+    </p>
+    <p>
+      The YM2612, a.k.a. OPN2, is a sound chip developed by Yamaha. It is a
+      member of Yamaha's OPN family of FM synthesis chips, and was developed as
+      a stripped-down version of the YM2608. The YM2612 is a six-channel FM
+      synthesizer used in several game and computer systems, most notably in
+      Sega's Mega Drive/Genesis video game console as well as Fujitsu's FM Towns
+      computer series.
+    </p>
+    <a href="../../index.html"
+      ><img
+        src="../../assets/backbutton.gif"
+        style="width: 150px; display: block; margin: auto"
+    /></a>
     <script type="module">
       import Webamp from "https://unpkg.com/webamp@^2";
       const webamp = new Webamp({
@@ -179,6 +222,27 @@
           },
           {
             metaData: {
+              title: "FunkOsaka",
+              artist: "Tsuyoshi Shimokura",
+            },
+            url: "https://chillbrain.net/radio/playlists/fm/music/Tsuyoshi Shimokura - SOUNDSHOCK- FM FUNK MADDNESS!! - 09 FunkOsaka.mp3",
+          },
+          {
+            metaData: {
+              title: "Ripple Boogie",
+              artist: "Simon Stålenhag",
+            },
+            url: "https://chillbrain.net/radio/playlists/fm/music/Simon Stålenhag - SOUNDSHOCK- FM FUNK MADDNESS!! - 13 Ripple Boogie.mp3",
+          },
+          {
+            metaData: {
+              title: "Sky Stroll",
+              artist: "zinger & bacter",
+            },
+            url: "https://chillbrain.net/radio/playlists/fm/music/zinger & bacter - SOUNDSHOCK- FM FUNK MADDNESS!! - 14 Sky Stroll.mp3",
+          },
+          {
+            metaData: {
               title: "Back Alley Clash",
               artist: "Bomb Boy",
             },
@@ -193,10 +257,10 @@
           },
           {
             metaData: {
-              title: "Dreary (Indigo Ravine)",
-              artist: "VinylCheese",
+              title: "Stop and Go (Ubiktune edit)",
+              artist: "Utabi Hirokawa",
             },
-            url: "https://chillbrain.net/radio/playlists/fm/music/dreary.mp3",
+            url: "https://chillbrain.net/radio/playlists/fm/music/Utabi Hirokawa - SOUNDSHOCK- FM FUNK MADDNESS!! - 11 Stop and Go (Ubiktune edit).mp3",
           },
           {
             metaData: {
@@ -232,6 +296,13 @@
               artist: "bacter",
             },
             url: "https://chillbrain.net/radio/playlists/fm/music/bacter - SOUNDSHOCK 3- FM FUNK NIRVANA!! - 16 missed.mp3",
+          },
+          {
+            metaData: {
+              title: "Ever Higher",
+              artist: 'John "Joy" Tay',
+            },
+            url: "https://chillbrain.net/radio/playlists/fm/music/Deltarune - Ever Higher (YM2608 Arrangement).mp3",
           },
           {
             metaData: {
