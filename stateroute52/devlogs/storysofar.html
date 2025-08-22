@@ -1,0 +1,227 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../style.css" />
+    <title>State Route 52: Friday Doodles</title>
+  </head>
+  <body>
+    <div class="header-container">
+      <img
+        class="header-image"
+        src="../files/Logo.png"
+        alt="Ohio State Route 52 Sign"
+      />
+      <div class="header-text">
+        <h1>State Route 52</h1>
+        <h2>The Midwestern Road Trip Card Game RPG</h2>
+      </div>
+    </div>
+    <h1 class="header-container">The Story So Far</h1>
+    <div class="main-body">
+      <p>
+        Well, here we are! It's the first dev log for State Route 52! (Formerly
+        Ohio RPG). This isn't the first time I've been sharing anything about
+        this game's development. If you're reading this, there's a very good
+        chance you've already been watching this game's development since I've
+        been posting progress on the MSE Discord. Still, I felt like I wanted to
+        have stuff about the game in one more centralized location, as well as
+        just having it on my website so that people can find it easier. I don't
+        use social media in any public capacity so this is kind of the closest
+        thing to that lol.
+      </p>
+      <p>
+        If you're not familiar with the game, go read the blurb on the home page
+        ya silly goose. If you've done that though, then you can check out the
+        rest of this page to see everything that I've done for the game so far.
+        This won't be any new information if you've been keeping up on Discord,
+        just a compilation of where all the game's features currently stand.
+        It's very early days and a lot of stuff is very bare bones, but almost
+        all of the basic building blocks of narrative and combat and pretty much
+        good to go.
+      </p>
+      <p>
+        With that out of the way, here's quick looks at every feature implmented
+        into the game! Bear in mind that all of the assets in these examples are
+        placeholders, visuals are a priority for later so I'm just using a bunch
+        of PMD sprites and default fonts and stuff for now.
+      </p>
+      <h2>Battle</h2>
+      <ul>
+        <li>
+          Menus for selecting actions and playing cards and using other actions.
+        </li>
+        <li>HUD for memory (mana), spark, and health.</li>
+        <li>
+          Interface for selecting slots to play cards or target with effects.
+        </li>
+        <li>
+          Battle flavor text that can update based on the actions you take and
+          the cards you play.
+        </li>
+        <li>
+          Check menu that displays information of the creatures in play, as well
+          as a second page that shows any modifications those creatures have
+          received and damage they've taken.
+        </li>
+        <li>
+          A log that lets you see every action that's happened in the game.
+        </li>
+        <li>Icons for keywords and "summoning sickness".</li>
+        <li>
+          Spark actions: You have one Spark each turn and you can use it to
+          attack any slot for 1 damage, gain 2 shield (which has its own HUD
+          element), or discard the top card of your hand to draw a new one.
+        </li>
+        <li>
+          Creatures can attack while they're not "summoning sick" which plays a
+          little animation. There's also a little placeholder particle effect
+          when a creature's stats are increased and a graphic that shows up when
+          transitioning between turns.
+        </li>
+        <li>
+          Opponents with unique AI that can prioritize different things. Ability
+          to assess threats to make decisions on where to play what cards on any
+          given turn.
+        </li>
+        <li>
+          Opponent can play any card in the game just like the Player can, in
+          addition to attack slots directly (A UI element appears on the
+          opponent's turn, then the damage actually happens at the start of
+          their next turn).
+        </li>
+        <li>
+          15 unique cards, including interfaces for selecting cards from a list
+          and targetting the player's or opponent's creatures, creatures that
+          can modify their stats when certain game actions occur, creatures that
+          can dynamically increase or decrease their stats to match certain game
+          variables, and creatures with effects when they enter or get knocked
+          out.
+        </li>
+        <li>
+          Three keywords: Sneaky, which allows the creature to always hit the
+          opponent directly through anything in its way. Trample, which allows
+          excess damage to pierce through to the opponent when it attacks and
+          knocks out a creature. And Grit, which allows a creature with it to
+          stay standing at 1 health if it would be dealt lethal damage, in
+          exchange for losing the ability.
+        </li>
+        <li>
+          A fairly robust "stack" system to handle resolution of effects in a
+          linear order.
+        </li>
+      </ul>
+      <div style="display: flex; justify-content: center">
+        <video
+          controls
+          class="responsive-video"
+          style="max-width: 50%; width: 100%"
+        >
+          <source src="videos/storysofar/battle.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <h2>Deck Builder</h2>
+      <ul>
+        <li>
+          Menu that can be opened and closed from the Overworld, and which
+          pauses the game.
+        </li>
+        <li>
+          A collection view on the left that organizes cards into multiple pages
+          that can be tabbed through.
+        </li>
+        <li>
+          Three decks with their own display on the right, which can be swapped
+          between.
+        </li>
+        <li>
+          Ability to add or remove cards by selecting them on either the
+          collection or deck view, collection cards are highlighted in white if
+          they're in the currently selected deck.
+        </li>
+        <li>
+          Deck automatically organizes cards by Cost (more sorting and filtering
+          options for decks and collections to come later).
+        </li>
+        <li>
+          Card description box that shows the information of any card that's
+          highlighted.
+        </li>
+      </ul>
+      <div style="display: flex; justify-content: center">
+        <video
+          controls
+          class="responsive-video"
+          style="max-width: 50%; width: 100%"
+        >
+          <source src="videos/storysofar/deck_builder.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <h2>Overworld</h2>
+      <ul>
+        <li>Basic movement, including walking and running, and collision.</li>
+        <li>Interacting with NPCs and objects to trigger dialogue.</li>
+        <li>
+          Text effects like shaking text, colored text, and pausing in betw
+        </li>
+        <li>Branching dialogue options.</li>
+        <li>
+          Cutscenes where characters can move around and different dialogue can
+          be triggered.
+        </li>
+        <li>
+          Voice blips and character portraits that can be changed with each line
+          of dialogue that's sent to be displayed.
+        </li>
+      </ul>
+      <div style="display: flex; justify-content: center">
+        <video
+          controls
+          class="responsive-video"
+          style="max-width: 50%; width: 100%"
+        >
+          <source
+            src="videos/storysofar/branch_dialogue.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+      <div style="display: flex; justify-content: center">
+        <video
+          controls
+          class="responsive-video"
+          style="max-width: 50%; width: 100%"
+        >
+          <source src="videos/storysofar/cutscene.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <p>
+        That might sound like a lot. And it isn't <i>not</i> a lot, I've been
+        working on the game for coming up on 2 months at this point. But I've
+        still barely scratched the surface. You ever try to make a save game
+        system? It's a nightmare. Plus I'm still learning new quirks of the
+        Godot engine every time I open it up to work, I'm a Unity and Unreal
+        native so there's a lot to get used to. Plus of course all the visual
+        and animation and audio stuff which I've functionally done none of yet.
+        With all that said though, I'm very happy with the way everything is
+        progressing, and I'm really excited to continue working on the game! It
+        feels like it's really starting to get off the ground now, and I hope
+        y'all are as excited as I am.
+      </p>
+      <p>
+        Future dev logs will probably not have quite as much stuff as this one
+        did, this was just a big catch-up basically. Watch the skies for future
+        news, and you can always come back every Friday to check out the new
+        Friday Doodle!
+      </p>
+    </div>
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      "
+    >
+      <a href="../index.html"><img src="../files/backbutton.gif" /></a>
+    </div>
+  </body>
+</html>
