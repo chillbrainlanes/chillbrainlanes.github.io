@@ -108,7 +108,7 @@ li {
   display: inline;
   text-align: center;
 }
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 1000px) {
   .inlineimage {
     width: 30%;
   }
@@ -116,7 +116,7 @@ li {
     width: 60%;
   }
 }
-@media screen and (max-width: 949px) {
+@media screen and (max-width: 999px) {
   .inlineimage {
     width: 90%;
   }
