@@ -7,7 +7,6 @@
       <li><a href="../about.html">about me</a></li>
       <li><a href="../brainwaves.html">brainwaves</a></li>
       <li><a href="../posts.html">blog</a></li>
-      <li><a href="../radio/index.html">radio</a></li>
     </ul>
     <title>thank you for having me it's great to be here</title>
     <meta name="generator" content="EclipseCrossword" />
@@ -234,7 +233,7 @@
         <div class="ecw-copyright">
           <a
             href="http://www.eclipsecrossword.com/"
-            onclick="this.target='_blank'"
+            onclick="this.target = '_blank'"
             style="font-weight: bold"
             >EclipseCrossword</a
           >
@@ -277,7 +276,7 @@
                     id="cheatbutton"
                     type="button"
                     class="ecw-input ecw-button"
-                    onclick="CheatClick();"
+                    onclick="CheatClick()"
                   >
                     Solve
                   </button>
@@ -287,7 +286,7 @@
                     id="okbutton"
                     type="button"
                     class="ecw-input ecw-button"
-                    onclick="OKClick();"
+                    onclick="OKClick()"
                     style="font-weight: bold"
                   >
                     OK
@@ -297,7 +296,7 @@
                     id="cancelbutton"
                     type="button"
                     class="ecw-input ecw-button"
-                    onclick="DeselectCurrentWord();"
+                    onclick="DeselectCurrentWord()"
                   >
                     Cancel
                   </button>
@@ -327,7 +326,7 @@
             like this yourself, get
             <a
               href="http://www.eclipsecrossword.com"
-              onclick="this.target='_blank'"
+              onclick="this.target = '_blank'"
               >EclipseCrossword</a
             >
             from Green Eclipse&mdash;it's free!
@@ -590,7 +589,7 @@
             15,
             12,
             9,
-            11
+            11,
           );
           Word = new Array(
             "WAKE",
@@ -842,7 +841,7 @@
             "GEMSTONECAVERNS",
             "ANODETLURKER",
             "CARTOUCHE",
-            "JACEBELEREN"
+            "JACEBELEREN",
           );
           Clue = new Array(
             "Winning deck of Worlds 2003.",
@@ -1094,7 +1093,7 @@
             "Invitational land.",
             '"Darker Onulet".',
             "Enchantment subtype.",
-            "One of the first Anime styled cards."
+            "One of the first Anime styled cards.",
           );
           AnswerHash = new Array(
             5685,
@@ -1346,7 +1345,7 @@
             6353,
             96825,
             23754,
-            37468
+            37468,
           );
           WordX = new Array(
             16,
@@ -1598,7 +1597,7 @@
             42,
             8,
             13,
-            24
+            24,
           );
           WordY = new Array(
             0,
@@ -1850,7 +1849,7 @@
             98,
             101,
             103,
-            104
+            104,
           );
           LastHorizontalWord = 130;
           OnlyCheckOnce = false;
@@ -1911,7 +1910,7 @@
 
             // Now, insert the crossword table.
             document.writeln(
-              '<table id="crossword" cellpadding="0" cellspacing="0" style="display: none; border-collapse: collapse;">'
+              '<table id="crossword" cellpadding="0" cellspacing="0" style="display: none; border-collapse: collapse;">',
             );
             for (var y = 0; y < CrosswordHeight; y++) {
               document.writeln("<tr>");
@@ -1921,7 +1920,7 @@
                     '<td id="c' +
                       PadNumber(x) +
                       PadNumber(y) +
-                      '" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">&nbsp;</td>'
+                      '" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">&nbsp;</td>',
                   );
                 else document.write("<td><\/td>");
               }
@@ -2009,13 +2008,13 @@
               for (i = 0; i < WordLength[CurrentWord]; i++)
                 CellAt(x + i, y).className = CellAt(x + i, y).className.replace(
                   IsSelected ? "_unsel" : "_sel",
-                  IsSelected ? "_sel" : "_unsel"
+                  IsSelected ? "_sel" : "_unsel",
                 );
             else
               for (i = 0; i < WordLength[CurrentWord]; i++)
                 CellAt(x, y + i).className = CellAt(x, y + i).className.replace(
                   IsSelected ? "_unsel" : "_sel",
-                  IsSelected ? "_sel" : "_unsel"
+                  IsSelected ? "_sel" : "_unsel",
                 );
           }
 
@@ -2087,7 +2086,7 @@
             if (TheirWordLength == WordLength[CurrentWord])
               document.getElementById("wordentry").value = TheirWord.replace(
                 /&AMP;/g,
-                "&"
+                "&",
               );
             else document.getElementById("wordentry").value = "";
 
@@ -2142,7 +2141,7 @@
             for (i = 0; i < TheirWord.length; i++) {
               TableCell = CellAt(
                 x + (CurrentWord <= LastHorizontalWord ? i : 0),
-                y + (CurrentWord > LastHorizontalWord ? i : 0)
+                y + (CurrentWord > LastHorizontalWord ? i : 0),
               );
               TableCell.innerHTML = TheirWord.substring(i, i + 1);
             }
@@ -2268,7 +2267,7 @@
           <button
             id="checkbutton"
             type="button"
-            onclick="CheckClick();"
+            onclick="CheckClick()"
             style="display: none"
           >
             Check puzzle
