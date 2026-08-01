@@ -16,7 +16,9 @@
     </style>
   </head>
   <body>
-    <h1>Shared Quiz Score</h1>
+    <button type="button" class="clear-data" onclick="showConfirmDialog()">
+      Delete save
+    </button>
     <p id="score">Loading...</p>
 
     <nav>
@@ -24,8 +26,21 @@
       <a href="test2.html">Test 2</a>
     </nav>
 
+    <dialog id="confirmDialog">
+      <p>Delete save? This cannot be undone.</p>
+      <menu>
+        <button type="button" id="cancelDelete">Cancel</button>
+        <button type="button" id="confirmDelete">Delete</button>
+      </menu>
+    </dialog>
     <script>
-      (function () {
+      function clearData() {
+        localStorage.removeItem("quizTest1State");
+        localStorage.removeItem("quizTest2State");
+        localStorage.removeItem("quizSharedScore");
+        updateScore();
+      }
+      function updateScore() {
         const el = document.getElementById("score");
         try {
           const raw = localStorage.getItem("quizSharedScore");
@@ -35,7 +50,28 @@
         } catch (e) {
           el.textContent = "Unable to load score";
         }
+      }
+    </script>
+
+    <script>
+      (function () {
+        updateScore();
+        const dialog = document.getElementById("confirmDialog");
+        document
+          .getElementById("cancelDelete")
+          .addEventListener("click", () => {
+            dialog.close();
+          });
+        document
+          .getElementById("confirmDelete")
+          .addEventListener("click", () => {
+            dialog.close();
+            clearData();
+          });
       })();
+      function showConfirmDialog() {
+        document.getElementById("confirmDialog").showModal();
+      }
     </script>
   </body>
 </html>

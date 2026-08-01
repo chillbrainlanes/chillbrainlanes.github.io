@@ -98,9 +98,6 @@
     </style>
   </head>
   <body>
-    <button type="button" class="clear-data" onclick="clearData()">
-      Clear stored data
-    </button>
     <div id="score">Score: 0</div>
     <div class="question" data-answer="DEB THOMAS">
       <h2>This planeswalker loves dogs.</h2>
@@ -184,6 +181,9 @@
         </button>
       </div>
     </div>
+    <button type="button" onclick="location.href='index.html'">
+      Back
+    </button>
     <script>
       console.log(localStorage.getItem("quizSharedScore"));
       const STORAGE_KEY = "quizTest1State";
@@ -264,20 +264,6 @@
           } else if (savedQuestion.answered) {
             container.classList.add("highlight-wrong");
           }
-        });
-      }
-      function clearData() {
-        localStorage.removeItem(STORAGE_KEY);
-        localStorage.removeItem(SCORE_KEY);
-        score = 0;
-        updateScore();
-        document.querySelectorAll(".question").forEach((container) => {
-          container.dataset.answered = "false";
-          container.dataset.scored = "false";
-          container.classList.remove("highlight-correct", "highlight-wrong");
-          getInputs(container).forEach((input) => {
-            input.value = "";
-          });
         });
       }
       function checkAnswer(button) {
