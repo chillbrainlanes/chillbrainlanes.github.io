@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz Style Form</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        padding-top: 80px;
+        background: #f5f5f5;
+      }
+      #score {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-bottom: 1px solid #ccc;
+        padding: 14px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .question {
+        margin-bottom: 24px;
+        padding: 16px;
+        border: 1px solid #ccc;
+        background: #fff;
+      }
+      .question h2 {
+        margin: 0 0 12px;
+        font-size: 1.1rem;
+      }
+      .answer-row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 4px;
+        margin-bottom: 12px;
+      }
+      .letter-box {
+        width: 32px;
+        height: 36px;
+        border: 1px solid #999;
+        text-align: center;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+      }
+      .letter-box input {
+        width: 100%;
+        height: 100%;
+        border: none;
+        outline: none;
+        text-align: center;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        background: transparent;
+      }
+      .space-box {
+        width: 16px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+      }
+      .controls {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+      button {
+        padding: 8px 12px;
+        border: none;
+        cursor: pointer;
+        background: #3b82f6;
+        color: #fff;
+      }
+      button.clear-data {
+        background: #f59e0b;
+      }
+      button.give-up {
+        background: #ef4444;
+      }
+      .highlight-correct {
+        background: #d1fae5;
+        border-color: #10b981;
+      }
+      .highlight-wrong {
+        background: #fee2e2;
+        border-color: #ef4444;
+      }
+    </style>
+  </head>
+  <body>
+    <button type="button" class="clear-data" onclick="clearData()">
+      Clear stored data
+    </button>
+    <div id="score">Score: 0</div>
+    <div class="question" data-answer="BLUE">
+      <h2>Color after white.</h2>
+      <div class="answer-row">
+        <input class="letter-box" maxlength="1" data-index="0" />
+        <input class="letter-box" maxlength="1" data-index="1" />
+        <input class="letter-box" maxlength="1" data-index="2" />
+        <input class="letter-box" maxlength="1" data-index="3" />
+      </div>
+      <div class="controls">
+        <button type="button" onclick="checkAnswer(this)">Check answer</button>
+        <button type="button" class="give-up" onclick="giveUp(this)">
+          Give up
+        </button>
+      </div>
+    </div>
+    <div class="question" data-answer="FEAR FIRE FOES">
+      <h2>The answer is Fear, Fire, Foes!.</h2>
+      <div class="answer-row">
+        <input class="letter-box" maxlength="1" data-index="0" />
+        <input class="letter-box" maxlength="1" data-index="1" />
+        <input class="letter-box" maxlength="1" data-index="2" />
+        <input class="letter-box" maxlength="1" data-index="3" />
+        <span class="space-box">, </span>
+        <input class="letter-box" maxlength="1" data-index="4" />
+        <input class="letter-box" maxlength="1" data-index="5" />
+        <input class="letter-box" maxlength="1" data-index="6" />
+        <input class="letter-box" maxlength="1" data-index="7" />
+        <span class="space-box">, </span>
+        <input class="letter-box" maxlength="1" data-index="8" />
+        <input class="letter-box" maxlength="1" data-index="9" />
+        <input class="letter-box" maxlength="1" data-index="10" />
+        <input class="letter-box" maxlength="1" data-index="11" />
+        <span class="space-box">!</span>
+      </div>
+      <div class="controls">
+        <button type="button" onclick="checkAnswer(this)">Check answer</button>
+        <button type="button" class="give-up" onclick="giveUp(this)">
+          Give up
+        </button>
+      </div>
+    </div>
+    <script>
+      console.log(localStorage.getItem("quizSharedScore"));
+      const STORAGE_KEY = "quizTest2State";
+      const SCORE_KEY = "quizSharedScore";
+      let score = 0;
+      function updateScore() {
+        document.getElementById("score").textContent = "Score: " + score;
+      }
+      function getContainer(button) {
+        return button.closest(".question");
+      }
+      function getAnswer(container) {
+        return container.getAttribute("data-answer");
+      }
+      function getInputs(container) {
+        return Array.from(container.querySelectorAll(".letter-box"));
+      }
+      function fillBoxes(container, answer) {
+        const inputs = getInputs(container);
+        let inputIndex = 0;
+        for (let i = 0; i < answer.length; i++) {
+          if (answer[i] === " ") continue;
+          const input = inputs[inputIndex++];
+          if (input) input.value = answer[i];
+        }
+      }
+      function getState() {
+        try {
+          const raw = localStorage.getItem(STORAGE_KEY);
+          return raw ? JSON.parse(raw) : null;
+        } catch (e) {
+          return null;
+        }
+      }
+      function saveScore() {
+        localStorage.setItem(SCORE_KEY, String(score));
+      }
+      function restoreScore() {
+        const rawScore = localStorage.getItem(SCORE_KEY);
+        if (rawScore !== null) {
+          score = Number(rawScore) || 0;
+        }
+      }
+      function saveState() {
+        const questions = document.querySelectorAll(".question");
+        const state = {
+          score,
+          questions: Array.from(questions).map((container) => {
+            return {
+              inputs: getInputs(container).map((input) => input.value || ""),
+              answered: container.dataset.answered === "true",
+              scored: container.dataset.scored === "true",
+            };
+          }),
+        };
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+        saveScore();
+      }
+      function restoreState() {
+        const state = getState();
+        restoreScore();
+        updateScore();
+        if (!state) return;
+        const questions = document.querySelectorAll(".question");
+        questions.forEach((container, index) => {
+          const savedQuestion = state.questions?.[index];
+          if (!savedQuestion) return;
+          const inputs = getInputs(container);
+          savedQuestion.inputs.forEach((value, idx) => {
+            if (inputs[idx]) inputs[idx].value = value;
+          });
+          container.dataset.answered = savedQuestion.answered
+            ? "true"
+            : "false";
+          container.dataset.scored = savedQuestion.scored ? "true" : "false";
+          if (savedQuestion.scored) {
+            container.classList.add("highlight-correct");
+          } else if (savedQuestion.answered) {
+            container.classList.add("highlight-wrong");
+          }
+        });
+      }
+      function clearData() {
+        localStorage.removeItem(STORAGE_KEY);
+        localStorage.removeItem(SCORE_KEY);
+        score = 0;
+        updateScore();
+        document.querySelectorAll(".question").forEach((container) => {
+          container.dataset.answered = "false";
+          container.dataset.scored = "false";
+          container.classList.remove("highlight-correct", "highlight-wrong");
+          getInputs(container).forEach((input) => {
+            input.value = "";
+          });
+        });
+      }
+      function checkAnswer(button) {
+        const container = getContainer(button);
+        const answer = getAnswer(container);
+        const inputs = getInputs(container);
+        const typed = inputs
+          .map((input) => input.value || "")
+          .join("")
+          .toUpperCase();
+        const target = answer.replace(/ /g, "");
+        const hasScored = container.dataset.scored === "true";
+        container.dataset.answered = "true";
+        if (typed === target) {
+          if (!hasScored) {
+            score += 1;
+            container.dataset.scored = "true";
+            updateScore();
+          }
+          container.classList.remove("highlight-wrong");
+          container.classList.add("highlight-correct");
+        } else {
+          container.classList.remove("highlight-correct");
+          container.classList.add("highlight-wrong");
+          fillBoxes(container, answer);
+        }
+        saveState();
+      }
+      function giveUp(button) {
+        const container = getContainer(button);
+        const answer = getAnswer(container);
+        container.dataset.answered = "true";
+        container.classList.remove("highlight-correct");
+        container.classList.add("highlight-wrong");
+        fillBoxes(container, answer);
+        saveState();
+      }
+      document.querySelectorAll(".letter-box").forEach((input) => {
+        input.addEventListener("input", () => {
+          input.value = input.value.toUpperCase().slice(-1);
+          const container = input.closest(".question");
+          saveState();
+          if (input.value) {
+            const inputs = getInputs(container);
+            const idx = inputs.indexOf(input);
+            if (idx >= 0 && idx < inputs.length - 1) {
+              inputs[idx + 1].focus();
+              inputs[idx + 1].setSelectionRange(0, 1);
+            }
+          }
+        });
+        input.addEventListener("keydown", (e) => {
+          if (e.key === "Backspace" && !input.value) {
+            const container = input.closest(".question");
+            const inputs = getInputs(container);
+            const idx = inputs.indexOf(input);
+            if (idx > 0) {
+              const prev = inputs[idx - 1];
+              prev.focus();
+              prev.value = "";
+              saveState();
+            }
+          }
+        });
+      });
+      restoreState();
+    </script>
+  </body>
+</html>
