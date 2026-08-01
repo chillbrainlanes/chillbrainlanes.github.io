@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Test Index</title>
+    <style>
+      body {
+        font-family:
+          system-ui,
+          Segoe UI,
+          Roboto,
+          Arial;
+        margin: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Shared Quiz Score</h1>
+    <p id="score">Loading...</p>
+
+    <nav>
+      <a href="test1.html">Test 1</a> |
+      <a href="test2.html">Test 2</a>
+    </nav>
+
+    <script>
+      (function () {
+        const el = document.getElementById("score");
+        try {
+          const raw = localStorage.getItem("quizSharedScore");
+          console.log(localStorage.getItem("quizSharedScore"));
+          const display = raw === null ? "No score found" : raw;
+          el.textContent = display;
+        } catch (e) {
+          el.textContent = "Unable to load score";
+        }
+      })();
+    </script>
+  </body>
+</html>
