@@ -19,6 +19,7 @@
     <button type="button" class="clear-data" onclick="showConfirmDialog()">
       Delete save
     </button>
+    <p>Score:</p>
     <p id="score">Loading...</p>
 
     <nav>
@@ -45,7 +46,7 @@
         try {
           const raw = localStorage.getItem("quizSharedScore");
           console.log(localStorage.getItem("quizSharedScore"));
-          const display = raw === null ? "No score found" : raw;
+          const display = raw === null ? "0" : raw;
           el.textContent = display;
         } catch (e) {
           el.textContent = "Unable to load score";
