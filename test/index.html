@@ -22,7 +22,10 @@
     <p>Score:</p>
     <p id="score">Loading.</p>
 
-    <nav><a href="test1.html">Test 1</a></nav>
+    <nav>
+      <a href="test1.html">Test 1</a>
+      <span id="quiz1Stats" aria-live="polite"></span>
+    </nav>
 
     <dialog id="confirmDialog">
       <p>Delete save? This cannot be undone.</p>
@@ -33,27 +36,90 @@
     </dialog>
     <script>
       function clearData() {
-        localStorage.removeItem("quizTest1State");
-        localStorage.removeItem("quizTest2State");
+        localStorage.removeItem("W1State");
         localStorage.removeItem("quizSharedScore");
         updateScore();
+        updateQuiz1Stats();
       }
+
       function updateScore() {
         const el = document.getElementById("score");
         try {
           const raw = localStorage.getItem("quizSharedScore");
-          console.log(localStorage.getItem("quizSharedScore"));
           const display = raw === null ? "0" : raw;
           el.textContent = display;
         } catch (e) {
           el.textContent = "Unable to load score";
         }
       }
+
+      function getW1QuestionStats() {
+        const defaults = {
+          answeredWithHint: 0,
+          answeredWithoutHint: 0,
+          incorrect: 0,
+          unanswered: 0,
+        };
+
+        try {
+          const raw = localStorage.getItem("W1State");
+          if (!raw) {
+            return defaults;
+          }
+
+          const state = JSON.parse(raw);
+          const questions = Array.isArray(state && state.questions)
+            ? state.questions
+            : [];
+
+          return questions.reduce(
+            (stats, question) => {
+              const isAnswered = question && question.answered === true;
+              const hasHint = question && question.hintRevealed === true;
+              const isIncorrect =
+                isAnswered &&
+                (question.scored === false ||
+                  question.scored === 0 ||
+                  question.scored === "0");
+
+              if (isAnswered) {
+                if (hasHint) {
+                  stats.answeredWithHint += 1;
+                } else {
+                  stats.answeredWithoutHint += 1;
+                }
+
+                if (isIncorrect) {
+                  stats.incorrect += 1;
+                }
+              } else {
+                stats.unanswered += 1;
+              }
+
+              return stats;
+            },
+            { ...defaults },
+          );
+        } catch (e) {
+          return defaults;
+        }
+      }
+
+      function updateQuiz1Stats() {
+        const el = document.getElementById("quiz1Stats");
+        if (!el) {
+          return;
+        }
+
+        const stats = getW1QuestionStats();
+        el.textContent = `Hinted: ${stats.answeredWithHint} · Unhinted: ${stats.answeredWithoutHint} · Incorrect: ${stats.incorrect} · Unanswered: ${stats.unanswered}`;
+      }
     </script>
 
     <script>
       (function () {
         updateScore();
+        updateQuiz1Stats();
         const dialog = document.getElementById("confirmDialog");
         document
           .getElementById("cancelDelete")
