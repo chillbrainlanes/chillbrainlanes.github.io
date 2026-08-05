@@ -24,6 +24,13 @@
         display: flex;
         align-items: center;
         gap: 12px;
+        flex-wrap: wrap;
+      }
+      #score .score-item {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        white-space: nowrap;
       }
       .question {
         margin-bottom: 24px;
@@ -87,6 +94,19 @@
       button.give-up {
         background: #ef4444;
       }
+      button.hint-button {
+        background: #6b7280;
+      }
+      .hint-text {
+        margin-top: 12px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        background: #f9fafb;
+        display: none;
+      }
+      .hint-text.visible {
+        display: block;
+      }
       .highlight-correct {
         background: #d1fae5;
         border-color: #10b981;
@@ -98,7 +118,22 @@
     </style>
   </head>
   <body>
-    <div id="score">Score: 0</div>
+    <div id="score">
+      <span class="score-item">Score: <span class="score-value">0</span></span>
+      <span class="score-item">Total: <span class="total-count">0</span></span>
+      <span class="score-item"
+        >Answered without hint: <span class="without-hint-count">0</span></span
+      >
+      <span class="score-item"
+        >Answered with hint: <span class="with-hint-count">0</span></span
+      >
+      <span class="score-item"
+        >Incorrect: <span class="incorrect-count">0</span></span
+      >
+      <span class="score-item"
+        >Unanswered: <span class="unanswered-count">0</span></span
+      >
+    </div>
     <div class="question" data-answer="DEB THOMAS">
       <h2>This planeswalker loves dogs.</h2>
       <div class="answer-row">
@@ -118,6 +153,12 @@
         <button type="button" class="give-up" onclick="giveUp(this)">
           Give up
         </button>
+        <button type="button" class="hint-button" onclick="revealHint(this)">
+          Show hint
+        </button>
+      </div>
+      <div class="hint-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </div>
     </div>
     <div class="question" data-answer="BLASTER COMBAT DJ">
@@ -146,6 +187,12 @@
         <button type="button" class="give-up" onclick="giveUp(this)">
           Give up
         </button>
+        <button type="button" class="hint-button" onclick="revealHint(this)">
+          Show hint
+        </button>
+      </div>
+      <div class="hint-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </div>
     </div>
     <div class="question" data-answer="SPHINX S REVELATION">
@@ -179,18 +226,79 @@
         <button type="button" class="give-up" onclick="giveUp(this)">
           Give up
         </button>
+        <button type="button" class="hint-button" onclick="revealHint(this)">
+          Show hint
+        </button>
+      </div>
+      <div class="hint-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </div>
     </div>
-    <button type="button" onclick="location.href='index.html'">
-      Back
-    </button>
+    <button type="button" onclick="location.href = 'index.html'">Back</button>
     <script>
       console.log(localStorage.getItem("quizSharedScore"));
-      const STORAGE_KEY = "quizTest1State";
+      const STORAGE_KEY = "W1State";
       const SCORE_KEY = "quizSharedScore";
       let score = 0;
       function updateScore() {
-        document.getElementById("score").textContent = "Score: " + score;
+        document.querySelector("#score .score-value").textContent = score;
+        updateStats();
+      }
+      function updateStats() {
+        const state = getState();
+        let total = 0;
+        let answeredWithoutHint = 0;
+        let answeredWithHint = 0;
+        let incorrect = 0;
+        let unanswered = 0;
+        if (state?.questions?.length) {
+          total = state.questions.length;
+          state.questions.forEach((question) => {
+            const answered = question.answered === true;
+            const scored = question.scored === true;
+            const hintRevealed = question.hintRevealed === true;
+            if (!answered) {
+              unanswered++;
+            } else {
+              if (hintRevealed) {
+                answeredWithHint++;
+              } else {
+                answeredWithoutHint++;
+              }
+              if (!scored) {
+                incorrect++;
+              }
+            }
+          });
+        } else {
+          const questions = document.querySelectorAll(".question");
+          total = questions.length;
+          questions.forEach((container) => {
+            const answered = container.dataset.answered === "true";
+            const scored = container.dataset.scored === "true";
+            const hintRevealed = container.dataset.hintRevealed === "true";
+            if (!answered) {
+              unanswered++;
+            } else {
+              if (hintRevealed) {
+                answeredWithHint++;
+              } else {
+                answeredWithoutHint++;
+              }
+              if (!scored) {
+                incorrect++;
+              }
+            }
+          });
+        }
+        const scoreBox = document.getElementById("score");
+        scoreBox.querySelector(".total-count").textContent = total;
+        scoreBox.querySelector(".without-hint-count").textContent =
+          answeredWithoutHint;
+        scoreBox.querySelector(".with-hint-count").textContent =
+          answeredWithHint;
+        scoreBox.querySelector(".incorrect-count").textContent = incorrect;
+        scoreBox.querySelector(".unanswered-count").textContent = unanswered;
       }
       function getContainer(button) {
         return button.closest(".question");
@@ -201,6 +309,14 @@
       function getInputs(container) {
         return Array.from(container.querySelectorAll(".letter-box"));
       }
+      function getHintText(container) {
+        return container.querySelector(".hint-text");
+      }
+      function hideQuestionButtons(container) {
+        container.querySelectorAll(".controls button").forEach((button) => {
+          button.style.display = "none";
+        });
+      }
       function fillBoxes(container, answer) {
         const inputs = getInputs(container);
         let inputIndex = 0;
@@ -209,6 +325,15 @@
           const input = inputs[inputIndex++];
           if (input) input.value = answer[i];
         }
+      }
+      function revealHint(button) {
+        const container = getContainer(button);
+        container.dataset.hintRevealed = "true";
+        const hintText = getHintText(container);
+        if (hintText) {
+          hintText.classList.add("visible");
+        }
+        saveState();
       }
       function getState() {
         try {
@@ -236,11 +361,13 @@
               inputs: getInputs(container).map((input) => input.value || ""),
               answered: container.dataset.answered === "true",
               scored: container.dataset.scored === "true",
+              hintRevealed: container.dataset.hintRevealed === "true",
             };
           }),
         };
         localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
         saveScore();
+        updateStats();
       }
       function restoreState() {
         const state = getState();
@@ -259,12 +386,25 @@
             ? "true"
             : "false";
           container.dataset.scored = savedQuestion.scored ? "true" : "false";
+          container.dataset.hintRevealed = savedQuestion.hintRevealed
+            ? "true"
+            : "false";
+          if (savedQuestion.hintRevealed) {
+            const hintText = getHintText(container);
+            if (hintText) {
+              hintText.classList.add("visible");
+            }
+          }
           if (savedQuestion.scored) {
             container.classList.add("highlight-correct");
           } else if (savedQuestion.answered) {
             container.classList.add("highlight-wrong");
           }
+          if (savedQuestion.answered) {
+            hideQuestionButtons(container);
+          }
         });
+        updateStats();
       }
       function checkAnswer(button) {
         const container = getContainer(button);
@@ -276,10 +416,12 @@
           .toUpperCase();
         const target = answer.replace(/ /g, "");
         const hasScored = container.dataset.scored === "true";
+        const usedHint = container.dataset.hintRevealed === "true";
+        const points = usedHint ? 1 : 2;
         container.dataset.answered = "true";
         if (typed === target) {
           if (!hasScored) {
-            score += 1;
+            score += points;
             container.dataset.scored = "true";
             updateScore();
           }
@@ -290,6 +432,7 @@
           container.classList.add("highlight-wrong");
           fillBoxes(container, answer);
         }
+        hideQuestionButtons(container);
         saveState();
       }
       function giveUp(button) {
@@ -299,6 +442,7 @@
         container.classList.remove("highlight-correct");
         container.classList.add("highlight-wrong");
         fillBoxes(container, answer);
+        hideQuestionButtons(container);
         saveState();
       }
       document.querySelectorAll(".letter-box").forEach((input) => {
