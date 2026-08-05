@@ -260,9 +260,9 @@
             if (!answered) {
               unanswered++;
             } else {
-              if (hintRevealed) {
+              if (hintRevealed && scored) {
                 answeredWithHint++;
-              } else if (scored) {
+              } else if (!hintRevealed && scored) {
                 answeredWithoutHint++;
               }
               if (!scored) {
@@ -280,9 +280,9 @@
             if (!answered) {
               unanswered++;
             } else {
-              if (hintRevealed) {
+              if (hintRevealed && scored) {
                 answeredWithHint++;
-              } else if (scored) {
+              } else if (!hintRevealed && scored) {
                 answeredWithoutHint++;
               }
               if (!scored) {

@@ -22,10 +22,90 @@
     <p>Score:</p>
     <p id="score">Loading.</p>
 
-    <nav>
-      <a href="test1.html">Test 1</a>
-      <span id="quiz1Stats" aria-live="polite"></span>
-    </nav>
+    <section>
+      <h2>W</h2>
+      <div>
+        <a href="testw1.html">Test W1</a>
+        <span id="w1Stats" aria-live="polite"></span>
+      </div>
+      <div>
+        <a href="testw2.html">Test W2</a>
+        <span id="w2Stats" aria-live="polite"></span>
+      </div>
+      <div>
+        <a href="testw3.html">Test W3</a>
+        <span id="w3Stats" aria-live="polite"></span>
+      </div>
+      <p>Total: <span id="wTotalStats" aria-live="polite"></span></p>
+    </section>
+
+    <section>
+      <h2>U</h2>
+      <div>
+        <a href="testu1.html">Test U1</a>
+        <span id="u1Stats" aria-live="polite"></span>
+      </div>
+      <div>
+        <a href="testu2.html">Test U2</a>
+        <span id="u2Stats" aria-live="polite"></span>
+      </div>
+      <div>
+        <a href="testu3.html">Test U3</a>
+        <span id="u3Stats" aria-live="polite"></span>
+      </div>
+      <p>Total: <span id="uTotalStats" aria-live="polite"></span></p>
+    </section>
+
+    <section>
+      <h2>B</h2>
+      <div>
+        <a href="testb1.html">Test B1</a>
+        <span id="b1Stats" aria-live="polite"></span>
+      </div>
+      <div>
+        <a href="testb2.html">Test B2</a>
+        <span id="b2Stats" aria-live="polite"></span>
+      </div>
+      <div>
+        <a href="testb3.html">Test B3</a>
+        <span id="b3Stats" aria-live="polite"></span>
+      </div>
+      <p>Total: <span id="bTotalStats" aria-live="polite"></span></p>
+    </section>
+
+    <section>
+      <h2>R</h2>
+      <div>
+        <a href="testr1.html">Test R1</a>
+        <span id="r1Stats" aria-live="polite"></span>
+      </div>
+      <div>
+        <a href="testr2.html">Test R2</a>
+        <span id="r2Stats" aria-live="polite"></span>
+      </div>
+      <div>
+        <a href="testr3.html">Test R3</a>
+        <span id="r3Stats" aria-live="polite"></span>
+      </div>
+      <p>Total: <span id="rTotalStats" aria-live="polite"></span></p>
+    </section>
+
+    <section>
+      <h2>G</h2>
+      <div>
+        <a href="testg1.html">Test G1</a>
+        <span id="g1Stats" aria-live="polite"></span>
+      </div>
+      <div>
+        <a href="testg2.html">Test G2</a>
+        <span id="g2Stats" aria-live="polite"></span>
+      </div>
+      <div>
+        <a href="testg3.html">Test G3</a>
+        <span id="g3Stats" aria-live="polite"></span>
+      </div>
+      <p>Total: <span id="gTotalStats" aria-live="polite"></span></p>
+    </section>
 
     <dialog id="confirmDialog">
       <p>Delete save? This cannot be undone.</p>
@@ -35,11 +115,70 @@
       </menu>
     </dialog>
     <script>
+      const groupConfigs = [
+        {
+          totalElementId: "wTotalStats",
+          tests: [
+            { elementId: "w1Stats", storageKey: "W1State" },
+            { elementId: "w2Stats", storageKey: "W2State" },
+            { elementId: "w3Stats", storageKey: "W3State" },
+          ],
+        },
+        {
+          totalElementId: "uTotalStats",
+          tests: [
+            { elementId: "u1Stats", storageKey: "U1State" },
+            { elementId: "u2Stats", storageKey: "U2State" },
+            { elementId: "u3Stats", storageKey: "U3State" },
+          ],
+        },
+        {
+          totalElementId: "bTotalStats",
+          tests: [
+            { elementId: "b1Stats", storageKey: "B1State" },
+            { elementId: "b2Stats", storageKey: "B2State" },
+            { elementId: "b3Stats", storageKey: "B3State" },
+          ],
+        },
+        {
+          totalElementId: "rTotalStats",
+          tests: [
+            { elementId: "r1Stats", storageKey: "R1State" },
+            { elementId: "r2Stats", storageKey: "R2State" },
+            { elementId: "r3Stats", storageKey: "R3State" },
+          ],
+        },
+        {
+          totalElementId: "gTotalStats",
+          tests: [
+            { elementId: "g1Stats", storageKey: "G1State" },
+            { elementId: "g2Stats", storageKey: "G2State" },
+            { elementId: "g3Stats", storageKey: "G3State" },
+          ],
+        },
+      ];
+
       function clearData() {
-        localStorage.removeItem("W1State");
-        localStorage.removeItem("quizSharedScore");
+        [
+          "W1State",
+          "W2State",
+          "W3State",
+          "U1State",
+          "U2State",
+          "U3State",
+          "B1State",
+          "B2State",
+          "B3State",
+          "R1State",
+          "R2State",
+          "R3State",
+          "G1State",
+          "G2State",
+          "G3State",
+          "quizSharedScore",
+        ].forEach((storageKey) => localStorage.removeItem(storageKey));
         updateScore();
-        updateQuiz1Stats();
+        updateAllStats();
       }
 
       function updateScore() {
@@ -53,7 +192,7 @@
         }
       }
 
-      function getW1QuestionStats() {
+      function getQuestionStats(storageKey) {
         const defaults = {
           answeredWithHint: 0,
           answeredWithoutHint: 0,
@@ -62,7 +201,7 @@
         };
 
         try {
-          const raw = localStorage.getItem("W1State");
+          const raw = localStorage.getItem(storageKey);
           if (!raw) {
             return defaults;
           }
@@ -83,10 +222,17 @@
                   question.scored === "0");
 
               if (isAnswered) {
-                if (hasHint) {
-                  stats.answeredWithHint += 1;
-                } else {
-                  stats.answeredWithoutHint += 1;
+                const isScored =
+                  question.scored !== false &&
+                  question.scored !== 0 &&
+                  question.scored !== "0";
+
+                if (isScored) {
+                  if (hasHint) {
+                    stats.answeredWithHint += 1;
+                  } else {
+                    stats.answeredWithoutHint += 1;
+                  }
                 }
 
                 if (isIncorrect) {
@@ -105,21 +251,64 @@
         }
       }
 
-      function updateQuiz1Stats() {
-        const el = document.getElementById("quiz1Stats");
+      function formatStats(stats) {
+        return `Hinted: ${stats.answeredWithHint} · Unhinted: ${stats.answeredWithoutHint} · Incorrect: ${stats.incorrect} · Unanswered: ${stats.unanswered}`;
+      }
+
+      function sumStats(statsList) {
+        const defaults = {
+          answeredWithHint: 0,
+          answeredWithoutHint: 0,
+          incorrect: 0,
+          unanswered: 0,
+        };
+
+        return statsList.reduce(
+          (total, stats) => {
+            total.answeredWithHint += stats.answeredWithHint;
+            total.answeredWithoutHint += stats.answeredWithoutHint;
+            total.incorrect += stats.incorrect;
+            total.unanswered += stats.unanswered;
+            return total;
+          },
+          { ...defaults },
+        );
+      }
+
+      function updateStatsForElement(storageKey, elementId) {
+        const el = document.getElementById(elementId);
         if (!el) {
           return;
         }
 
-        const stats = getW1QuestionStats();
-        el.textContent = `Hinted: ${stats.answeredWithHint} · Unhinted: ${stats.answeredWithoutHint} · Incorrect: ${stats.incorrect} · Unanswered: ${stats.unanswered}`;
+        const stats = getQuestionStats(storageKey);
+        el.textContent = formatStats(stats);
+      }
+
+      function updateGroupStats(group) {
+        const statsList = group.tests.map((test) =>
+          getQuestionStats(test.storageKey),
+        );
+        const totalStats = sumStats(statsList);
+        const totalEl = document.getElementById(group.totalElementId);
+        if (totalEl) {
+          totalEl.textContent = formatStats(totalStats);
+        }
+
+        group.tests.forEach((test) => {
+          updateStatsForElement(test.storageKey, test.elementId);
+        });
+      }
+
+      function updateAllStats() {
+        groupConfigs.forEach(updateGroupStats);
       }
     </script>
 
     <script>
       (function () {
         updateScore();
-        updateQuiz1Stats();
+        updateAllStats();
         const dialog = document.getElementById("confirmDialog");
         document
           .getElementById("cancelDelete")
