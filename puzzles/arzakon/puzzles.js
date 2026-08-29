@@ -93,6 +93,9 @@ function revealHint(button) {
   if (hintText) {
     hintText.classList.add("visible");
   }
+  button.style.display = "none";
+  const hintAudio = new Audio("audio/hint.wav");
+  hintAudio.play();
   saveState();
 }
 function getState() {
@@ -152,6 +155,12 @@ function restoreState() {
       if (hintText) {
         hintText.classList.add("visible");
       }
+      const hintButton = container.querySelector(
+        ".controls button:nth-child(3)",
+      );
+      if (hintButton) {
+        hintButton.style.display = "none";
+      }
     }
     if (savedQuestion.scored) {
       container.classList.add("highlight-correct");
@@ -185,10 +194,14 @@ function checkAnswer(button) {
     }
     container.classList.remove("highlight-wrong");
     container.classList.add("highlight-correct");
+    const correctAudio = new Audio("audio/correct.wav");
+    correctAudio.play();
   } else {
     container.classList.remove("highlight-correct");
     container.classList.add("highlight-wrong");
     fillBoxes(container, answer);
+    const incorrectAudio = new Audio("audio/incorrect.wav");
+    incorrectAudio.play();
   }
   hideQuestionButtons(container);
   saveState();
@@ -200,6 +213,8 @@ function giveUp(button) {
   container.classList.remove("highlight-correct");
   container.classList.add("highlight-wrong");
   fillBoxes(container, answer);
+  const incorrectAudio = new Audio("audio/incorrect.wav");
+  incorrectAudio.play();
   hideQuestionButtons(container);
   saveState();
 }
@@ -233,6 +248,25 @@ document.querySelectorAll(".letter-box").forEach((input) => {
 });
 restoreState();
 
+document.querySelectorAll(".letter-box").forEach((input) => {
+  input.addEventListener("input", () => {
+    if (input.value) {
+      const typeAudio = new Audio("audio/type.wav");
+      typeAudio.play();
+    }
+  });
+});
+
+document.querySelectorAll("button").forEach((button) => {
+  button.addEventListener("click", () => {
+    const buttonAudio = new Audio("audio/button.wav");
+    buttonAudio.play();
+  });
+});
+
 window.checkAnswer = checkAnswer;
 window.giveUp = giveUp;
 window.revealHint = revealHint;
+
+const audio = new Audio("audio/transition.wav");
+audio.play();
