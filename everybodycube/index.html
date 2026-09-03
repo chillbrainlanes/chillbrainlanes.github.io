@@ -45,11 +45,20 @@
         text-align: center;
         font-size: 14px;
       }
-      .centerwide {
+      .home-link-wrapper {
+        width: 60%;
+        max-width: 800px;
+        margin: 60px auto 0;
+      }
+      .home-link-wrapper img {
+        display: block;
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
+        height: auto;
+      }
+      @media (max-width: 768px) {
+        .home-link-wrapper {
+          width: 100%;
+        }
       }
     </style>
   </head>
@@ -76,6 +85,14 @@
     </div>
     <h2 class="gallery-title">Card Images</h2>
     <div class="gallery">
+      <div class="gallery-item">
+        <img src="cutcrops/Thassa's Oracle.png" />
+        <div class="gallery-credit">By Fenomeno</div>
+      </div>
+      <div class="gallery-item">
+        <img src="cutcrops/Upheaval.png" />
+        <div class="gallery-credit">By Legion</div>
+      </div>
       <div class="gallery-item">
         <img src="cutcrops/Deep-Cavern Bat.png" />
         <div class="gallery-credit">By mimp</div>
@@ -109,6 +126,10 @@
         <div class="gallery-credit">By Paranundrox</div>
       </div>
       <div class="gallery-item">
+        <img src="cutcrops/Mana Vault.png" />
+        <div class="gallery-credit">By avi_miller</div>
+      </div>
+      <div class="gallery-item">
         <img src="cutcrops/Psychic Frog.png" />
         <div class="gallery-credit">By Poptart</div>
       </div>
@@ -119,6 +140,14 @@
     </div>
     <h2 class="gallery-title">Card Images With Print Bleed</h2>
     <div class="gallery">
+      <div class="gallery-item">
+        <img src="fullimages/Thassa's Oracle.png" />
+        <div class="gallery-credit">By Fenomeno</div>
+      </div>
+      <div class="gallery-item">
+        <img src="fullimages/Upheaval.png" />
+        <div class="gallery-credit">By Legion</div>
+      </div>
       <div class="gallery-item">
         <img src="fullimages/Deep-Cavern Bat.png" />
         <div class="gallery-credit">By mimp</div>
@@ -152,6 +181,10 @@
         <div class="gallery-credit">By Paranundrox</div>
       </div>
       <div class="gallery-item">
+        <img src="fullimages/Mana Vault.png" />
+        <div class="gallery-credit">By avi_miller</div>
+      </div>
+      <div class="gallery-item">
         <img src="fullimages/Psychic Frog.png" />
         <div class="gallery-credit">By Poptart</div>
       </div>
@@ -160,7 +193,7 @@
         <div class="gallery-credit">By Rodzos</div>
       </div>
     </div>
-    <div class="centerwide" style="margin-top: 60px">
+    <div class="home-link-wrapper">
       <a href="../index.html">
         <img
           src="../shandalarfiles/homepage.gif"
