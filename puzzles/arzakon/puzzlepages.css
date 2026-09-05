@@ -53,8 +53,11 @@ body * {
     width: 80%;
   }
   button {
-    padding: 12px 16px;
-    font-size: 1.3rem;
+    padding: 16px 20px;
+    font-size: 1.8rem;
+  }
+  #score {
+    font-size: 2rem;
   }
 }
 .answer-row {
