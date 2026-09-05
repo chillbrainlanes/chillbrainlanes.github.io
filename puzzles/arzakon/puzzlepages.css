@@ -1,16 +1,24 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: serif;
   padding: 20px;
   padding-top: 80px;
-  background: #f5f5f5;
+  background-color: transparent;
+  background-image: url("images/whitecastle.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+body * {
+  font-family: serif;
 }
 #score {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background: #fff;
-  border-bottom: 1px solid #ccc;
+  background: url("images/purpskybg.jpg") center / cover no-repeat;
+  color: #ffffff;
   padding: 14px 20px;
   font-size: 1rem;
   font-weight: bold;
@@ -29,12 +37,21 @@ body {
 .question {
   margin-bottom: 24px;
   padding: 16px;
-  border: 1px solid #ccc;
-  background: #fff;
+  border: 1px solid #000000;
+  background-image: url("images/whitebg.png");
+  background-repeat: repeat;
 }
 .question h2 {
   margin: 0 0 12px;
   font-size: 1.1rem;
+}
+.question-image {
+  width: 15%;
+}
+@media (max-width: 600px) {
+  .question-image {
+    width: 100%;
+  }
 }
 .answer-row {
   display: flex;
@@ -46,10 +63,11 @@ body {
 .letter-box {
   width: 32px;
   height: 36px;
-  border: 1px solid #999;
+  border: 1px solid #000000;
   text-align: center;
   font-size: 1.2rem;
   text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.6);
 }
 .letter-box input {
   width: 100%;
@@ -79,33 +97,35 @@ button {
   padding: 8px 12px;
   border: none;
   cursor: pointer;
-  background: #3b82f6;
+  background: rgb(0, 72, 180);
   color: #fff;
 }
 button.clear-data {
-  background: #f59e0b;
+  background: rgba(245, 158, 11, 0.9);
 }
 button.give-up {
-  background: #ef4444;
+  background: rgba(238, 16, 16, 0.9);
 }
 button.hint-button {
-  background: #6b7280;
+  background: rgba(0, 0, 0, 0.9);
 }
 .hint-text {
   margin-top: 12px;
   padding: 10px;
-  border: 1px solid #ccc;
-  background: #f9fafb;
+  border: 1px solid #000000;
+  background: rgba(249, 250, 251, 0.7);
   display: none;
 }
 .hint-text.visible {
   display: block;
 }
 .highlight-correct {
-  background: #d1fae5;
-  border-color: #10b981;
+  background-image: url("images/greenbg.png");
+  background-repeat: repeat;
+  border-color: #000000;
 }
 .highlight-wrong {
-  background: #fee2e2;
-  border-color: #ef4444;
+  background-image: url("images/redbg.png");
+  background-repeat: repeat;
+  border-color: #000000;
 }
