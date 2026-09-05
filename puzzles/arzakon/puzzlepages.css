@@ -54,14 +54,19 @@ body * {
   }
   button {
     padding: 16px 20px;
-    font-size: 1.8rem;
-  }
-  #score {
     font-size: 2rem;
   }
+  #score {
+    font-size: 1.5rem;
+    align-items: flex-start;
+    gap: 4px;
+  }
+  #score .score-item {
+    flex: 0 0 calc(49%);
+  }
   .letter-box {
-    width: 48px;
-    height: 54px;
+    width: 72px;
+    height: 81px;
   }
 }
 .answer-row {
