@@ -59,6 +59,10 @@ body * {
   #score {
     font-size: 2rem;
   }
+  .letter-box {
+    width: 48px;
+    height: 54px;
+  }
 }
 .answer-row {
   display: flex;
