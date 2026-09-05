@@ -23,88 +23,54 @@
     <p id="score">Loading.</p>
 
     <section>
-      <h2>W</h2>
       <div>
-        <a href="testw1.html">Test W1</a>
+        <a href="wcastle.html">White Castle</a>
+      </div>
+      <p>
+        Chamber 1:<br />
         <span id="w1Stats" aria-live="polite"></span>
-      </div>
-      <div>
-        <a href="testw2.html">Test W2</a>
+      </p>
+      <p>
+        Chamber 2:<br />
         <span id="w2Stats" aria-live="polite"></span>
-      </div>
-      <div>
-        <a href="testw3.html">Test W3</a>
+      </p>
+      <p>
+        Chamber 3:<br />
         <span id="w3Stats" aria-live="polite"></span>
-      </div>
-      <p>Total: <span id="wTotalStats" aria-live="polite"></span></p>
+      </p>
+      <p>Total:<br /><span id="wTotalStats" aria-live="polite"></span></p>
     </section>
 
     <section>
-      <h2>U</h2>
-      <div>
-        <a href="testu1.html">Test U1</a>
-        <span id="u1Stats" aria-live="polite"></span>
-      </div>
-      <div>
-        <a href="testu2.html">Test U2</a>
-        <span id="u2Stats" aria-live="polite"></span>
-      </div>
-      <div>
-        <a href="testu3.html">Test U3</a>
-        <span id="u3Stats" aria-live="polite"></span>
-      </div>
-      <p>Total: <span id="uTotalStats" aria-live="polite"></span></p>
+      <div><a href="ucastle.html">Blue Castle</a></div>
+      <p>Chamber 1:<br /><span id="u1Stats" aria-live="polite"></span></p>
+      <p>Chamber 2:<br /><span id="u2Stats" aria-live="polite"></span></p>
+      <p>Chamber 3:<br /><span id="u3Stats" aria-live="polite"></span></p>
+      <p>Total:<br /><span id="uTotalStats" aria-live="polite"></span></p>
     </section>
 
     <section>
-      <h2>B</h2>
-      <div>
-        <a href="testb1.html">Test B1</a>
-        <span id="b1Stats" aria-live="polite"></span>
-      </div>
-      <div>
-        <a href="testb2.html">Test B2</a>
-        <span id="b2Stats" aria-live="polite"></span>
-      </div>
-      <div>
-        <a href="testb3.html">Test B3</a>
-        <span id="b3Stats" aria-live="polite"></span>
-      </div>
-      <p>Total: <span id="bTotalStats" aria-live="polite"></span></p>
+      <div><a href="bcastle.html">Black Castle</a></div>
+      <p>Chamber 1:<br /><span id="b1Stats" aria-live="polite"></span></p>
+      <p>Chamber 2:<br /><span id="b2Stats" aria-live="polite"></span></p>
+      <p>Chamber 3:<br /><span id="b3Stats" aria-live="polite"></span></p>
+      <p>Total:<br /><span id="bTotalStats" aria-live="polite"></span></p>
     </section>
 
     <section>
-      <h2>R</h2>
-      <div>
-        <a href="testr1.html">Test R1</a>
-        <span id="r1Stats" aria-live="polite"></span>
-      </div>
-      <div>
-        <a href="testr2.html">Test R2</a>
-        <span id="r2Stats" aria-live="polite"></span>
-      </div>
-      <div>
-        <a href="testr3.html">Test R3</a>
-        <span id="r3Stats" aria-live="polite"></span>
-      </div>
-      <p>Total: <span id="rTotalStats" aria-live="polite"></span></p>
+      <div><a href="rcastle.html">Red Castle</a></div>
+      <p>Chamber 1:<br /><span id="r1Stats" aria-live="polite"></span></p>
+      <p>Chamber 2:<br /><span id="r2Stats" aria-live="polite"></span></p>
+      <p>Chamber 3:<br /><span id="r3Stats" aria-live="polite"></span></p>
+      <p>Total:<br /><span id="rTotalStats" aria-live="polite"></span></p>
     </section>
 
     <section>
-      <h2>G</h2>
-      <div>
-        <a href="testg1.html">Test G1</a>
-        <span id="g1Stats" aria-live="polite"></span>
-      </div>
-      <div>
-        <a href="testg2.html">Test G2</a>
-        <span id="g2Stats" aria-live="polite"></span>
-      </div>
-      <div>
-        <a href="testg3.html">Test G3</a>
-        <span id="g3Stats" aria-live="polite"></span>
-      </div>
-      <p>Total: <span id="gTotalStats" aria-live="polite"></span></p>
+      <div><a href="gcastle.html">Green Castle</a></div>
+      <p>Chamber 1:<br /><span id="g1Stats" aria-live="polite"></span></p>
+      <p>Chamber 2:<br /><span id="g2Stats" aria-live="polite"></span></p>
+      <p>Chamber 3:<br /><span id="g3Stats" aria-live="polite"></span></p>
+      <p>Total:<br /><span id="gTotalStats" aria-live="polite"></span></p>
     </section>
 
     <dialog id="confirmDialog">
@@ -197,7 +163,7 @@
           answeredWithHint: 0,
           answeredWithoutHint: 0,
           incorrect: 0,
-          unanswered: 0,
+          unanswered: 30,
         };
 
         try {
@@ -252,7 +218,7 @@
       }
 
       function formatStats(stats) {
-        return `Hinted: ${stats.answeredWithHint} · Unhinted: ${stats.answeredWithoutHint} · Incorrect: ${stats.incorrect} · Unanswered: ${stats.unanswered}`;
+        return `Answered Without Hint: ${stats.answeredWithoutHint} · Answered With Hint: ${stats.answeredWithHint} · Incorrect: ${stats.incorrect} · Unanswered: ${stats.unanswered}`;
       }
 
       function sumStats(statsList) {

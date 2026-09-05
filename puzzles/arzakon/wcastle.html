@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Test Index</title>
+    <style>
+      body {
+        font-family:
+          system-ui,
+          Segoe UI,
+          Roboto,
+          Arial;
+        margin: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div>White Castle</div>
+      <p>
+        <a href="wcastle1.html">Chamber 1:</a><br />
+        <span id="w1Stats" aria-live="polite"></span>
+      </p>
+      <p>
+        <a href="wcastle2.html">Chamber 2:</a><br />
+        <span id="w2Stats" aria-live="polite"></span>
+      </p>
+      <p>
+        <a href="wcastle3.html">Chamber 3:</a><br />
+        <span id="w3Stats" aria-live="polite"></span>
+      </p>
+      <p>Total:<br /><span id="wTotalStats" aria-live="polite"></span></p>
+    </section>
+    <button type="button" onclick="location.href = 'index.html'">Back</button>
+    <script>
+      const groupConfigs = [
+        {
+          totalElementId: "wTotalStats",
+          tests: [
+            { elementId: "w1Stats", storageKey: "W1State" },
+            { elementId: "w2Stats", storageKey: "W2State" },
+            { elementId: "w3Stats", storageKey: "W3State" },
+          ],
+        },
+      ];
+
+      function getQuestionStats(storageKey) {
+        const defaults = {
+          answeredWithHint: 0,
+          answeredWithoutHint: 0,
+          incorrect: 0,
+          unanswered: 30,
+        };
+
+        try {
+          const raw = localStorage.getItem(storageKey);
+          if (!raw) {
+            return defaults;
+          }
+
+          const state = JSON.parse(raw);
+          const questions = Array.isArray(state && state.questions)
+            ? state.questions
+            : [];
+
+          return questions.reduce(
+            (stats, question) => {
+              const isAnswered = question && question.answered === true;
+              const hasHint = question && question.hintRevealed === true;
+              const isIncorrect =
+                isAnswered &&
+                (question.scored === false ||
+                  question.scored === 0 ||
+                  question.scored === "0");
+
+              if (isAnswered) {
+                const isScored =
+                  question.scored !== false &&
+                  question.scored !== 0 &&
+                  question.scored !== "0";
+
+                if (isScored) {
+                  if (hasHint) {
+                    stats.answeredWithHint += 1;
+                  } else {
+                    stats.answeredWithoutHint += 1;
+                  }
+                }
+
+                if (isIncorrect) {
+                  stats.incorrect += 1;
+                }
+              } else {
+                stats.unanswered += 1;
+              }
+
+              return stats;
+            },
+            { ...defaults },
+          );
+        } catch (e) {
+          return defaults;
+        }
+      }
+
+      function formatStats(stats) {
+        return `Answered Without Hint: ${stats.answeredWithoutHint} · Answered With Hint: ${stats.answeredWithHint} · Incorrect: ${stats.incorrect} · Unanswered: ${stats.unanswered}`;
+      }
+
+      function sumStats(statsList) {
+        const defaults = {
+          answeredWithHint: 0,
+          answeredWithoutHint: 0,
+          incorrect: 0,
+          unanswered: 0,
+        };
+
+        return statsList.reduce(
+          (total, stats) => {
+            total.answeredWithHint += stats.answeredWithHint;
+            total.answeredWithoutHint += stats.answeredWithoutHint;
+            total.incorrect += stats.incorrect;
+            total.unanswered += stats.unanswered;
+            return total;
+          },
+          { ...defaults },
+        );
+      }
+
+      function updateStatsForElement(storageKey, elementId) {
+        const el = document.getElementById(elementId);
+        if (!el) {
+          return;
+        }
+
+        const stats = getQuestionStats(storageKey);
+        el.textContent = formatStats(stats);
+      }
+
+      function updateGroupStats(group) {
+        const statsList = group.tests.map((test) =>
+          getQuestionStats(test.storageKey),
+        );
+        const totalStats = sumStats(statsList);
+        const totalEl = document.getElementById(group.totalElementId);
+        if (totalEl) {
+          totalEl.textContent = formatStats(totalStats);
+        }
+
+        group.tests.forEach((test) => {
+          updateStatsForElement(test.storageKey, test.elementId);
+        });
+      }
+
+      function updateAllStats() {
+        groupConfigs.forEach(updateGroupStats);
+      }
+    </script>
+
+    <script>
+      (function () {
+        updateAllStats();
+      })();
+    </script>
+  </body>
+</html>
