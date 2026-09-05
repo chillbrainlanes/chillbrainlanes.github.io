@@ -7,13 +7,12 @@ function updateScore() {
 }
 function updateStats() {
   const state = getState();
-  let total = 0;
+  let total = score;
   let answeredWithoutHint = 0;
   let answeredWithHint = 0;
   let incorrect = 0;
   let unanswered = 0;
   if (state?.questions?.length) {
-    total = state.questions.length;
     state.questions.forEach((question) => {
       const answered = question.answered === true;
       const scored = question.scored === true;
@@ -33,7 +32,6 @@ function updateStats() {
     });
   } else {
     const questions = document.querySelectorAll(".question");
-    total = questions.length;
     questions.forEach((container) => {
       const answered = container.dataset.answered === "true";
       const scored = container.dataset.scored === "true";

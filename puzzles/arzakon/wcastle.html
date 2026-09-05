@@ -86,13 +86,12 @@
                   } else {
                     stats.answeredWithoutHint += 1;
                   }
+                  stats.unanswered -= 1;
                 }
 
                 if (isIncorrect) {
                   stats.incorrect += 1;
                 }
-              } else {
-                stats.unanswered += 1;
               }
 
               return stats;
