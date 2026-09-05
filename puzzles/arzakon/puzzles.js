@@ -219,6 +219,15 @@ function giveUp(button) {
   saveState();
 }
 document.querySelectorAll(".letter-box").forEach((input) => {
+  input.addEventListener("mousedown", (e) => {
+    const container = input.closest(".question");
+    const inputs = getInputs(container);
+    if (inputs.every((box) => !box.value) && inputs[0] !== input) {
+      e.preventDefault();
+      inputs[0].focus();
+      inputs[0].setSelectionRange(0, 1);
+    }
+  });
   input.addEventListener("input", () => {
     input.value = input.value.toUpperCase().slice(-1);
     const container = input.closest(".question");
