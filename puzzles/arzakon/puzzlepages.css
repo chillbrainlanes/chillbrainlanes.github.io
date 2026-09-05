@@ -48,7 +48,7 @@ body * {
 .question-image {
   width: 15%;
 }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .question-image {
     width: 80%;
   }
