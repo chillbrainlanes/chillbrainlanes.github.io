@@ -13,65 +13,168 @@
           Arial;
         margin: 2rem;
       }
+
+      .clear-data {
+        position: fixed;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .star-map {
+        display: grid;
+        grid-template:
+          "green white blue"
+          "green center blue"
+          "red centerbottom black";
+        gap: 3rem 2rem;
+        align-items: center;
+        max-width: 1000px;
+        margin: 3rem auto;
+      }
+
+      .castle {
+        min-width: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .castle a,
+      .arzakon a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.75rem;
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+
+      .castle img {
+        width: min(100%, 150px);
+        height: 120px;
+        object-fit: contain;
+      }
+
+      .castle .stats {
+        margin: 1rem 0 0;
+        font-size: 0.9rem;
+        line-height: 1.6;
+        white-space: pre-line;
+      }
+
+      .white {
+        grid-area: white;
+      }
+      .blue {
+        grid-area: blue;
+      }
+      .black {
+        grid-area: black;
+      }
+      .red {
+        grid-area: red;
+      }
+      .green {
+        grid-area: green;
+      }
+
+      .arzakon {
+        grid-area: center;
+        text-align: center;
+      }
+
+      .arzakon .score {
+        margin: 1rem 0 0;
+      }
+
+      .arzakon img {
+        width: 130px;
+        height: 130px;
+        object-fit: contain;
+      }
+
+      @media (max-width: 700px) {
+        .star-map {
+          grid-template:
+            "white"
+            "blue"
+            "black"
+            "red"
+            "green"
+            "center";
+          gap: 3rem;
+        }
+      }
     </style>
   </head>
   <body>
+    <main class="star-map">
+      <section class="castle white">
+        <div>
+          <a href="wcastle.html">White Castle</a>
+          <a href="wcastle.html"
+            ><img src="images/whitecastle.webp" alt="White Castle"
+          /></a>
+        </div>
+        <div class="stats" id="wTotalStats" aria-live="polite"></div>
+      </section>
+
+      <section class="castle blue">
+        <div>
+          <a href="ucastle.html">Blue Castle</a>
+          <a href="ucastle.html"
+            ><img src="images/bluecastle.webp" alt="Blue Castle"
+          /></a>
+        </div>
+        <div class="stats" id="uTotalStats" aria-live="polite"></div>
+      </section>
+
+      <section class="castle black">
+        <div>
+          <a href="bcastle.html">Black Castle</a>
+          <a href="bcastle.html"
+            ><img src="images/blackcastle.webp" alt="Black Castle"
+          /></a>
+        </div>
+        <div class="stats" id="bTotalStats" aria-live="polite"></div>
+      </section>
+
+      <section class="castle red">
+        <div>
+          <a href="rcastle.html">Red Castle</a>
+          <a href="rcastle.html"
+            ><img src="images/redcastle.webp" alt="Red Castle"
+          /></a>
+        </div>
+        <div class="stats" id="rTotalStats" aria-live="polite"></div>
+      </section>
+
+      <section class="castle green">
+        <div>
+          <a href="gcastle.html">Green Castle</a>
+          <a href="gcastle.html"
+            ><img src="images/greencastle.webp" alt="Green Castle"
+          /></a>
+        </div>
+        <div class="stats" id="gTotalStats" aria-live="polite"></div>
+      </section>
+
+      <section class="arzakon">
+        <a href="arzakon.html">
+          <img src="images/arzakon.png" alt="Arzakon" />
+          Confront Arzakon!
+        </a>
+        <p class="score">Total Score: <span id="score">Loading.</span></p>
+      </section>
+
+      <section class="centerbottom"></section>
+    </main>
+
     <button type="button" class="clear-data" onclick="showConfirmDialog()">
       Delete save
     </button>
-    <p>Score:</p>
-    <p id="score">Loading.</p>
-
-    <section>
-      <div>
-        <a href="wcastle.html">White Castle</a>
-      </div>
-      <p>
-        Chamber 1:<br />
-        <span id="w1Stats" aria-live="polite"></span>
-      </p>
-      <p>
-        Chamber 2:<br />
-        <span id="w2Stats" aria-live="polite"></span>
-      </p>
-      <p>
-        Chamber 3:<br />
-        <span id="w3Stats" aria-live="polite"></span>
-      </p>
-      <p>Total:<br /><span id="wTotalStats" aria-live="polite"></span></p>
-    </section>
-
-    <section>
-      <div><a href="ucastle.html">Blue Castle</a></div>
-      <p>Chamber 1:<br /><span id="u1Stats" aria-live="polite"></span></p>
-      <p>Chamber 2:<br /><span id="u2Stats" aria-live="polite"></span></p>
-      <p>Chamber 3:<br /><span id="u3Stats" aria-live="polite"></span></p>
-      <p>Total:<br /><span id="uTotalStats" aria-live="polite"></span></p>
-    </section>
-
-    <section>
-      <div><a href="bcastle.html">Black Castle</a></div>
-      <p>Chamber 1:<br /><span id="b1Stats" aria-live="polite"></span></p>
-      <p>Chamber 2:<br /><span id="b2Stats" aria-live="polite"></span></p>
-      <p>Chamber 3:<br /><span id="b3Stats" aria-live="polite"></span></p>
-      <p>Total:<br /><span id="bTotalStats" aria-live="polite"></span></p>
-    </section>
-
-    <section>
-      <div><a href="rcastle.html">Red Castle</a></div>
-      <p>Chamber 1:<br /><span id="r1Stats" aria-live="polite"></span></p>
-      <p>Chamber 2:<br /><span id="r2Stats" aria-live="polite"></span></p>
-      <p>Chamber 3:<br /><span id="r3Stats" aria-live="polite"></span></p>
-      <p>Total:<br /><span id="rTotalStats" aria-live="polite"></span></p>
-    </section>
-
-    <section>
-      <div><a href="gcastle.html">Green Castle</a></div>
-      <p>Chamber 1:<br /><span id="g1Stats" aria-live="polite"></span></p>
-      <p>Chamber 2:<br /><span id="g2Stats" aria-live="polite"></span></p>
-      <p>Chamber 3:<br /><span id="g3Stats" aria-live="polite"></span></p>
-      <p>Total:<br /><span id="gTotalStats" aria-live="polite"></span></p>
-    </section>
 
     <dialog id="confirmDialog">
       <p>Delete save? This cannot be undone.</p>
@@ -84,6 +187,7 @@
       const groupConfigs = [
         {
           totalElementId: "wTotalStats",
+          pointsPerTier: 10,
           tests: [
             { elementId: "w1Stats", storageKey: "W1State" },
             { elementId: "w2Stats", storageKey: "W2State" },
@@ -92,6 +196,7 @@
         },
         {
           totalElementId: "uTotalStats",
+          pointsPerTier: 10,
           tests: [
             { elementId: "u1Stats", storageKey: "U1State" },
             { elementId: "u2Stats", storageKey: "U2State" },
@@ -100,6 +205,7 @@
         },
         {
           totalElementId: "bTotalStats",
+          pointsPerTier: 10,
           tests: [
             { elementId: "b1Stats", storageKey: "B1State" },
             { elementId: "b2Stats", storageKey: "B2State" },
@@ -108,6 +214,7 @@
         },
         {
           totalElementId: "rTotalStats",
+          pointsPerTier: 10,
           tests: [
             { elementId: "r1Stats", storageKey: "R1State" },
             { elementId: "r2Stats", storageKey: "R2State" },
@@ -116,6 +223,7 @@
         },
         {
           totalElementId: "gTotalStats",
+          pointsPerTier: 10,
           tests: [
             { elementId: "g1Stats", storageKey: "G1State" },
             { elementId: "g2Stats", storageKey: "G2State" },
@@ -218,7 +326,17 @@
       }
 
       function formatStats(stats) {
-        return `Answered Without Hint: ${stats.answeredWithoutHint} · Answered With Hint: ${stats.answeredWithHint} · Incorrect: ${stats.incorrect} · Unanswered: ${stats.unanswered}`;
+        return `Answered Without Hint: ${stats.answeredWithoutHint}\nAnswered With Hint: ${stats.answeredWithHint}\nIncorrect: ${stats.incorrect}\nUnanswered: ${stats.unanswered}`;
+      }
+
+      function getGroupScore(statsList, pointsPerTier) {
+        return statsList.reduce(
+          (score, stats, index) =>
+            score +
+            stats.answeredWithHint * pointsPerTier * (index + 1) +
+            stats.answeredWithoutHint * pointsPerTier * 2 * (index + 1),
+          0,
+        );
       }
 
       function sumStats(statsList) {
@@ -258,7 +376,8 @@
         const totalStats = sumStats(statsList);
         const totalEl = document.getElementById(group.totalElementId);
         if (totalEl) {
-          totalEl.textContent = formatStats(totalStats);
+          const totalScore = getGroupScore(statsList, group.pointsPerTier);
+          totalEl.textContent = `${formatStats(totalStats)}\nCastle Score: ${totalScore}`;
         }
 
         group.tests.forEach((test) => {

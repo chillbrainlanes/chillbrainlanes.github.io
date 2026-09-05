@@ -182,7 +182,7 @@ function checkAnswer(button) {
   const target = answer.replace(/ /g, "");
   const hasScored = container.dataset.scored === "true";
   const usedHint = container.dataset.hintRevealed === "true";
-  const points = usedHint ? 1 : 2;
+  const points = usedHint ? HINT_POINTS : NO_HINT_POINTS;
   container.dataset.answered = "true";
   if (typed === target) {
     if (!hasScored) {
