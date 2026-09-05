@@ -1,5 +1,6 @@
 console.log(localStorage.getItem("quizSharedScore"));
 const SCORE_KEY = "quizSharedScore";
+const GAME_COMPLETE_KEY = "game_complete";
 let score = 0;
 function updateScore() {
   document.querySelector("#score .score-value").textContent = score;
@@ -73,6 +74,24 @@ function getHintText(container) {
 function hideQuestionButtons(container) {
   container.querySelectorAll(".controls button").forEach((button) => {
     button.style.display = "none";
+  });
+}
+function applyGameCompleteState() {
+  let gameComplete = localStorage.getItem(GAME_COMPLETE_KEY) === "true";
+  try {
+    gameComplete =
+      gameComplete ||
+      JSON.parse(localStorage.getItem(GAME_COMPLETE_KEY)) === true;
+  } catch (e) {
+    // The value is not JSON; the string check above is sufficient.
+  }
+  if (!gameComplete) return;
+
+  document.querySelectorAll(".question").forEach((container) => {
+    hideQuestionButtons(container);
+    getInputs(container).forEach((input) => {
+      input.disabled = true;
+    });
   });
 }
 function fillBoxes(container, answer) {
@@ -254,6 +273,7 @@ document.querySelectorAll(".letter-box").forEach((input) => {
   });
 });
 restoreState();
+applyGameCompleteState();
 
 document.querySelectorAll(".letter-box").forEach((input) => {
   input.addEventListener("input", () => {

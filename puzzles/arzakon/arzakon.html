@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arzakon - Game Complete</title>
+    <style>
+      body {
+        font-family: Georgia, "Times New Roman", serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        background: url("images/arzakon.jpg") center / cover no-repeat;
+        overflow: hidden;
+      }
+      body::after {
+        content: "";
+        position: fixed;
+        inset: 0;
+        background: #fff;
+        opacity: 0;
+        pointer-events: none;
+        z-index: 2;
+      }
+      body.transitioning {
+        animation: shake 0.12s linear infinite;
+      }
+      body.transitioning::after {
+        animation: fade-white 1.8s ease-in forwards;
+      }
+      body.summer::after {
+        animation: reveal 0.8s ease-out forwards;
+      }
+      @keyframes shake {
+        0%,
+        100% {
+          transform: translate(0, 0);
+        }
+        25% {
+          transform: translate(-4px, 2px);
+        }
+        75% {
+          transform: translate(4px, -2px);
+        }
+      }
+      @keyframes fade-white {
+        to {
+          opacity: 1;
+        }
+      }
+      @keyframes reveal {
+        from {
+          opacity: 1;
+        }
+        to {
+          opacity: 0;
+        }
+      }
+      .container {
+        background: white;
+        padding: 40px;
+        border-radius: 0;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        max-width: 500px;
+      }
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .score-display {
+        font-size: 48px;
+        color: #667eea;
+        font-weight: bold;
+        margin: 30px 0;
+      }
+      .prompt {
+        font-size: 18px;
+        color: #666;
+        margin: 20px 0;
+      }
+      .button-group {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 30px;
+      }
+      button {
+        font-family: inherit;
+        padding: 10px 30px;
+        font-size: 16px;
+        border: none;
+        border-radius: 0;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      .yes-btn {
+        background-color: #667eea;
+        color: white;
+      }
+      .yes-btn:hover {
+        background-color: #5568d3;
+      }
+      .no-btn {
+        background-color: #999;
+        color: white;
+      }
+      .no-btn:hover {
+        background-color: #777;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="content"></div>
+
+    <script>
+      function initializePage() {
+        if (localStorage.getItem("game_complete") === null) {
+          localStorage.setItem("game_complete", "false");
+        }
+        const gameComplete = localStorage.getItem("game_complete") === "true";
+        console.log(`game_complete is ${gameComplete}`);
+        const quizScore = localStorage.getItem("quizSharedScore") || "0";
+        const contentDiv = document.getElementById("content");
+
+        if (gameComplete) {
+          // Game already complete, show score
+          document.body.style.backgroundImage = 'url("images/summerbloom.jpg")';
+          displayFinalScore(contentDiv, quizScore);
+        } else {
+          // Prompt player to end game
+          displayEndGamePrompt(contentDiv, quizScore);
+        }
+      }
+
+      function displayEndGamePrompt(contentDiv, score) {
+        contentDiv.innerHTML = `
+                <h1>End Game?</h1>
+                <p class="prompt">Would you like to end the game?</p>
+                <p class="score-display">${score}</p>
+                <div class="button-group">
+                    <button class="yes-btn" onclick="confirmEndGame('${score}')">Yes</button>
+                    <button class="no-btn" onclick="declineEndGame()">No</button>
+                </div>
+            `;
+      }
+
+      function displayFinalScore(contentDiv, score) {
+        contentDiv.innerHTML = `
+                <h1>Game Complete</h1>
+                <p>Your Final Score:</p>
+                <p class="score-display">${score}</p>
+            `;
+      }
+
+      function confirmEndGame(score) {
+        localStorage.setItem("game_complete", "true");
+        const contentDiv = document.getElementById("content");
+        contentDiv.style.visibility = "hidden";
+        document.querySelectorAll("button").forEach((button) => {
+          button.disabled = true;
+        });
+        document.body.classList.add("transitioning");
+        setTimeout(() => {
+          document.body.classList.remove("transitioning");
+          document.body.style.backgroundImage = 'url("images/summerbloom.jpg")';
+          displayFinalScore(contentDiv, score);
+          contentDiv.style.visibility = "visible";
+          document.body.classList.add("summer");
+        }, 1800);
+      }
+
+      function declineEndGame() {
+        window.location.href = "index.html";
+      }
+
+      // Initialize on page load
+      window.addEventListener("load", initializePage);
+    </script>
+  </body>
+</html>

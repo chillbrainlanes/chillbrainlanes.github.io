@@ -6,19 +6,15 @@
     <title>Test Index</title>
     <style>
       body {
-        font-family:
-          system-ui,
-          Segoe UI,
-          Roboto,
-          Arial;
+        font-family: serif;
         margin: 2rem;
+        background-image: url("images/bgpattern.png");
+        background-repeat: repeat;
       }
 
       .clear-data {
-        position: fixed;
-        bottom: 1rem;
-        left: 50%;
-        transform: translateX(-50%);
+        display: block;
+        margin: 2rem auto;
       }
 
       .star-map {
@@ -39,6 +35,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 1rem;
+        border: 3px solid;
+        border-radius: 0;
+        box-sizing: border-box;
       }
 
       .castle a,
@@ -66,23 +66,38 @@
 
       .white {
         grid-area: white;
+        border-color: rgba(0, 0, 0, 0.8);
+        background: rgba(253, 255, 135, 0.5);
       }
       .blue {
         grid-area: blue;
+        border-color: rgba(0, 0, 0, 0.8);
+        background: rgba(136, 183, 255, 0.5);
       }
       .black {
         grid-area: black;
+        border-color: rgba(0, 0, 0, 0.8);
+        background: rgba(122, 50, 139, 0.5);
       }
       .red {
         grid-area: red;
+        border-color: rgba(0, 0, 0, 0.8);
+        background: rgba(255, 123, 123, 0.5);
       }
       .green {
         grid-area: green;
+        border-color: rgba(0, 0, 0, 0.8);
+        background: rgba(122, 255, 122, 0.5);
       }
 
       .arzakon {
         grid-area: center;
         text-align: center;
+        padding: 1rem;
+        border: 3px solid rgba(0, 0, 0, 0.75);
+        border-radius: 0;
+        background: rgba(255, 185, 55, 0.5);
+        box-sizing: border-box;
       }
 
       .arzakon .score {
@@ -250,6 +265,7 @@
           "G2State",
           "G3State",
           "quizSharedScore",
+          "game_complete",
         ].forEach((storageKey) => localStorage.removeItem(storageKey));
         updateScore();
         updateAllStats();
