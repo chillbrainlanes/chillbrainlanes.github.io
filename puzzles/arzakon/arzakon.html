@@ -13,6 +13,7 @@
         min-height: 100vh;
         margin: 0;
         background: url("images/arzakonbg.jpg") center / cover no-repeat;
+        background-attachment: scroll;
         overflow: hidden;
       }
       body::after {
@@ -26,6 +27,7 @@
       }
       body.transitioning {
         animation: shake 0.12s linear infinite;
+        background-attachment: scroll;
       }
       body.transitioning::after {
         animation: fade-white 1.8s ease-in forwards;
@@ -37,12 +39,19 @@
         0%,
         100% {
           transform: translate(0, 0);
+          background-position: 50% 50%;
         }
         25% {
           transform: translate(-4px, 2px);
+          background-position: calc(50% - 4px) calc(50% + 2px);
+        }
+        50% {
+          transform: translate(0, 0);
+          background-position: 50% 50%;
         }
         75% {
           transform: translate(4px, -2px);
+          background-position: calc(50% + 4px) calc(50% - 2px);
         }
       }
       @keyframes fade-white {
