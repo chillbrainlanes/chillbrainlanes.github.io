@@ -139,6 +139,10 @@
           document.body.style.backgroundImage = 'url("images/summerbloom.jpg")';
           // document.body.style.backgroundImage = 'url("images/arzakonbg.jpg")';
           displayFinalScore(contentDiv, quizScore);
+        } else if (quizScore === "0") {
+          // No score yet, prompt to gather power
+          document.body.style.backgroundImage = 'url("images/arzakonbg.jpg")';
+          displayNoScorePrompt(contentDiv);
         } else {
           // Prompt player to end game
           document.body.style.backgroundImage = 'url("images/arzakonbg.jpg")';
@@ -154,6 +158,17 @@
                 <div class="button-group">
                     <button class="yes-btn" onclick="confirmEndGame('${score}')">Yes</button>
                     <button class="no-btn" onclick="declineEndGame()">No</button>
+                </div>
+            `;
+      }
+
+      function displayNoScorePrompt(contentDiv, score) {
+        contentDiv.innerHTML = `
+                <h1>End Game?</h1>
+                <p class="prompt">You must gather more power!</p>
+                <p>Answer at least one question to confront Arzakon.</p>
+                <div class="button-group">
+                    <button class="no-btn" onclick="declineEndGame()">Return</button>
                 </div>
             `;
       }
