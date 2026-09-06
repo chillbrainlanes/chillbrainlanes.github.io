@@ -312,6 +312,7 @@
                   question.scored === "0");
 
               if (isAnswered) {
+                stats.unanswered -= 1;
                 const isScored =
                   question.scored !== false &&
                   question.scored !== 0 &&
@@ -328,8 +329,6 @@
                 if (isIncorrect) {
                   stats.incorrect += 1;
                 }
-              } else {
-                stats.unanswered += 1;
               }
 
               return stats;
@@ -360,7 +359,7 @@
           answeredWithHint: 0,
           answeredWithoutHint: 0,
           incorrect: 0,
-          unanswered: 0,
+          unanswered: 30,
         };
 
         return statsList.reduce(

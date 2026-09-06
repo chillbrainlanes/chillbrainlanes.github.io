@@ -164,8 +164,7 @@
 
       function displayNoScorePrompt(contentDiv, score) {
         contentDiv.innerHTML = `
-                <h1>End Game?</h1>
-                <p class="prompt">You must gather more power!</p>
+                <h1>Gather More Power!</h1>
                 <p>Answer at least one question to confront Arzakon.</p>
                 <div class="button-group">
                     <button class="no-btn" onclick="declineEndGame()">Return</button>
@@ -177,6 +176,9 @@
         contentDiv.innerHTML = `
                 <h1>Game Over</h1>
                 <p>You banished Arzakon for ${score} years!</p>
+                <div class="button-group">
+                    <button class="no-btn" onclick="declineEndGame()">Return</button>
+                </div>
             `;
       }
 

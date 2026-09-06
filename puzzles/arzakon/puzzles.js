@@ -12,15 +12,14 @@ function updateStats() {
   let answeredWithoutHint = 0;
   let answeredWithHint = 0;
   let incorrect = 0;
-  let unanswered = 0;
+  let unanswered = 30;
   if (state?.questions?.length) {
     state.questions.forEach((question) => {
       const answered = question.answered === true;
       const scored = question.scored === true;
       const hintRevealed = question.hintRevealed === true;
-      if (!answered) {
-        unanswered++;
-      } else {
+      if (answered) {
+        unanswered--;
         if (hintRevealed && scored) {
           answeredWithHint++;
         } else if (!hintRevealed && scored) {
@@ -37,9 +36,8 @@ function updateStats() {
       const answered = container.dataset.answered === "true";
       const scored = container.dataset.scored === "true";
       const hintRevealed = container.dataset.hintRevealed === "true";
-      if (!answered) {
-        unanswered++;
-      } else {
+      if (answered) {
+        unanswered--;
         if (hintRevealed && scored) {
           answeredWithHint++;
         } else if (!hintRevealed && scored) {
