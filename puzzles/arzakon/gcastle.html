@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Return of Arzakon! Green Castle</title>
+    <style>
+      body {
+        background-image: url("images/greenbgpattern.png");
+        background-repeat: repeat;
+        font-family: serif;
+        margin: 2rem;
+      }
+
+      * {
+        border-radius: 0;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin: 0 0 0.5rem;
+        text-align: center;
+        color: white;
+      }
+
+      .description {
+        margin: 0 auto 2rem;
+        max-width: 1300px;
+        text-align: center;
+        color: white;
+        font-size: 1.4rem;
+      }
+
+      .castle-image {
+        display: block;
+        margin: 0 auto 1rem;
+        width: 30%;
+        max-width: 100%;
+      }
+
+      .chambers {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .chamber {
+        border: 1px solid #ccc;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 1rem;
+        font-size: 1.5rem;
+      }
+
+      .chamber a {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      button {
+        display: block;
+        margin: 2rem auto 0;
+        padding: 0.75rem 2rem;
+        font-size: 1.25rem;
+        font-family: serif;
+        border-radius: 0;
+      }
+
+      @media (max-width: 1000px) {
+        .castle-image {
+          width: 80%;
+        }
+
+        .chambers {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The Green Castle</h1>
+    <img class="castle-image" src="images/greencastle.webp" />
+    <p class="description">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </p>
+    <p class="description">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </p>
+    <section>
+      <div class="chambers">
+        <div class="chamber">
+          <a href="gcastle1.html">Chamber 1: 20 Point Questions</a><br />
+          <div id="g1Stats" aria-live="polite"></div>
+        </div>
+        <div class="chamber">
+          <a href="gcastle2.html">Chamber 2: 40 Point Questions</a><br />
+          <div id="g2Stats" aria-live="polite"></div>
+        </div>
+        <div class="chamber">
+          <a href="gcastle3.html">Chamber 3: 60 Point Questions</a><br />
+          <div id="g3Stats" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+    <button type="button" onclick="location.href = 'index.html'">Back</button>
+    <script>
+      const groupConfigs = [
+        {
+          tests: [
+            { elementId: "g1Stats", storageKey: "G1State" },
+            { elementId: "g2Stats", storageKey: "G2State" },
+            { elementId: "g3Stats", storageKey: "G3State" },
+          ],
+        },
+      ];
+    </script>
+    <script src="castlepages.js"></script>
+    <script defer>
+      (function () {
+        updateAllStats();
+      })();
+    </script>
+  </body>
+</html>

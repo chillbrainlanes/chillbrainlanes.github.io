@@ -82,8 +82,8 @@
 
       <section class="arzakon">
         <a href="confrontarzakon.html" id="arzakonLink">
+          <span id="arzakonText">Confront Arzakon!</span>
           <img src="images/arzakon.png" alt="Arzakon" />
-          Confront Arzakon!
         </a>
         <p class="score">Total Score: <span id="score">Loading.</span></p>
       </section>
@@ -115,7 +115,7 @@
         updateScore();
         updateAllStats();
         if (localStorage.getItem("game_complete") === "true") {
-          document.getElementById("arzakonLink").firstChild.textContent =
+          document.getElementById("arzakonText").textContent =
             "Arzakon Is Banished!";
         }
         const dialog = document.getElementById("confirmDialog");
@@ -129,6 +129,8 @@
           .addEventListener("click", () => {
             dialog.close();
             clearData();
+            document.getElementById("arzakonText").textContent =
+              "Confront Arzakon!";
           });
       })();
       function showConfirmDialog() {
