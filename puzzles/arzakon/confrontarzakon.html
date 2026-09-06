@@ -77,18 +77,12 @@
         max-width: 500px;
       }
       h1 {
-        color: #333;
+        color: #000000;
         margin-bottom: 20px;
       }
-      .score-display {
-        font-size: 48px;
-        color: #667eea;
-        font-weight: bold;
-        margin: 30px 0;
-      }
       .prompt {
-        font-size: 18px;
-        color: #666;
+        font-size: 1.4rem;
+        color: #000000;
         margin: 20px 0;
       }
       .button-group {
@@ -148,8 +142,8 @@
 
       function displayEndGamePrompt(contentDiv, score) {
         contentDiv.innerHTML = `
-                <p class="prompt">Would you like to end the game?</p>
-                <p> If you end the game now, you will banish Arzakon for ${score} years.</p>
+                <h1>End the game?</h1>
+                <p class="prompt"> If you end the game now, you will banish Arzakon for ${score} years.</p>
                 <p class="prompt">Once you end the game, you will not be able to return and answer more questions.</p>
                 <div class="button-group">
                     <button class="yes-btn" onclick="confirmEndGame('${score}')">Yes</button>
@@ -161,7 +155,7 @@
       function displayNoScorePrompt(contentDiv, score) {
         contentDiv.innerHTML = `
                 <h1>Gather More Power!</h1>
-                <p>Answer more questions to confront Arzakon.</p>
+                <p class="prompt">Answer more questions to confront Arzakon.</p>
                 <div class="button-group">
                     <button class="no-btn" onclick="declineEndGame()">Return</button>
                 </div>
