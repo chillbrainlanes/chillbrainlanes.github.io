@@ -86,6 +86,9 @@ function applyGameCompleteState() {
   if (!gameComplete) return;
 
   document.querySelectorAll(".question").forEach((container) => {
+    if (container.dataset.answered !== "true") {
+      fillBoxes(container, getAnswer(container));
+    }
     hideQuestionButtons(container);
     getInputs(container).forEach((input) => {
       input.disabled = true;
