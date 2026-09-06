@@ -124,7 +124,7 @@ button {
   color: #000000;
 }
 button.check-answer {
-  background: rgb(0, 72, 180);
+  background: rgb(1, 117, 53);
   color: #fff;
 }
 button.give-up {
@@ -132,7 +132,7 @@ button.give-up {
   color: #fff;
 }
 button.hint-button {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(3, 0, 151, 0.9);
   color: #fff;
 }
 .hint-text {
