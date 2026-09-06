@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="intro">
-      <h1>Return of Arzakon!</h1>
+      <h1>The Return of Arzakon!</h1>
       <p class="white-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -81,7 +81,7 @@
       </section>
 
       <section class="arzakon">
-        <a href="confrontarzakon.html">
+        <a href="confrontarzakon.html" id="arzakonLink">
           <img src="images/arzakon.png" alt="Arzakon" />
           Confront Arzakon!
         </a>
@@ -103,7 +103,7 @@
     </button>
 
     <dialog id="confirmDialog">
-      <p>Delete save? This cannot be undone.</p>
+      <p>Delete your save file? This cannot be undone.</p>
       <menu>
         <button type="button" id="cancelDelete">Cancel</button>
         <button type="button" id="confirmDelete">Delete</button>
@@ -114,6 +114,10 @@
       (function () {
         updateScore();
         updateAllStats();
+        if (localStorage.getItem("game_complete") === "true") {
+          document.getElementById("arzakonLink").firstChild.textContent =
+            "Arzakon Is Banished!";
+        }
         const dialog = document.getElementById("confirmDialog");
         document
           .getElementById("cancelDelete")
