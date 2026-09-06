@@ -136,6 +136,7 @@
                   question.scored === "0");
 
               if (isAnswered) {
+                stats.unanswered -= 1;
                 const isScored =
                   question.scored !== false &&
                   question.scored !== 0 &&
@@ -147,7 +148,6 @@
                   } else {
                     stats.answeredWithoutHint += 1;
                   }
-                  stats.unanswered -= 1;
                 }
 
                 if (isIncorrect) {

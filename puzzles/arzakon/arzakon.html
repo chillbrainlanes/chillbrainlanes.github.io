@@ -106,25 +106,20 @@
         transition: background-color 0.3s;
       }
       .yes-btn {
-        background-color: #667eea;
+        background-color: #7e0101;
         color: white;
-      }
-      .yes-btn:hover {
-        background-color: #5568d3;
       }
       .no-btn {
-        background-color: #999;
+        background-color: #1e004d;
         color: white;
-      }
-      .no-btn:hover {
-        background-color: #777;
       }
     </style>
   </head>
   <body>
     <div class="container" id="content"></div>
 
-    <script>
+    <script src="mainpages.js"></script>
+    <script defer>
       function initializePage() {
         if (localStorage.getItem("game_complete") === null) {
           localStorage.setItem("game_complete", "false");
@@ -152,9 +147,9 @@
 
       function displayEndGamePrompt(contentDiv, score) {
         contentDiv.innerHTML = `
-                <h1>End Game?</h1>
                 <p class="prompt">Would you like to end the game?</p>
                 <p> If you end the game now, you will banish Arzakon for ${score} years.</p>
+                <p class="prompt">Once you end the game, you will not be able to return and answer more questions.</p>
                 <div class="button-group">
                     <button class="yes-btn" onclick="confirmEndGame('${score}')">Yes</button>
                     <button class="no-btn" onclick="declineEndGame()">No</button>
@@ -177,6 +172,7 @@
                 <h1>Game Over</h1>
                 <p>You banished Arzakon for ${score} years!</p>
                 <div class="button-group">
+              <button class="yes-btn" onclick="copyAndConfirm()">Share</button>
                     <button class="no-btn" onclick="declineEndGame()">Return</button>
                 </div>
             `;
@@ -201,6 +197,12 @@
 
       function declineEndGame() {
         window.location.href = "index.html";
+      }
+
+      function copyAndConfirm() {
+        copyFinalScore();
+        document.getElementById("content").innerHTML +=
+          '<div class="copy-confirmation">Copied to clipboard!</div>';
       }
 
       // Initialize on page load
