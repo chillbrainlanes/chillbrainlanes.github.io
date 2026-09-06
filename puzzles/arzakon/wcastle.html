@@ -6,37 +6,98 @@
     <title>Test Index</title>
     <style>
       body {
-        font-family:
-          system-ui,
-          Segoe UI,
-          Roboto,
-          Arial;
+        background-image: url("images/whitebgpattern.png");
+        background-repeat: repeat;
+        font-family: serif;
         margin: 2rem;
+      }
+
+      * {
+        border-radius: 0;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin: 0 0 0.5rem;
+        text-align: center;
+      }
+
+      .description {
+        margin: 0 auto 2rem;
+        max-width: fortyrem;
+        text-align: center;
+      }
+
+      .castle-image {
+        display: block;
+        margin: 0 auto 1rem;
+        width: 30%;
+        max-width: 100%;
+      }
+
+      .chambers {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .chamber {
+        border: 1px solid #ccc;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 1rem;
+      }
+
+      .chamber a {
+        font-size: 2rem;
+      }
+
+      button {
+        display: block;
+        margin: 2rem auto 0;
+        padding: 0.75rem 2rem;
+        font-size: 1.25rem;
+        font-family: serif;
+      }
+
+      @media (max-width: 1000px) {
+        .castle-image {
+          width: 80%;
+        }
+
+        .chambers {
+          grid-template-columns: 1fr;
+        }
       }
     </style>
   </head>
   <body>
+    <h1>White Castle</h1>
+    <img
+      class="castle-image"
+      src="images/whitecastle.webp"
+      alt="White Castle"
+    />
+    <p class="description">Placeholder text.</p>
     <section>
-      <div>White Castle</div>
-      <p>
-        <a href="wcastle1.html">Chamber 1:</a><br />
-        <span id="w1Stats" aria-live="polite"></span>
-      </p>
-      <p>
-        <a href="wcastle2.html">Chamber 2:</a><br />
-        <span id="w2Stats" aria-live="polite"></span>
-      </p>
-      <p>
-        <a href="wcastle3.html">Chamber 3:</a><br />
-        <span id="w3Stats" aria-live="polite"></span>
-      </p>
-      <p>Total:<br /><span id="wTotalStats" aria-live="polite"></span></p>
+      <div class="chambers">
+        <div class="chamber">
+          <a href="wcastle1.html">Chamber 1:</a><br />
+          <div id="w1Stats" aria-live="polite"></div>
+        </div>
+        <div class="chamber">
+          <a href="wcastle2.html">Chamber 2:</a><br />
+          <div id="w2Stats" aria-live="polite"></div>
+        </div>
+        <div class="chamber">
+          <a href="wcastle3.html">Chamber 3:</a><br />
+          <div id="w3Stats" aria-live="polite"></div>
+        </div>
+      </div>
     </section>
     <button type="button" onclick="location.href = 'index.html'">Back</button>
     <script>
       const groupConfigs = [
         {
-          totalElementId: "wTotalStats",
           tests: [
             { elementId: "w1Stats", storageKey: "W1State" },
             { elementId: "w2Stats", storageKey: "W2State" },
@@ -104,27 +165,14 @@
       }
 
       function formatStats(stats) {
-        return `Answered Without Hint: ${stats.answeredWithoutHint} · Answered With Hint: ${stats.answeredWithHint} · Incorrect: ${stats.incorrect} · Unanswered: ${stats.unanswered}`;
-      }
-
-      function sumStats(statsList) {
-        const defaults = {
-          answeredWithHint: 0,
-          answeredWithoutHint: 0,
-          incorrect: 0,
-          unanswered: 0,
-        };
-
-        return statsList.reduce(
-          (total, stats) => {
-            total.answeredWithHint += stats.answeredWithHint;
-            total.answeredWithoutHint += stats.answeredWithoutHint;
-            total.incorrect += stats.incorrect;
-            total.unanswered += stats.unanswered;
-            return total;
-          },
-          { ...defaults },
-        );
+        return [
+          `Answered Without Hint: ${stats.answeredWithoutHint}`,
+          `Answered With Hint: ${stats.answeredWithHint}`,
+          `Incorrect: ${stats.incorrect}`,
+          `Unanswered: ${stats.unanswered}`,
+        ]
+          .map((stat) => `<div>${stat}</div>`)
+          .join("");
       }
 
       function updateStatsForElement(storageKey, elementId) {
@@ -134,19 +182,10 @@
         }
 
         const stats = getQuestionStats(storageKey);
-        el.textContent = formatStats(stats);
+        el.innerHTML = formatStats(stats);
       }
 
       function updateGroupStats(group) {
-        const statsList = group.tests.map((test) =>
-          getQuestionStats(test.storageKey),
-        );
-        const totalStats = sumStats(statsList);
-        const totalEl = document.getElementById(group.totalElementId);
-        if (totalEl) {
-          totalEl.textContent = formatStats(totalStats);
-        }
-
         group.tests.forEach((test) => {
           updateStatsForElement(test.storageKey, test.elementId);
         });
