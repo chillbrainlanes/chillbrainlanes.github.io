@@ -128,9 +128,11 @@
         if (gameComplete) {
           // Game already complete, show score
           document.body.style.backgroundImage = 'url("images/summerbloom.jpg")';
+          // document.body.style.backgroundImage = 'url("images/arzakonbg.jpg")';
           displayFinalScore(contentDiv, quizScore);
         } else {
           // Prompt player to end game
+          document.body.style.backgroundImage = 'url("images/arzakonbg.jpg")';
           displayEndGamePrompt(contentDiv, quizScore);
         }
       }
@@ -139,7 +141,7 @@
         contentDiv.innerHTML = `
                 <h1>End Game?</h1>
                 <p class="prompt">Would you like to end the game?</p>
-                <p class="score-display">${score}</p>
+                <p> If you end the game now, you will banish Arzakon for ${score} years.</p>
                 <div class="button-group">
                     <button class="yes-btn" onclick="confirmEndGame('${score}')">Yes</button>
                     <button class="no-btn" onclick="declineEndGame()">No</button>
@@ -149,9 +151,8 @@
 
       function displayFinalScore(contentDiv, score) {
         contentDiv.innerHTML = `
-                <h1>Game Complete</h1>
-                <p>Your Final Score:</p>
-                <p class="score-display">${score}</p>
+                <h1>Game Over</h1>
+                <p>You banished Arzakon for ${score} years!</p>
             `;
       }
 
