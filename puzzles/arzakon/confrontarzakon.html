@@ -69,12 +69,22 @@
         }
       }
       .container {
+        position: relative;
         background: rgba(255, 255, 255, 0.507);
         padding: 40px;
         border-radius: 0;
         box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
         text-align: center;
         max-width: 500px;
+      }
+      .share-message {
+        margin: 20px auto 0;
+        padding: 12px;
+        background: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        text-align: left;
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
       }
       h1 {
         color: #000000;
@@ -128,16 +138,54 @@
           // Game already complete, show score
           document.body.style.backgroundImage = 'url("images/summerbloom.jpg")';
           // document.body.style.backgroundImage = 'url("images/arzakonbg.jpg")';
+          startLoopingAudio("win.wav");
           displayFinalScore(contentDiv, quizScore);
         } else if (quizScore === "0") {
           // No score yet, prompt to gather power
           document.body.style.backgroundImage = 'url("images/arzakonbg.jpg")';
+          startLoopingAudio("black.wav");
           displayNoScorePrompt(contentDiv);
         } else {
           // Prompt player to end game
           document.body.style.backgroundImage = 'url("images/arzakonbg.jpg")';
+          startLoopingAudio("black.wav");
           displayEndGamePrompt(contentDiv, quizScore);
         }
+      }
+
+      let pageAudio = null;
+
+      function startLoopingAudio(filename) {
+        stopPageAudio();
+        pageAudio = new Audio(`audio/${filename}`);
+        pageAudio.loop = true;
+        pageAudio.play().catch(() => {});
+      }
+
+      function stopPageAudio() {
+        if (pageAudio) {
+          pageAudio.pause();
+          pageAudio.currentTime = 0;
+          pageAudio = null;
+        }
+      }
+
+      function getShareMessage() {
+        const castleScores = groupConfigs.map((group) => {
+          const statsList = group.tests.map((test) =>
+            getQuestionStats(test.storageKey),
+          );
+          return getGroupScore(statsList, group.pointsPerTier);
+        });
+        const totalScore = localStorage.getItem("quizSharedScore") || "0";
+        return `I banished Arzakon for ${totalScore} Years!\n\n☀️: ${castleScores[0]}\n💧: ${castleScores[1]}\n💀: ${castleScores[2]}\n🔥: ${castleScores[3]}\n🌳: ${castleScores[4]}\n\nhttps://chillbrain.net/puzzles/arzakon/`;
+      }
+
+      async function copyFinalScore() {
+        const message = getShareMessage();
+
+        await navigator.clipboard.writeText(message);
+        return message;
       }
 
       function displayEndGamePrompt(contentDiv, score) {
@@ -163,9 +211,11 @@
       }
 
       function displayFinalScore(contentDiv, score) {
+        const shareMessage = getShareMessage();
         contentDiv.innerHTML = `
                 <h1>Game Over</h1>
                 <p class="prompt">You banished Arzakon for ${score} years!</p>
+          <div class="share-message">${shareMessage}</div>
                 <div class="button-group">
               <button class="yes-btn" onclick="copyAndConfirm()">Share</button>
                     <button class="no-btn" onclick="declineEndGame()">Return</button>
@@ -175,6 +225,7 @@
 
       function confirmEndGame(score) {
         localStorage.setItem("game_complete", "true");
+        stopPageAudio();
         const contentDiv = document.getElementById("content");
         contentDiv.style.visibility = "hidden";
         document.querySelectorAll("button").forEach((button) => {
@@ -184,6 +235,7 @@
         setTimeout(() => {
           document.body.classList.remove("transitioning");
           document.body.style.backgroundImage = 'url("images/summerbloom.jpg")';
+          startLoopingAudio("win.wav");
           displayFinalScore(contentDiv, score);
           contentDiv.style.visibility = "visible";
           document.body.classList.add("summer");

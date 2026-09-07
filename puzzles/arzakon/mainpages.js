@@ -202,17 +202,3 @@ function updateGroupStats(group) {
 function updateAllStats() {
   groupConfigs.forEach(updateGroupStats);
 }
-
-async function copyFinalScore() {
-  const castleScores = groupConfigs.map((group) => {
-    const statsList = group.tests.map((test) =>
-      getQuestionStats(test.storageKey),
-    );
-    return getGroupScore(statsList, group.pointsPerTier);
-  });
-  const totalScore = localStorage.getItem("quizSharedScore") || "0";
-  const message = `I banished Arzakon for ${totalScore} Years!\n\n☀️: ${castleScores[0]}\n💧: ${castleScores[1]}\n💀: ${castleScores[2]}\n🔥: ${castleScores[3]}\n🌳: ${castleScores[4]}\n\nhttps://chillbrain.net/puzzles/arzakon/`;
-
-  await navigator.clipboard.writeText(message);
-  return message;
-}
