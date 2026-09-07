@@ -3,7 +3,25 @@ const SCORE_KEY = "quizSharedScore";
 const GAME_COMPLETE_KEY = "game_complete";
 let score = 0;
 function updateScore() {
-  document.querySelector("#score .score-value").textContent = score;
+  const state = getState();
+  const pageScore = state?.questions?.length
+    ? state.questions.reduce((total, question) => {
+        if (!question.scored) return total;
+        return total + (question.hintRevealed ? HINT_POINTS : NO_HINT_POINTS);
+      }, 0)
+    : Array.from(document.querySelectorAll(".question")).reduce(
+        (total, container) => {
+          if (container.dataset.scored !== "true") return total;
+          return (
+            total +
+            (container.dataset.hintRevealed === "true"
+              ? HINT_POINTS
+              : NO_HINT_POINTS)
+          );
+        },
+        0,
+      );
+  document.querySelector("#score .score-value").textContent = pageScore;
   updateStats();
 }
 function updateStats() {
