@@ -2,28 +2,7 @@ console.log(localStorage.getItem("quizSharedScore"));
 const SCORE_KEY = "quizSharedScore";
 const GAME_COMPLETE_KEY = "game_complete";
 let score = 0;
-function updateScore() {
-  const state = getState();
-  const pageScore = state?.questions?.length
-    ? state.questions.reduce((total, question) => {
-        if (!question.scored) return total;
-        return total + (question.hintRevealed ? HINT_POINTS : NO_HINT_POINTS);
-      }, 0)
-    : Array.from(document.querySelectorAll(".question")).reduce(
-        (total, container) => {
-          if (container.dataset.scored !== "true") return total;
-          return (
-            total +
-            (container.dataset.hintRevealed === "true"
-              ? HINT_POINTS
-              : NO_HINT_POINTS)
-          );
-        },
-        0,
-      );
-  document.querySelector("#score .score-value").textContent = pageScore;
-  updateStats();
-}
+
 function updateStats() {
   const state = getState();
   let total = score;
@@ -68,7 +47,10 @@ function updateStats() {
     });
   }
   const scoreBox = document.getElementById("score");
+  var pageScore =
+    answeredWithoutHint * NO_HINT_POINTS + answeredWithHint * HINT_POINTS;
   scoreBox.querySelector(".total-count").textContent = total;
+  scoreBox.querySelector(".score-value").textContent = pageScore;
   scoreBox.querySelector(".without-hint-count").textContent =
     answeredWithoutHint;
   scoreBox.querySelector(".with-hint-count").textContent = answeredWithHint;
@@ -171,7 +153,7 @@ function saveState() {
 function restoreState() {
   const state = getState();
   restoreScore();
-  updateScore();
+  updateStats();
   if (!state) return;
   const questions = document.querySelectorAll(".question");
   questions.forEach((container, index) => {
@@ -226,7 +208,7 @@ function checkAnswer(button) {
     if (!hasScored) {
       score += points;
       container.dataset.scored = "true";
-      updateScore();
+      updateStats();
     }
     container.classList.remove("highlight-wrong");
     container.classList.add("highlight-correct");
